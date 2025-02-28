@@ -1,9 +1,6 @@
-import 'dart:convert';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:nutrition_fit_traker/data/database_helper.dart';
+import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
 
 class FoodScreen extends StatefulWidget {
@@ -14,30 +11,36 @@ class FoodScreen extends StatefulWidget {
 }
 
 class _FoodScreenState extends State<FoodScreen> {
-  final DatabaseHelper _dbHelper = DatabaseHelper();
+  final FoodController _foodController = FoodController();
 
   List<Alimento> _alimentos = [];
   List<Alimento> _filteredAlimentos = [];
-
+  final TextEditingController _searchController = TextEditingController();
+  final FocusNode _focusNode = FocusNode();
   String _filter = "";
 
   @override
   void initState() {
     super.initState();
     _loadAlimentos();
+    _focusNode.addListener(() {
+      if (_focusNode.hasFocus) {
+        FocusScope.of(context).requestFocus(_focusNode);
+      }
+    });
   }
 
   Future<void> _loadAlimentos() async {
-    List<Alimento> alimentos = await _dbHelper.getAlimentos();
+    List<Alimento> alimentos = await _foodController.getAlimentos();
     setState(() {
       _alimentos = alimentos;
-      _filteredAlimentos = _alimentos;
+      _filteredAlimentos = [..._alimentos];
     });
   }
 
   Future<void> _updateAlimentos() async {
     // Mostrar un cuadro de diálogo de confirmación
-    if (await _dbHelper.any()) {
+    if (await _foodController.any()) {
       final bool? respuesta = await showDialog<bool>(
         // ignore: use_build_context_synchronously
         context: context,
@@ -56,6 +59,7 @@ class _FoodScreenState extends State<FoodScreen> {
               ),
               TextButton(
                 onPressed: () {
+                  _reiniciarAlimentos();
                   Navigator.of(context)
                       .pop(true); // Cerrar el diálogo y devolver verdadero
                 },
@@ -75,16 +79,7 @@ class _FoodScreenState extends State<FoodScreen> {
   }
 
   void _reiniciarAlimentos() async {
-    await _dbHelper.clearAlimentos();
-    // Carga el JSON
-    String jsonString =
-        await rootBundle.loadString('assets/data/alimentosJson.json');
-    List<dynamic> jsonList = json.decode(jsonString);
-
-    for (var item in jsonList) {
-      Alimento alimento = Alimento.fromJson(item);
-      await _dbHelper.insertAlimento(alimento);
-    }
+    _foodController.reiniciarAlimentos();
     await _loadAlimentos();
   }
 
@@ -95,10 +90,10 @@ class _FoodScreenState extends State<FoodScreen> {
       });
     } else {
       setState(() {
-        _filteredAlimentos = _alimentos
-            .where((alimento) =>
-                alimento.nombre.toLowerCase().contains(query.toLowerCase()))
-            .toList();
+        _filteredAlimentos = [
+          ..._alimentos.where((alimento) =>
+              alimento.nombre.toLowerCase().contains(query.toLowerCase()))
+        ];
       });
     }
   }
@@ -116,9 +111,23 @@ class _FoodScreenState extends State<FoodScreen> {
             ),
             Expanded(
               child: CupertinoTextField(
+                suffix: const Icon(Icons.search),
+                focusNode: _focusNode,
                 placeholder: 'Filtrar por nombre',
+                controller: _searchController,
                 onChanged: (value) {
-                  _filterAlimentos(value);
+                  if (value.isEmpty) {
+                    setState(() {
+                      _filter = "";
+                    });
+                    _filterAlimentos(_filter);
+                  }
+                },
+                onEditingComplete: () {
+                  setState(() {
+                    _filter = _searchController.text;
+                  });
+                  _filterAlimentos(_filter);
                 },
                 padding:
                     const EdgeInsets.symmetric(vertical: 12.0, horizontal: 8.0),
@@ -137,9 +146,66 @@ class _FoodScreenState extends State<FoodScreen> {
           child: ListView.builder(
             itemCount: _filteredAlimentos.length,
             itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(_alimentos[index].nombre),
-                subtitle: Text('${_alimentos[index].calorias} calorías'),
+              return Column(
+                children: [
+                  ListTile(
+                    title: Text(_filteredAlimentos[index].nombre),
+                    subtitle: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          children: [
+                            const Text(
+                              'Calorías',
+                              style: TextStyle(color: Colors.red),
+                            ),
+                            Text('${_filteredAlimentos[index].calorias} Kcal',
+                                style: const TextStyle(color: Colors.red)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Proteínas',
+                                style: TextStyle(color: Colors.blueAccent)),
+                            Text('${_filteredAlimentos[index].proteinas}g',
+                                style:
+                                    const TextStyle(color: Colors.blueAccent)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Carbohidratos',
+                                style: TextStyle(color: Colors.orange)),
+                            Text('${_filteredAlimentos[index].carbohidratos}g',
+                                style: const TextStyle(color: Colors.orange)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Grasas',
+                                style: TextStyle(color: Colors.green)),
+                            Text('${_filteredAlimentos[index].grasas}g',
+                                style: const TextStyle(color: Colors.green)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Fibra',
+                                style: TextStyle(color: Colors.brown)),
+                            Text('${_filteredAlimentos[index].fibra}g',
+                                style: const TextStyle(color: Colors.brown)),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  if (index <
+                      _filteredAlimentos.length -
+                          1) // Evita el separador en el último elemento
+                    const Divider(
+                      color: Colors.blue,
+                    ),
+                ],
               );
             },
           ),

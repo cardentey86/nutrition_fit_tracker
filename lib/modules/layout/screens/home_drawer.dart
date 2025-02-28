@@ -19,15 +19,12 @@ class HomeDrawerState extends State<HomeDrawer> {
         child: ListView(padding: EdgeInsets.zero, children: [
           const DrawerHeader(
             decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("assets/img/logo_nft_white.png"),
+                  fit: BoxFit.cover),
               color: Colors.blue,
             ),
-            child: Text(
-              'NFT Menu',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 24,
-              ),
-            ),
+            child: null,
           ),
           ListView(
             shrinkWrap: true,
