@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nutrition_fit_traker/home_drawer.dart';
+import 'package:nutrition_fit_traker/modules/layout/screens/home_drawer.dart';
 import 'package:nutrition_fit_traker/routes/router_handler.dart';
 
 class LayoutScreen extends StatefulWidget {

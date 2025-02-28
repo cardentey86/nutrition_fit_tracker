@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nutrition_fit_traker/drawer_menu_options.dart';
+import 'package:nutrition_fit_traker/modules/layout/models/drawer_menu_options.dart';
 
 class HomeDrawer extends StatefulWidget {
   final Function(String) onItemTapped;
@@ -22,7 +22,7 @@ class HomeDrawerState extends State<HomeDrawer> {
               color: Colors.blue,
             ),
             child: Text(
-              'Nutrition Fit Tracker',
+              'NFT Menu',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,

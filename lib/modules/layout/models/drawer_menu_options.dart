@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:nutrition_fit_traker/drawer_model.dart';
+import 'package:nutrition_fit_traker/modules/layout/models/drawer_model.dart';
 import 'package:nutrition_fit_traker/routes/app_routes.dart';
 
 final List<ChildItem> drawerMenu = [
   ChildItem(
-      icon: const Icon(Icons.home),
+      icon: const Icon(Icons.people_alt_outlined),
       text: "Indices Personales",
       route: AppRoutes.home),
   ChildItem(
@@ -14,8 +14,12 @@ final List<ChildItem> drawerMenu = [
       text: "Alimentos",
       route: AppRoutes.food),
   ChildItem(
-      icon: const Icon(Icons.broadcast_on_personal_rounded),
-      text: "Medidas Corporales",
+      icon: const Icon(Icons.fitness_center_outlined),
+      text: "Medidas Musculares",
+      route: AppRoutes.food),
+  ChildItem(
+      icon: const Icon(Icons.assignment),
+      text: "Medidas Personales",
       route: AppRoutes.food),
   ChildItem(
       icon: const Icon(Icons.settings),

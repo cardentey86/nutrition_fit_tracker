@@ -2,7 +2,7 @@
   {
     "Alimento": "Abadejo, ahumado",
     "Calorias": 116,
-    "Carbohidratos": 0,
+    "Carbohidratos": 0.0,
     "Proteinas": 25.23,
     "Grasas": 0.96,
     "Fibra": 0
@@ -2173,7 +2173,7 @@
     "Carbohidratos": 0,
     "Proteinas": 0,
     "Grasas": 0,
-    "Fibra": ""
+    "Fibra": 0
   },
   {
     "Alimento": "Corazón Cordero",
