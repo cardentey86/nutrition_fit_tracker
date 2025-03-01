@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
@@ -11,6 +12,8 @@ class FoodScreen extends StatefulWidget {
   State<FoodScreen> createState() => _FoodScreenState();
 }
 
+List<String> _orderOptions = ['asc', 'des'];
+
 class _FoodScreenState extends State<FoodScreen> {
   final FoodController _foodController = FoodController();
 
@@ -20,6 +23,17 @@ class _FoodScreenState extends State<FoodScreen> {
   String _filter = "";
   bool isLoading = false;
   List<Slidable> _items = [];
+  String currentOrderOption = _orderOptions[0];
+  final List<DropdownMenuItem> _orderFields = [
+    const DropdownMenuItem(value: 'nombre', child: Text('Nombre')),
+    const DropdownMenuItem(value: 'proteina', child: Text('Proteína')),
+    const DropdownMenuItem(
+        value: 'carbohidratos', child: Text('Carbohidratos')),
+    const DropdownMenuItem(value: 'grasas', child: Text('Grasas')),
+    const DropdownMenuItem(value: 'fibra', child: Text('Fibra')),
+    const DropdownMenuItem(value: 'calorias', child: Text('Calorías'))
+  ];
+  String orderSelectedField = 'nombre';
 
   @override
   void initState() {
@@ -93,7 +107,13 @@ class _FoodScreenState extends State<FoodScreen> {
               child: Column(
                 children: [
                   ListTile(
-                    title: Text(alimento.nombre),
+                    title: Text(
+                      alimento.nombre,
+                      style: const TextStyle(
+                        color: Colors.black,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
                     subtitle: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -101,44 +121,42 @@ class _FoodScreenState extends State<FoodScreen> {
                           children: [
                             const Text(
                               'Calorías',
-                              style: TextStyle(color: Colors.red),
+                              style: TextStyle(color: Colors.grey),
                             ),
                             Text('${alimento.calorias} Kcal',
-                                style: const TextStyle(color: Colors.red)),
+                                style: const TextStyle(color: Colors.black87)),
                           ],
                         ),
                         Column(
                           children: [
                             const Text('Proteínas',
-                                style: TextStyle(color: Colors.blueAccent)),
+                                style: TextStyle(color: Colors.grey)),
                             Text('${alimento.proteinas}g',
-                                style:
-                                    const TextStyle(color: Colors.blueAccent)),
+                                style: const TextStyle(color: Colors.black87)),
                           ],
                         ),
                         Column(
                           children: [
-                            Text('Carbohidratos',
-                                style:
-                                    TextStyle(color: Colors.orange.shade700)),
+                            const Text('Carbohidratos',
+                                style: TextStyle(color: Colors.grey)),
                             Text('${alimento.carbohidratos}g',
-                                style: TextStyle(color: Colors.orange[700])),
+                                style: const TextStyle(color: Colors.black87)),
                           ],
                         ),
                         Column(
                           children: [
                             const Text('Grasas',
-                                style: TextStyle(color: Colors.green)),
+                                style: TextStyle(color: Colors.grey)),
                             Text('${alimento.grasas}g',
-                                style: const TextStyle(color: Colors.green)),
+                                style: const TextStyle(color: Colors.black87)),
                           ],
                         ),
                         Column(
                           children: [
                             const Text('Fibra',
-                                style: TextStyle(color: Colors.brown)),
+                                style: TextStyle(color: Colors.grey)),
                             Text('${alimento.fibra}g',
-                                style: const TextStyle(color: Colors.brown)),
+                                style: const TextStyle(color: Colors.black87)),
                           ],
                         ),
                       ],
@@ -148,7 +166,7 @@ class _FoodScreenState extends State<FoodScreen> {
                       _filteredAlimentos[_filteredAlimentos.length - 1]
                           .nombre) // Evita el separador en el último elemento
                     const Divider(
-                      color: Colors.blue,
+                      color: Colors.blueGrey,
                     ),
                 ],
               ),
@@ -240,11 +258,52 @@ class _FoodScreenState extends State<FoodScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               IconButton(
                 icon: const Icon(Icons.refresh),
                 onPressed: _updateAlimentos,
               ),
+              const Spacer(),
+              const Text('Ordenar por:'),
+              const SizedBox(
+                width: 8,
+              ),
+              DropdownButton(
+                  value: orderSelectedField,
+                  icon: currentOrderOption == 'asc'
+                      ? const Icon(Icons.keyboard_double_arrow_up)
+                      : const Icon(Icons.keyboard_double_arrow_down),
+                  items: _orderFields,
+                  onChanged: (value) {
+                    setState(() {
+                      orderSelectedField = value;
+                      sortFoods();
+                    });
+                  }),
+              const Spacer(),
+              PopupMenuButton<String>(
+                onSelected: (String result) {
+                  setState(() {
+                    currentOrderOption = result;
+                    sortFoods();
+                  });
+                },
+                itemBuilder: (BuildContext context) {
+                  return _orderOptions.map((String option) {
+                    return PopupMenuItem<String>(
+                      value: option,
+                      child: Text(option == _orderOptions[0]
+                          ? 'Ascendente'
+                          : 'Descendente'),
+                    );
+                  }).toList();
+                },
+              )
+            ],
+          ),
+          Row(
+            children: [
               Expanded(
                 child: CupertinoTextField(
                   suffix: const Icon(Icons.search),
@@ -266,16 +325,12 @@ class _FoodScreenState extends State<FoodScreen> {
                   },
                   padding: const EdgeInsets.symmetric(
                       vertical: 12.0, horizontal: 8.0),
-                  decoration: const BoxDecoration(
-                    border: Border(
-                      bottom: BorderSide(
-                          color: CupertinoColors.activeBlue,
-                          width: 1), // Línea debajo
-                    ),
-                  ),
                 ),
               ),
             ],
+          ),
+          const Divider(
+            height: 8.0,
           ),
           Expanded(
               child: isLoading
@@ -377,5 +432,59 @@ class _FoodScreenState extends State<FoodScreen> {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
       content: Text(s),
     ));
+  }
+
+  void sortFoods() {
+    setState(() {
+      switch (orderSelectedField) {
+        case 'nombre':
+          if (currentOrderOption == _orderOptions[0]) {
+            _filteredAlimentos.sort((a, b) => a.nombre.compareTo(b.nombre));
+          } else {
+            _filteredAlimentos.sort((a, b) => b.nombre.compareTo(a.nombre));
+          }
+          break;
+        case 'proteina':
+          if (currentOrderOption == _orderOptions[0]) {
+            _filteredAlimentos
+                .sort((a, b) => a.proteinas.compareTo(b.proteinas));
+          } else {
+            _filteredAlimentos
+                .sort((a, b) => b.proteinas.compareTo(a.proteinas));
+          }
+          break;
+        case 'carbohidratos':
+          if (currentOrderOption == _orderOptions[0]) {
+            _filteredAlimentos
+                .sort((a, b) => a.carbohidratos.compareTo(b.carbohidratos));
+          } else {
+            _filteredAlimentos
+                .sort((a, b) => b.carbohidratos.compareTo(a.carbohidratos));
+          }
+          break;
+        case 'grasas':
+          if (currentOrderOption == _orderOptions[0]) {
+            _filteredAlimentos.sort((a, b) => a.grasas.compareTo(b.grasas));
+          } else {
+            _filteredAlimentos.sort((a, b) => b.grasas.compareTo(a.grasas));
+          }
+          break;
+        case 'fibra':
+          if (currentOrderOption == _orderOptions[0]) {
+            _filteredAlimentos.sort((a, b) => a.fibra.compareTo(b.fibra));
+          } else {
+            _filteredAlimentos.sort((a, b) => b.fibra.compareTo(a.fibra));
+          }
+          break;
+        case 'calorias':
+          if (currentOrderOption == _orderOptions[0]) {
+            _filteredAlimentos.sort((a, b) => a.calorias.compareTo(b.calorias));
+          } else {
+            _filteredAlimentos.sort((a, b) => b.calorias.compareTo(a.calorias));
+          }
+          break;
+      }
+    });
+    setData();
   }
 }
