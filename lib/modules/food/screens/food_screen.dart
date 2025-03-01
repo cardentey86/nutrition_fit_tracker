@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
 
@@ -16,26 +17,143 @@ class _FoodScreenState extends State<FoodScreen> {
   List<Alimento> _alimentos = [];
   List<Alimento> _filteredAlimentos = [];
   final TextEditingController _searchController = TextEditingController();
-  final FocusNode _focusNode = FocusNode();
   String _filter = "";
   bool isLoading = false;
+  List<Slidable> _items = [];
 
   @override
   void initState() {
     super.initState();
     _loadAlimentos();
-    _focusNode.addListener(() {
-      if (_focusNode.hasFocus) {
-        FocusScope.of(context).requestFocus(_focusNode);
-      }
-    });
   }
 
   Future<void> _loadAlimentos() async {
     List<Alimento> alimentos = await _foodController.getAlimentos();
+
     setState(() {
       _alimentos = alimentos;
       _filteredAlimentos = [..._alimentos];
+      setData();
+    });
+  }
+
+  void setData() {
+    final mainActions = <Widget>[
+      SlidableAction(
+        spacing: 2,
+        backgroundColor: Colors.transparent,
+        padding: const EdgeInsets.all(8.0),
+        label: "Edit",
+        foregroundColor: Colors.blue,
+        icon: Icons.edit,
+        onPressed: (context) {
+          showSnackBar(context, "Edit");
+        },
+      ),
+      SlidableAction(
+        spacing: 2,
+        padding: const EdgeInsets.all(8.0),
+        backgroundColor: Colors.transparent,
+        label: "Add Menú",
+        foregroundColor: Colors.green,
+        icon: Icons.add_box,
+        onPressed: (context) {
+          showSnackBar(context, "Add Menu");
+        },
+      )
+    ];
+
+    final secondaryActions = <Widget>[
+      SlidableAction(
+        spacing: 2,
+        padding: const EdgeInsets.all(8.0),
+        label: "Eliminar",
+        backgroundColor: Colors.transparent,
+        foregroundColor: Colors.red,
+        icon: Icons.delete,
+        onPressed: (context) {
+          showSnackBar(context, "Delete");
+        },
+      ),
+    ];
+    setState(() {
+      _items = [
+        ..._filteredAlimentos.map((alimento) => Slidable(
+              key: Key(alimento.nombre),
+              startActionPane: ActionPane(
+                extentRatio: double.parse("0.${mainActions.length * 2}"),
+                motion: const ScrollMotion(),
+                children: mainActions,
+              ),
+              endActionPane: ActionPane(
+                extentRatio: double.parse("0.${secondaryActions.length * 2}"),
+                motion: const ScrollMotion(),
+                children: secondaryActions,
+              ),
+              child: Column(
+                children: [
+                  ListTile(
+                    title: Text(alimento.nombre),
+                    subtitle: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          children: [
+                            const Text(
+                              'Calorías',
+                              style: TextStyle(color: Colors.red),
+                            ),
+                            Text('${alimento.calorias} Kcal',
+                                style: const TextStyle(color: Colors.red)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Proteínas',
+                                style: TextStyle(color: Colors.blueAccent)),
+                            Text('${alimento.proteinas}g',
+                                style:
+                                    const TextStyle(color: Colors.blueAccent)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            Text('Carbohidratos',
+                                style:
+                                    TextStyle(color: Colors.orange.shade700)),
+                            Text('${alimento.carbohidratos}g',
+                                style: TextStyle(color: Colors.orange[700])),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Grasas',
+                                style: TextStyle(color: Colors.green)),
+                            Text('${alimento.grasas}g',
+                                style: const TextStyle(color: Colors.green)),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            const Text('Fibra',
+                                style: TextStyle(color: Colors.brown)),
+                            Text('${alimento.fibra}g',
+                                style: const TextStyle(color: Colors.brown)),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  if (alimento.nombre !=
+                      _filteredAlimentos[_filteredAlimentos.length - 1]
+                          .nombre) // Evita el separador en el último elemento
+                    const Divider(
+                      color: Colors.blue,
+                    ),
+                ],
+              ),
+            ))
+      ];
     });
   }
 
@@ -81,6 +199,7 @@ class _FoodScreenState extends State<FoodScreen> {
     });
     await _foodController.reiniciarAlimentos();
     await _loadAlimentos();
+    setData();
     setState(() {
       isLoading = false;
     });
@@ -89,7 +208,7 @@ class _FoodScreenState extends State<FoodScreen> {
   void _filterAlimentos(String query) {
     if (query.isEmpty) {
       setState(() {
-        _filteredAlimentos = _alimentos;
+        _filteredAlimentos = [..._alimentos];
       });
     } else {
       setState(() {
@@ -99,6 +218,7 @@ class _FoodScreenState extends State<FoodScreen> {
         ];
       });
     }
+    setData();
   }
 
   @override
@@ -128,7 +248,6 @@ class _FoodScreenState extends State<FoodScreen> {
               Expanded(
                 child: CupertinoTextField(
                   suffix: const Icon(Icons.search),
-                  focusNode: _focusNode,
                   placeholder: 'Filtrar por nombre',
                   controller: _searchController,
                   onChanged: (value) {
@@ -159,18 +278,21 @@ class _FoodScreenState extends State<FoodScreen> {
             ],
           ),
           Expanded(
-            child: isLoading
-                ? const Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        CircularProgressIndicator(),
-                        SizedBox(height: 16),
-                        Text('Reiniciando alimentos...'),
-                      ],
-                    ),
-                  )
-                : ListView.builder(
+              child: isLoading
+                  ? const Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CircularProgressIndicator(),
+                          SizedBox(height: 16),
+                          Text('Reiniciando alimentos...'),
+                        ],
+                      ),
+                    )
+                  : ListView(
+                      children: _items,
+                    )
+              /* ListView.builder(
                     itemCount: _filteredAlimentos.length,
                     itemBuilder: (context, index) {
                       return Column(
@@ -244,8 +366,8 @@ class _FoodScreenState extends State<FoodScreen> {
                         ],
                       );
                     },
-                  ),
-          ),
+                  ), */
+              ),
         ],
       ),
     );
