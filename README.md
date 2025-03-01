@@ -1,4 +1,4 @@
-# Nutrition App  
+# Nutrition Fitness Tracker  
 
 ![Nutrition App Logo](https://github.com/cardentey86/nutrition_fit_tracker/blob/master/img/logo_nft_blue_transparent.png) <!-- Optionally include a logo -->  
 
