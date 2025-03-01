@@ -1,6 +1,6 @@
-# Nutrition App  
+# Nutrition Fitness Tracker  
 
-![Nutrition App Logo](link-to-your-logo) <!-- Optionally include a logo -->  
+![Nutrition App Logo](https://github.com/cardentey86/nutrition_fit_tracker/blob/master/img/logo_nft_blue_transparent.png) <!-- Optionally include a logo -->  
 
 A Flutter application dedicated to nutrition, personal indices, and body measurements. This app provides users with tools to manage their dietary preferences and track their nutritional intake based on personalized data.  
 
