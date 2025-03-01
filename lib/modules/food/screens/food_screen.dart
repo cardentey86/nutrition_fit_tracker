@@ -18,6 +18,7 @@ class _FoodScreenState extends State<FoodScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _focusNode = FocusNode();
   String _filter = "";
+  bool isLoading = false;
 
   @override
   void initState() {
@@ -41,7 +42,7 @@ class _FoodScreenState extends State<FoodScreen> {
   Future<void> _updateAlimentos() async {
     // Mostrar un cuadro de diálogo de confirmación
     if (await _foodController.any()) {
-      final bool? respuesta = await showDialog<bool>(
+      await showDialog<bool>(
         // ignore: use_build_context_synchronously
         context: context,
         builder: (BuildContext context) {
@@ -69,18 +70,20 @@ class _FoodScreenState extends State<FoodScreen> {
           );
         },
       );
-
-      if (respuesta == true) {
-        _reiniciarAlimentos();
-      }
     } else {
       _reiniciarAlimentos();
     }
   }
 
   void _reiniciarAlimentos() async {
-    _foodController.reiniciarAlimentos();
+    setState(() {
+      isLoading = true;
+    });
+    await _foodController.reiniciarAlimentos();
     await _loadAlimentos();
+    setState(() {
+      isLoading = false;
+    });
   }
 
   void _filterAlimentos(String query) {
@@ -100,117 +103,157 @@ class _FoodScreenState extends State<FoodScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Row(
-          children: [
-            IconButton(
-              icon: const Icon(Icons.refresh),
-              onPressed: _updateAlimentos,
-            ),
-            Expanded(
-              child: CupertinoTextField(
-                suffix: const Icon(Icons.search),
-                focusNode: _focusNode,
-                placeholder: 'Filtrar por nombre',
-                controller: _searchController,
-                onChanged: (value) {
-                  if (value.isEmpty) {
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(50.0),
+        ),
+        elevation: 4,
+        onPressed: () {
+          showSnackBar(context, 'Función no implementada');
+        },
+        child: const Icon(Icons.add),
+      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Row(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.refresh),
+                onPressed: _updateAlimentos,
+              ),
+              Expanded(
+                child: CupertinoTextField(
+                  suffix: const Icon(Icons.search),
+                  focusNode: _focusNode,
+                  placeholder: 'Filtrar por nombre',
+                  controller: _searchController,
+                  onChanged: (value) {
+                    if (value.isEmpty) {
+                      setState(() {
+                        _filter = "";
+                      });
+                      _filterAlimentos(_filter);
+                    }
+                  },
+                  onEditingComplete: () {
                     setState(() {
-                      _filter = "";
+                      _filter = _searchController.text;
                     });
                     _filterAlimentos(_filter);
-                  }
-                },
-                onEditingComplete: () {
-                  setState(() {
-                    _filter = _searchController.text;
-                  });
-                  _filterAlimentos(_filter);
-                },
-                padding:
-                    const EdgeInsets.symmetric(vertical: 12.0, horizontal: 8.0),
-                decoration: const BoxDecoration(
-                  border: Border(
-                    bottom: BorderSide(
-                        color: CupertinoColors.activeBlue,
-                        width: 1), // Línea debajo
+                  },
+                  padding: const EdgeInsets.symmetric(
+                      vertical: 12.0, horizontal: 8.0),
+                  decoration: const BoxDecoration(
+                    border: Border(
+                      bottom: BorderSide(
+                          color: CupertinoColors.activeBlue,
+                          width: 1), // Línea debajo
+                    ),
                   ),
                 ),
               ),
-            ),
-          ],
-        ),
-        Expanded(
-          child: ListView.builder(
-            itemCount: _filteredAlimentos.length,
-            itemBuilder: (context, index) {
-              return Column(
-                children: [
-                  ListTile(
-                    title: Text(_filteredAlimentos[index].nombre),
-                    subtitle: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            ],
+          ),
+          Expanded(
+            child: isLoading
+                ? const Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Column(
-                          children: [
-                            const Text(
-                              'Calorías',
-                              style: TextStyle(color: Colors.red),
-                            ),
-                            Text('${_filteredAlimentos[index].calorias} Kcal',
-                                style: const TextStyle(color: Colors.red)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Proteínas',
-                                style: TextStyle(color: Colors.blueAccent)),
-                            Text('${_filteredAlimentos[index].proteinas}g',
-                                style:
-                                    const TextStyle(color: Colors.blueAccent)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Carbohidratos',
-                                style: TextStyle(color: Colors.orange)),
-                            Text('${_filteredAlimentos[index].carbohidratos}g',
-                                style: const TextStyle(color: Colors.orange)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Grasas',
-                                style: TextStyle(color: Colors.green)),
-                            Text('${_filteredAlimentos[index].grasas}g',
-                                style: const TextStyle(color: Colors.green)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Fibra',
-                                style: TextStyle(color: Colors.brown)),
-                            Text('${_filteredAlimentos[index].fibra}g',
-                                style: const TextStyle(color: Colors.brown)),
-                          ],
-                        ),
+                        CircularProgressIndicator(),
+                        SizedBox(height: 16),
+                        Text('Reiniciando alimentos...'),
                       ],
                     ),
+                  )
+                : ListView.builder(
+                    itemCount: _filteredAlimentos.length,
+                    itemBuilder: (context, index) {
+                      return Column(
+                        children: [
+                          ListTile(
+                            title: Text(_filteredAlimentos[index].nombre),
+                            subtitle: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  children: [
+                                    const Text(
+                                      'Calorías',
+                                      style: TextStyle(color: Colors.red),
+                                    ),
+                                    Text(
+                                        '${_filteredAlimentos[index].calorias} Kcal',
+                                        style:
+                                            const TextStyle(color: Colors.red)),
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    const Text('Proteínas',
+                                        style: TextStyle(
+                                            color: Colors.blueAccent)),
+                                    Text(
+                                        '${_filteredAlimentos[index].proteinas}g',
+                                        style: const TextStyle(
+                                            color: Colors.blueAccent)),
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    Text('Carbohidratos',
+                                        style: TextStyle(
+                                            color: Colors.orange.shade700)),
+                                    Text(
+                                        '${_filteredAlimentos[index].carbohidratos}g',
+                                        style: TextStyle(
+                                            color: Colors.orange[700])),
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    const Text('Grasas',
+                                        style: TextStyle(color: Colors.green)),
+                                    Text('${_filteredAlimentos[index].grasas}g',
+                                        style: const TextStyle(
+                                            color: Colors.green)),
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    const Text('Fibra',
+                                        style: TextStyle(color: Colors.brown)),
+                                    Text('${_filteredAlimentos[index].fibra}g',
+                                        style: const TextStyle(
+                                            color: Colors.brown)),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                          if (index <
+                              _filteredAlimentos.length -
+                                  1) // Evita el separador en el último elemento
+                            const Divider(
+                              color: Colors.blue,
+                            ),
+                        ],
+                      );
+                    },
                   ),
-                  if (index <
-                      _filteredAlimentos.length -
-                          1) // Evita el separador en el último elemento
-                    const Divider(
-                      color: Colors.blue,
-                    ),
-                ],
-              );
-            },
           ),
-        ),
-      ],
+        ],
+      ),
     );
+  }
+
+  void showSnackBar(BuildContext context, String s) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(s),
+    ));
   }
 }

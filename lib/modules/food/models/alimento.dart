@@ -1,3 +1,16 @@
+enum CategoriaAlimento {
+  Proteinas(1),
+  Carbohidratos(2),
+  Vegetales(3),
+  Grasas(4),
+  Frutas(5),
+  Otros(6);
+
+  final int value;
+
+  const CategoriaAlimento(this.value);
+}
+
 class Alimento {
   final String nombre;
   final double calorias;

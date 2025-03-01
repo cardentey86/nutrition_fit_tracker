@@ -16,9 +16,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Nutrition Fit Tracker',
+      title: 'Nutrition Fitness Tracker',
       theme: ThemeData(
+        primaryColor: Colors.blue,
         primarySwatch: Colors.blue,
+        primaryColorDark: Colors.blue[900],
+        primaryColorLight: Colors.blue[100],
+        fontFamily: 'Roboto',
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.blue,
+          titleTextStyle: TextStyle(
+            fontFamily: 'Roboto',
+            fontWeight: FontWeight.w500,
+            fontSize: 20,
+          ),
+        ),
       ),
       routes: AppRoutes.getRoutes(),
       initialRoute: AppRoutes.layout,

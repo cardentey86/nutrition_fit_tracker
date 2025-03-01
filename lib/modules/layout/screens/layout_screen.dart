@@ -23,7 +23,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: const Text("Nutrition Fit Tracker"),
+        title: const Text("Nutrition Fitness Tracker"),
         titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
         backgroundColor: Colors.blue,
         iconTheme: const IconThemeData(color: Colors.white),

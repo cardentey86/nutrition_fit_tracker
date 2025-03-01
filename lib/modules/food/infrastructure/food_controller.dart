@@ -1,40 +1,14 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
+import 'package:nutrition_fit_traker/data/database_helper.dart';
 import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
-import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class FoodController {
-  static final FoodController _instance = FoodController._internal();
-  static Database? _database;
-
-  factory FoodController() {
-    return _instance;
-  }
-
-  FoodController._internal();
-
-  Future<Database> get database async {
-    if (_database != null) return _database!;
-    _database = await _initDatabase();
-    return _database!;
-  }
-
-  Future<Database> _initDatabase() async {
-    String path = join(await getDatabasesPath(), 'nft.db');
-    return await openDatabase(
-      path,
-      onCreate: (db, version) {
-        return db.execute(
-          'CREATE TABLE alimentos(id INTEGER PRIMARY KEY, Alimento TEXT, Calorias INTEGER, Carbohidratos REAL, Proteinas REAL, Grasas REAL, Fibra REAL)',
-        );
-      },
-      version: 1,
-    );
-  }
+  static final DatabaseHelper _dbHelper = DatabaseHelper();
 
   Future<void> insertAlimento(Alimento alimento) async {
-    final db = await database;
+    final db = await _dbHelper.database;
     await db.insert(
       'alimentos',
       alimento.toMap(),
@@ -43,7 +17,7 @@ class FoodController {
   }
 
   Future<List<Alimento>> getAlimentos() async {
-    final db = await database;
+    final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =
         await db.query('alimentos', orderBy: 'Alimento');
 
@@ -70,7 +44,7 @@ class FoodController {
   }
 
   Future<bool> any() async {
-    final db = await database;
+    final db = await _dbHelper.database;
     final List<Map<String, dynamic>> result =
         await db.rawQuery('SELECT COUNT(*) AS count FROM alimentos');
     int count = Sqflite.firstIntValue(result)!;
@@ -78,13 +52,12 @@ class FoodController {
   }
 
   Future<void> clearAlimentos() async {
-    final db = await database;
+    final db = await _dbHelper.database;
     await db.delete('alimentos');
   }
 
-  void reiniciarAlimentos() async {
+  Future<void> reiniciarAlimentos() async {
     await clearAlimentos();
-    // Carga el JSON
     String jsonString =
         await rootBundle.loadString('assets/data/alimentosJson.json');
     List<dynamic> jsonList = json.decode(jsonString);

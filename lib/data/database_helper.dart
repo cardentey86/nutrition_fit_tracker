@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
@@ -20,7 +19,7 @@ class DatabaseHelper {
   }
 
   Future<Database> _initDatabase() async {
-    String path = join(await getDatabasesPath(), 'alimentos.db');
+    String path = join(await getDatabasesPath(), 'nft.db');
     return await openDatabase(
       path,
       onCreate: (db, version) {
@@ -32,7 +31,7 @@ class DatabaseHelper {
     );
   }
 
-  Future<void> insertAlimento(Alimento alimento) async {
+  /* Future<void> insertAlimento(Alimento alimento) async {
     final db = await database;
     await db.insert(
       'alimentos',
@@ -79,5 +78,5 @@ class DatabaseHelper {
   Future<void> clearAlimentos() async {
     final db = await database;
     await db.delete('alimentos');
-  }
+  } */
 }
