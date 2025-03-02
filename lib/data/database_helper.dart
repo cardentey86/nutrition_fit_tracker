@@ -43,15 +43,15 @@ class DatabaseHelper {
           'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES alimentos(id))',
         );
       },
-      /* onUpgrade: (db, oldVersion, newVersion) {  
-        if (oldVersion < 2) {  
-          // Cambiar la estructura si estás actualizando a la versión 2  
-          db.execute('ALTER TABLE alimentos ADD COLUMN NuevaColumna REAL');   
-        }  
-        // Puedes agregar más condiciones para versiones posteriores  
-      },  
+      onUpgrade: (db, oldVersion, newVersion) {
+        if (oldVersion < 2) {
+          // Cambiar la estructura si estás actualizando a la versión 2
+          db.execute(
+              'ALTER TABLE MedidasPersonales ADD COLUMN Edad INTEGER, ADD COLUMN Altura REAL, ADD COLUMN Peso REAL, ADD COLUMN Sexo TEXT');
+        }
+        // Puedes agregar más condiciones para versiones posteriores
+      },
       version: 2, // Incrementa la versión aquí   */
-      version: 1,
     );
   }
 }

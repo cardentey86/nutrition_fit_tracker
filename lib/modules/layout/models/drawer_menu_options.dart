@@ -8,14 +8,18 @@ final List<ChildItem> drawerMenu = [
       text: "Indices Personales",
       route: AppRoutes.home),
   ChildItem(
-      icon: const Icon(Icons.menu_book), text: "Menu", route: AppRoutes.food),
+    icon: const Icon(Icons.dinner_dining),
+    text: "Comidas",
+    route: AppRoutes.food,
+  ),
+  ChildItem(
+    icon: const Icon(Icons.menu_book_outlined),
+    text: "Menu",
+    route: AppRoutes.food,
+  ),
   ChildItem(
       icon: const Icon(Icons.food_bank_outlined),
       text: "Alimentos",
-      route: AppRoutes.food),
-  ChildItem(
-      icon: const Icon(Icons.fitness_center_outlined),
-      text: "Medidas Musculares",
       route: AppRoutes.food),
   ChildItem(
       icon: const Icon(Icons.assignment),
@@ -23,8 +27,12 @@ final List<ChildItem> drawerMenu = [
       route: AppRoutes.food),
   ChildItem(
       icon: const Icon(Icons.settings),
-      text: "Configuracion",
+      text: "Configuración",
       route: AppRoutes.food),
+  ChildItem(
+      icon: const Icon(Icons.info_outline),
+      text: "Información",
+      route: AppRoutes.home),
 ];
 
   /* ParentItem(
