@@ -48,11 +48,9 @@ class DatabaseHelper {
           // Cambiar la estructura si estás actualizando a la versión 2
           db.execute(
               'ALTER TABLE MedidasPersonales ADD COLUMN Edad INTEGER, ADD COLUMN Altura REAL, ADD COLUMN Peso REAL, ADD COLUMN Sexo TEXT');
+
+          db.execute('ALTER TABLE MenuPlato ADD COLUMN Nombre TEXT');
         }
-        // Crear tabla de Comidas
-        db.execute(
-          'CREATE TABLE Comida(Id INTEGER PRIMARY KEY, Nombre TEXT)',
-        );
       },
       version: 3, // Incrementa la versión aquí   */
     );
