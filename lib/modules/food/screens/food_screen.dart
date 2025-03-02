@@ -12,7 +12,7 @@ class FoodScreen extends StatefulWidget {
   State<FoodScreen> createState() => _FoodScreenState();
 }
 
-List<String> _orderOptions = ['asc', 'des'];
+List<String> _orderOptions = ['asc', 'desc'];
 
 class _FoodScreenState extends State<FoodScreen> {
   final FoodController _foodController = FoodController();
@@ -420,6 +420,48 @@ class _FoodScreenState extends State<FoodScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title:
+            Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+          const Text(
+            'Alimentos',
+            style: TextStyle(color: Colors.black87),
+          ),
+          const SizedBox(
+            width: 16.0,
+          ),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.only(top: 12.0),
+              child: TextField(
+                controller: _searchController,
+                decoration: const InputDecoration(
+                  hintText: 'Buscar por nombre',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  border: InputBorder.none,
+                  suffixIcon: Icon(Icons.search, color: Colors.black54),
+                ),
+                onChanged: (value) {
+                  if (value.isEmpty) {
+                    setState(() {
+                      _filter = "";
+                    });
+                    _filterAlimentos(_filter);
+                  }
+                },
+                onEditingComplete: () {
+                  setState(() {
+                    _filter = _searchController.text;
+                  });
+                  _filterAlimentos(_filter);
+                },
+              ),
+            ),
+          ),
+        ]),
+        backgroundColor: Colors.transparent,
+        elevation: 4,
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
@@ -469,40 +511,13 @@ class _FoodScreenState extends State<FoodScreen> {
                   return _orderOptions.map((String option) {
                     return PopupMenuItem<String>(
                       value: option,
-                      child: Text(option == _orderOptions[0]
-                          ? 'Ascendente'
-                          : 'Descendente'),
+                      child: Text(option == currentOrderOption
+                          ? '* ${option}endente'
+                          : '${option}endente'),
                     );
                   }).toList();
                 },
               )
-            ],
-          ),
-          Row(
-            children: [
-              Expanded(
-                child: CupertinoTextField(
-                  suffix: const Icon(Icons.search),
-                  placeholder: 'Filtrar por nombre',
-                  controller: _searchController,
-                  onChanged: (value) {
-                    if (value.isEmpty) {
-                      setState(() {
-                        _filter = "";
-                      });
-                      _filterAlimentos(_filter);
-                    }
-                  },
-                  onEditingComplete: () {
-                    setState(() {
-                      _filter = _searchController.text;
-                    });
-                    _filterAlimentos(_filter);
-                  },
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 12.0, horizontal: 8.0),
-                ),
-              ),
             ],
           ),
           const Divider(
