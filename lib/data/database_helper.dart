@@ -44,14 +44,17 @@ class DatabaseHelper {
         );
       },
       onUpgrade: (db, oldVersion, newVersion) {
-        if (oldVersion < 2) {
+        if (oldVersion < 3) {
           // Cambiar la estructura si estás actualizando a la versión 2
           db.execute(
               'ALTER TABLE MedidasPersonales ADD COLUMN Edad INTEGER, ADD COLUMN Altura REAL, ADD COLUMN Peso REAL, ADD COLUMN Sexo TEXT');
         }
-        // Puedes agregar más condiciones para versiones posteriores
+        // Crear tabla de Comidas
+        db.execute(
+          'CREATE TABLE Comida(Id INTEGER PRIMARY KEY, Nombre TEXT)',
+        );
       },
-      version: 2, // Incrementa la versión aquí   */
+      version: 3, // Incrementa la versión aquí   */
     );
   }
 }
