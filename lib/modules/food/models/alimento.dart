@@ -12,6 +12,7 @@ enum CategoriaAlimento {
 }
 
 class Alimento {
+  final int? id;
   final String nombre;
   final double calorias;
   final double carbohidratos;
@@ -20,6 +21,7 @@ class Alimento {
   final double fibra;
 
   Alimento({
+    this.id,
     required this.nombre,
     required this.calorias,
     required this.carbohidratos,

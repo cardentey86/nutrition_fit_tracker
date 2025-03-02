@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
@@ -34,6 +35,7 @@ class _FoodScreenState extends State<FoodScreen> {
     const DropdownMenuItem(value: 'calorias', child: Text('Calorías'))
   ];
   String orderSelectedField = 'nombre';
+  final _formKey = GlobalKey<FormState>();
 
   @override
   void initState() {
@@ -77,100 +79,136 @@ class _FoodScreenState extends State<FoodScreen> {
       )
     ];
 
-    final secondaryActions = <Widget>[
-      SlidableAction(
-        spacing: 2,
-        padding: const EdgeInsets.all(8.0),
-        label: "Eliminar",
-        backgroundColor: Colors.transparent,
-        foregroundColor: Colors.red,
-        icon: Icons.delete,
-        onPressed: (context) {
-          showSnackBar(context, "Delete");
-        },
-      ),
-    ];
     setState(() {
       _items = [
-        ..._filteredAlimentos.map((alimento) => Slidable(
-              key: Key(alimento.nombre),
-              startActionPane: ActionPane(
-                extentRatio: double.parse("0.${mainActions.length * 2}"),
-                motion: const ScrollMotion(),
-                children: mainActions,
-              ),
-              endActionPane: ActionPane(
-                extentRatio: double.parse("0.${secondaryActions.length * 2}"),
-                motion: const ScrollMotion(),
-                children: secondaryActions,
-              ),
-              child: Column(
-                children: [
-                  ListTile(
-                    title: Text(
-                      alimento.nombre,
-                      style: const TextStyle(
-                        color: Colors.black,
-                        fontStyle: FontStyle.italic,
-                      ),
-                    ),
-                    subtitle: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Column(
-                          children: [
-                            const Text(
-                              'Calorías',
-                              style: TextStyle(color: Colors.grey),
+        ..._filteredAlimentos.asMap().entries.map((entry) {
+          Alimento alimento = entry.value;
+          return Slidable(
+            key: Key(alimento.id.toString()),
+            startActionPane: ActionPane(
+              extentRatio: double.parse("0.${mainActions.length * 2}"),
+              motion: const ScrollMotion(),
+              children: mainActions,
+            ),
+            endActionPane: ActionPane(
+              extentRatio: 0.2,
+              motion: const ScrollMotion(),
+              children: [
+                SlidableAction(
+                  spacing: 2,
+                  padding: const EdgeInsets.all(8.0),
+                  label: "Eliminar",
+                  backgroundColor: Colors.transparent,
+                  foregroundColor: Colors.red,
+                  icon: Icons.delete,
+                  onPressed: (context) async {
+                    final shouldDelete = await showDialog<bool>(
+                      context: context,
+                      builder: (context) {
+                        return AlertDialog(
+                          title: const Text('Confirmar eliminación'),
+                          content: Text(
+                              '¿Está seguro de que desea eliminar el alimento ${alimento.nombre}?'),
+                          actions: [
+                            TextButton(
+                              onPressed: () {
+                                Navigator.of(context)
+                                    .pop(false); // Cerrar y devolver false
+                              },
+                              child: const Text('Cancelar'),
                             ),
-                            Text('${alimento.calorias} Kcal',
-                                style: const TextStyle(color: Colors.black87)),
+                            TextButton(
+                              onPressed: () {
+                                Navigator.of(context)
+                                    .pop(true); // Cerrar y devolver verdadero
+                              },
+                              child: const Text('Confirmar'),
+                            ),
                           ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Proteínas',
-                                style: TextStyle(color: Colors.grey)),
-                            Text('${alimento.proteinas}g',
-                                style: const TextStyle(color: Colors.black87)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Carbohidratos',
-                                style: TextStyle(color: Colors.grey)),
-                            Text('${alimento.carbohidratos}g',
-                                style: const TextStyle(color: Colors.black87)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Grasas',
-                                style: TextStyle(color: Colors.grey)),
-                            Text('${alimento.grasas}g',
-                                style: const TextStyle(color: Colors.black87)),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            const Text('Fibra',
-                                style: TextStyle(color: Colors.grey)),
-                            Text('${alimento.fibra}g',
-                                style: const TextStyle(color: Colors.black87)),
-                          ],
-                        ),
-                      ],
+                        );
+                      },
+                    );
+
+                    if (shouldDelete == true) {
+                      _foodController.eliminarAlimento(alimento.id!);
+                      setState(() {
+                        _filteredAlimentos.removeWhere(
+                            (element) => element.id == alimento.id);
+                      });
+                      setData();
+                    }
+                  },
+                ),
+              ],
+            ),
+            child: Column(
+              children: [
+                ListTile(
+                  title: Text(
+                    alimento.nombre,
+                    style: const TextStyle(
+                      color: Colors.black,
+                      fontStyle: FontStyle.italic,
                     ),
                   ),
-                  if (alimento.nombre !=
-                      _filteredAlimentos[_filteredAlimentos.length - 1]
-                          .nombre) // Evita el separador en el último elemento
-                    const Divider(
-                      color: Colors.blueGrey,
-                    ),
-                ],
-              ),
-            ))
+                  subtitle: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Column(
+                        children: [
+                          const Text(
+                            'Calorías',
+                            style: TextStyle(color: Colors.grey),
+                          ),
+                          Text('${alimento.calorias} Kcal',
+                              style: const TextStyle(color: Colors.black87)),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          const Text('Proteínas',
+                              style: TextStyle(color: Colors.grey)),
+                          Text('${alimento.proteinas}g',
+                              style: const TextStyle(color: Colors.black87)),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          const Text('Carbohidratos',
+                              style: TextStyle(color: Colors.grey)),
+                          Text('${alimento.carbohidratos}g',
+                              style: const TextStyle(color: Colors.black87)),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          const Text('Grasas',
+                              style: TextStyle(color: Colors.grey)),
+                          Text('${alimento.grasas}g',
+                              style: const TextStyle(color: Colors.black87)),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          const Text('Fibra',
+                              style: TextStyle(color: Colors.grey)),
+                          Text('${alimento.fibra}g',
+                              style: const TextStyle(color: Colors.black87)),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                if (alimento.nombre !=
+                    _filteredAlimentos[_filteredAlimentos.length - 1]
+                        .nombre) // Evita el separador en el último elemento
+                  const Divider(
+                    color: Colors.blueGrey,
+                  ),
+              ],
+            ),
+          );
+        })
       ];
     });
   }
@@ -239,6 +277,127 @@ class _FoodScreenState extends State<FoodScreen> {
     setData();
   }
 
+  Future<void> _agregarAlimento() async {
+    final nombreController = TextEditingController();
+    final caloriasController = TextEditingController();
+    final proteinaController = TextEditingController();
+    final carbohidratoController = TextEditingController();
+    final fibraController = TextEditingController();
+    final grasaController = TextEditingController();
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Agregar Alimento'),
+          content: Form(
+            key: _formKey,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                TextFormField(
+                  controller: nombreController,
+                  decoration: const InputDecoration(labelText: 'Nombre'),
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Por favor ingresa el nombre del alimento.';
+                    }
+                    return null; // Sin errores
+                  },
+                ),
+                TextField(
+                  controller: caloriasController,
+                  decoration: const InputDecoration(labelText: 'Calorías'),
+                  keyboardType: TextInputType.number,
+                  inputFormatters: <TextInputFormatter>[
+                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                  ],
+                ),
+                TextField(
+                  controller: caloriasController,
+                  decoration: const InputDecoration(labelText: 'Proteinas'),
+                  keyboardType: TextInputType.number,
+                  inputFormatters: <TextInputFormatter>[
+                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                  ],
+                ),
+                TextField(
+                  controller: caloriasController,
+                  decoration: const InputDecoration(labelText: 'Carboidratos'),
+                  keyboardType: TextInputType.number,
+                  inputFormatters: <TextInputFormatter>[
+                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                  ],
+                ),
+                TextField(
+                  controller: caloriasController,
+                  decoration: const InputDecoration(labelText: 'Grasas'),
+                  keyboardType: TextInputType.number,
+                  inputFormatters: <TextInputFormatter>[
+                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                  ],
+                ),
+                TextField(
+                  controller: caloriasController,
+                  decoration: const InputDecoration(labelText: 'Fibra'),
+                  keyboardType: TextInputType.number,
+                  inputFormatters: <TextInputFormatter>[
+                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                  ],
+                ),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              child: const Text('Cancelar'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('Agregar'),
+              onPressed: () async {
+                if (_formKey.currentState?.validate() == true) {
+                  final nombre = nombreController.text;
+                  final calorias =
+                      double.tryParse(caloriasController.text) ?? 0;
+                  final proteinas =
+                      double.tryParse(proteinaController.text) ?? 0;
+                  final carbohidratos =
+                      double.tryParse(carbohidratoController.text) ?? 0;
+                  final grasas = double.tryParse(grasaController.text) ?? 0;
+                  final fibra = double.tryParse(fibraController.text) ?? 0;
+
+                  Alimento alimento = Alimento(
+                      nombre: nombre,
+                      calorias: calorias,
+                      carbohidratos: carbohidratos,
+                      proteinas: proteinas,
+                      grasas: grasas,
+                      fibra: fibra);
+
+                  bool result = await _foodController.insertAlimento(alimento);
+
+                  if (result) {
+                    setState(() {
+                      _filteredAlimentos.add(alimento);
+                      _alimentos.add(alimento);
+                    });
+                    setData();
+                  }
+                  if (mounted) {
+                    Navigator.of(context).pop();
+                  }
+                }
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -249,9 +408,7 @@ class _FoodScreenState extends State<FoodScreen> {
           borderRadius: BorderRadius.circular(50.0),
         ),
         elevation: 4,
-        onPressed: () {
-          showSnackBar(context, 'Función no implementada');
-        },
+        onPressed: () => _agregarAlimento(),
         child: const Icon(Icons.add),
       ),
       body: Column(

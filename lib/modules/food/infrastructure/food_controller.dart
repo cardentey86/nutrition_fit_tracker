@@ -7,13 +7,15 @@ import 'package:sqflite/sqflite.dart';
 class FoodController {
   static final DatabaseHelper _dbHelper = DatabaseHelper();
 
-  Future<void> insertAlimento(Alimento alimento) async {
+  Future<bool> insertAlimento(Alimento alimento) async {
     final db = await _dbHelper.database;
-    await db.insert(
+    int result = await db.insert(
       'alimentos',
       alimento.toMap(),
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
+
+    return result > 0;
   }
 
   Future<List<Alimento>> getAlimentos() async {
@@ -23,6 +25,7 @@ class FoodController {
 
     return List.generate(maps.length, (i) {
       return Alimento(
+        id: maps[i]['id'],
         nombre: maps[i]['Alimento'],
         calorias: (maps[i]['Calorias'] is int)
             ? (maps[i]['Calorias'] as int).toDouble()
@@ -54,6 +57,23 @@ class FoodController {
   Future<void> clearAlimentos() async {
     final db = await _dbHelper.database;
     await db.delete('alimentos');
+  }
+
+  Future<void> migrarAlimentos() async {
+    String jsonString =
+        await rootBundle.loadString('assets/data/alimentosJson.json');
+    List<dynamic> jsonList = json.decode(jsonString);
+
+    for (var item in jsonList) {
+      Alimento alimento = Alimento.fromJson(item);
+      await insertAlimento(alimento);
+    }
+  }
+
+  Future<bool> eliminarAlimento(int id) async {
+    final db = await _dbHelper.database;
+    int result = await db.delete('alimentos', where: 'id = $id');
+    return result > 0;
   }
 
   Future<void> reiniciarAlimentos() async {
