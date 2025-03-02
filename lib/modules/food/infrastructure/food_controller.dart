@@ -18,6 +18,18 @@ class FoodController {
     return result > 0;
   }
 
+  Future<bool> updateAlimento(Alimento alimento) async {
+    final db = await _dbHelper.database;
+    int result = await db.update(
+      'alimentos',
+      alimento.toMap(),
+      where: 'id = ${alimento.id}',
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
+
+    return result > 0;
+  }
+
   Future<List<Alimento>> getAlimentos() async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =

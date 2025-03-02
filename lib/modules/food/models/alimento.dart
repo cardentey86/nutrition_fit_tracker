@@ -1,9 +1,15 @@
 enum CategoriaAlimento {
+  // ignore: constant_identifier_names
   Proteinas(1),
+  // ignore: constant_identifier_names
   Carbohidratos(2),
+  // ignore: constant_identifier_names
   Vegetales(3),
+  // ignore: constant_identifier_names
   Grasas(4),
+  // ignore: constant_identifier_names
   Frutas(5),
+  // ignore: constant_identifier_names
   Otros(6);
 
   final int value;
@@ -53,6 +59,7 @@ class Alimento {
 
   Map<String, dynamic> toMap() {
     return {
+      'id': id,
       'Alimento': nombre,
       'Calorias': calorias,
       'Carbohidratos': carbohidratos,

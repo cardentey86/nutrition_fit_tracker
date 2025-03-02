@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -36,6 +35,7 @@ class _FoodScreenState extends State<FoodScreen> {
   ];
   String orderSelectedField = 'nombre';
   final _formKey = GlobalKey<FormState>();
+  Alimento? alimentoToUpdate;
 
   @override
   void initState() {
@@ -54,31 +54,6 @@ class _FoodScreenState extends State<FoodScreen> {
   }
 
   void setData() {
-    final mainActions = <Widget>[
-      SlidableAction(
-        spacing: 2,
-        backgroundColor: Colors.transparent,
-        padding: const EdgeInsets.all(8.0),
-        label: "Edit",
-        foregroundColor: Colors.blue,
-        icon: Icons.edit,
-        onPressed: (context) {
-          showSnackBar(context, "Edit");
-        },
-      ),
-      SlidableAction(
-        spacing: 2,
-        padding: const EdgeInsets.all(8.0),
-        backgroundColor: Colors.transparent,
-        label: "Add Menú",
-        foregroundColor: Colors.green,
-        icon: Icons.add_box,
-        onPressed: (context) {
-          showSnackBar(context, "Add Menu");
-        },
-      )
-    ];
-
     setState(() {
       _items = [
         ..._filteredAlimentos.asMap().entries.map((entry) {
@@ -86,9 +61,35 @@ class _FoodScreenState extends State<FoodScreen> {
           return Slidable(
             key: Key(alimento.id.toString()),
             startActionPane: ActionPane(
-              extentRatio: double.parse("0.${mainActions.length * 2}"),
+              extentRatio: 0.4,
               motion: const ScrollMotion(),
-              children: mainActions,
+              children: [
+                SlidableAction(
+                  spacing: 2,
+                  backgroundColor: Colors.transparent,
+                  padding: const EdgeInsets.all(8.0),
+                  label: "Edit",
+                  foregroundColor: Colors.blue,
+                  icon: Icons.edit,
+                  onPressed: (context) async {
+                    setState(() {
+                      alimentoToUpdate = alimento;
+                    });
+                    await _formAlimento('update');
+                  },
+                ),
+                SlidableAction(
+                  spacing: 2,
+                  padding: const EdgeInsets.all(8.0),
+                  backgroundColor: Colors.transparent,
+                  label: "Add Menú",
+                  foregroundColor: Colors.green,
+                  icon: Icons.add_box,
+                  onPressed: (context) {
+                    showSnackBar(context, "Add Menu");
+                  },
+                )
+              ],
             ),
             endActionPane: ActionPane(
               extentRatio: 0.2,
@@ -213,7 +214,7 @@ class _FoodScreenState extends State<FoodScreen> {
     });
   }
 
-  Future<void> _updateAlimentos() async {
+  Future<void> _restartAlimentos() async {
     // Mostrar un cuadro de diálogo de confirmación
     if (await _foodController.any()) {
       await showDialog<bool>(
@@ -277,7 +278,7 @@ class _FoodScreenState extends State<FoodScreen> {
     setData();
   }
 
-  Future<void> _agregarAlimento() async {
+  Future<void> _formAlimento(String action) async {
     final nombreController = TextEditingController();
     final caloriasController = TextEditingController();
     final proteinaController = TextEditingController();
@@ -285,11 +286,21 @@ class _FoodScreenState extends State<FoodScreen> {
     final fibraController = TextEditingController();
     final grasaController = TextEditingController();
 
+    if (action == 'update' && alimentoToUpdate != null) {
+      nombreController.text = alimentoToUpdate!.nombre;
+      caloriasController.text = alimentoToUpdate!.calorias.toString();
+      proteinaController.text = alimentoToUpdate!.proteinas.toString();
+      carbohidratoController.text = alimentoToUpdate!.carbohidratos.toString();
+      grasaController.text = alimentoToUpdate!.grasas.toString();
+      fibraController.text = alimentoToUpdate!.fibra.toString();
+    }
+
     showDialog(
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: const Text('Agregar Alimento'),
+          title: Text(
+              action == 'add' ? 'Agregar Alimento' : 'Actualizar Alimento'),
           content: Form(
             key: _formKey,
             child: Column(
@@ -314,7 +325,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   ],
                 ),
                 TextField(
-                  controller: caloriasController,
+                  controller: proteinaController,
                   decoration: const InputDecoration(labelText: 'Proteinas'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
@@ -322,15 +333,15 @@ class _FoodScreenState extends State<FoodScreen> {
                   ],
                 ),
                 TextField(
-                  controller: caloriasController,
-                  decoration: const InputDecoration(labelText: 'Carboidratos'),
+                  controller: carbohidratoController,
+                  decoration: const InputDecoration(labelText: 'Carbohidratos'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
                     FilteringTextInputFormatter.digitsOnly // Solo dígitos
                   ],
                 ),
                 TextField(
-                  controller: caloriasController,
+                  controller: grasaController,
                   decoration: const InputDecoration(labelText: 'Grasas'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
@@ -338,7 +349,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   ],
                 ),
                 TextField(
-                  controller: caloriasController,
+                  controller: fibraController,
                   decoration: const InputDecoration(labelText: 'Fibra'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
@@ -356,7 +367,7 @@ class _FoodScreenState extends State<FoodScreen> {
               },
             ),
             TextButton(
-              child: const Text('Agregar'),
+              child: Text(action == 'add' ? 'Agregar' : 'Actualizar'),
               onPressed: () async {
                 if (_formKey.currentState?.validate() == true) {
                   final nombre = nombreController.text;
@@ -370,6 +381,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   final fibra = double.tryParse(fibraController.text) ?? 0;
 
                   Alimento alimento = Alimento(
+                      id: alimentoToUpdate?.id,
                       nombre: nombre,
                       calorias: calorias,
                       carbohidratos: carbohidratos,
@@ -377,15 +389,22 @@ class _FoodScreenState extends State<FoodScreen> {
                       grasas: grasas,
                       fibra: fibra);
 
-                  bool result = await _foodController.insertAlimento(alimento);
+                  bool result = false;
 
-                  if (result) {
-                    setState(() {
-                      _filteredAlimentos.add(alimento);
-                      _alimentos.add(alimento);
-                    });
-                    setData();
+                  if (action == 'add') {
+                    result = await _foodController.insertAlimento(alimento);
+                    if (result) {
+                      setState(() {
+                        _filteredAlimentos.add(alimento);
+                        _alimentos.add(alimento);
+                      });
+                      setData();
+                    }
+                  } else {
+                    result = await _foodController.updateAlimento(alimento);
+                    await _loadAlimentos();
                   }
+
                   if (mounted) {
                     Navigator.of(context).pop();
                   }
@@ -408,7 +427,7 @@ class _FoodScreenState extends State<FoodScreen> {
           borderRadius: BorderRadius.circular(50.0),
         ),
         elevation: 4,
-        onPressed: () => _agregarAlimento(),
+        onPressed: () => _formAlimento('add'),
         child: const Icon(Icons.add),
       ),
       body: Column(
@@ -419,7 +438,7 @@ class _FoodScreenState extends State<FoodScreen> {
             children: [
               IconButton(
                 icon: const Icon(Icons.refresh),
-                onPressed: _updateAlimentos,
+                onPressed: _restartAlimentos,
               ),
               const Spacer(),
               const Text('Ordenar por:'),
