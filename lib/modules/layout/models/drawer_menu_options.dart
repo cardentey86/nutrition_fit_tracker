@@ -8,23 +8,18 @@ final List<ChildItem> drawerMenu = [
       text: "Indices Personales",
       route: AppRoutes.home),
   ChildItem(
-    icon: const Icon(Icons.dinner_dining),
-    text: "Comidas",
-    route: AppRoutes.food,
-  ),
-  ChildItem(
     icon: const Icon(Icons.menu_book_outlined),
     text: "Menu",
     route: AppRoutes.food,
   ),
   ChildItem(
-      icon: const Icon(Icons.food_bank_outlined),
+      icon: const Icon(Icons.dinner_dining),
       text: "Alimentos",
       route: AppRoutes.food),
   ChildItem(
       icon: const Icon(Icons.assignment),
       text: "Medidas Personales",
-      route: AppRoutes.food),
+      route: AppRoutes.personalMeasure),
   ChildItem(
       icon: const Icon(Icons.settings),
       text: "Configuración",

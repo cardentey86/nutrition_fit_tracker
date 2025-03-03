@@ -30,7 +30,7 @@ class DatabaseHelper {
 
         // Crear tabla de medidas personales
         db.execute(
-          'CREATE TABLE MedidasPersonales(Id INTEGER PRIMARY KEY, Fecha TEXT, Pecho REAL, Cintura REAL, Cadera REAL, Muslo REAL, Pantorrilla REAL, Biceps REAL, Antebrazo REAL, Muneca REAL, Cuello REAL, Tobillo REAL)',
+          'CREATE TABLE MedidasPersonales(Id INTEGER PRIMARY KEY, Fecha TEXT, Edad Integer, Altura REAL, Peso REAL, Sexo TEXT, Pecho REAL, Cintura REAL, Cadera REAL, Muslo REAL, Pantorrilla REAL, Biceps REAL, Antebrazo REAL, Muneca REAL, Cuello REAL, Tobillo REAL)',
         );
 
         // Crear tabla de menús
@@ -40,19 +40,19 @@ class DatabaseHelper {
 
         // Crear tabla de platos en menús
         db.execute(
-          'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES alimentos(id))',
+          'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, Tipo TEXT, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES alimentos(id))',
         );
       },
-      onUpgrade: (db, oldVersion, newVersion) {
-        if (oldVersion < 3) {
-          // Cambiar la estructura si estás actualizando a la versión 2
+      /* onUpgrade: (db, oldVersion, newVersion) {
+        if (oldVersion < newVersion) {
+          // Cambiar la estructura si estás actualizando a la versión nueva
           db.execute(
               'ALTER TABLE MedidasPersonales ADD COLUMN Edad INTEGER, ADD COLUMN Altura REAL, ADD COLUMN Peso REAL, ADD COLUMN Sexo TEXT');
 
           db.execute('ALTER TABLE MenuPlato ADD COLUMN Nombre TEXT');
         }
-      },
-      version: 3, // Incrementa la versión aquí   */
+      }, */
+      version: 1, // Incrementa la versión aquí   */
     );
   }
 }
