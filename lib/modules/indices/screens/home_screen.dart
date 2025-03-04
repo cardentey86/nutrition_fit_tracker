@@ -90,9 +90,28 @@ class _HomeScreenState extends State<HomeScreen> {
                     _showSnackBar(context, 'Porciento de músculo magro'),
               ),
               IndiceBtn(
-                text: 'IMC',
+                text: 'TMB',
                 image: 'assets/img/manwoman.svg',
-                onTap: () => _showSnackBar(context, 'IMC'),
+                onTap: () => _showSnackBar(context, 'Tasa metabólica basal'),
+              ),
+            ],
+          ),
+          const SizedBox(
+            height: 32.0,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              IndiceBtn(
+                text: 'MI',
+                image: 'assets/img/manwoman.svg',
+                onTap: () => _showSnackBar(context, 'Medidas Ideales'),
+              ),
+              IndiceBtn(
+                text: 'CDM',
+                image: 'assets/img/manwoman.svg',
+                onTap: () =>
+                    _showSnackBar(context, 'Consumo diario de macronutrientes'),
               ),
             ],
           )
