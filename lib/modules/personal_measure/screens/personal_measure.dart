@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
+import 'package:nutrition_fit_traker/modules/personal_measure/models/measure_model.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/models/nivel_actividad.dart';
 
 class MedidasPersonales extends StatefulWidget {
@@ -12,10 +14,14 @@ class MedidasPersonales extends StatefulWidget {
 class _MedidasPersonalesState extends State<MedidasPersonales> {
   bool isMenuOpen = false;
   final _formKey = GlobalKey<FormState>();
+
+  PersonalMeasure? personalMeasure;
+  final PersonalMeasureController _personalMeasureController =
+      PersonalMeasureController();
+
   String? sexoSelected;
   int? nivelActividadSelected;
   int? objetivoSelected;
-
   final edadController = TextEditingController();
   final estaturaController = TextEditingController();
   final pesoController = TextEditingController();
@@ -34,6 +40,99 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
     setState(() {
       isMenuOpen = !isMenuOpen;
     });
+  }
+
+  void loadLastMeasure() async {
+    final result = await _personalMeasureController.getLast();
+    setState(() {
+      personalMeasure = result;
+
+      if (personalMeasure != null) {
+        sexoSelected = personalMeasure!.sexo;
+        objetivoSelected = personalMeasure!.objetivo;
+        nivelActividadSelected = personalMeasure!.nivelActividad;
+
+        edadController.text = personalMeasure!.edad.toString();
+        estaturaController.text = personalMeasure!.estatura.toString();
+        pesoController.text = personalMeasure!.peso.toString();
+        cinturaController.text = personalMeasure!.cintura.toString();
+        caderaController.text = personalMeasure!.cadera.toString();
+        cuelloController.text = personalMeasure!.cuello.toString();
+        munecaController.text = personalMeasure!.muneca.toString();
+
+        tobilloController.text = personalMeasure!.tobillo.toString();
+        pechoController.text = personalMeasure!.pecho.toString();
+        bicepsController.text = personalMeasure!.biceps.toString();
+        musloController.text = personalMeasure!.muslo.toString();
+        pantorrillaController.text = personalMeasure!.gemelos.toString();
+      }
+    });
+  }
+
+  void saveMeasure() async {
+    if (personalMeasure != null && personalMeasure!.id > 0) {
+      setState(() {
+        personalMeasure!.sexo = sexoSelected!;
+        personalMeasure!.objetivo = objetivoSelected!;
+        personalMeasure!.nivelActividad = nivelActividadSelected!;
+        personalMeasure!.edad = int.parse(edadController.text);
+        personalMeasure!.estatura = double.parse(estaturaController.text);
+        personalMeasure!.peso = double.parse(pesoController.text);
+        personalMeasure!.cintura = double.parse(cinturaController.text);
+        personalMeasure!.cadera = double.parse(caderaController.text);
+        personalMeasure!.cuello = double.parse(cuelloController.text);
+        personalMeasure!.muneca = double.parse(munecaController.text);
+        personalMeasure!.tobillo = double.parse(tobilloController.text);
+        personalMeasure!.pecho = double.parse(pechoController.text);
+        personalMeasure!.biceps = double.parse(bicepsController.text);
+        personalMeasure!.muslo = double.parse(musloController.text);
+        personalMeasure!.gemelos = double.parse(pantorrillaController.text);
+      });
+
+      final result = await _personalMeasureController.update(personalMeasure!);
+
+      if (mounted) {
+        if (result) {
+          showSnackBar(context, 'Medidas guardadas');
+        } else {
+          showSnackBar(context, 'Error al guardar');
+        }
+      }
+    } else {
+      showSnackBar(context, 'Error al guardar');
+    }
+  }
+
+  Future<void> addNewMeasure() async {
+    PersonalMeasure measure = PersonalMeasure(
+        id: 0,
+        fecha: DateTime.now().toString(),
+        edad: int.parse(edadController.text),
+        sexo: sexoSelected!,
+        objetivo: objetivoSelected!,
+        nivelActividad: nivelActividadSelected!,
+        estatura: double.parse(estaturaController.text),
+        peso: double.parse(pesoController.text),
+        cintura: double.parse(cinturaController.text),
+        cadera: double.parse(caderaController.text),
+        cuello: double.parse(cuelloController.text),
+        muneca: double.parse(munecaController.text),
+        tobillo: double.parse(tobilloController.text),
+        pecho: double.parse(pechoController.text),
+        biceps: double.parse(bicepsController.text),
+        antebrazo: double.parse(antebrazoController.text),
+        muslo: double.parse(musloController.text),
+        gemelos: double.parse(pantorrillaController.text));
+
+    var result = await _personalMeasureController.insert(measure);
+
+    if (mounted) {
+      if (result) {
+        showSnackBar(context, 'Medidas guardadas');
+      } else {
+        showSnackBar(context, 'Error al guardar guardadas');
+      }
+    }
   }
 
   @override
