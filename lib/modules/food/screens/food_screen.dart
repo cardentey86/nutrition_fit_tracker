@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
-import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
+import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 
 class FoodScreen extends StatefulWidget {
   const FoodScreen({super.key});

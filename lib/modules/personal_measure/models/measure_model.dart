@@ -1,5 +1,5 @@
 class PersonalMeasure {
-  int id;
+  int? id;
   String fecha;
   int edad;
   String sexo;
@@ -19,7 +19,7 @@ class PersonalMeasure {
   double gemelos;
 
   PersonalMeasure({
-    required this.id,
+    this.id,
     required this.fecha,
     required this.edad,
     required this.sexo,

@@ -59,7 +59,7 @@ class Alimento {
 
   Map<String, dynamic> toMap() {
     return {
-      'id': id,
+      'Id': id,
       'Alimento': nombre,
       'Calorias': calorias,
       'Carbohidratos': carbohidratos,

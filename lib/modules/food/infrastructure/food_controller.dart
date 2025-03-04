@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
-import 'package:nutrition_fit_traker/modules/food/models/alimento.dart';
+import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:sqflite/sqflite.dart';
 
 class FoodController {
@@ -37,7 +37,7 @@ class FoodController {
 
     return List.generate(maps.length, (i) {
       return Alimento(
-        id: maps[i]['id'],
+        id: maps[i]['Id'],
         nombre: maps[i]['Alimento'],
         calorias: (maps[i]['Calorias'] is int)
             ? (maps[i]['Calorias'] as int).toDouble()
@@ -84,7 +84,7 @@ class FoodController {
 
   Future<bool> eliminarAlimento(int id) async {
     final db = await _dbHelper.database;
-    int result = await db.delete('alimentos', where: 'id = $id');
+    int result = await db.delete('alimentos', where: 'Id = $id');
     return result > 0;
   }
 

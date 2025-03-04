@@ -25,12 +25,12 @@ class DatabaseHelper {
       onCreate: (db, version) {
         // Crear tabla de alimentos
         db.execute(
-          'CREATE TABLE alimentos(id INTEGER PRIMARY KEY, Alimento TEXT, Calorias INTEGER, Carbohidratos REAL, Proteinas REAL, Grasas REAL, Fibra REAL)',
+          'CREATE TABLE Alimento(Id INTEGER PRIMARY KEY, Alimento TEXT, Calorias INTEGER, Carbohidratos REAL, Proteinas REAL, Grasas REAL, Fibra REAL)',
         );
 
         // Crear tabla de medidas personales
         db.execute(
-          'CREATE TABLE MedidasPersonales(Id INTEGER PRIMARY KEY, Fecha TEXT, Edad Integer, Altura REAL, Peso REAL, Sexo TEXT, Pecho REAL, Cintura REAL, Cadera REAL, Muslo REAL, Pantorrilla REAL, Biceps REAL, Antebrazo REAL, Muneca REAL, Cuello REAL, Tobillo REAL)',
+          'CREATE TABLE MedidasPersonales(Id INTEGER PRIMARY KEY, Fecha TEXT, Edad INTEGER, Estatura REAL, Peso REAL, Sexo TEXT, Pecho REAL, Cintura REAL, Cadera REAL, Muslo REAL, Gemelos REAL, Biceps REAL, Antebrazo REAL, Muneca REAL, Cuello REAL, Tobillo REAL, Objetivo INTEGER, NivelActividad INTEGER)',
         );
 
         // Crear tabla de menús

@@ -31,6 +31,8 @@ class PersonalMeasureController {
   Future<PersonalMeasure?> getLast() async {
     final db = await _dbHelper.database;
 
+    final exits = await getAll();
+
     final List<Map<String, dynamic>> result = await db.query(
       'MedidasPersonales',
       orderBy: 'Fecha DESC',
@@ -41,6 +43,42 @@ class PersonalMeasureController {
       return PersonalMeasure.fromMap(result.first);
     } else {
       return null;
+    }
+  }
+
+  Future<List<PersonalMeasure>> getAll() async {
+    final db = await _dbHelper.database;
+
+    final List<Map<String, dynamic>> result = await db.query(
+      'MedidasPersonales',
+      orderBy: 'Fecha DESC',
+    );
+
+    if (result.isNotEmpty) {
+      return List.generate(result.length, (i) {
+        return PersonalMeasure(
+          id: result[i]['Id'],
+          fecha: result[i]['Fecha'],
+          edad: result[i]['Edad'],
+          sexo: result[i]['Sexo'],
+          estatura: result[i]['Estatura'],
+          objetivo: result[i]['Objetivo'],
+          nivelActividad: result[i]['NivelActividad'],
+          peso: result[i]['Peso'],
+          cintura: result[i]['Cintura'],
+          cadera: result[i]['Cadera'],
+          cuello: result[i]['Cuello'],
+          muneca: result[i]['Muneca'],
+          tobillo: result[i]['Tobillo'],
+          pecho: result[i]['Pecho'],
+          biceps: result[i]['Biceps'],
+          antebrazo: result[i]['Antebrazo'],
+          muslo: result[i]['Muslo'],
+          gemelos: result[i]['Gemelos'],
+        );
+      });
+    } else {
+      return [];
     }
   }
 

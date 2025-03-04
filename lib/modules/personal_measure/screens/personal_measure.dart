@@ -36,6 +36,12 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
   final musloController = TextEditingController();
   final pantorrillaController = TextEditingController();
 
+  @override
+  void initState() {
+    super.initState();
+    loadLastMeasure();
+  }
+
   void toggleMenu() {
     setState(() {
       isMenuOpen = !isMenuOpen;
@@ -63,6 +69,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
         tobilloController.text = personalMeasure!.tobillo.toString();
         pechoController.text = personalMeasure!.pecho.toString();
         bicepsController.text = personalMeasure!.biceps.toString();
+        antebrazoController.text = personalMeasure!.antebrazo.toString();
         musloController.text = personalMeasure!.muslo.toString();
         pantorrillaController.text = personalMeasure!.gemelos.toString();
       }
@@ -70,7 +77,9 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
   }
 
   void saveMeasure() async {
-    if (personalMeasure != null && personalMeasure!.id > 0) {
+    if (personalMeasure != null &&
+        personalMeasure!.id != null &&
+        personalMeasure!.id! > 0) {
       setState(() {
         personalMeasure!.sexo = sexoSelected!;
         personalMeasure!.objetivo = objetivoSelected!;
@@ -85,6 +94,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
         personalMeasure!.tobillo = double.parse(tobilloController.text);
         personalMeasure!.pecho = double.parse(pechoController.text);
         personalMeasure!.biceps = double.parse(bicepsController.text);
+        personalMeasure!.antebrazo = double.parse(antebrazoController.text);
         personalMeasure!.muslo = double.parse(musloController.text);
         personalMeasure!.gemelos = double.parse(pantorrillaController.text);
       });
@@ -105,7 +115,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
 
   Future<void> addNewMeasure() async {
     PersonalMeasure measure = PersonalMeasure(
-        id: 0,
+        id: null,
         fecha: DateTime.now().toString(),
         edad: int.parse(edadController.text),
         sexo: sexoSelected!,
@@ -114,7 +124,9 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
         estatura: double.parse(estaturaController.text),
         peso: double.parse(pesoController.text),
         cintura: double.parse(cinturaController.text),
-        cadera: double.parse(caderaController.text),
+        cadera: caderaController.text.isEmpty
+            ? 0
+            : double.parse(caderaController.text),
         cuello: double.parse(cuelloController.text),
         muneca: double.parse(munecaController.text),
         tobillo: double.parse(tobilloController.text),
@@ -152,8 +164,39 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
             _buildMenuBotton(
                 icon: Icons.add,
                 index: 0,
-                onPressed: () {
-                  showSnackBar(context, 'Add new');
+                onPressed: () async {
+                  final shouldAdd = await showDialog<bool>(
+                    context: context,
+                    builder: (context) {
+                      return AlertDialog(
+                        title: const Text('Confirmar adición'),
+                        content: const Text(
+                            'Se creará un nuevo registro de medidas personales'),
+                        actions: [
+                          TextButton(
+                            onPressed: () {
+                              Navigator.of(context)
+                                  .pop(false); // Cerrar y devolver false
+                            },
+                            child: const Text('Cancelar'),
+                          ),
+                          TextButton(
+                            onPressed: () {
+                              Navigator.of(context)
+                                  .pop(true); // Cerrar y devolver verdadero
+                            },
+                            child: const Text('Aceptar'),
+                          ),
+                        ],
+                      );
+                    },
+                  );
+
+                  if (shouldAdd != null && shouldAdd) {
+                    if (_formKey.currentState?.validate() == true) {
+                      addNewMeasure();
+                    }
+                  }
                   toggleMenu();
                 }),
             const SizedBox(
@@ -163,8 +206,10 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                 index: 1,
                 icon: Icons.save,
                 onPressed: () {
-                  showSnackBar(context, 'Save change');
-                  toggleMenu();
+                  if (_formKey.currentState?.validate() == true) {
+                    saveMeasure();
+                    toggleMenu();
+                  }
                 }),
             const SizedBox(
               height: 10,
@@ -211,11 +256,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese la edad';
+                              return 'Ingrese valor de edad';
                             }
                             if (int.parse(value) > 100 ||
                                 int.parse(value) < 10) {
-                              return 'Edad no valida';
+                              return 'Valor de edad no válido';
                             }
                             return null;
                           },
@@ -278,7 +323,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                     }).toList(),
                   ),
                   DropdownButtonFormField<int>(
-                    value: objetivoSelected,
+                    value: nivelActividadSelected,
                     validator: (value) {
                       if (value == null) {
                         return 'Seleccione el nivel de actividad física';
@@ -291,7 +336,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                     ),
                     onChanged: (int? newValue) {
                       setState(() {
-                        objetivoSelected = newValue;
+                        nivelActividadSelected = newValue;
                       });
                     },
                     items: NivelActividad()
@@ -321,17 +366,19 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           controller: estaturaController,
                           decoration:
                               const InputDecoration(labelText: 'Estatura cm*'),
-                          keyboardType: TextInputType.number,
+                          keyboardType: const TextInputType.numberWithOptions(
+                              signed: false, decimal: true),
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese la estatura';
+                              return 'Ingrese valor de estatura';
                             }
-                            if (int.parse(value) > 250 ||
-                                int.parse(value) < 100) {
-                              return 'Estatura no valida';
+                            if (double.parse(value) > 250 ||
+                                double.parse(value) < 50) {
+                              return 'Valor de estatura no válido';
                             }
                             return null;
                           },
@@ -348,15 +395,16 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Peso kg *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese el peso';
+                              return 'Ingrese valor de peso';
                             }
-                            if (int.parse(value) > 400 ||
-                                int.parse(value) < 40) {
-                              return 'Peso no valido';
+                            if (double.parse(value) > 600 ||
+                                double.parse(value) < 30) {
+                              return 'valor de peso no válido';
                             }
                             return null;
                           },
@@ -376,15 +424,16 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Cintura cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese la cintura';
+                              return 'Ingrese valor de cintura';
                             }
-                            if (int.parse(value) > 200 ||
-                                int.parse(value) < 50) {
-                              return 'Cintura no válida';
+                            if (double.parse(value) > 200 ||
+                                double.parse(value) < 30) {
+                              return 'Valor de cintura no válido';
                             }
                             return null;
                           },
@@ -401,16 +450,21 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               labelText: 'Cadera cm (Mujer)'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
-                            if (sexoSelected == "Mujer" &&
+                            if (sexoSelected != null &&
+                                sexoSelected == "Mujer" &&
                                 (value == null || value.isEmpty)) {
-                              return 'Ingrese el cadera';
+                              return 'Ingrese valor de cadera';
                             }
-                            if (int.parse(value!) > 400 ||
-                                int.parse(value) < 40) {
-                              return 'Peso no valido';
+
+                            if (value!.isNotEmpty &&
+                                double.parse(value) > 0 &&
+                                (double.parse(value) > 400 ||
+                                    double.parse(value) < 40)) {
+                              return 'Valor de cadera no válido';
                             }
                             return null;
                           },
@@ -430,14 +484,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Cuello cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor del cuello';
                             }
-                            if (int.parse(value) > 150 ||
-                                int.parse(value) < 20) {
+                            if (double.parse(value) > 200 ||
+                                double.parse(value) < 15) {
                               return 'Valor de cuello no válido';
                             }
                             return null;
@@ -455,13 +510,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Muñeca cm*'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor de muñeca';
                             }
-                            if (int.parse(value) > 30 || int.parse(value) < 5) {
+                            if (double.parse(value) > 40 ||
+                                double.parse(value) < 5) {
                               return 'Valor de muñeca no válido';
                             }
                             return null;
@@ -479,13 +536,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Tobillo cm*'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor de tobillo';
                             }
-                            if (int.parse(value) > 30 || int.parse(value) < 5) {
+                            if (double.parse(value) > 60 ||
+                                double.parse(value) < 5) {
                               return 'Valor de tobillo no válido';
                             }
                             return null;
@@ -506,14 +565,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Pecho cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor de pecho';
                             }
-                            if (int.parse(value) > 200 ||
-                                int.parse(value) < 50) {
+                            if (double.parse(value) > 250 ||
+                                double.parse(value) < 40) {
                               return 'Valor de pecho no válido';
                             }
                             return null;
@@ -531,14 +591,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Biceps cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor de biceps';
                             }
-                            if (int.parse(value) > 200 ||
-                                int.parse(value) < 50) {
+                            if (double.parse(value) > 200 ||
+                                double.parse(value) < 10) {
                               return 'Valor de biceps no válido';
                             }
                             return null;
@@ -559,14 +620,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               labelText: 'Antebrazo cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor de antebrazo';
                             }
-                            if (int.parse(value) > 80 ||
-                                int.parse(value) < 10) {
+                            if (double.parse(value) > 150 ||
+                                double.parse(value) < 10) {
                               return 'Valor de antebrazo no válido';
                             }
                             return null;
@@ -584,14 +646,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                               const InputDecoration(labelText: 'Muslo cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.digitsOnly
+                            FilteringTextInputFormatter.allow(
+                                RegExp(r'^\d+\.?\d{0,2}')),
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
                               return 'Ingrese valor de muslo';
                             }
-                            if (int.parse(value) > 200 ||
-                                int.parse(value) < 30) {
+                            if (double.parse(value) > 200 ||
+                                double.parse(value) < 30) {
                               return 'Valor de muslo no válido';
                             }
                             return null;
@@ -606,13 +669,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         const InputDecoration(labelText: 'Gemelos cm *'),
                     keyboardType: TextInputType.number,
                     inputFormatters: <TextInputFormatter>[
-                      FilteringTextInputFormatter.digitsOnly
+                      FilteringTextInputFormatter.allow(
+                          RegExp(r'^\d+\.?\d{0,2}')),
                     ],
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return 'Ingrese valor de gemelos';
                       }
-                      if (int.parse(value) > 100 || int.parse(value) < 10) {
+                      if (double.parse(value) > 100 ||
+                          double.parse(value) < 10) {
                         return 'Valor de gemelos no válido';
                       }
                       return null;
