@@ -27,7 +27,7 @@ final List<ChildItem> drawerMenu = [
   ChildItem(
       icon: const Icon(Icons.info_outline),
       text: "Información",
-      route: AppRoutes.home),
+      route: AppRoutes.information),
 ];
 
   /* ParentItem(
