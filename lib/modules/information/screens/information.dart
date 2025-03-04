@@ -19,11 +19,10 @@ class Information extends StatelessWidget {
           children: [
             SvgPicture.asset(
               'assets/img/logo_info_nft_blue.svg',
-              width: 200,
-              height: 200,
+              width: MediaQuery.of(context).size.width * 0.6,
+              height: MediaQuery.of(context).size.width * 0.6,
               fit: BoxFit.cover,
             ),
-            const SizedBox(height: 8),
             const Text('Version 1.0'),
             const SizedBox(height: 8),
             ExpansionTile(
