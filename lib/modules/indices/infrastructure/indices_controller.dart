@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/models/measure_model.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/models/nivel_actividad.dart';
+import 'package:nutrition_fit_traker/modules/personal_measure/models/objetivo.dart';
 
 class IndicesController {
   final PersonalMeasureController _personalMeasureController =
