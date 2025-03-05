@@ -31,8 +31,6 @@ class PersonalMeasureController {
   Future<PersonalMeasure?> getLast() async {
     final db = await _dbHelper.database;
 
-    final exits = await getAll();
-
     final List<Map<String, dynamic>> result = await db.query(
       'MedidasPersonales',
       orderBy: 'Fecha DESC',
