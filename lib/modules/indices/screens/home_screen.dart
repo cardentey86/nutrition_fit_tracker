@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 text: 'IMC',
                 image: 'assets/img/manwoman.svg',
                 onTap: () => _showSnackBar(context,
-                    'Indice de Masa Corporal: ${indicesController.imc().toString()}'),
+                    'Indice de Masa Corporal: ${indicesController.imc(null).toString()}'),
               ),
               IndiceBtn(
                 text: 'RMC',
