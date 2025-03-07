@@ -40,6 +40,60 @@ class _HomeScreenState extends State<HomeScreen> {
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 
+  void _mostrarBottomSheet(BuildContext context, String title, Widget content) {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      builder: (BuildContext context) {
+        return FractionallySizedBox(
+          widthFactor: 1,
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              maxHeight: MediaQuery.of(context).size.height * 0.8,
+            ),
+            child: Container(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Container(
+                    width: 40,
+                    height: 5,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[300],
+                      borderRadius: BorderRadius.circular(1),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  SingleChildScrollView(
+                    child: Align(
+                      alignment: Alignment.topLeft,
+                      child: Material(
+                        child: Column(
+                          children: [
+                            Text(
+                              title,
+                              style:
+                                  const TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(
+                              height: 8,
+                            ),
+                            content,
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -53,11 +107,11 @@ class _HomeScreenState extends State<HomeScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               IndiceBtn(
-                text: 'IMC',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _showSnackBar(context,
-                    'Indice de Masa Corporal: ${indicesController.imc(null).toString()}'),
-              ),
+                  text: 'IMC',
+                  image: 'assets/img/manwoman.svg',
+                  onTap: () {
+                    _mostrarBottomSheet(context, 'IMC:', const Text('data'));
+                  }),
               IndiceBtn(
                 text: 'RMC',
                 image: 'assets/img/manwoman.svg',
