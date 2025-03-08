@@ -86,7 +86,23 @@ class Information extends StatelessWidget {
                                 'Calcula tu TMB para determinar cuántas calorías necesita tu cuerpo en reposo, lo que te ayudará a establecer un plan de alimentación personalizado y efectivo. \n\n',
                           ),
                           TextSpan(
-                            text: 'Objetivos Personalizados',
+                            text: 'Predicción de ganancia muscular: ',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          TextSpan(
+                            text:
+                                'La predicción genética de la ganancia muscular es clave para personalizar el entrenamiento, estableciendo metas realistas y optimizando la nutrición según la predisposición individual. Esto no solo maximiza la eficiencia del crecimiento muscular y el rendimiento deportivo, sino que también ayuda a prevenir lesiones y a mantener la motivación a largo plazo, impulsando la investigación en estrategias de entrenamiento y nutrición más efectivas. \n\n',
+                          ),
+                          TextSpan(
+                            text: 'Medidas estéticas: ',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          TextSpan(
+                            text:
+                                'Las medidas estéticas del cuerpo son importantes porque reflejan la percepción de la imagen corporal, influyendo en la autoestima, la confianza y el bienestar psicológico. Alcanzar ciertos estándares estéticos puede mejorar la satisfacción personal, fomentar hábitos saludables como el ejercicio y una dieta equilibrada, y promover interacciones sociales positivas. Aunque es crucial equilibrar la estética con la salud y evitar la obsesión, las medidas estéticas pueden servir como una motivación para el autocuidado y la búsqueda de una mejor calidad de vida. \n\n',
+                          ),
+                          TextSpan(
+                            text: 'Objetivos Personalizados: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
@@ -121,6 +137,14 @@ class Information extends StatelessWidget {
                         style: TextStyle(color: Colors.black),
                         children: [
                           TextSpan(
+                            text: 'Cuello: ',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          TextSpan(
+                            text:
+                                'Pasar la cinta métrica por debajo de la nuez de Adán en el punto más estrecho \n\n',
+                          ),
+                          TextSpan(
                             text: 'Pecho: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
@@ -134,7 +158,7 @@ class Information extends StatelessWidget {
                           ),
                           TextSpan(
                             text:
-                                'Pasar la cinta métrica alrededor del centro del biceps relajado con el brazo pegado al cuerpo \n\n',
+                                'Pasar la cinta métrica alrededor del centro del biceps por su parte más ancha estando contraido \n\n',
                           ),
                           TextSpan(
                             text: 'Antebrazo: ',
@@ -142,7 +166,7 @@ class Information extends StatelessWidget {
                           ),
                           TextSpan(
                             text:
-                                'Pasar la cinta métrica alrededor del antebrazo relajado por la parte más gruesa \n\n',
+                                'Pasar la cinta métrica alrededor del antebrazo por la parte mas ancha con el puño apretado en posición recta al antebrazo \n\n',
                           ),
                           TextSpan(
                             text: 'Cintura: ',

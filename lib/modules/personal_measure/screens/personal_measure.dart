@@ -15,6 +15,7 @@ class MedidasPersonales extends StatefulWidget {
 class _MedidasPersonalesState extends State<MedidasPersonales> {
   bool isMenuOpen = false;
   final _formKey = GlobalKey<FormState>();
+  bool _isLoading = false;
 
   PersonalMeasure? personalMeasure;
   final PersonalMeasureController _personalMeasureController =
@@ -49,7 +50,10 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
     });
   }
 
-  void loadLastMeasure() async {
+  Future<void> loadLastMeasure() async {
+    setState(() {
+      _isLoading = true;
+    });
     final result = await _personalMeasureController.getLast();
     setState(() {
       personalMeasure = result;
@@ -74,6 +78,9 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
         musloController.text = personalMeasure!.muslo.toString();
         pantorrillaController.text = personalMeasure!.gemelos.toString();
       }
+    });
+    setState(() {
+      _isLoading = false;
     });
   }
 
@@ -150,6 +157,9 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
     return Scaffold(
       appBar: AppBar(
         title: const Text(

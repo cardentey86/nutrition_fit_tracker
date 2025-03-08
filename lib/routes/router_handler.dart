@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nutrition_fit_traker/modules/configuration/screens/config.dart';
 import 'package:nutrition_fit_traker/modules/indices/screens/home_screen.dart';
 import 'package:nutrition_fit_traker/modules/information/screens/information.dart';
 import 'package:nutrition_fit_traker/modules/layout/screens/layout_screen.dart';
@@ -26,6 +27,8 @@ class RouterHandler extends StatelessWidget {
         return const MedidasPersonales();
       case '/information':
         return const Information();
+      case '/configuration':
+        return const ConfigScreen();
       default:
         return const HomeScreen();
     }

@@ -128,10 +128,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     context, 'Ritmo Máximo Cardiaco (RMC)', const RmcWidget()),
               ),
               IndiceBtn(
-                text: 'PGM',
+                text: 'TMB',
                 image: 'assets/img/manwoman.svg',
-                onTap: () =>
-                    _showSnackBar(context, 'Predición de Ganancia Muscular'),
+                onTap: () => _mostrarBottomSheet(
+                    context, 'Tasa Metabólica Basal (TMB)', const TmbWidget()),
               ),
             ],
           ),
@@ -154,10 +154,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Porciento de Músculo Magro (PMM)', const PmmWidget()),
               ),
               IndiceBtn(
-                text: 'TMB',
+                text: 'CDM',
                 image: 'assets/img/manwoman.svg',
                 onTap: () => _mostrarBottomSheet(
-                    context, 'Tasa Metabólica Basal (TMB)', const TmbWidget()),
+                    context,
+                    'Consumo Diario de Macronutrientes (CDM)',
+                    const CdmnWidget()),
               ),
             ],
           ),
@@ -165,20 +167,24 @@ class _HomeScreenState extends State<HomeScreen> {
             height: 32.0,
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               IndiceBtn(
-                text: 'MI',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _showSnackBar(context, 'Medidas Ideales'),
+                text: 'PGM',
+                image: 'assets/img/man.svg',
+                onTap: () =>
+                    _showSnackBar(context, 'Predición de Ganancia Muscular'),
               ),
               IndiceBtn(
-                text: 'CDM',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(
-                    context,
-                    'Consumo Diario de Macronutrientes (CDM)',
-                    const CdmnWidget()),
+                text: 'MI',
+                image: 'assets/img/man.svg',
+                onTap: () =>
+                    _showSnackBar(context, 'Medidas Esteticamente Ideales'),
+              ),
+              IndiceBtn(
+                text: 'PE',
+                image: 'assets/img/man.svg',
+                onTap: () => _showSnackBar(context, 'Proporciones Estéticas'),
               ),
             ],
           )

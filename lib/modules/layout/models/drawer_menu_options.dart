@@ -23,7 +23,7 @@ final List<ChildItem> drawerMenu = [
   ChildItem(
       icon: const Icon(Icons.settings),
       text: "Configuración",
-      route: AppRoutes.food),
+      route: AppRoutes.configuration),
   ChildItem(
       icon: const Icon(Icons.info_outline),
       text: "Información",
