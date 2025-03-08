@@ -4,6 +4,8 @@ import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_cont
 import 'package:nutrition_fit_traker/modules/indices/widgets/cdmn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/imc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/pgc.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/pmm.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/rmc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/tmb.dart';
 
@@ -142,14 +144,14 @@ class _HomeScreenState extends State<HomeScreen> {
               IndiceBtn(
                 text: 'PGC',
                 image: 'assets/img/manwoman.svg',
-                onTap: () =>
-                    _showSnackBar(context, 'Porciento de grasa corporal'),
+                onTap: () => _mostrarBottomSheet(context,
+                    'Porciento de Grasa Corporal (PGC)', const PgcWidget()),
               ),
               IndiceBtn(
                 text: 'PMM',
                 image: 'assets/img/manwoman.svg',
-                onTap: () =>
-                    _showSnackBar(context, 'Porciento de músculo magro'),
+                onTap: () => _mostrarBottomSheet(context,
+                    'Porciento de Músculo Magro (PMM)', const PmmWidget()),
               ),
               IndiceBtn(
                 text: 'TMB',

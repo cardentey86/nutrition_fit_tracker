@@ -11,6 +11,7 @@ class TmbWidget extends StatefulWidget {
 class _MyWidgetState extends State<TmbWidget> {
   final IndicesController indicesController = IndicesController();
   double tmb = 0;
+  bool _isLoading = false;
 
   @override
   void initState() {
@@ -18,15 +19,24 @@ class _MyWidgetState extends State<TmbWidget> {
     _tmb();
   }
 
-  void _tmb() async {
-    final result = await indicesController.tasaMetabolica(null);
+  Future<void> _tmb() async {
     setState(() {
-      tmb = result;
+      _isLoading = true;
+    });
+
+    final result = await indicesController.tasaMetabolica(null);
+    tmb = result;
+
+    setState(() {
+      _isLoading = false;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(

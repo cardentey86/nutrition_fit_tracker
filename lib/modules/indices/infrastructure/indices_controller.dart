@@ -55,8 +55,8 @@ class IndicesController {
       double porcientoGrasa = 0;
 
       double cinturaCuello = measure.cintura - measure.cuello;
-      double logaritmoCinturaCuello = log(cinturaCuello) / log(10);
-      double logaritmoEstatura = log(measure.estatura) / log(10);
+      double logaritmoCinturaCuello = log(cinturaCuello) / ln10;
+      double logaritmoEstatura = log(measure.estatura) / ln10;
 
       if (measure.sexo == 'Hombre') {
         porcientoGrasa = (86.010 * logaritmoCinturaCuello) -
@@ -65,8 +65,7 @@ class IndicesController {
       } else {
         double cinturaCaderaCuello =
             measure.cintura + measure.cadera - measure.cuello;
-        double logaritmoCinturaCaderaCuello =
-            log(cinturaCaderaCuello) / log(10);
+        double logaritmoCinturaCaderaCuello = log(cinturaCaderaCuello) / ln10;
         porcientoGrasa = (163.205 * logaritmoCinturaCaderaCuello) -
             (97.684 * logaritmoEstatura) -
             78.387;

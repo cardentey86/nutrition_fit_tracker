@@ -11,6 +11,7 @@ class RmcWidget extends StatefulWidget {
 class _MyWidgetState extends State<RmcWidget> {
   final IndicesController indicesController = IndicesController();
   int rmc = 0;
+  bool _isLoading = true;
 
   @override
   void initState() {
@@ -18,15 +19,22 @@ class _MyWidgetState extends State<RmcWidget> {
     _rmc();
   }
 
-  void _rmc() async {
-    final result = await indicesController.rmc();
+  Future<void> _rmc() async {
     setState(() {
-      rmc = result;
+      _isLoading = true;
+    });
+    final result = await indicesController.rmc();
+    rmc = result;
+    setState(() {
+      _isLoading = false;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(

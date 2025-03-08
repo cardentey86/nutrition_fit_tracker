@@ -11,6 +11,7 @@ class ImcWidget extends StatefulWidget {
 class _MyWidgetState extends State<ImcWidget> {
   final IndicesController indicesController = IndicesController();
   double imc = 0;
+  bool _isLoading = false;
 
   @override
   void initState() {
@@ -18,15 +19,22 @@ class _MyWidgetState extends State<ImcWidget> {
     _imc();
   }
 
-  void _imc() async {
-    final result = await indicesController.imc(null);
+  Future<void> _imc() async {
     setState(() {
-      imc = result;
+      _isLoading = true;
+    });
+    final result = await indicesController.imc(null);
+    imc = result;
+    setState(() {
+      _isLoading = false;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
