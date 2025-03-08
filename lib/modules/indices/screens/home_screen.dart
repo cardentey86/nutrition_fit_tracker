@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/imc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -69,7 +70,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Align(
                       alignment: Alignment.topLeft,
                       child: Material(
+                        color: Colors.transparent,
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               title,
@@ -110,7 +113,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   text: 'IMC',
                   image: 'assets/img/manwoman.svg',
                   onTap: () {
-                    _mostrarBottomSheet(context, 'IMC:', const Text('data'));
+                    _mostrarBottomSheet(context,
+                        'Indice de Masa Corporal (IMC)', const ImcWidget());
                   }),
               IndiceBtn(
                 text: 'RMC',
