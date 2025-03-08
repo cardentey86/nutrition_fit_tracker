@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/cdmn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/imc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/rmc.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/tmb.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -119,7 +122,8 @@ class _HomeScreenState extends State<HomeScreen> {
               IndiceBtn(
                 text: 'RMC',
                 image: 'assets/img/manwoman.svg',
-                onTap: () => _showSnackBar(context, 'Ritmo Máximo Cardiaco'),
+                onTap: () => _mostrarBottomSheet(
+                    context, 'Ritmo Máximo Cardiaco (RMC)', const RmcWidget()),
               ),
               IndiceBtn(
                 text: 'PGM',
@@ -150,7 +154,8 @@ class _HomeScreenState extends State<HomeScreen> {
               IndiceBtn(
                 text: 'TMB',
                 image: 'assets/img/manwoman.svg',
-                onTap: () => _showSnackBar(context, 'Tasa metabólica basal'),
+                onTap: () => _mostrarBottomSheet(
+                    context, 'Tasa Metabólica Basal (TMB)', const TmbWidget()),
               ),
             ],
           ),
@@ -168,8 +173,10 @@ class _HomeScreenState extends State<HomeScreen> {
               IndiceBtn(
                 text: 'CDM',
                 image: 'assets/img/manwoman.svg',
-                onTap: () =>
-                    _showSnackBar(context, 'Consumo diario de macronutrientes'),
+                onTap: () => _mostrarBottomSheet(
+                    context,
+                    'Consumo Diario de Macronutrientes (CDM)',
+                    const CdmnWidget()),
               ),
             ],
           )

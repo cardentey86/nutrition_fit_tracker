@@ -17,7 +17,7 @@ class Objetivo {
         ..value = -20, // Reducir el 20 porciento
       Objetivo()
         ..id = 2
-        ..name = 'Ganar Músculo '
+        ..name = 'Ganar Músculo'
         ..proteinas = 25
         ..carbohidratos = 50
         ..grasas = 25

@@ -30,7 +30,7 @@ class _MyWidgetState extends State<ImcWidget> {
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
-          text: '${imc.toStringAsFixed(2)}\n\n',
+          text: 'Valor: ${imc.toStringAsFixed(2)}\n\n',
           style: const TextStyle(color: Colors.black87, fontSize: 14),
           children: [
             TextSpan(
