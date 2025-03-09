@@ -7,6 +7,7 @@ import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/medidas_esteticas.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pgc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pmm.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/prediccion_ganancia.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/rmc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/tmb.dart';
 
@@ -172,8 +173,10 @@ class _HomeScreenState extends State<HomeScreen> {
               IndiceBtn(
                 text: 'PGM',
                 image: 'assets/img/man.svg',
-                onTap: () =>
-                    _showSnackBar(context, 'Predición de Ganancia Muscular'),
+                onTap: () => _mostrarBottomSheet(
+                    context,
+                    'Predicción de Ganancia Muscular (PGM)',
+                    const PrediccionGananciaWidget()),
               ),
               IndiceBtn(
                 text: 'MI',

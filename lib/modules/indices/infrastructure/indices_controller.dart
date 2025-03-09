@@ -124,68 +124,91 @@ class IndicesController {
     PredictionModel predictionModel =
         PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
-    porcientoGrasa ?? await porcientoGrasaJacksonPollock();
+    bool medidasPersonales = false;
 
-    double estaturaPulgda = convertCmToPlg(personalMeasure!.estatura);
-    double munecaPulagada = convertCmToPlg(personalMeasure.muneca);
-    double tobilloPulgada = convertCmToPlg(personalMeasure.tobillo);
-
-    double humbralHuesoPequenoMuneca = 0.1045 * estaturaPulgda;
-    double humbralHuesoPequenoTobillo = 0.1268 * estaturaPulgda;
-
-    bool ganadorDificilMuneca =
-        personalMeasure.muneca < humbralHuesoPequenoMuneca;
-    bool ganadorDificilTobillo =
-        personalMeasure.tobillo < humbralHuesoPequenoTobillo;
-    bool ganadorDificil = ganadorDificilMuneca == ganadorDificilTobillo;
-
-    if (ganadorDificil) {
-      predictionModel.pesoMagro = estaturaPulgda *
-          (munecaPulagada / 7.6364 + tobilloPulgada / 6.2918) *
-          (porcientoGrasa! / 450 + 1);
-    } else if (!ganadorDificilMuneca && !ganadorDificilMuneca) {
-      predictionModel.pesoMagro = estaturaPulgda *
-          (munecaPulagada / 7.2546 + tobilloPulgada / 5.9772) *
-          (porcientoGrasa! / 450 + 1);
+    if (porcientoGrasa == null) {
+      porcientoGrasa = await porcientoGrasaJacksonPollock();
+      medidasPersonales = true;
     }
 
-    if (ganadorDificilMuneca) {
-      predictionModel.pecho =
-          6.3138 * munecaPulagada * (porcientoGrasa! / 340 + 1);
-      predictionModel.biceps =
-          2.3008 * munecaPulagada * (porcientoGrasa / 265 + 1);
-      predictionModel.antebrazo =
-          1.8514 * munecaPulagada * (porcientoGrasa / 340 + 1);
-      predictionModel.cuello =
-          2.2574 * munecaPulagada * (porcientoGrasa / 340 + 1);
+    if (medidasPersonales) {
+      predictionModel.pecho = convertCmToPlg(personalMeasure!.pecho);
+      predictionModel.antebrazo = convertCmToPlg(personalMeasure.antebrazo);
+      predictionModel.biceps = convertCmToPlg(personalMeasure.biceps);
+      predictionModel.cuello = convertCmToPlg(personalMeasure.cuello);
+      predictionModel.muslo = convertCmToPlg(personalMeasure.muslo);
+      predictionModel.pantorrilla = convertCmToPlg(personalMeasure.gemelos);
+      predictionModel.pesoTotal = personalMeasure.peso;
+      predictionModel.porcientoGrasa = porcientoGrasa;
+      predictionModel.pesoGrasa = await pesoGrasa();
+      predictionModel.pesoMagro = await pesoMagro();
     } else {
-      predictionModel.pecho =
-          5.9881 * munecaPulagada * (porcientoGrasa! / 340 + 1);
-      predictionModel.biceps =
-          2.1858 * munecaPulagada * (porcientoGrasa / 265 + 1);
-      predictionModel.antebrazo =
-          1.7588 * munecaPulagada * (porcientoGrasa / 340 + 1);
-      predictionModel.cuello =
-          2.1858 * munecaPulagada * (porcientoGrasa / 340 + 1);
-    }
+      double estaturaPulgda = convertCmToPlg(personalMeasure!.estatura);
+      double munecaPulagada = convertCmToPlg(personalMeasure.muneca);
+      double tobilloPulgada = convertCmToPlg(personalMeasure.tobillo);
 
-    if (ganadorDificilTobillo) {
-      predictionModel.muslo =
-          2.5446 * tobilloPulgada * (porcientoGrasa / 190 + 1);
-      predictionModel.pantorrilla =
-          1.6891 * tobilloPulgada * (porcientoGrasa / 210 + 1);
-    } else {
-      predictionModel.muslo =
-          2.6785 * tobilloPulgada * (porcientoGrasa / 190 + 1);
-      predictionModel.pantorrilla =
-          1.7780 * tobilloPulgada * (porcientoGrasa / 210 + 1);
-    }
+      double humbralHuesoPequenoMuneca = 0.1045 * estaturaPulgda;
+      double humbralHuesoPequenoTobillo = 0.1268 * estaturaPulgda;
 
-    double porcientoPesoMagro = 100 - porcientoGrasa;
-    predictionModel.pesoTotal =
-        100 * predictionModel.pesoMagro / porcientoPesoMagro;
-    predictionModel.pesoGrasa =
-        predictionModel.pesoTotal - predictionModel.pesoMagro;
+      double personalMunecaPulgada = convertCmToPlg(personalMeasure.muneca);
+      double personalTobilloPulgada = convertCmToPlg(personalMeasure.tobillo);
+
+      bool ganadorDificilMuneca =
+          personalMunecaPulgada < humbralHuesoPequenoMuneca;
+      bool ganadorDificilTobillo =
+          personalTobilloPulgada < humbralHuesoPequenoTobillo;
+      bool ganadorDificil = ganadorDificilMuneca && ganadorDificilTobillo;
+
+      if (ganadorDificil) {
+        predictionModel.pesoMagro = estaturaPulgda *
+            (munecaPulagada / 7.6364 + tobilloPulgada / 6.2918) *
+            (porcientoGrasa! / 450 + 1);
+      } else if (!ganadorDificilMuneca && !ganadorDificilMuneca) {
+        predictionModel.pesoMagro = estaturaPulgda *
+            (munecaPulagada / 7.2546 + tobilloPulgada / 5.9772) *
+            (porcientoGrasa! / 450 + 1);
+      }
+
+      if (ganadorDificilMuneca) {
+        predictionModel.pecho =
+            6.3138 * munecaPulagada * (porcientoGrasa! / 340 + 1);
+        predictionModel.biceps =
+            2.3008 * munecaPulagada * (porcientoGrasa / 265 + 1);
+        predictionModel.antebrazo =
+            1.8514 * munecaPulagada * (porcientoGrasa / 340 + 1);
+        predictionModel.cuello =
+            2.2574 * munecaPulagada * (porcientoGrasa / 340 + 1);
+      } else {
+        predictionModel.pecho =
+            5.9881 * munecaPulagada * (porcientoGrasa! / 340 + 1);
+        predictionModel.biceps =
+            2.1858 * munecaPulagada * (porcientoGrasa / 265 + 1);
+        predictionModel.antebrazo =
+            1.7588 * munecaPulagada * (porcientoGrasa / 340 + 1);
+        predictionModel.cuello =
+            2.1858 * munecaPulagada * (porcientoGrasa / 340 + 1);
+      }
+
+      if (ganadorDificilTobillo) {
+        predictionModel.muslo =
+            (2.5446 * tobilloPulgada) * ((porcientoGrasa / 190) + 1);
+        predictionModel.pantorrilla =
+            1.6891 * tobilloPulgada * (porcientoGrasa / 210 + 1);
+      } else {
+        predictionModel.muslo =
+            2.6785 * tobilloPulgada * (porcientoGrasa / 190 + 1);
+        predictionModel.pantorrilla =
+            1.7780 * tobilloPulgada * (porcientoGrasa / 210 + 1);
+      }
+      double porcientoPesoMagro = 100 - porcientoGrasa;
+      predictionModel.pesoTotal = convertLibrasToKilogramos(
+          100 * predictionModel.pesoMagro / porcientoPesoMagro);
+      predictionModel.pesoMagro =
+          convertLibrasToKilogramos(predictionModel.pesoMagro);
+      predictionModel.pesoGrasa =
+          predictionModel.pesoTotal - predictionModel.pesoMagro;
+      predictionModel.porcientoGrasa = porcientoGrasa;
+    }
 
     return predictionModel;
   }
@@ -212,7 +235,7 @@ class IndicesController {
       double cuello = 0.360 * pecho;
       double biceps = 0.360 * pecho;
       double antebrazo = 0.806 * biceps;
-      double muslo = 0.5360 * pecho;
+      double muslo = 0.530 * pecho;
       double pantorrilla = 0.679 * muslo;
       double pesoMagro =
           0.2709 * (biceps * biceps) + (3.0458 * estaturaPulgada) - 115.88;
