@@ -162,16 +162,16 @@ class IndicesController {
       if (ganadorDificil) {
         predictionModel.pesoMagro = estaturaPulgda *
             (munecaPulagada / 7.6364 + tobilloPulgada / 6.2918) *
-            (porcientoGrasa! / 450 + 1);
+            (porcientoGrasa / 450 + 1);
       } else if (!ganadorDificilMuneca && !ganadorDificilMuneca) {
         predictionModel.pesoMagro = estaturaPulgda *
             (munecaPulagada / 7.2546 + tobilloPulgada / 5.9772) *
-            (porcientoGrasa! / 450 + 1);
+            (porcientoGrasa / 450 + 1);
       }
 
       if (ganadorDificilMuneca) {
         predictionModel.pecho =
-            6.3138 * munecaPulagada * (porcientoGrasa! / 340 + 1);
+            6.3138 * munecaPulagada * (porcientoGrasa / 340 + 1);
         predictionModel.biceps =
             2.3008 * munecaPulagada * (porcientoGrasa / 265 + 1);
         predictionModel.antebrazo =
@@ -180,7 +180,7 @@ class IndicesController {
             2.2574 * munecaPulagada * (porcientoGrasa / 340 + 1);
       } else {
         predictionModel.pecho =
-            5.9881 * munecaPulagada * (porcientoGrasa! / 340 + 1);
+            5.9881 * munecaPulagada * (porcientoGrasa / 340 + 1);
         predictionModel.biceps =
             2.1858 * munecaPulagada * (porcientoGrasa / 265 + 1);
         predictionModel.antebrazo =

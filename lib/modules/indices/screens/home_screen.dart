@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
             height: 32.0,
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               IndiceBtn(
                 text: 'PGM',
@@ -186,11 +186,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Medidas Estéticas Ideales (MI)',
                     const MedidasEsteticasWidget()),
               ),
-              IndiceBtn(
+              /*  IndiceBtn(
                 text: 'PE',
                 image: 'assets/img/man.svg',
                 onTap: () => _showSnackBar(context, 'Proporciones Estéticas'),
-              ),
+              ), */
             ],
           )
         ],
