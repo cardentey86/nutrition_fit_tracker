@@ -40,7 +40,7 @@ class DatabaseHelper {
 
         // Crear tabla de platos en menús
         db.execute(
-          'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, Tipo TEXT, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES alimentos(id))',
+          'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, Cantidad REAL, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES alimentos(id))',
         );
       },
       /* onUpgrade: (db, oldVersion, newVersion) {

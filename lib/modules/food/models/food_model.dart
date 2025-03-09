@@ -57,6 +57,18 @@ class Alimento {
     );
   }
 
+  factory Alimento.fromMap(Map<String, dynamic> map) {
+    return Alimento(
+      id: map['Id'],
+      nombre: map['Alimento'],
+      calorias: map['Calorias'],
+      carbohidratos: map['Carbohidratos'],
+      proteinas: map['Proteinas'],
+      grasas: map['Grasas'],
+      fibra: map['Fibra'],
+    );
+  }
+
   Map<String, dynamic> toMap() {
     return {
       'Id': id,
