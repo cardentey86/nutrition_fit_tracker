@@ -25,7 +25,7 @@ class DatabaseHelper {
       onCreate: (db, version) {
         // Crear tabla de alimentos
         db.execute(
-          'CREATE TABLE Alimento(Id INTEGER PRIMARY KEY, Alimento TEXT, Calorias INTEGER, Carbohidratos REAL, Proteinas REAL, Grasas REAL, Fibra REAL)',
+          'CREATE TABLE Alimento(Id INTEGER PRIMARY KEY, Nombre TEXT, Calorias INTEGER, Carbohidratos REAL, Proteinas REAL, Grasas REAL, Fibra REAL)',
         );
 
         // Crear tabla de medidas personales

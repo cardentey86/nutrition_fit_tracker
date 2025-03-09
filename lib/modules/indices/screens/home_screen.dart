@@ -4,6 +4,7 @@ import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_cont
 import 'package:nutrition_fit_traker/modules/indices/widgets/cdmn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/imc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/medidas_esteticas.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pgc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pmm.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/rmc.dart';
@@ -77,7 +78,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Material(
                         color: Colors.transparent,
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               title,
@@ -177,9 +177,11 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               IndiceBtn(
                 text: 'MI',
-                image: 'assets/img/man.svg',
-                onTap: () =>
-                    _showSnackBar(context, 'Medidas Esteticamente Ideales'),
+                image: 'assets/img/manwoman.svg',
+                onTap: () => _mostrarBottomSheet(
+                    context,
+                    'Medidas Estéticas Ideales (MI)',
+                    const MedidasEsteticasWidget()),
               ),
               IndiceBtn(
                 text: 'PE',

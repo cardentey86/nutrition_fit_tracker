@@ -10,7 +10,7 @@ class FoodController {
   Future<bool> insertAlimento(Alimento alimento) async {
     final db = await _dbHelper.database;
     int result = await db.insert(
-      'alimentos',
+      'Alimento',
       alimento.toMap(),
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
@@ -21,7 +21,7 @@ class FoodController {
   Future<bool> updateAlimento(Alimento alimento) async {
     final db = await _dbHelper.database;
     int result = await db.update(
-      'alimentos',
+      'Alimento',
       alimento.toMap(),
       where: 'id = ${alimento.id}',
       conflictAlgorithm: ConflictAlgorithm.replace,
@@ -33,12 +33,12 @@ class FoodController {
   Future<List<Alimento>> getAlimentos() async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =
-        await db.query('alimentos', orderBy: 'Alimento');
+        await db.query('Alimento', orderBy: 'Nombre');
 
     return List.generate(maps.length, (i) {
       return Alimento(
         id: maps[i]['Id'],
-        nombre: maps[i]['Alimento'],
+        nombre: maps[i]['Nombre'],
         calorias: (maps[i]['Calorias'] is int)
             ? (maps[i]['Calorias'] as int).toDouble()
             : (maps[i]['Calorias'] as double),
@@ -61,14 +61,14 @@ class FoodController {
   Future<bool> any() async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> result =
-        await db.rawQuery('SELECT COUNT(*) AS count FROM alimentos');
+        await db.rawQuery('SELECT COUNT(*) AS count FROM Alimento');
     int count = Sqflite.firstIntValue(result)!;
     return count > 0;
   }
 
   Future<void> clearAlimentos() async {
     final db = await _dbHelper.database;
-    await db.delete('alimentos');
+    await db.delete('Alimento');
   }
 
   Future<void> migrarAlimentos() async {
@@ -84,7 +84,7 @@ class FoodController {
 
   Future<bool> eliminarAlimento(int id) async {
     final db = await _dbHelper.database;
-    int result = await db.delete('alimentos', where: 'Id = $id');
+    int result = await db.delete('Alimento', where: 'Id = $id');
     return result > 0;
   }
 

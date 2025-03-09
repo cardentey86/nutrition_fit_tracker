@@ -60,7 +60,7 @@ class Alimento {
   Map<String, dynamic> toMap() {
     return {
       'Id': id,
-      'Alimento': nombre,
+      'Nombre': nombre,
       'Calorias': calorias,
       'Carbohidratos': carbohidratos,
       'Proteinas': proteinas,
