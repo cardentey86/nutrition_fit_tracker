@@ -163,7 +163,7 @@ class IndicesController {
         predictionModel.pesoMagro = estaturaPulgda *
             (munecaPulagada / 7.6364 + tobilloPulgada / 6.2918) *
             (porcientoGrasa / 450 + 1);
-      } else if (!ganadorDificilMuneca && !ganadorDificilMuneca) {
+      } else if (!ganadorDificilMuneca || !ganadorDificilTobillo) {
         predictionModel.pesoMagro = estaturaPulgda *
             (munecaPulagada / 7.2546 + tobilloPulgada / 5.9772) *
             (porcientoGrasa / 450 + 1);
