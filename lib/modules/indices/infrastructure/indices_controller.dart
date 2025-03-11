@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:nutrition_fit_traker/modules/indices/models/prediction_model.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/models/measure_model.dart';
@@ -117,12 +116,16 @@ class IndicesController {
     return consumoMacro;
   }
 
-  Future<PredictionModel> prediccionGananciaMuscular(
+  Future<PredictionModel?> prediccionGananciaMuscular(
       double? porcientoGrasa) async {
     PersonalMeasure? personalMeasure =
         await _personalMeasureController.getLast();
     PredictionModel predictionModel =
         PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+    if (personalMeasure == null) {
+      return null;
+    }
 
     bool medidasPersonales = false;
 

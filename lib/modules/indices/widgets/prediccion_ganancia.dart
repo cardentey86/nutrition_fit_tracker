@@ -26,10 +26,16 @@ class _MyWidgetState extends State<PrediccionGananciaWidget> {
       _isLoading = true;
     });
     final result12 = await indicesController.prediccionGananciaMuscular(12);
-    prediccionGanancia.add(result12);
+    if (result12 != null) {
+      prediccionGanancia.add(result12);
+    }
+
     final resultValue =
         await indicesController.prediccionGananciaMuscular(null);
-    prediccionGanancia.add(resultValue);
+    if (resultValue != null) {
+      prediccionGanancia.add(resultValue);
+    }
+
     setState(() {
       _isLoading = false;
     });
