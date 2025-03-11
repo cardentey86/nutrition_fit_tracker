@@ -10,7 +10,7 @@ final List<ChildItem> drawerMenu = [
   ChildItem(
     icon: const Icon(Icons.menu_book_outlined),
     text: "Menu",
-    route: AppRoutes.food,
+    route: AppRoutes.menu,
   ),
   ChildItem(
       icon: const Icon(Icons.dinner_dining),
