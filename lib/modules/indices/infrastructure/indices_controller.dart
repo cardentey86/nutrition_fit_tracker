@@ -213,12 +213,16 @@ class IndicesController {
     return predictionModel;
   }
 
-  Future<PredictionModel> medidasEsteticasIdeales(
+  Future<PredictionModel?> medidasEsteticasIdeales(
       double? porcientoGrasa) async {
     PersonalMeasure? personalMeasure =
         await _personalMeasureController.getLast();
     PredictionModel predictionModel =
         PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+    if (personalMeasure == null) {
+      return null;
+    }
 
     if (porcientoGrasa != null) {
       double munecaPulgada = convertCmToPlg(personalMeasure!.muneca);

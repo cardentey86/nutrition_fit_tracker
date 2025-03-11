@@ -35,6 +35,9 @@ class _MyWidgetState extends State<RmcWidget> {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
+    if (rmc == 0) {
+      return const Center(child: Text('No hay datos disponibles'));
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(

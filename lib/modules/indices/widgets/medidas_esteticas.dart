@@ -26,12 +26,18 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
       _isLoading = true;
     });
     final result12 = await indicesController.medidasEsteticasIdeales(12);
-    medidasEsteticas.add(result12);
+    medidasEsteticas.add(result12!);
     final resultValue = await indicesController.medidasEsteticasIdeales(null);
-    medidasEsteticas.add(resultValue);
+    medidasEsteticas.add(resultValue!);
     setState(() {
       _isLoading = false;
     });
+  }
+
+  void showSnackBar(BuildContext context, String s) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(s),
+    ));
   }
 
   @override
