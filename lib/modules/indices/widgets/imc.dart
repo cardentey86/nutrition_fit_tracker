@@ -35,6 +35,9 @@ class _MyWidgetState extends State<ImcWidget> {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
+    if (imc == 0) {
+      return const Center(child: Text('No hay datos disponibles'));
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(

@@ -12,7 +12,7 @@ class MedidasEsteticasWidget extends StatefulWidget {
 
 class _MyWidgetState extends State<MedidasEsteticasWidget> {
   final IndicesController indicesController = IndicesController();
-  List<PredictionModel> medidasEsteticas = [];
+  List<PredictionModel?> medidasEsteticas = [];
   bool _isLoading = true;
 
   @override
@@ -26,12 +26,22 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
       _isLoading = true;
     });
     final result12 = await indicesController.medidasEsteticasIdeales(12);
-    medidasEsteticas.add(result12);
+    if (result12 != null) {
+      medidasEsteticas.add(result12);
+    }
     final resultValue = await indicesController.medidasEsteticasIdeales(null);
-    medidasEsteticas.add(resultValue);
+    if (resultValue != null) {
+      medidasEsteticas.add(resultValue);
+    }
     setState(() {
       _isLoading = false;
     });
+  }
+
+  void showSnackBar(BuildContext context, String s) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(s),
+    ));
   }
 
   @override
@@ -43,18 +53,32 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
       return const Center(child: Text('No hay datos disponibles'));
     }
 
-    final List<String> campos = [
-      'Pecho',
-      'Biceps',
-      'Antebrazo',
-      'Muslo',
-      'Gemelo',
-      'Cuello',
-      'MusculoKg',
-      'PesoKg',
-      '%Grasa',
-      'GrasaKg'
-    ];
+    final List<String> campos =
+        medidasEsteticas.any((medida) => medida!.cadera! == 0)
+            ? [
+                'Pecho',
+                'Biceps',
+                'Antebrazo',
+                'Muslo',
+                'Gemelo',
+                'Cuello',
+                'MusculoKg',
+                'PesoKg',
+                '%Grasa',
+                'GrasaKg'
+              ]
+            : [
+                'Pecho',
+                'Biceps',
+                'Antebrazo',
+                'Muslo',
+                'Gemelo',
+                'Cuello',
+                'Cintura',
+                'Cadera',
+                'PesoKg',
+                '%Grasa',
+              ];
 
     return SizedBox(
       height: 500,
@@ -79,61 +103,74 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].pecho.toStringAsFixed(2))
+                          medidasEsteticas[i]!.pecho.toStringAsFixed(2))
                     };
                   case 'Biceps':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].biceps.toStringAsFixed(2))
+                          medidasEsteticas[i]!.biceps.toStringAsFixed(2))
                     };
                   case 'Antebrazo':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].antebrazo.toStringAsFixed(2))
+                          medidasEsteticas[i]!.antebrazo.toStringAsFixed(2))
                     };
                   case 'Muslo':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].muslo.toStringAsFixed(2))
+                          medidasEsteticas[i]!.muslo.toStringAsFixed(2))
                     };
                   case 'Gemelo':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].pantorrilla.toStringAsFixed(2))
+                          medidasEsteticas[i]!.pantorrilla.toStringAsFixed(2))
                     };
                   case 'Cuello':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].cuello.toStringAsFixed(2))
+                          medidasEsteticas[i]!.cuello.toStringAsFixed(2))
                     };
                   case 'MusculoKg':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].pesoMagro.toStringAsFixed(2))
+                          medidasEsteticas[i]!.pesoMagro.toStringAsFixed(2))
                     };
                   case 'PesoKg':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].pesoTotal.toStringAsFixed(2))
+                          medidasEsteticas[i]!.pesoTotal.toStringAsFixed(2))
                     };
                   case '%Grasa':
                     return {
                       'campo': campo,
-                      'valor': double.parse(
-                          medidasEsteticas[i].porcientoGrasa.toStringAsFixed(2))
+                      'valor': double.parse(medidasEsteticas[i]!
+                          .porcientoGrasa
+                          .toStringAsFixed(2))
                     };
                   case 'GrasaKg':
                     return {
                       'campo': campo,
                       'valor': double.parse(
-                          medidasEsteticas[i].pesoGrasa.toStringAsFixed(2))
+                          medidasEsteticas[i]!.pesoGrasa.toStringAsFixed(2))
+                    };
+                  case 'Cintura':
+                    return {
+                      'campo': campo,
+                      'valor': double.parse(
+                          medidasEsteticas[i]!.cintura!.toStringAsFixed(2))
+                    };
+                  case 'Cadera':
+                    return {
+                      'campo': campo,
+                      'valor': double.parse(
+                          medidasEsteticas[i]!.cadera!.toStringAsFixed(2))
                     };
                   default:
                     return {'campo': campo, 'valor': 0.0}; // Valor por defecto
@@ -142,7 +179,7 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
               xValueMapper: (dynamic data, _) => data['campo'],
               yValueMapper: (dynamic data, _) => data['valor'],
               name:
-                  'Grasa: ${double.parse(medidasEsteticas[i].porcientoGrasa.toStringAsFixed(2))} %',
+                  'Grasa: ${double.parse(medidasEsteticas[i]!.porcientoGrasa.toStringAsFixed(2))} %',
               markerSettings: const MarkerSettings(isVisible: true),
               dataLabelSettings: const DataLabelSettings(
                   isVisible: true,

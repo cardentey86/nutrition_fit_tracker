@@ -37,6 +37,9 @@ class _MyWidgetState extends State<TmbWidget> {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
+    if (tmb == 0) {
+      return const Center(child: Text('No hay datos disponibles'));
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(

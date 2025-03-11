@@ -109,90 +109,83 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.all(16.0),
       child: ListView(
         children: [
-          const SizedBox(
-            height: 16.0,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              IndiceBtn(
-                  text: 'IMC',
-                  image: 'assets/img/manwoman.svg',
-                  onTap: () {
-                    _mostrarBottomSheet(context,
-                        'Indice de Masa Corporal (IMC)', const ImcWidget());
-                  }),
-              IndiceBtn(
-                text: 'RMC',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(
-                    context, 'Ritmo Máximo Cardiaco (RMC)', const RmcWidget()),
-              ),
-              IndiceBtn(
-                text: 'TMB',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(
-                    context, 'Tasa Metabólica Basal (TMB)', const TmbWidget()),
-              ),
-            ],
-          ),
-          const SizedBox(
-            height: 32.0,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              IndiceBtn(
-                text: 'PGC',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(context,
-                    'Porciento de Grasa Corporal (PGC)', const PgcWidget()),
-              ),
-              IndiceBtn(
-                text: 'PMM',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(context,
-                    'Porciento de Músculo Magro (PMM)', const PmmWidget()),
-              ),
-              IndiceBtn(
-                text: 'CDM',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(
+          ListTile(
+              subtitle: const Text('Indice de Masa Corporal'),
+              title: const Text('IMC'),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
                     context,
-                    'Consumo Diario de Macronutrientes (CDM)',
-                    const CdmnWidget()),
-              ),
-            ],
-          ),
-          const SizedBox(
-            height: 32.0,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              IndiceBtn(
-                text: 'PGM',
-                image: 'assets/img/man.svg',
-                onTap: () => _mostrarBottomSheet(
+                    'Indice de Masa Corporal (IMC)',
+                    const ImcWidget(),
+                  )),
+          ListTile(
+              title: const Text('RMC'),
+              subtitle: const Text('Ritmo Máximo Cardiaco '),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
                     context,
-                    'Predicción de Ganancia Muscular (PGM)',
-                    const PrediccionGananciaWidget()),
-              ),
-              IndiceBtn(
-                text: 'MI',
-                image: 'assets/img/manwoman.svg',
-                onTap: () => _mostrarBottomSheet(
+                    'Ritmo Máximo Cardiaco (RMC)',
+                    const RmcWidget(),
+                  )),
+          ListTile(
+              title: const Text('TMB'),
+              subtitle: const Text('Tasa Metabólica Basal'),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
                     context,
-                    'Medidas Estéticas Ideales (MI)',
-                    const MedidasEsteticasWidget()),
-              ),
-              /*  IndiceBtn(
-                text: 'PE',
-                image: 'assets/img/man.svg',
-                onTap: () => _showSnackBar(context, 'Proporciones Estéticas'),
-              ), */
-            ],
-          )
+                    'Tasa Metabólica Basal (TMB)',
+                    const TmbWidget(),
+                  )),
+          ListTile(
+              title: const Text('PGC'),
+              subtitle: const Text('Porciento de Grasa Corporal'),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
+                    context,
+                    'Porciento de Grasa Corporal (PGC)',
+                    const PgcWidget(),
+                  )),
+          ListTile(
+              title: const Text('PMM'),
+              subtitle: const Text('Porciento de Músculo Magro'),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
+                    context,
+                    'Porciento de Músculo Magro (PMM)',
+                    const PmmWidget(),
+                  )),
+          ListTile(
+              title: const Text('CDM'),
+              subtitle: const Text('Consumo Diario de Macronutrientes'),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
+                  context,
+                  'Consumo Diario de Macronutrientes (CDM)',
+                  const CdmnWidget())),
+          ListTile(
+              title: const Text('PGM'),
+              subtitle: const Text('Predicción de Ganancia Muscular'),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/man.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
+                  context,
+                  'Predicción de Ganancia Muscular (PGM)',
+                  const PrediccionGananciaWidget())),
+          ListTile(
+              title: const Text('MEI'),
+              subtitle: const Text('Medidas Estéticas Ideales '),
+              leading: IndiceBtn(
+                  text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
+              onTap: () => _mostrarBottomSheet(
+                  context,
+                  'Medidas Estéticas Ideales (MEI)',
+                  const MedidasEsteticasWidget())),
         ],
       ),
     );

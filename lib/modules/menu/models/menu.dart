@@ -40,4 +40,15 @@ class Menu {
       'Nombre': nombre,
     };
   }
+
+  static List<String> menuNames() {
+    return [
+      'Desayuno',
+      'Almuerzo',
+      'Cena',
+      'Merienda Mañana',
+      'Merienda Tarde',
+      'Merienda Noche'
+    ];
+  }
 }

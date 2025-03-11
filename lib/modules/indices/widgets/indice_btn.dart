@@ -29,13 +29,12 @@ class IndiceBtn extends StatelessWidget {
               padding: const EdgeInsets.all(8),
               child: SvgPicture.asset(
                 image, // Ruta a tu archivo SVG
-                width: 60, // Ancho deseado
-                height: 60, // Alto deseado
+                width: 30, // Ancho deseado
+                height: 30, // Alto deseado
                 fit: BoxFit.cover, // Ajuste de la imagen
               ),
             ),
           ),
-          Text(text)
         ],
       ),
     );

@@ -50,6 +50,9 @@ class _CdmnWidgetState extends State<CdmnWidget> {
       return const Center(
           child: CircularProgressIndicator()); // Muestra un indicador de carga
     }
+    if (personalMeasure == null) {
+      return const Center(child: Text('No hay datos disponibles'));
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(

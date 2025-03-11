@@ -83,7 +83,23 @@ class MenuController {
     if (maps.isNotEmpty) {
       return await Menu.fromMap(maps.first, db);
     } else {
-      return null; // O lanza una excepción, dependiendo de tu lógica
+      return null;
+    }
+  }
+
+  Future<Menu?> getByName(String name) async {
+    final db = await _dbHelper.database;
+    List<Map<String, dynamic>> maps = await db.query(
+      'Menu',
+      where: 'Nombre = ?',
+      whereArgs: [name],
+      limit: 1,
+    );
+
+    if (maps.isNotEmpty) {
+      return await Menu.fromMap(maps.first, db);
+    } else {
+      return null;
     }
   }
 

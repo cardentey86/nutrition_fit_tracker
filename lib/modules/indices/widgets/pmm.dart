@@ -41,6 +41,9 @@ class _MyWidgetState extends State<PmmWidget> {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
+    if (personalMeasure == null) {
+      return const Center(child: Text('No hay datos disponibles'));
+    }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
