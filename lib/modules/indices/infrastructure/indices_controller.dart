@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:nutrition_fit_traker/modules/indices/models/medidas_ideal_mujer.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/prediction_model.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/models/measure_model.dart';
@@ -121,7 +122,7 @@ class IndicesController {
     PersonalMeasure? personalMeasure =
         await _personalMeasureController.getLast();
     PredictionModel predictionModel =
-        PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
     if (personalMeasure == null) {
       return null;
@@ -221,58 +222,103 @@ class IndicesController {
     PersonalMeasure? personalMeasure =
         await _personalMeasureController.getLast();
     PredictionModel predictionModel =
-        PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        PredictionModel(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
     if (personalMeasure == null) {
       return null;
     }
 
-    if (porcientoGrasa != null) {
-      double munecaPulgada = convertCmToPlg(personalMeasure!.muneca);
-      double estaturaPulgada = convertCmToPlg(personalMeasure.estatura);
+    if (personalMeasure.sexo == 'Hombre') {
+      if (porcientoGrasa != null) {
+        double munecaPulgada = convertCmToPlg(personalMeasure!.muneca);
+        double estaturaPulgada = convertCmToPlg(personalMeasure.estatura);
 
-      double cintura =
-          (0.6412 * porcientoGrasa) + (2.3111 * munecaPulgada) + 7.6829;
-      double caderas =
-          (0.8015 * porcientoGrasa) + (2.8888 * munecaPulgada) + 9.6037;
-      double pecho =
-          (0.9078 * porcientoGrasa) + (3.2719 * munecaPulgada) + 10.8771;
-      double hombros =
-          (1.0375 * porcientoGrasa) + (3.7393 * munecaPulgada) + 12.4310;
-      double cuello = 0.360 * pecho;
-      double biceps = 0.360 * pecho;
-      double antebrazo = 0.806 * biceps;
-      double muslo = 0.530 * pecho;
-      double pantorrilla = 0.679 * muslo;
-      double pesoMagro =
-          0.2709 * (biceps * biceps) + (3.0458 * estaturaPulgada) - 115.88;
+        double cintura =
+            (0.6412 * porcientoGrasa) + (2.3111 * munecaPulgada) + 7.6829;
+        double caderas =
+            (0.8015 * porcientoGrasa) + (2.8888 * munecaPulgada) + 9.6037;
+        double pecho =
+            (0.9078 * porcientoGrasa) + (3.2719 * munecaPulgada) + 10.8771;
+        double hombros =
+            (1.0375 * porcientoGrasa) + (3.7393 * munecaPulgada) + 12.4310;
+        double cuello = 0.360 * pecho;
+        double biceps = 0.360 * pecho;
+        double antebrazo = 0.806 * biceps;
+        double muslo = 0.530 * pecho;
+        double pantorrilla = 0.679 * muslo;
+        double pesoMagro =
+            0.2709 * (biceps * biceps) + (3.0458 * estaturaPulgada) - 115.88;
 
-      double porcientoPesoMagro = 100 - porcientoGrasa;
-      predictionModel.pesoTotal =
-          convertLibrasToKilogramos(100 * pesoMagro / porcientoPesoMagro);
-      predictionModel.pecho = pecho;
-      predictionModel.biceps = biceps;
-      predictionModel.antebrazo = antebrazo;
-      predictionModel.cuello = cuello;
-      predictionModel.muslo = muslo;
-      predictionModel.pantorrilla = pantorrilla;
-      predictionModel.pesoMagro = convertLibrasToKilogramos(pesoMagro);
-      predictionModel.porcientoGrasa = porcientoGrasa;
-      predictionModel.pesoGrasa = convertLibrasToKilogramos(
-          predictionModel.pesoTotal - predictionModel.pesoMagro);
+        double porcientoPesoMagro = 100 - porcientoGrasa;
+        predictionModel.pesoTotal =
+            convertLibrasToKilogramos(100 * pesoMagro / porcientoPesoMagro);
+        predictionModel.pecho = pecho;
+        predictionModel.biceps = biceps;
+        predictionModel.antebrazo = antebrazo;
+        predictionModel.cuello = cuello;
+        predictionModel.muslo = muslo;
+        predictionModel.pantorrilla = pantorrilla;
+        predictionModel.pesoMagro = convertLibrasToKilogramos(pesoMagro);
+        predictionModel.porcientoGrasa = porcientoGrasa;
+        predictionModel.pesoGrasa = convertLibrasToKilogramos(
+            predictionModel.pesoTotal - predictionModel.pesoMagro);
+      } else {
+        predictionModel.pesoTotal = personalMeasure!.peso;
+        predictionModel.pecho = convertCmToPlg(personalMeasure.pecho);
+        predictionModel.biceps = convertCmToPlg(personalMeasure.biceps);
+        predictionModel.antebrazo = convertCmToPlg(personalMeasure.antebrazo);
+        predictionModel.cuello = convertCmToPlg(personalMeasure.cuello);
+        predictionModel.muslo = convertCmToPlg(personalMeasure.muslo);
+        predictionModel.pantorrilla = convertCmToPlg(personalMeasure.gemelos);
+        predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
+        predictionModel.pesoMagro = await pesoMagro();
+        predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
+        predictionModel.pesoGrasa =
+            predictionModel.pesoTotal - predictionModel.pesoMagro;
+      }
     } else {
-      predictionModel.pesoTotal = personalMeasure!.peso;
-      predictionModel.pecho = convertCmToPlg(personalMeasure.pecho);
-      predictionModel.biceps = convertCmToPlg(personalMeasure.biceps);
-      predictionModel.antebrazo = convertCmToPlg(personalMeasure.antebrazo);
-      predictionModel.cuello = convertCmToPlg(personalMeasure.cuello);
-      predictionModel.muslo = convertCmToPlg(personalMeasure.muslo);
-      predictionModel.pantorrilla = convertCmToPlg(personalMeasure.gemelos);
-      predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
-      predictionModel.pesoMagro = await pesoMagro();
-      predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
-      predictionModel.pesoGrasa =
-          predictionModel.pesoTotal - predictionModel.pesoMagro;
+      var medida = MedidasIdealesMujer.list().firstWhere(
+          (medida) => medida.estatura == personalMeasure.estatura / 100,
+          orElse: () => MedidasIdealesMujer(
+              estatura: 0,
+              peso: 0,
+              cuello: 0,
+              hombro: 0,
+              pecho: 0,
+              brazo: 0,
+              antebrazo: 0,
+              cintura: 0,
+              cadera: 0,
+              muslo: 0,
+              pantorrilla: 0));
+
+      if (medida.estatura == 0) {
+        return null;
+      }
+
+      if (porcientoGrasa == null) {
+        predictionModel.antebrazo = convertCmToPlg(personalMeasure.antebrazo);
+        predictionModel.biceps = convertCmToPlg(personalMeasure.biceps);
+        predictionModel.cuello = convertCmToPlg(personalMeasure.cuello);
+        predictionModel.muslo = convertCmToPlg(personalMeasure.muslo);
+        predictionModel.pantorrilla = convertCmToPlg(personalMeasure.gemelos);
+        predictionModel.pecho = convertCmToPlg(personalMeasure.pecho);
+        predictionModel.pesoTotal = personalMeasure.peso;
+        predictionModel.cintura = convertCmToPlg(personalMeasure.cintura);
+        predictionModel.cadera = convertCmToPlg(personalMeasure.cadera);
+        predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
+      } else {
+        predictionModel.antebrazo = convertCmToPlg(medida.antebrazo);
+        predictionModel.biceps = convertCmToPlg(medida.brazo);
+        predictionModel.cuello = convertCmToPlg(medida.cuello);
+        predictionModel.muslo = convertCmToPlg(medida.muslo);
+        predictionModel.pantorrilla = convertCmToPlg(medida.pantorrilla);
+        predictionModel.pecho = convertCmToPlg(medida.pecho);
+        predictionModel.pesoTotal = medida.peso;
+        predictionModel.cintura = convertCmToPlg(medida.cintura);
+        predictionModel.cadera = convertCmToPlg(medida.cadera);
+        predictionModel.porcientoGrasa = porcientoGrasa;
+      }
     }
 
     return predictionModel;

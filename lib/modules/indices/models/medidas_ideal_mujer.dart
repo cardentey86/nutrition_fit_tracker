@@ -25,7 +25,7 @@ class MedidasIdealesMujer {
     required this.pantorrilla,
   });
 
-  List<MedidasIdealesMujer> _list() {
+  static List<MedidasIdealesMujer> list() {
     return [
       MedidasIdealesMujer(
         estatura: 1.50,

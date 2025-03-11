@@ -178,13 +178,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Predicción de Ganancia Muscular (PGM)',
                   const PrediccionGananciaWidget())),
           ListTile(
-              title: const Text('MI'),
+              title: const Text('MEI'),
               subtitle: const Text('Medidas Estéticas Ideales '),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
                   context,
-                  'Medidas Estéticas Ideales (MI)',
+                  'Medidas Estéticas Ideales (MEI)',
                   const MedidasEsteticasWidget())),
         ],
       ),

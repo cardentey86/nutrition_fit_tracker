@@ -9,6 +9,8 @@ class PredictionModel {
   double pesoTotal;
   double porcientoGrasa;
   double pesoGrasa;
+  double? cintura;
+  double? cadera;
 
   PredictionModel(
       this.pecho,
@@ -20,7 +22,9 @@ class PredictionModel {
       this.pesoMagro,
       this.pesoTotal,
       this.porcientoGrasa,
-      this.pesoGrasa) {
+      this.pesoGrasa,
+      this.cintura,
+      this.cadera) {
     pecho = pecho;
     biceps = biceps;
     antebrazo = antebrazo;
@@ -31,5 +35,7 @@ class PredictionModel {
     pesoTotal = pesoTotal;
     porcientoGrasa = porcientoGrasa;
     pesoGrasa = pesoGrasa;
+    cintura = cintura;
+    cadera = cadera;
   }
 }

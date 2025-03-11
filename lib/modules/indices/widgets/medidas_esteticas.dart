@@ -53,18 +53,32 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
       return const Center(child: Text('No hay datos disponibles'));
     }
 
-    final List<String> campos = [
-      'Pecho',
-      'Biceps',
-      'Antebrazo',
-      'Muslo',
-      'Gemelo',
-      'Cuello',
-      'MusculoKg',
-      'PesoKg',
-      '%Grasa',
-      'GrasaKg'
-    ];
+    final List<String> campos =
+        medidasEsteticas.any((medida) => medida!.cadera! == 0)
+            ? [
+                'Pecho',
+                'Biceps',
+                'Antebrazo',
+                'Muslo',
+                'Gemelo',
+                'Cuello',
+                'MusculoKg',
+                'PesoKg',
+                '%Grasa',
+                'GrasaKg'
+              ]
+            : [
+                'Pecho',
+                'Biceps',
+                'Antebrazo',
+                'Muslo',
+                'Gemelo',
+                'Cuello',
+                'Cintura',
+                'Cadera',
+                'PesoKg',
+                '%Grasa',
+              ];
 
     return SizedBox(
       height: 500,
@@ -145,6 +159,18 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
                       'campo': campo,
                       'valor': double.parse(
                           medidasEsteticas[i]!.pesoGrasa.toStringAsFixed(2))
+                    };
+                  case 'Cintura':
+                    return {
+                      'campo': campo,
+                      'valor': double.parse(
+                          medidasEsteticas[i]!.cintura!.toStringAsFixed(2))
+                    };
+                  case 'Cadera':
+                    return {
+                      'campo': campo,
+                      'valor': double.parse(
+                          medidasEsteticas[i]!.cadera!.toStringAsFixed(2))
                     };
                   default:
                     return {'campo': campo, 'valor': 0.0}; // Valor por defecto
