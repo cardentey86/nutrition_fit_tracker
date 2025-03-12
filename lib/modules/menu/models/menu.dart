@@ -46,9 +46,7 @@ class Menu {
       'Desayuno',
       'Almuerzo',
       'Cena',
-      'Merienda Mañana',
-      'Merienda Tarde',
-      'Merienda Noche'
+      'Merienda',
     ];
   }
 }

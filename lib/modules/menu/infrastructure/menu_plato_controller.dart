@@ -3,7 +3,7 @@ import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
 import 'package:sqflite/sqflite.dart';
 
-class MenuController {
+class MenuPlatoController {
   static final DatabaseHelper _dbHelper = DatabaseHelper();
 
   Future<bool> insertMenuPlato(Menu menu) async {
@@ -53,7 +53,7 @@ class MenuController {
   Future<List<Menu>> getAll() async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =
-        await db.query('Menu', orderBy: 'Nombre');
+        await db.query('Menu', orderBy: 'Id');
 
     List<Menu> menuList = [];
     for (var map in maps) {
