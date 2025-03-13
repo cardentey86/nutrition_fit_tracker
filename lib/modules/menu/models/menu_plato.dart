@@ -46,12 +46,28 @@ class MenuPlato {
         menu: menu);
   }
 
+  static Future<MenuPlato> fromMapLite(Map<String, dynamic> map) async {
+    return MenuPlato(
+        id: map['Id'],
+        idMenu: map['IdMenu'],
+        idAlimento: map['IdAlimento'],
+        fecha: map['Fecha'],
+        cantidad: map['Cantidad']);
+  }
+
   Map<String, dynamic> toMapForInsert(
-      int idMenu, String fecha, double cantidad) {
+      int idMenu, int idAlimento, String fecha, double cantidad) {
     return {
       'IdMenu': idMenu,
       'IdAlimento': idAlimento,
       'Fecha': fecha,
+      'Cantidad': cantidad,
+    };
+  }
+
+  Map<String, dynamic> toMapForUpdate(int id, double cantidad) {
+    return {
+      'Id': id,
       'Cantidad': cantidad,
     };
   }

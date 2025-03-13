@@ -6,15 +6,17 @@ import 'package:sqflite/sqflite.dart';
 class MenuPlatoController {
   static final DatabaseHelper _dbHelper = DatabaseHelper();
 
-  Future<bool> insertMenuPlato(Menu menu) async {
+  Future<bool> insertMenuWithPlato(Menu menu) async {
     final db = await _dbHelper.database;
 
     int idMenu =
         await insertMenu(Menu(nombre: menu.nombre, platos: List.empty()));
 
     for (var plato in menu.platos) {
-      await db.insert('MenuPlato',
-          plato.toMapForInsert(idMenu, plato.fecha, plato.cantidad));
+      await db.insert(
+          'MenuPlato',
+          plato.toMapForInsert(
+              idMenu, plato.idAlimento, plato.fecha, plato.cantidad));
     }
     return true;
   }
@@ -22,6 +24,15 @@ class MenuPlatoController {
   Future<int> insertMenu(Menu menu) async {
     final db = await _dbHelper.database;
     int id = await db.insert('Menu', menu.toMap());
+    return id;
+  }
+
+  Future<int> insertMenuPlato(MenuPlato menuPlato) async {
+    final db = await _dbHelper.database;
+    int id = await db.insert(
+        'MenuPlato',
+        menuPlato.toMapForInsert(menuPlato.idMenu, menuPlato.idAlimento,
+            menuPlato.fecha, menuPlato.cantidad));
     return id;
   }
 
@@ -41,8 +52,7 @@ class MenuPlatoController {
     final db = await _dbHelper.database;
     int result = await db.update(
       'MenuPlato',
-      menuPlato.toMapForInsert(
-          menuPlato.idMenu, menuPlato.fecha, menuPlato.cantidad),
+      menuPlato.toMapForUpdate(menuPlato.id!, menuPlato.cantidad),
       where: 'id = ${menuPlato.id}',
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
@@ -50,7 +60,7 @@ class MenuPlatoController {
     return result > 0;
   }
 
-  Future<List<Menu>> getAll() async {
+  Future<List<Menu>> getAllMenu() async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =
         await db.query('Menu', orderBy: 'Id');
@@ -59,6 +69,20 @@ class MenuPlatoController {
     for (var map in maps) {
       Menu menu = await Menu.fromMap(map, db);
       menuList.add(menu);
+    }
+
+    return menuList;
+  }
+
+  Future<List<MenuPlato>> getAllMenuPlato() async {
+    final db = await _dbHelper.database;
+    final List<Map<String, dynamic>> maps =
+        await db.query('MenuPlato', orderBy: 'Id');
+
+    List<MenuPlato> menuList = [];
+    for (var map in maps) {
+      MenuPlato menuPlato = await MenuPlato.fromMapLite(map);
+      menuList.add(menuPlato);
     }
 
     return menuList;
