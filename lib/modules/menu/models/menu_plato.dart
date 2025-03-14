@@ -1,5 +1,4 @@
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
-import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 import 'package:sqflite/sqflite.dart';
 
 class MenuPlato {
@@ -8,7 +7,6 @@ class MenuPlato {
   int idAlimento;
   String fecha;
   double cantidad;
-  Menu? menu;
   Alimento? alimento;
 
   MenuPlato(
@@ -17,24 +15,20 @@ class MenuPlato {
       required this.idAlimento,
       required this.fecha,
       required this.cantidad,
-      this.menu,
       this.alimento});
 
   static Future<MenuPlato> fromMap(
       Map<String, dynamic> map, Database db) async {
-    List<Map<String, dynamic>> alimentoData = await db.query(
-      'Alimento',
-      where: 'Id = ?',
-      whereArgs: [map['IdAlimento']],
-    );
+    List<Map<String, dynamic>> alimentoData = await db.query('Alimento',
+        where: 'Id = ?', whereArgs: [map['IdAlimento']], limit: 1);
     Alimento alimento = Alimento.fromMap(alimentoData.first);
 
-    List<Map<String, dynamic>> menuData = await db.query(
+    /* List<Map<String, dynamic>> menuData = await db.query(
       'Menu',
       where: 'Id = ?',
       whereArgs: [map['IdMenu']],
-    );
-    Menu menu = await Menu.fromMap(menuData.first, db);
+    ); */
+    /* Menu menu = await Menu.fromMap(menuData.first, db); */
 
     return MenuPlato(
         id: map['Id'],
@@ -42,8 +36,7 @@ class MenuPlato {
         idAlimento: map['IdAlimento'],
         fecha: map['Fecha'],
         cantidad: map['Cantidad'],
-        alimento: alimento,
-        menu: menu);
+        alimento: alimento);
   }
 
   static Future<MenuPlato> fromMapLite(Map<String, dynamic> map) async {

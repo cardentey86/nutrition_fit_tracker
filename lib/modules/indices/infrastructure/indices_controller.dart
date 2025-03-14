@@ -136,7 +136,7 @@ class IndicesController {
     }
 
     if (medidasPersonales) {
-      predictionModel.pecho = convertCmToPlg(personalMeasure!.pecho);
+      predictionModel.pecho = convertCmToPlg(personalMeasure.pecho);
       predictionModel.antebrazo = convertCmToPlg(personalMeasure.antebrazo);
       predictionModel.biceps = convertCmToPlg(personalMeasure.biceps);
       predictionModel.cuello = convertCmToPlg(personalMeasure.cuello);
@@ -147,7 +147,7 @@ class IndicesController {
       predictionModel.pesoGrasa = await pesoGrasa();
       predictionModel.pesoMagro = await pesoMagro();
     } else {
-      double estaturaPulgda = convertCmToPlg(personalMeasure!.estatura);
+      double estaturaPulgda = convertCmToPlg(personalMeasure.estatura);
       double munecaPulagada = convertCmToPlg(personalMeasure.muneca);
       double tobilloPulgada = convertCmToPlg(personalMeasure.tobillo);
 
@@ -230,7 +230,7 @@ class IndicesController {
 
     if (personalMeasure.sexo == 'Hombre') {
       if (porcientoGrasa != null) {
-        double munecaPulgada = convertCmToPlg(personalMeasure!.muneca);
+        double munecaPulgada = convertCmToPlg(personalMeasure.muneca);
         double estaturaPulgada = convertCmToPlg(personalMeasure.estatura);
 
         double cintura =
@@ -263,7 +263,7 @@ class IndicesController {
         predictionModel.pesoGrasa = convertLibrasToKilogramos(
             predictionModel.pesoTotal - predictionModel.pesoMagro);
       } else {
-        predictionModel.pesoTotal = personalMeasure!.peso;
+        predictionModel.pesoTotal = personalMeasure.peso;
         predictionModel.pecho = convertCmToPlg(personalMeasure.pecho);
         predictionModel.biceps = convertCmToPlg(personalMeasure.biceps);
         predictionModel.antebrazo = convertCmToPlg(personalMeasure.antebrazo);

@@ -4,6 +4,7 @@ import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:nutrition_fit_traker/modules/menu/infrastructure/menu_plato_controller.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
+import 'package:nutrition_fit_traker/modules/menu/models/show_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_dialog.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_plato_dialog.dart';
 
@@ -15,10 +16,8 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MyWidgetState extends State<MenuScreen> {
-  double calorias = 0;
-  double proteinas = 0;
-  double carbohidratos = 0;
-  double grasas = 0;
+  ShowMacro? macrosGeneral;
+  List<ShowMacro> listMacrosPorMenu = List.empty();
 
   List<Menu> menus = [];
   List<String> menuNames = [];
@@ -29,32 +28,86 @@ class _MyWidgetState extends State<MenuScreen> {
   final FoodController _alimentoController = FoodController();
   String? description;
   bool isMenuOpen = false;
+  bool _isLoading = false;
 
   @override
   void initState() {
     super.initState();
     menuNames = Menu.menuNames();
-    getAllMenu();
+    _loadData();
   }
 
-  Future<void> getAllMenu() async {
-    final result = await _menuPlatoController.getAllMenu();
+  Future<void> _loadData() async {
     setState(() {
-      menus = [...result];
+      _isLoading = true;
+    });
+    final resultMenu = await _menuPlatoController.getAllMenu();
+    menus = [...resultMenu];
+
+    final resultAlimentos = await _alimentoController.getAlimentos();
+    alimentos = [...resultAlimentos];
+
+    final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
+    menuPlato = [...resultMenuPlato];
+
+    calculateTotalMacro(menus);
+
+    setState(() {
+      _isLoading = false;
     });
   }
 
-  Future<void> getAllAlimentos() async {
-    final result = await _alimentoController.getAlimentos();
+  Future<void> getAllMenu() async {
     setState(() {
-      alimentos = [...result];
+      _isLoading = true;
+    });
+    final result = await _menuPlatoController.getAllMenu();
+    menus = [...result];
+    setState(() {
+      _isLoading = false;
+    });
+  }
+
+  void calculateTotalMacro(List<Menu> menus) {
+    double calorias = 0;
+    double proteinas = 0;
+    double carbohidratos = 0;
+    double grasas = 0;
+
+    for (var menu in menus) {
+      if (menu.platos.isNotEmpty) {
+        for (var plato in menu.platos) {
+          if (plato.alimento != null) {
+            calorias += (plato.cantidad * plato.alimento!.calorias / 100);
+            proteinas += (plato.cantidad * plato.alimento!.proteinas / 100);
+            carbohidratos +=
+                (plato.cantidad * plato.alimento!.carbohidratos / 100);
+            grasas += (plato.cantidad * plato.alimento!.grasas / 100);
+          }
+        }
+      }
+    }
+  }
+
+  Future<void> getAllAlimentos() async {
+    setState(() {
+      _isLoading = true;
+    });
+    final result = await _alimentoController.getAlimentos();
+    alimentos = [...result];
+    setState(() {
+      _isLoading = false;
     });
   }
 
   Future<void> getAllMenuPlatos() async {
-    final result = await _menuPlatoController.getAllMenuPlato();
     setState(() {
-      menuPlato = [...result];
+      _isLoading = true;
+    });
+    final result = await _menuPlatoController.getAllMenuPlato();
+    menuPlato = [...result];
+    setState(() {
+      _isLoading = false;
     });
   }
 
@@ -89,7 +142,6 @@ class _MyWidgetState extends State<MenuScreen> {
               } else {
                 await insertMenu(selectedMenu);
               }
-
               toggleMenu();
 
               await getAllMenu();
@@ -118,14 +170,11 @@ class _MyWidgetState extends State<MenuScreen> {
                 item.idAlimento == selectedFood && item.idMenu == selectedMenu);
             if (!exist) {
               await insertMenuPlato(selectedMenu, selectedFood, quantity);
-
-              toggleMenu();
-
+              //toggleMenu();
               await getAllMenu();
-
-              if (mounted) {
+              /* if (mounted) {
                 Navigator.of(context).pop();
-              }
+              } */
             } else {
               showSnackBar(context, 'El alimento ya existe en el menú');
             }
@@ -149,6 +198,9 @@ class _MyWidgetState extends State<MenuScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
     return Scaffold(
       appBar: AppBar(
         title: const Text(
@@ -174,6 +226,7 @@ class _MyWidgetState extends State<MenuScreen> {
                 index: 1,
                 icon: Icons.food_bank_outlined,
                 onPressed: () {
+                  _showAlimentoDialog();
                   toggleMenu();
                 }),
             const SizedBox(
@@ -212,7 +265,7 @@ class _MyWidgetState extends State<MenuScreen> {
                     children: [
                       const Text('Calorias'),
                       Text(
-                        calorias.toStringAsFixed(2),
+                        macrosGeneral!.calorias.toStringAsFixed(2),
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -220,21 +273,21 @@ class _MyWidgetState extends State<MenuScreen> {
                   Column(
                     children: [
                       const Text('Proteínas'),
-                      Text(proteinas.toStringAsFixed(2),
+                      Text(macrosGeneral!.proteinas.toStringAsFixed(2),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Carbohidratos'),
-                      Text(carbohidratos.toStringAsFixed(2),
+                      Text(macrosGeneral!.carbohidratos.toStringAsFixed(2),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Grasas'),
-                      Text(grasas.toStringAsFixed(2),
+                      Text(macrosGeneral!.grasas.toStringAsFixed(2),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
@@ -254,7 +307,7 @@ class _MyWidgetState extends State<MenuScreen> {
                     children: [
                       const Text('Calorias'),
                       Text(
-                        calorias.toStringAsFixed(2),
+                        macrosGeneral!.calorias.toStringAsFixed(2),
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -262,21 +315,21 @@ class _MyWidgetState extends State<MenuScreen> {
                   Column(
                     children: [
                       const Text('Proteínas'),
-                      Text(proteinas.toStringAsFixed(2),
+                      Text(macrosGeneral!.proteinas.toStringAsFixed(2),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Carbohidratos'),
-                      Text(carbohidratos.toStringAsFixed(2),
+                      Text(macrosGeneral!.carbohidratos.toStringAsFixed(2),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Grasas'),
-                      Text(grasas.toStringAsFixed(2),
+                      Text(macrosGeneral!.grasas.toStringAsFixed(2),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
@@ -291,6 +344,13 @@ class _MyWidgetState extends State<MenuScreen> {
                     return ExpansionTile(
                         key: Key(menu.id.toString()),
                         title: Text(menu.nombre),
+                        subtitle: Row(
+                          children: [
+                            Column(
+                              children: [Text('Calorias')],
+                            )
+                          ],
+                        ),
                         children: menu.platos.map((MenuPlato plato) {
                           return ListTile(
                             key: Key(plato.id.toString()),

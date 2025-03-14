@@ -15,21 +15,23 @@ class Menu {
   static Future<Menu> fromMap(Map<String, dynamic> map, Database db) async {
     int menuId = map['Id'];
 
+    String menuNombre = map['Nombre'] ?? 'Nombre no disponible';
+
     List<Map<String, dynamic>> platosData = await db.rawQuery('''
-      SELECT mp.*, a.Nombre AS AlimentoNombre, a.Calorias, a.Carbohidratos, a.Proteinas, a.Grasas, a.Fibra  
-      FROM MenuPlato mp  
-      INNER JOIN Alimento a ON mp.IdAlimento = a.Id  
-      WHERE mp.IdMenu = ?  
+      SELECT *  
+      FROM MenuPlato 
+      WHERE IdMenu = ?  
     ''', [menuId]);
 
-    List<MenuPlato> platos = platosData
-        .map((platoMap) => MenuPlato.fromMap(platoMap, db))
-        .cast<MenuPlato>()
-        .toList();
+    List<Future<MenuPlato>> platosFutures = platosData.map((platoMap) {
+      return MenuPlato.fromMap(platoMap, db);
+    }).toList();
+
+    List<MenuPlato> platos = await Future.wait(platosFutures);
 
     return Menu(
       id: menuId,
-      nombre: map['Nombre'],
+      nombre: menuNombre,
       platos: platos,
     );
   }
