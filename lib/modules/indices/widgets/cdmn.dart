@@ -34,6 +34,7 @@ class _CdmnWidgetState extends State<CdmnWidget> {
     cdmn = cdmnResult;
 
     PersonalMeasure? result = await controller.getLast();
+    personalMeasure = result;
     if (result?.objetivo != null) {
       objetivo = Objetivo()
           .objetivos()
@@ -56,7 +57,6 @@ class _CdmnWidgetState extends State<CdmnWidget> {
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
-        text: 'Valor: ${cdmn.toStringAsFixed(2)} kcal \n\n',
         style: const TextStyle(color: Colors.black87, fontSize: 14),
         children: [
           const TextSpan(
@@ -65,6 +65,10 @@ class _CdmnWidgetState extends State<CdmnWidget> {
           TextSpan(
             text: ' ${objetivo?.name ?? 'No definido'} \n\n',
           ),
+          const TextSpan(
+              text: '•	Calorías: ',
+              style: TextStyle(fontWeight: FontWeight.bold)),
+          TextSpan(text: '${cdmn.toStringAsFixed(2)} kcal \n\n'),
           const TextSpan(
               text: '•	Proteínas: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
@@ -77,14 +81,14 @@ class _CdmnWidgetState extends State<CdmnWidget> {
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(
             text:
-                '${(cdmn * (objetivo!.carbohidratos / 100)).toStringAsFixed(2)} kcal \u2248 ${((cdmn * (objetivo!.proteinas / 100)) / 4).toStringAsFixed(2)} g \n\n',
+                '${(cdmn * (objetivo!.carbohidratos / 100)).toStringAsFixed(2)} kcal \u2248 ${((cdmn * (objetivo!.carbohidratos / 100)) / 4).toStringAsFixed(2)} g \n\n',
           ),
           const TextSpan(
               text: '•	Grasas: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(
             text:
-                '${(cdmn * (objetivo!.grasas / 100)).toStringAsFixed(2)} kcal \u2248 ${((cdmn * (objetivo!.proteinas / 100)) / 9).toStringAsFixed(2)} g \n\n',
+                '${(cdmn * (objetivo!.grasas / 100)).toStringAsFixed(2)} kcal \u2248 ${((cdmn * (objetivo!.grasas / 100)) / 9).toStringAsFixed(2)} g \n\n',
           )
         ],
       ),

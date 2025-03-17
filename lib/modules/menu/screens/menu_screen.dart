@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
+import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
+import 'package:nutrition_fit_traker/modules/indices/models/consumo_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/infrastructure/menu_plato_controller.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/show_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_dialog.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_plato_dialog.dart';
+import 'package:syncfusion_flutter_charts/charts.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -16,8 +19,8 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MyWidgetState extends State<MenuScreen> {
-  ShowMacro? macrosGeneral;
-  List<ShowMacro> listMacrosPorMenu = List.empty();
+  ShowMacro? macrosPlanGeneral;
+  List<ShowMacro> listMacrosPlanPorMenu = List.empty();
 
   List<Menu> menus = [];
   List<String> menuNames = [];
@@ -26,9 +29,11 @@ class _MyWidgetState extends State<MenuScreen> {
   String? selectedMenuName;
   final MenuPlatoController _menuPlatoController = MenuPlatoController();
   final FoodController _alimentoController = FoodController();
+  final IndicesController _indicesController = IndicesController();
   String? description;
   bool isMenuOpen = false;
   bool _isLoading = false;
+  ConsumoMacro? necesidadesMacro;
 
   @override
   void initState() {
@@ -50,7 +55,11 @@ class _MyWidgetState extends State<MenuScreen> {
     final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
     menuPlato = [...resultMenuPlato];
 
-    calculateTotalMacro(menus);
+    final macroGeneral =
+        await _indicesController.consumoMacroNutrientesDesglosado();
+    necesidadesMacro = macroGeneral;
+
+    calculateMacroPlanificado(menus);
 
     setState(() {
       _isLoading = false;
@@ -63,12 +72,13 @@ class _MyWidgetState extends State<MenuScreen> {
     });
     final result = await _menuPlatoController.getAllMenu();
     menus = [...result];
+    calculateMacroPlanificado(menus);
     setState(() {
       _isLoading = false;
     });
   }
 
-  void calculateTotalMacro(List<Menu> menus) {
+  void calculateMacroPlanificado(List<Menu> menus) {
     double calorias = 0;
     double proteinas = 0;
     double carbohidratos = 0;
@@ -78,15 +88,27 @@ class _MyWidgetState extends State<MenuScreen> {
       if (menu.platos.isNotEmpty) {
         for (var plato in menu.platos) {
           if (plato.alimento != null) {
-            calorias += (plato.cantidad * plato.alimento!.calorias / 100);
-            proteinas += (plato.cantidad * plato.alimento!.proteinas / 100);
-            carbohidratos +=
-                (plato.cantidad * plato.alimento!.carbohidratos / 100);
-            grasas += (plato.cantidad * plato.alimento!.grasas / 100);
+            calorias += _alimentoController.CalcularConsumoAlimento(
+                plato.cantidad, plato.alimento!.calorias);
+            proteinas += _alimentoController.CalcularConsumoAlimento(
+                plato.cantidad, plato.alimento!.proteinas);
+            carbohidratos += _alimentoController.CalcularConsumoAlimento(
+                plato.cantidad, plato.alimento!.carbohidratos);
+            grasas += _alimentoController.CalcularConsumoAlimento(
+                plato.cantidad, plato.alimento!.grasas);
           }
         }
       }
     }
+
+    setState(() {
+      macrosPlanGeneral = ShowMacro(
+          tipoMacro: 'general',
+          calorias: calorias,
+          proteinas: proteinas,
+          carbohidratos: carbohidratos,
+          grasas: grasas);
+    });
   }
 
   Future<void> getAllAlimentos() async {
@@ -254,6 +276,7 @@ class _MyWidgetState extends State<MenuScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              //RadialChartSample(),
               const Text(
                 'Necesidades de Macronutrientes',
                 style: TextStyle(fontStyle: FontStyle.italic),
@@ -265,7 +288,7 @@ class _MyWidgetState extends State<MenuScreen> {
                     children: [
                       const Text('Calorias'),
                       Text(
-                        macrosGeneral!.calorias.toStringAsFixed(2),
+                        '${necesidadesMacro!.calorias.toStringAsFixed(2)} kcal',
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -273,21 +296,22 @@ class _MyWidgetState extends State<MenuScreen> {
                   Column(
                     children: [
                       const Text('Proteínas'),
-                      Text(macrosGeneral!.proteinas.toStringAsFixed(2),
+                      Text('${necesidadesMacro!.proteinas.toStringAsFixed(2)}g',
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Carbohidratos'),
-                      Text(macrosGeneral!.carbohidratos.toStringAsFixed(2),
+                      Text(
+                          '${necesidadesMacro!.carbohidratos.toStringAsFixed(2)}g',
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Grasas'),
-                      Text(macrosGeneral!.grasas.toStringAsFixed(2),
+                      Text('${necesidadesMacro!.grasas.toStringAsFixed(2)}g',
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
@@ -307,7 +331,7 @@ class _MyWidgetState extends State<MenuScreen> {
                     children: [
                       const Text('Calorias'),
                       Text(
-                        macrosGeneral!.calorias.toStringAsFixed(2),
+                        '${macrosPlanGeneral!.calorias.toStringAsFixed(2)} kcal',
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -315,21 +339,23 @@ class _MyWidgetState extends State<MenuScreen> {
                   Column(
                     children: [
                       const Text('Proteínas'),
-                      Text(macrosGeneral!.proteinas.toStringAsFixed(2),
+                      Text(
+                          '${macrosPlanGeneral!.proteinas.toStringAsFixed(2)}g',
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Carbohidratos'),
-                      Text(macrosGeneral!.carbohidratos.toStringAsFixed(2),
+                      Text(
+                          '${macrosPlanGeneral!.carbohidratos.toStringAsFixed(2)}g',
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
                   Column(
                     children: [
                       const Text('Grasas'),
-                      Text(macrosGeneral!.grasas.toStringAsFixed(2),
+                      Text('${macrosPlanGeneral!.grasas.toStringAsFixed(2)}g',
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                     ],
                   ),
@@ -343,11 +369,121 @@ class _MyWidgetState extends State<MenuScreen> {
                   children: menus.map((Menu menu) {
                     return ExpansionTile(
                         key: Key(menu.id.toString()),
-                        title: Text(menu.nombre),
+                        title: Text(
+                          menu.nombre,
+                          style: const TextStyle(fontWeight: FontWeight.bold),
+                        ),
                         subtitle: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Column(
-                              children: [Text('Calorias')],
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  width: 50,
+                                  height: 20,
+                                  decoration: const BoxDecoration(
+                                      color: Colors.orange,
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(5))),
+                                  child: const Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.fireplace_outlined,
+                                        color: Colors.white,
+                                        size: 12,
+                                      ),
+                                      Text(
+                                        ' Kcal',
+                                        style: TextStyle(color: Colors.white),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                const Text(
+                                  '0',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                )
+                              ],
+                            ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  width: 60,
+                                  height: 20,
+                                  decoration: const BoxDecoration(
+                                      color: Colors.blue,
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(5))),
+                                  child: const Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'Proteína',
+                                        style: TextStyle(color: Colors.white),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                const Text(
+                                  '0',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                )
+                              ],
+                            ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  width: 60,
+                                  height: 20,
+                                  decoration: const BoxDecoration(
+                                      color: Colors.red,
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(5))),
+                                  child: const Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'Carbs',
+                                        style: TextStyle(color: Colors.white),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                const Text(
+                                  '0',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                )
+                              ],
+                            ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  width: 60,
+                                  height: 20,
+                                  decoration: const BoxDecoration(
+                                      color: Colors.green,
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(5))),
+                                  child: const Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'Grasa',
+                                        style: TextStyle(color: Colors.white),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                const Text(
+                                  '0',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                )
+                              ],
                             )
                           ],
                         ),
@@ -355,6 +491,103 @@ class _MyWidgetState extends State<MenuScreen> {
                           return ListTile(
                             key: Key(plato.id.toString()),
                             title: Text(plato.alimento!.nombre),
+                            subtitle: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  children: [
+                                    Text('${(plato.cantidad)} g',
+                                        style: const TextStyle(
+                                            fontSize: 14,
+                                            color: Colors.black38)),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      width: 20,
+                                      height: 20,
+                                      decoration: const BoxDecoration(
+                                          color: Colors.orange,
+                                          shape: BoxShape.circle),
+                                      child: const Icon(
+                                        Icons.fireplace_outlined,
+                                        color: Colors.white,
+                                        size: 12,
+                                      ),
+                                    ),
+                                    Text(
+                                        ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.calorias)}',
+                                        style: const TextStyle(
+                                            fontSize: 14,
+                                            color: Colors.orange)),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      width: 20,
+                                      height: 20,
+                                      decoration: const BoxDecoration(
+                                          color: Colors.blue,
+                                          shape: BoxShape.circle),
+                                      child: const Center(
+                                        child: Text(
+                                          'P',
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                    Text(
+                                        ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.proteinas)}',
+                                        style: const TextStyle(
+                                            fontSize: 14, color: Colors.blue)),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      width: 20,
+                                      height: 20,
+                                      decoration: const BoxDecoration(
+                                          color: Colors.red,
+                                          shape: BoxShape.circle),
+                                      child: const Center(
+                                        child: Text(
+                                          'C',
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                    Text(
+                                        ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.carbohidratos)}',
+                                        style: const TextStyle(
+                                            fontSize: 14, color: Colors.red)),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      width: 20,
+                                      height: 20,
+                                      decoration: const BoxDecoration(
+                                          color: Colors.green,
+                                          shape: BoxShape.circle),
+                                      child: const Center(
+                                        child: Text(
+                                          'G',
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                    Text(
+                                        ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.grasas)}',
+                                        style: const TextStyle(
+                                            fontSize: 14, color: Colors.green)),
+                                  ],
+                                ),
+                              ],
+                            ),
                           );
                         }).toList());
                   }).toList(),
@@ -401,3 +634,65 @@ class _MyWidgetState extends State<MenuScreen> {
     );
   }
 }
+
+/*
+class RadialBarChartExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 300,
+      width: 300,
+      child: SfRadialGauge(
+        axes: <RadialAxis>[
+          RadialAxis(
+            minimum: 0,
+            maximum: 100,
+            ranges: <GaugeRange>[
+              GaugeRange(
+                startValue: 0,
+                endValue: 50,
+                color: Colors.red,
+                startWidth: 10,
+                endWidth: 10,
+              ),
+              GaugeRange(
+                startValue: 50,
+                endValue: 100,
+                color: Colors.green,
+                startWidth: 10,
+                endWidth: 10,
+              )
+            ],
+            pointers: <GaugePointer>[
+              MarkerPointer(
+                value: 70, // Valor de la serie
+                enableAnimation: true,
+                color: Colors.blue,
+                elevation: 5,
+                markerType: MarkerType.circle,
+                radius: '10%',
+              ),
+            ],
+            annotations: <GaugeAnnotation>[
+              GaugeAnnotation(
+                widget: Container(
+                  child: Text(
+                    '70',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                angle: 90,
+                positionFactor: 0.5,
+              )
+            ],
+          )
+        ],
+      ),
+    );
+  }
+}
+*/

@@ -99,4 +99,8 @@ class FoodController {
       await insertAlimento(alimento);
     }
   }
+
+  double CalcularConsumoAlimento(double cantidadGramos, double valorMacro) {
+    return (cantidadGramos * valorMacro / 100);
+  }
 }

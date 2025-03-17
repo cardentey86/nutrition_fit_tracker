@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:nutrition_fit_traker/modules/indices/models/consumo_macro.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/medidas_ideal_mujer.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/prediction_model.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
@@ -115,6 +116,32 @@ class IndicesController {
     consumoMacro = consumoCalorico + (consumoCalorico * objetivo.value / 100);
 
     return consumoMacro;
+  }
+
+  Future<ConsumoMacro> consumoMacroNutrientesDesglosado() async {
+    final measure = await _personalMeasureController.getLast();
+    if (measure == null) {
+      return ConsumoMacro(0, 0, 0, 0);
+    }
+    double consumoMacro = 0;
+    double tmb = await tasaMetabolica(measure);
+    NivelActividad nivelActividad = NivelActividad()
+        .nivelesActividad()
+        .firstWhere((element) => element.id == measure.nivelActividad);
+
+    double consumoCalorico = tmb * nivelActividad.value;
+
+    Objetivo objetivo =
+        Objetivo().objetivos().firstWhere((obj) => obj.id == measure.objetivo);
+
+    consumoMacro = consumoCalorico + (consumoCalorico * objetivo.value / 100);
+
+    double calorias = consumoMacro;
+    double proteinas = (consumoMacro * (objetivo.proteinas / 100)) / 4;
+    double carbohidratos = (consumoMacro * (objetivo.carbohidratos / 100)) / 4;
+    double grasas = (consumoMacro * (objetivo.grasas / 100)) / 9;
+
+    return ConsumoMacro(calorias, carbohidratos, proteinas, grasas);
   }
 
   Future<PredictionModel?> prediccionGananciaMuscular(
