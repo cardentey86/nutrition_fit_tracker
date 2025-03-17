@@ -4,11 +4,13 @@ import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/consumo_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/infrastructure/menu_plato_controller.dart';
+import 'package:nutrition_fit_traker/modules/menu/models/chart_model.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/show_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_dialog.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_plato_dialog.dart';
+import 'package:nutrition_fit_traker/modules/menu/widgets/menu_chart.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -276,7 +278,30 @@ class _MyWidgetState extends State<MenuScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              //RadialChartSample(),
+              Row(
+                children: [
+                  SizedBox(
+                    height: 150,
+                    width: 150,
+                    child: MyChart(
+                      data: [Data('Caloria', 70)],
+                      maxValue: 100,
+                      seriesColor: Colors.orange,
+                      title: 'Kcal',
+                    ),
+                  ),
+                  SizedBox(
+                    height: 150,
+                    width: 150,
+                    child: MyChart(
+                      data: [Data('Proteina', 70)],
+                      maxValue: 100,
+                      seriesColor: Colors.blue,
+                      title: 'Prot',
+                    ),
+                  ),
+                ],
+              ),
               const Text(
                 'Necesidades de Macronutrientes',
                 style: TextStyle(fontStyle: FontStyle.italic),
@@ -634,65 +659,3 @@ class _MyWidgetState extends State<MenuScreen> {
     );
   }
 }
-
-/*
-class RadialBarChartExample extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 300,
-      width: 300,
-      child: SfRadialGauge(
-        axes: <RadialAxis>[
-          RadialAxis(
-            minimum: 0,
-            maximum: 100,
-            ranges: <GaugeRange>[
-              GaugeRange(
-                startValue: 0,
-                endValue: 50,
-                color: Colors.red,
-                startWidth: 10,
-                endWidth: 10,
-              ),
-              GaugeRange(
-                startValue: 50,
-                endValue: 100,
-                color: Colors.green,
-                startWidth: 10,
-                endWidth: 10,
-              )
-            ],
-            pointers: <GaugePointer>[
-              MarkerPointer(
-                value: 70, // Valor de la serie
-                enableAnimation: true,
-                color: Colors.blue,
-                elevation: 5,
-                markerType: MarkerType.circle,
-                radius: '10%',
-              ),
-            ],
-            annotations: <GaugeAnnotation>[
-              GaugeAnnotation(
-                widget: Container(
-                  child: Text(
-                    '70',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                angle: 90,
-                positionFactor: 0.5,
-              )
-            ],
-          )
-        ],
-      ),
-    );
-  }
-}
-*/
