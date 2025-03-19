@@ -4,14 +4,12 @@ import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/consumo_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/infrastructure/menu_plato_controller.dart';
-import 'package:nutrition_fit_traker/modules/menu/models/chart_model.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/show_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_dialog.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_plato_dialog.dart';
-import 'package:nutrition_fit_traker/modules/menu/widgets/menu_chart.dart';
-import 'package:syncfusion_flutter_charts/charts.dart';
+import 'package:nutrition_fit_traker/modules/menu/widgets/nutrition_screen.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -106,10 +104,10 @@ class _MyWidgetState extends State<MenuScreen> {
     setState(() {
       macrosPlanGeneral = ShowMacro(
           tipoMacro: 'general',
-          calorias: calorias,
-          proteinas: proteinas,
-          carbohidratos: carbohidratos,
-          grasas: grasas);
+          calorias: double.parse(calorias.toStringAsFixed(2)),
+          proteinas: double.parse(proteinas.toStringAsFixed(2)),
+          carbohidratos: double.parse(carbohidratos.toStringAsFixed(2)),
+          grasas: double.parse(grasas.toStringAsFixed(2)));
     });
   }
 
@@ -278,113 +276,19 @@ class _MyWidgetState extends State<MenuScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  SizedBox(
-                    height: 150,
-                    width: 150,
-                    child: MyChart(
-                      data: [Data('Caloria', 70)],
-                      maxValue: 100,
-                      seriesColor: Colors.orange,
-                      title: 'Kcal',
-                    ),
-                  ),
-                  SizedBox(
-                    height: 150,
-                    width: 150,
-                    child: MyChart(
-                      data: [Data('Proteina', 70)],
-                      maxValue: 100,
-                      seriesColor: Colors.blue,
-                      title: 'Prot',
-                    ),
-                  ),
-                ],
-              ),
-              const Text(
-                'Necesidades de Macronutrientes',
-                style: TextStyle(fontStyle: FontStyle.italic),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Column(
-                    children: [
-                      const Text('Calorias'),
-                      Text(
-                        '${necesidadesMacro!.calorias.toStringAsFixed(2)} kcal',
-                        style: const TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Text('Proteínas'),
-                      Text('${necesidadesMacro!.proteinas.toStringAsFixed(2)}g',
-                          style: const TextStyle(fontWeight: FontWeight.bold)),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Text('Carbohidratos'),
-                      Text(
-                          '${necesidadesMacro!.carbohidratos.toStringAsFixed(2)}g',
-                          style: const TextStyle(fontWeight: FontWeight.bold)),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Text('Grasas'),
-                      Text('${necesidadesMacro!.grasas.toStringAsFixed(2)}g',
-                          style: const TextStyle(fontWeight: FontWeight.bold)),
-                    ],
-                  ),
-                ],
-              ),
-              const Divider(
-                height: 16,
-              ),
-              const Text(
-                'Planificación de Macronutrientes',
-                style: TextStyle(fontStyle: FontStyle.italic),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Column(
-                    children: [
-                      const Text('Calorias'),
-                      Text(
-                        '${macrosPlanGeneral!.calorias.toStringAsFixed(2)} kcal',
-                        style: const TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Text('Proteínas'),
-                      Text(
-                          '${macrosPlanGeneral!.proteinas.toStringAsFixed(2)}g',
-                          style: const TextStyle(fontWeight: FontWeight.bold)),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Text('Carbohidratos'),
-                      Text(
-                          '${macrosPlanGeneral!.carbohidratos.toStringAsFixed(2)}g',
-                          style: const TextStyle(fontWeight: FontWeight.bold)),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Text('Grasas'),
-                      Text('${macrosPlanGeneral!.grasas.toStringAsFixed(2)}g',
-                          style: const TextStyle(fontWeight: FontWeight.bold)),
-                    ],
-                  ),
-                ],
+              SizedBox(
+                height: 140,
+                width: double.maxFinite,
+                child: NutritionScreen(
+                  valueCal: macrosPlanGeneral!.calorias,
+                  maxValueCal: necesidadesMacro!.calorias,
+                  valueProt: macrosPlanGeneral!.proteinas,
+                  maxValueProt: necesidadesMacro!.proteinas,
+                  valueCarb: macrosPlanGeneral!.carbohidratos,
+                  maxValueCarb: necesidadesMacro!.carbohidratos,
+                  valueGrasa: macrosPlanGeneral!.grasas,
+                  maxValueGrasa: necesidadesMacro!.grasas,
+                ),
               ),
               const Divider(
                 height: 16,
