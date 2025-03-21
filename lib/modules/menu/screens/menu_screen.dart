@@ -625,7 +625,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                             ),
                           );
                         }).toList());
-                  }).toList(),
+                  }),
                 ]),
               ),
             ],
