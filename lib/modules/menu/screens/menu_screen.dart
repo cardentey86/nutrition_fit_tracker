@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
@@ -12,6 +13,8 @@ import 'package:nutrition_fit_traker/modules/menu/screens/menu_dialog.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_plato_dialog.dart';
 import 'package:nutrition_fit_traker/modules/menu/widgets/chart_macro.dart';
 import 'package:nutrition_fit_traker/modules/menu/widgets/nutrition_screen.dart';
+import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
+import 'package:nutrition_fit_traker/modules/personal_measure/models/measure_model.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -32,10 +35,13 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
   final MenuPlatoController _menuPlatoController = MenuPlatoController();
   final FoodController _alimentoController = FoodController();
   final IndicesController _indicesController = IndicesController();
+  final PersonalMeasureController _medidasPersonalesController =
+      PersonalMeasureController();
   String? description;
   bool isMenuOpen = false;
   bool _isLoading = false;
   ConsumoMacro? necesidadesMacro;
+  PersonalMeasure? medidasPersonales;
   List<Data> pastelMacroCalorias = [];
   List<Data> pastelMacroProteina = [];
   List<Data> pastelMacroCarbohidratos = [];
@@ -48,7 +54,6 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-
     menuNames = Menu.menuNames();
     _loadData();
   }
@@ -65,6 +70,10 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
 
     final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
     menuPlato = [...resultMenuPlato];
+
+    final resultMedidasPersonales =
+        await _medidasPersonalesController.getLast();
+    medidasPersonales = resultMedidasPersonales;
 
     final macroGeneral =
         await _indicesController.consumoMacroNutrientesDesglosado();
@@ -312,6 +321,11 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
+    if (medidasPersonales == null) {
+      const Scaffold(
+        body: Center(child: Text('No existen datos de medidas personales')),
+      );
+    }
     return Scaffold(
       appBar: AppBar(
         title: const Text(
@@ -536,118 +550,182 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                             ],
                           ),
                         ),
-                        children: menu.platos.map((MenuPlato plato) {
-                          return ListTile(
-                            key: Key(plato.id.toString()),
-                            title: Row(
+                        children: menu.platos.map((MenuPlato menuPlato) {
+                          MenuPlato menuPlatoItem = menuPlato;
+                          return Slidable(
+                            key: Key(menuPlato.id.toString()),
+                            startActionPane: ActionPane(
+                              extentRatio: 0.2,
+                              motion: const ScrollMotion(),
                               children: [
-                                Text(
-                                  plato.alimento!.nombre,
-                                  style: const TextStyle(
-                                      fontStyle: FontStyle.italic),
+                                SlidableAction(
+                                  spacing: 2,
+                                  backgroundColor: Colors.transparent,
+                                  padding: const EdgeInsets.all(8.0),
+                                  label: "Editar",
+                                  foregroundColor: Colors.blue,
+                                  icon: Icons.edit,
+                                  onPressed: (context) async {},
                                 ),
-                                const SizedBox(
-                                  width: 8,
-                                ),
-                                Text(' (${(plato.cantidad)} g)',
-                                    style: const TextStyle(
-                                        fontSize: 14,
-                                        color: Colors.black38,
-                                        fontStyle: FontStyle.italic)),
                               ],
                             ),
-                            subtitle: Padding(
-                              padding:
-                                  const EdgeInsets.only(left: 8.0, right: 10),
-                              child: Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                            endActionPane: ActionPane(
+                              extentRatio: 0.2,
+                              motion: const ScrollMotion(),
+                              children: [
+                                SlidableAction(
+                                  spacing: 2,
+                                  padding: const EdgeInsets.all(8.0),
+                                  label: "Eliminar",
+                                  backgroundColor: Colors.transparent,
+                                  foregroundColor: Colors.red,
+                                  icon: Icons.delete,
+                                  onPressed: (context) async {
+                                    final shouldDelete = await showDialog<bool>(
+                                      context: context,
+                                      builder: (context) {
+                                        return AlertDialog(
+                                          title: const Text(
+                                              'Confirmar eliminación'),
+                                          content: Text(
+                                              '¿Está seguro de que desea eliminar el alimento ${menuPlato.alimento!.nombre}?'),
+                                          actions: [
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(context).pop(
+                                                    false); // Cerrar y devolver false
+                                              },
+                                              child: const Text('Cancelar'),
+                                            ),
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(context).pop(
+                                                    true); // Cerrar y devolver verdadero
+                                              },
+                                              child: const Text('Confirmar'),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
+
+                                    if (shouldDelete == true) {}
+                                  },
+                                ),
+                              ],
+                            ),
+                            child: ListTile(
+                              key: Key(menuPlato.id.toString()),
+                              title: Row(
                                 children: [
-                                  Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      SizedBox(
-                                        width: 60,
-                                        height: 20,
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Text(
-                                                ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.calorias)}',
-                                                style: const TextStyle(
-                                                    fontSize: 14,
-                                                    color: Colors.orange)),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
+                                  Text(
+                                    menuPlato.alimento!.nombre,
+                                    style: const TextStyle(
+                                        fontStyle: FontStyle.italic),
                                   ),
-                                  Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      SizedBox(
-                                        width: 60,
-                                        height: 20,
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Text(
-                                                ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.proteinas)}',
-                                                style: const TextStyle(
-                                                    fontSize: 14,
-                                                    color: Colors.blue)),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
+                                  const SizedBox(
+                                    width: 8,
                                   ),
-                                  Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      SizedBox(
-                                        width: 60,
-                                        height: 20,
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Text(
-                                                ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.carbohidratos)}',
-                                                style: const TextStyle(
-                                                    fontSize: 14,
-                                                    color: Colors.red)),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                  Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      SizedBox(
-                                        width: 60,
-                                        height: 20,
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Text(
-                                                ' ${_alimentoController.CalcularConsumoAlimento(plato.cantidad, plato.alimento!.grasas)}',
-                                                style: const TextStyle(
-                                                    fontSize: 14,
-                                                    color: Colors.green)),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
+                                  Text(' (${(menuPlato.cantidad)} g)',
+                                      style: const TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.black38,
+                                          fontStyle: FontStyle.italic)),
                                 ],
+                              ),
+                              subtitle: Padding(
+                                padding:
+                                    const EdgeInsets.only(left: 8.0, right: 10),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        SizedBox(
+                                          width: 60,
+                                          height: 20,
+                                          child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Text(
+                                                  ' ${_alimentoController.CalcularConsumoAlimento(menuPlato.cantidad, menuPlato.alimento!.calorias)}',
+                                                  style: const TextStyle(
+                                                      fontSize: 14,
+                                                      color: Colors.orange)),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        SizedBox(
+                                          width: 60,
+                                          height: 20,
+                                          child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Text(
+                                                  ' ${_alimentoController.CalcularConsumoAlimento(menuPlato.cantidad, menuPlato.alimento!.proteinas)}',
+                                                  style: const TextStyle(
+                                                      fontSize: 14,
+                                                      color: Colors.blue)),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        SizedBox(
+                                          width: 60,
+                                          height: 20,
+                                          child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Text(
+                                                  ' ${_alimentoController.CalcularConsumoAlimento(menuPlato.cantidad, menuPlato.alimento!.carbohidratos)}',
+                                                  style: const TextStyle(
+                                                      fontSize: 14,
+                                                      color: Colors.red)),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        SizedBox(
+                                          width: 60,
+                                          height: 20,
+                                          child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Text(
+                                                  ' ${_alimentoController.CalcularConsumoAlimento(menuPlato.cantidad, menuPlato.alimento!.grasas)}',
+                                                  style: const TextStyle(
+                                                      fontSize: 14,
+                                                      color: Colors.green)),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           );

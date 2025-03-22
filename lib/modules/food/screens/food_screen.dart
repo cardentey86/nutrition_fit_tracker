@@ -312,7 +312,7 @@ class _FoodScreenState extends State<FoodScreen> {
                     if (value == null || value.isEmpty) {
                       return 'Por favor ingresa el nombre del alimento.';
                     }
-                    return null; // Sin errores
+                    return null;
                   },
                 ),
                 TextField(
@@ -320,7 +320,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   decoration: const InputDecoration(labelText: 'Calorías'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                    FilteringTextInputFormatter.digitsOnly
                   ],
                 ),
                 TextField(
@@ -328,7 +328,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   decoration: const InputDecoration(labelText: 'Proteinas'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                    FilteringTextInputFormatter.digitsOnly
                   ],
                 ),
                 TextField(
@@ -336,7 +336,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   decoration: const InputDecoration(labelText: 'Carbohidratos'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                    FilteringTextInputFormatter.digitsOnly
                   ],
                 ),
                 TextField(
@@ -344,7 +344,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   decoration: const InputDecoration(labelText: 'Grasas'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                    FilteringTextInputFormatter.digitsOnly
                   ],
                 ),
                 TextField(
@@ -352,7 +352,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   decoration: const InputDecoration(labelText: 'Fibra'),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly // Solo dígitos
+                    FilteringTextInputFormatter.digitsOnly
                   ],
                 ),
               ],
