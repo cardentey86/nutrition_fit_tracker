@@ -40,35 +40,17 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
   List<Data> pastelMacroProteina = [];
   List<Data> pastelMacroCarbohidratos = [];
   List<Data> pastelMacroGrasas = [];
-  bool showPastel = false;
-  late AnimationController _controller; // Controlador de animación
-  late Animation<Offset> _slideAnimation; // Animación de deslizamiento
+  bool showPastelCalorias = false;
+  bool showPastelProteinas = false;
+  bool showPastelCarbohidratos = false;
+  bool showPastelGrasas = false;
 
   @override
   void initState() {
     super.initState();
 
-    _controller = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 300),
-    );
-
-    _slideAnimation = Tween<Offset>(
-      begin: const Offset(0, -1),
-      end: const Offset(0, 0),
-    ).animate(CurvedAnimation(
-      parent: _controller,
-      curve: Curves.linear,
-    ));
-
     menuNames = Menu.menuNames();
     _loadData();
-  }
-
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
   }
 
   Future<void> _loadData() async {
@@ -107,13 +89,46 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     });
   }
 
-  void toggleShowPastel() {
+  void toggleShowPastelCalorias() {
     setState(() {
-      showPastel = !showPastel;
-      if (showPastel) {
-        _controller.forward();
-      } else {
-        _controller.reverse();
+      showPastelCalorias = !showPastelCalorias;
+      if (showPastelCalorias == true) {
+        showPastelCarbohidratos = false;
+        showPastelProteinas = false;
+        showPastelGrasas = false;
+      }
+    });
+  }
+
+  void toggleShowPastelProteinas() {
+    setState(() {
+      showPastelProteinas = !showPastelProteinas;
+      if (showPastelProteinas == true) {
+        showPastelCarbohidratos = false;
+        showPastelCalorias = false;
+        showPastelGrasas = false;
+      }
+    });
+  }
+
+  void toggleShowPastelCarbohidratos() {
+    setState(() {
+      showPastelCarbohidratos = !showPastelCarbohidratos;
+      if (showPastelCarbohidratos == true) {
+        showPastelProteinas = false;
+        showPastelCalorias = false;
+        showPastelGrasas = false;
+      }
+    });
+  }
+
+  void toggleShowPastelGrasas() {
+    setState(() {
+      showPastelGrasas = !showPastelGrasas;
+      if (showPastelGrasas == true) {
+        showPastelProteinas = false;
+        showPastelCalorias = false;
+        showPastelCarbohidratos = false;
       }
     });
   }
@@ -123,6 +138,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     double proteinas = 0;
     double carbohidratos = 0;
     double grasas = 0;
+    listMacrosPlanPorMenu = [];
 
     for (var menu in menus) {
       String nombreMenu = menu.nombre;
@@ -159,10 +175,11 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
 
       listMacrosPlanPorMenu.add(ShowMacro(
           tipoMacro: nombreMenu,
-          calorias: menuPlatosCalorias,
-          proteinas: menuPlatosProteinas,
-          carbohidratos: menuPlatosCarbohidratos,
-          grasas: menuPlatosGrasas));
+          calorias: double.parse(menuPlatosCalorias.toStringAsFixed(1)),
+          proteinas: double.parse(menuPlatosProteinas.toStringAsFixed(1)),
+          carbohidratos:
+              double.parse(menuPlatosCarbohidratos.toStringAsFixed(1)),
+          grasas: double.parse(menuPlatosGrasas.toStringAsFixed(1))));
     }
 
     for (var element in listMacrosPlanPorMenu) {
@@ -372,20 +389,30 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                   maxValueCarb: necesidadesMacro!.carbohidratos,
                   valueGrasa: macrosPlanGeneral!.grasas,
                   maxValueGrasa: necesidadesMacro!.grasas,
-                  onValueChangedCalorias: () => toggleShowPastel(),
-                  onValueChangedProteinas: () => toggleShowPastel(),
-                  onValueChangedCarbohidratos: () => toggleShowPastel(),
-                  onValueChangedGrasas: () => toggleShowPastel(),
+                  onValueChangedCalorias: () => toggleShowPastelCalorias(),
+                  onValueChangedProteinas: () => toggleShowPastelProteinas(),
+                  onValueChangedCarbohidratos: () =>
+                      toggleShowPastelCarbohidratos(),
+                  onValueChangedGrasas: () => toggleShowPastelGrasas(),
                 ),
               ),
               Expanded(
                 child: ListView(children: [
-                  if (showPastel)
-                    SlideTransition(
-                      position: _slideAnimation,
-                      child: GraficoPastel(macros: pastelMacroCalorias),
+                  if (showPastelCalorias)
+                    GraficoPastel(
+                      macros: pastelMacroCalorias,
+                      nombreMacro: 'Calorias',
                     ),
-                  if (showPastel) const Divider(height: 16),
+                  if (showPastelProteinas)
+                    GraficoPastel(
+                        macros: pastelMacroProteina, nombreMacro: 'Proteina'),
+                  if (showPastelCarbohidratos)
+                    GraficoPastel(
+                        macros: pastelMacroCarbohidratos,
+                        nombreMacro: 'Carbohidratos'),
+                  if (showPastelGrasas)
+                    GraficoPastel(
+                        macros: pastelMacroGrasas, nombreMacro: 'Grasas'),
                   const SizedBox(
                     height: 16,
                   ),
