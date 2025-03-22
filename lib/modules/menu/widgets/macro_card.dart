@@ -5,6 +5,7 @@ class MacroCard extends StatelessWidget {
   final double value;
   final double maxValue;
   final Color color;
+  final VoidCallback onValueChanged;
 
   const MacroCard({
     super.key,
@@ -12,6 +13,7 @@ class MacroCard extends StatelessWidget {
     required this.value,
     required this.color,
     required this.maxValue,
+    required this.onValueChanged,
   });
 
   @override
@@ -24,19 +26,22 @@ class MacroCard extends StatelessWidget {
             SizedBox(
               width: 60,
               height: 60,
-              child: CircularProgressIndicator(
-                value: double.parse((value / maxValue).toStringAsFixed(2)),
-                backgroundColor: Colors.black12,
-                valueColor: AlwaysStoppedAnimation(color),
-                strokeWidth: 6,
+              child: GestureDetector(
+                onTap: () => onValueChanged(),
+                child: CircularProgressIndicator(
+                  value: double.parse((value / maxValue).toStringAsFixed(1)),
+                  backgroundColor: Colors.black12,
+                  valueColor: AlwaysStoppedAnimation(color),
+                  strokeWidth: 6,
+                ),
               ),
             ),
             Text(
               (maxValue - value) > 0
-                  ? "${(maxValue - value).toStringAsFixed(2)}\nFaltan"
-                  : '${(maxValue - value).toStringAsFixed(2)}\nSobran',
+                  ? (maxValue - value).toStringAsFixed(1)
+                  : (maxValue - value).toStringAsFixed(1),
               textAlign: TextAlign.center,
-              style: const TextStyle(color: Colors.black87, fontSize: 12),
+              style: const TextStyle(color: Colors.black87, fontSize: 14),
             ),
           ],
         ),

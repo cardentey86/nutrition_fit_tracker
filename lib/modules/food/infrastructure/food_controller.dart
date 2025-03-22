@@ -101,6 +101,6 @@ class FoodController {
   }
 
   double CalcularConsumoAlimento(double cantidadGramos, double valorMacro) {
-    return (cantidadGramos * valorMacro / 100);
+    return double.parse((cantidadGramos * valorMacro / 100).toStringAsFixed(1));
   }
 }
