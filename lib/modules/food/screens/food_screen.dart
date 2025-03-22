@@ -380,13 +380,14 @@ class _FoodScreenState extends State<FoodScreen> {
                   final fibra = double.tryParse(fibraController.text) ?? 0;
 
                   Alimento alimento = Alimento(
-                      id: alimentoToUpdate?.id,
-                      nombre: nombre,
-                      calorias: calorias,
-                      carbohidratos: carbohidratos,
-                      proteinas: proteinas,
-                      grasas: grasas,
-                      fibra: fibra);
+                    id: alimentoToUpdate?.id,
+                    nombre: nombre,
+                    calorias: calorias,
+                    carbohidratos: carbohidratos,
+                    proteinas: proteinas,
+                    grasas: grasas,
+                    fibra: fibra,
+                  );
 
                   bool result = false;
 
