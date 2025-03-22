@@ -23,13 +23,6 @@ class MenuPlato {
         where: 'Id = ?', whereArgs: [map['IdAlimento']], limit: 1);
     Alimento alimento = Alimento.fromMap(alimentoData.first);
 
-    /* List<Map<String, dynamic>> menuData = await db.query(
-      'Menu',
-      where: 'Id = ?',
-      whereArgs: [map['IdMenu']],
-    ); */
-    /* Menu menu = await Menu.fromMap(menuData.first, db); */
-
     return MenuPlato(
         id: map['Id'],
         idMenu: map['IdMenu'],

@@ -277,7 +277,7 @@ class _MyWidgetState extends State<MenuScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
-                height: 140,
+                height: 240,
                 width: double.maxFinite,
                 child: NutritionScreen(
                   valueCal: macrosPlanGeneral!.calorias,
