@@ -350,8 +350,6 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
             children: [
               Container(
                 height: 175,
-              SizedBox(
-                height: 240,
                 width: double.maxFinite,
                 decoration: BoxDecoration(
                   color: Theme.of(context).scaffoldBackgroundColor,
