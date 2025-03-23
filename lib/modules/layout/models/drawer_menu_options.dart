@@ -29,33 +29,3 @@ final List<ChildItem> drawerMenu = [
       text: "Información",
       route: AppRoutes.information),
 ];
-
-  /* ParentItem(
-    title: 'Clients',
-    icon: const Icon(Icons.business_outlined),
-    children: [
-      ChildItem(
-          icon: const Icon(Icons.person_pin_circle_outlined),
-          text: "Client",
-          route: AppRoutes.client),
-      ChildItem(
-          icon: const Icon(Icons.panorama_wide_angle_rounded),
-          text: "Ticket",
-          route: AppRoutes.ticket),
-    ],
-  ),
-  ParentItem(
-    title: 'Users',
-    icon: const Icon(Icons.person_outline_outlined),
-    children: [
-      ChildItem(
-          icon: const Icon(Icons.people_outline),
-          text: "Users",
-          route: AppRoutes.user),
-      ChildItem(
-          icon: const Icon(Icons.shield_outlined),
-          text: "Security Profiles",
-          route: AppRoutes.profile),
-    ],
-  ), */
-

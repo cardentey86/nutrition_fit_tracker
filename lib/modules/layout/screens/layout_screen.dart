@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/layout/screens/home_drawer.dart';
 import 'package:nutrition_fit_traker/routes/router_handler.dart';
@@ -20,16 +21,27 @@ class _LayoutScreenState extends State<LayoutScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      key: _scaffoldKey,
-      appBar: AppBar(
-        title: const Text("Nutrition Fitness Tracker"),
-        titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
-        backgroundColor: Colors.blue,
-        iconTheme: const IconThemeData(color: Colors.white),
+    return PopScope(
+      canPop: false,
+      child: Scaffold(
+        key: _scaffoldKey,
+        appBar: AppBar(
+          title: const Text("Nutrition Fitness Tracker"),
+          titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
+          backgroundColor: Colors.blue,
+          iconTheme: const IconThemeData(color: Colors.white),
+          actions: [
+            IconButton(
+              onPressed: () {
+                exit(0);
+              },
+              icon: const Icon(Icons.exit_to_app_outlined),
+            ),
+          ],
+        ),
+        body: RouterHandler(selectedRoute: _selectedRoute),
+        drawer: HomeDrawer(onItemTapped: onItemTapped),
       ),
-      body: RouterHandler(selectedRoute: _selectedRoute),
-      drawer: HomeDrawer(onItemTapped: onItemTapped),
     );
   }
 
