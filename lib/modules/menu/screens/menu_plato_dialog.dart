@@ -2,15 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
 
+import '../models/menu_plato.dart';
+
 class AddFoodDialog extends StatefulWidget {
   final List<Menu> menuNames;
   final List<Alimento> alimentos;
-  final Function(int, int, double) onAddMenuPlato;
+  final Function(MenuPlato?, int, int, double) onAddMenuPlato;
+  final String action;
+  final MenuPlato? menuPlato;
   const AddFoodDialog(
       {super.key,
       required this.menuNames,
       required this.alimentos,
-      required this.onAddMenuPlato});
+      required this.onAddMenuPlato,
+      required this.action,
+      this.menuPlato});
 
   @override
   _AddFoodDialogState createState() => _AddFoodDialogState();
@@ -21,8 +27,20 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
   String? selectedMeal;
   String? selectedFood;
   String? quantity;
+  MenuPlato? menuPlato;
   List<Alimento> filteredFoods = [];
   final TextEditingController _alimentoController = TextEditingController();
+
+  @override
+  void initState() {
+    if (widget.menuPlato != null) {
+      selectedMeal = widget.menuPlato!.idMenu.toString();
+      selectedFood = widget.menuPlato!.idAlimento.toString();
+      quantity = widget.menuPlato!.cantidad.toString();
+      menuPlato = widget.menuPlato;
+    }
+    super.initState();
+  }
 
   void _filterFoods(String query) {
     if (query.isEmpty) {
@@ -42,7 +60,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: const Text('Agregar Alimento'),
+      title: Text(
+          widget.action == 'add' ? 'Agregar Alimento' : 'Actualizar Alimento'),
       content: SizedBox(
         width: double.maxFinite,
         child: Form(
@@ -50,28 +69,47 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              DropdownButtonFormField<String>(
-                decoration:
-                    const InputDecoration(labelText: 'Seleccionar Plato'),
-                items: widget.menuNames.map((menu) {
-                  return DropdownMenuItem<String>(
-                    value: menu.id.toString(),
-                    child: Text(menu.nombre),
-                  );
-                }).toList(),
-                onChanged: (value) {
-                  setState(() {
-                    selectedMeal = value;
-                  });
-                },
-                validator: (value) =>
-                    value == null ? 'Por favor seleccionar un plato' : null,
-              ),
-              TextFormField(
-                controller: _alimentoController,
-                decoration: const InputDecoration(labelText: 'Buscar Alimento'),
-                onChanged: _filterFoods,
-              ),
+              menuPlato == null
+                  ? DropdownButtonFormField<String>(
+                      decoration: const InputDecoration(
+                        labelText: 'Seleccionar Plato',
+                      ),
+                      items: widget.menuNames.map((menu) {
+                        return DropdownMenuItem<String>(
+                          value: menu.id.toString(),
+                          child: Text(menu.nombre),
+                        );
+                      }).toList(),
+                      onChanged: (value) {
+                        setState(() {
+                          selectedMeal = value;
+                        });
+                      },
+                      validator: (value) => value == null
+                          ? 'Por favor seleccionar un plato'
+                          : null,
+                    )
+                  : TextFormField(
+                      initialValue: widget.menuNames
+                          .firstWhere(
+                              (test) => test.id == widget.menuPlato!.idMenu)
+                          .nombre,
+                      enabled: false,
+                    ),
+              menuPlato == null
+                  ? TextFormField(
+                      controller: _alimentoController,
+                      decoration:
+                          const InputDecoration(labelText: 'Buscar Alimento'),
+                      onChanged: _filterFoods,
+                    )
+                  : TextFormField(
+                      initialValue: widget.alimentos
+                          .firstWhere(
+                              (test) => test.id == menuPlato!.idAlimento)
+                          .nombre,
+                      enabled: false,
+                    ),
               if (filteredFoods.isNotEmpty)
                 SizedBox(
                   height: 200,
@@ -162,8 +200,15 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
               TextFormField(
                 decoration: const InputDecoration(labelText: 'Cantidad (g)'),
                 keyboardType: TextInputType.number,
+                initialValue:
+                    menuPlato == null ? '' : menuPlato!.cantidad.toString(),
                 onChanged: (value) {
-                  quantity = value;
+                  setState(() {
+                    quantity = value;
+                    if (menuPlato != null && value.isNotEmpty) {
+                      menuPlato!.cantidad = double.parse(quantity!);
+                    }
+                  });
                 },
                 validator: (value) => value == null || value.isEmpty
                     ? 'Por favor ingresar una cantidad'
@@ -175,10 +220,10 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
       ),
       actions: [
         TextButton(
-          child: const Text('Agregar'),
+          child: Text(widget.action == 'add' ? 'Agregar' : 'Actualizar'),
           onPressed: () {
             if (_formKey.currentState!.validate() && selectedFood != null) {
-              widget.onAddMenuPlato(int.parse(selectedMeal!),
+              widget.onAddMenuPlato(menuPlato, int.parse(selectedMeal!),
                   int.parse(selectedFood!), double.parse(quantity!));
               //Navigator.of(context).pop();
             } else if (selectedFood == null) {

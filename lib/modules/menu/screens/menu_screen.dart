@@ -142,6 +142,15 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     });
   }
 
+  Future<void> updateMenuPlato(MenuPlato menuPlatoToUpdate) async {
+    bool result = await _menuPlatoController.updateMenuPlato(menuPlatoToUpdate);
+    if (result) {
+      if (mounted) {
+        showSnackBar(context, "Actualizado correcto");
+      }
+    }
+  }
+
   void calculateMacroPlanificado(List<Menu> menus) {
     double calorias = 0;
     double proteinas = 0;
@@ -278,27 +287,38 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     );
   }
 
-  void _showAlimentoDialog() {
+  void _showAlimentoDialog(String action, MenuPlato? menuPlatoToUpdate) {
     showDialog(
       context: context,
       builder: (context) {
         return AddFoodDialog(
+          menuPlato: menuPlatoToUpdate,
+          action: action,
           menuNames: menus,
           alimentos: alimentos,
-          onAddMenuPlato: (selectedMenu, selectedFood, quantity) async {
-            var exist = menuPlato.any((item) =>
-                item.idAlimento == selectedFood && item.idMenu == selectedMenu);
-            if (!exist) {
-              await insertMenuPlato(selectedMenu, selectedFood, quantity);
-              //toggleMenu();
-              await getAllMenu();
-              /* if (mounted) {
+          onAddMenuPlato: action == 'add'
+              ? (id, selectedMenu, selectedFood, quantity) async {
+                  var exist = menuPlato.any((item) =>
+                      item.idAlimento == selectedFood &&
+                      item.idMenu == selectedMenu);
+                  if (!exist) {
+                    await insertMenuPlato(selectedMenu, selectedFood, quantity);
+                    //toggleMenu();
+                    await getAllMenu();
+                    /* if (mounted) {
                 Navigator.of(context).pop();
               } */
-            } else {
-              showSnackBar(context, 'El alimento ya existe en el menú');
-            }
-          },
+                  } else {
+                    showSnackBar(context, 'El alimento ya existe en el menú');
+                  }
+                }
+              : (id, selectedMenu, selectedFood, quantity) async {
+                  await updateMenuPlato(menuPlatoToUpdate!);
+                  await getAllMenu();
+                  if (mounted) {
+                    Navigator.of(context).pop();
+                  }
+                },
         );
       },
     );
@@ -314,6 +334,30 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     setState(() {
       isMenuOpen = !isMenuOpen;
     });
+  }
+
+  Future<void> eliminarMenuPlato(int id) async {
+    var result = await _menuPlatoController.eliminarMenuPlato(id);
+
+    if (result) {
+      if (mounted) {
+        showSnackBar(context, "Eliminación correcta");
+      }
+    }
+
+    _loadData();
+  }
+
+  Future<void> eliminarMenu(int id) async {
+    var result = await _menuPlatoController.eliminarMenu(id);
+
+    if (result) {
+      if (mounted) {
+        showSnackBar(context, "Eliminación correcta");
+      }
+    }
+
+    _loadData();
   }
 
   @override
@@ -351,7 +395,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                 index: 1,
                 icon: Icons.food_bank_outlined,
                 onPressed: () {
-                  _showAlimentoDialog();
+                  _showAlimentoDialog('add', null);
                   toggleMenu();
                 }),
             const SizedBox(
@@ -434,9 +478,51 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                     return ExpansionTile(
                         key: Key(menu.id.toString()),
                         showTrailingIcon: false,
-                        title: Text(
-                          menu.nombre,
-                          style: const TextStyle(fontWeight: FontWeight.bold),
+                        title: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              menu.nombre,
+                              style:
+                                  const TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            IconButton(
+                              iconSize: 18,
+                              onPressed: () async {
+                                final shouldDelete = await showDialog<bool>(
+                                  context: context,
+                                  builder: (context) {
+                                    return AlertDialog(
+                                      title:
+                                          const Text('Confirmar eliminación'),
+                                      content: Text(
+                                          '¿Confirma eliminar el menu ${menu.nombre} con todos sus alimentos?'),
+                                      actions: [
+                                        TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop(false);
+                                          },
+                                          child: const Text('Cancelar'),
+                                        ),
+                                        TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop(true);
+                                          },
+                                          child: const Text('Confirmar'),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+
+                                if (shouldDelete == true) {
+                                  await eliminarMenu(menu.id!);
+                                }
+                              },
+                              icon: const Icon(Icons.delete),
+                              color: Colors.red.shade200,
+                            )
+                          ],
                         ),
                         subtitle: Padding(
                           padding: const EdgeInsets.only(left: 10),
@@ -565,7 +651,10 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                   label: "Editar",
                                   foregroundColor: Colors.blue,
                                   icon: Icons.edit,
-                                  onPressed: (context) async {},
+                                  onPressed: (context) async {
+                                    _showAlimentoDialog(
+                                        'editar', menuPlatoItem);
+                                  },
                                 ),
                               ],
                             ),
@@ -592,15 +681,14 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                           actions: [
                                             TextButton(
                                               onPressed: () {
-                                                Navigator.of(context).pop(
-                                                    false); // Cerrar y devolver false
+                                                Navigator.of(context)
+                                                    .pop(false);
                                               },
                                               child: const Text('Cancelar'),
                                             ),
                                             TextButton(
                                               onPressed: () {
-                                                Navigator.of(context).pop(
-                                                    true); // Cerrar y devolver verdadero
+                                                Navigator.of(context).pop(true);
                                               },
                                               child: const Text('Confirmar'),
                                             ),
@@ -609,7 +697,10 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                       },
                                     );
 
-                                    if (shouldDelete == true) {}
+                                    if (shouldDelete == true) {
+                                      await eliminarMenuPlato(
+                                          menuPlatoItem.id!);
+                                    }
                                   },
                                 ),
                               ],

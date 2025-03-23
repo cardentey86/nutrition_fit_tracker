@@ -111,6 +111,21 @@ class MenuPlatoController {
     }
   }
 
+  Future<MenuPlato?> getMenuPlatoById(int id) async {
+    final db = await _dbHelper.database;
+    List<Map<String, dynamic>> maps = await db.query(
+      'MenuPlato',
+      where: 'Id = ?',
+      whereArgs: [id],
+    );
+
+    if (maps.isNotEmpty) {
+      return await MenuPlato.fromMap(maps.first, db);
+    } else {
+      return null;
+    }
+  }
+
   Future<Menu?> getByName(String name) async {
     final db = await _dbHelper.database;
     List<Map<String, dynamic>> maps = await db.query(
@@ -133,7 +148,7 @@ class MenuPlatoController {
     return result > 0;
   }
 
-  Future<void> eliminarMenu(int menuId) async {
+  Future<bool> eliminarMenu(int menuId) async {
     final db = await _dbHelper.database;
 
     await db.delete(
@@ -142,10 +157,12 @@ class MenuPlatoController {
       whereArgs: [menuId],
     );
 
-    await db.delete(
+    int result = await db.delete(
       'Menu',
       where: 'Id = ?',
       whereArgs: [menuId],
     );
+
+    return result > 0;
   }
 }
