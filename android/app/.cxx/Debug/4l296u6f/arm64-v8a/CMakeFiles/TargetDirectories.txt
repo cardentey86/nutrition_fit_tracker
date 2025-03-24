@@ -1,0 +1,2 @@
+D:/Trabajo/Flutter/nutrition_fit_tracker/android/app/.cxx/Debug/4l296u6f/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Trabajo/Flutter/nutrition_fit_tracker/android/app/.cxx/Debug/4l296u6f/arm64-v8a/CMakeFiles/rebuild_cache.dir
