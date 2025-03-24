@@ -147,8 +147,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _savePeso();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withValues(alpha: 0.5),
             ),
@@ -168,8 +168,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _saveImc();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -189,8 +189,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _savePgc();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -218,8 +218,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _savePmm();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -247,8 +247,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _savePecho();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -276,8 +276,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _saveBiceps();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -305,8 +305,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _saveCintura();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -334,8 +334,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _saveMuslo();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),
@@ -363,8 +363,8 @@ class _MyWidgetState extends State<ConfigScreen> {
                 });
                 _savePantorrilla();
               },
-              activeColor: Colors.blue.shade800,
-              activeTrackColor: Colors.blue.shade400,
+              activeColor: Colors.white,
+              activeTrackColor: Colors.blue,
               inactiveThumbColor: Colors.grey,
               inactiveTrackColor: Colors.grey.withOpacity(0.5),
             ),

@@ -1,0 +1,2 @@
+E:/PYE/nutrition_fit_tracker/android/app/.cxx/Debug/371a5x6y/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/PYE/nutrition_fit_tracker/android/app/.cxx/Debug/371a5x6y/armeabi-v7a/CMakeFiles/rebuild_cache.dir

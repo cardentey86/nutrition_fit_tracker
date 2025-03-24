@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Users\\adrianalvarez\\dev\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\adrianalvarez\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "E:\\PYE\\nutrition_fit_tracker\\android\\app\\.cxx\\Debug\\371a5x6y\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\adrianalvarez\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "E:\\PYE\\nutrition_fit_tracker\\android\\app\\.cxx\\Debug\\371a5x6y\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

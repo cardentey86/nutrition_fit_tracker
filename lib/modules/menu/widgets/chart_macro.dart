@@ -21,8 +21,7 @@ class GraficoPastel extends StatelessWidget {
           dataSource: macros,
           xValueMapper: (Data menu, _) => menu.macro,
           yValueMapper: (Data menu, _) => menu.value,
-          dataLabelMapper: (Data menu, _) =>
-              '${menu.macro} \n ${menu.value.toString()}',
+          dataLabelMapper: (Data menu, _) => menu.value.toString(),
           dataLabelSettings: const DataLabelSettings(isVisible: true),
           pointColorMapper: (Data menu, _) {
             return getRandomColor();

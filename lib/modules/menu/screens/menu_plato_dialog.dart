@@ -9,6 +9,7 @@ class AddFoodDialog extends StatefulWidget {
   final List<Alimento> alimentos;
   final Function(MenuPlato?, int, int, double) onAddMenuPlato;
   final String action;
+  final String? selectedMenu;
   final MenuPlato? menuPlato;
   const AddFoodDialog(
       {super.key,
@@ -16,7 +17,8 @@ class AddFoodDialog extends StatefulWidget {
       required this.alimentos,
       required this.onAddMenuPlato,
       required this.action,
-      this.menuPlato});
+      this.menuPlato,
+      this.selectedMenu});
 
   @override
   _AddFoodDialogState createState() => _AddFoodDialogState();
@@ -38,6 +40,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
       selectedFood = widget.menuPlato!.idAlimento.toString();
       quantity = widget.menuPlato!.cantidad.toString();
       menuPlato = widget.menuPlato;
+    } else if (widget.selectedMenu != null) {
+      selectedMeal = widget.selectedMenu;
     }
     super.initState();
   }
@@ -74,6 +78,7 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                       decoration: const InputDecoration(
                         labelText: 'Seleccionar Plato',
                       ),
+                      value: selectedMeal,
                       items: widget.menuNames.map((menu) {
                         return DropdownMenuItem<String>(
                           value: menu.id.toString(),
@@ -112,7 +117,7 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                     ),
               if (filteredFoods.isNotEmpty)
                 SizedBox(
-                  height: 200,
+                  height: 150,
                   child: filteredFoods.isNotEmpty
                       ? ListView.separated(
                           physics: const AlwaysScrollableScrollPhysics(),

@@ -156,7 +156,13 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     double proteinas = 0;
     double carbohidratos = 0;
     double grasas = 0;
-    listMacrosPlanPorMenu = [];
+    setState(() {
+      listMacrosPlanPorMenu = [];
+      pastelMacroCalorias = [];
+      pastelMacroProteina = [];
+      pastelMacroCarbohidratos = [];
+      pastelMacroGrasas = [];
+    });
 
     for (var menu in menus) {
       String nombreMenu = menu.nombre;
@@ -287,12 +293,14 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     );
   }
 
-  void _showAlimentoDialog(String action, MenuPlato? menuPlatoToUpdate) {
+  void _showAlimentoDialog(
+      String action, MenuPlato? menuPlatoToUpdate, String? selectedMenu) {
     showDialog(
       context: context,
       builder: (context) {
         return AddFoodDialog(
           menuPlato: menuPlatoToUpdate,
+          selectedMenu: selectedMenu,
           action: action,
           menuNames: menus,
           alimentos: alimentos,
@@ -395,7 +403,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                 index: 1,
                 icon: Icons.food_bank_outlined,
                 onPressed: () {
-                  _showAlimentoDialog('add', null);
+                  _showAlimentoDialog('add', null, null);
                   toggleMenu();
                 }),
             const SizedBox(
@@ -486,41 +494,55 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                               style:
                                   const TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            IconButton(
-                              iconSize: 18,
-                              onPressed: () async {
-                                final shouldDelete = await showDialog<bool>(
-                                  context: context,
-                                  builder: (context) {
-                                    return AlertDialog(
-                                      title:
-                                          const Text('Confirmar eliminación'),
-                                      content: Text(
-                                          '¿Confirma eliminar el menu ${menu.nombre} con todos sus alimentos?'),
-                                      actions: [
-                                        TextButton(
-                                          onPressed: () {
-                                            Navigator.of(context).pop(false);
-                                          },
-                                          child: const Text('Cancelar'),
-                                        ),
-                                        TextButton(
-                                          onPressed: () {
-                                            Navigator.of(context).pop(true);
-                                          },
-                                          child: const Text('Confirmar'),
-                                        ),
-                                      ],
-                                    );
+                            Row(
+                              children: [
+                                IconButton(
+                                  onPressed: () {
+                                    _showAlimentoDialog(
+                                        'add', null, menu.id.toString());
                                   },
-                                );
+                                  icon: const Icon(Icons.add_box),
+                                  iconSize: 18,
+                                  color: Colors.blue,
+                                ),
+                                IconButton(
+                                  iconSize: 18,
+                                  onPressed: () async {
+                                    final shouldDelete = await showDialog<bool>(
+                                      context: context,
+                                      builder: (context) {
+                                        return AlertDialog(
+                                          title: const Text(
+                                              'Confirmar eliminación'),
+                                          content: Text(
+                                              '¿Confirma eliminar el menu ${menu.nombre} con todos sus alimentos?'),
+                                          actions: [
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(context)
+                                                    .pop(false);
+                                              },
+                                              child: const Text('Cancelar'),
+                                            ),
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(context).pop(true);
+                                              },
+                                              child: const Text('Confirmar'),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
 
-                                if (shouldDelete == true) {
-                                  await eliminarMenu(menu.id!);
-                                }
-                              },
-                              icon: const Icon(Icons.delete),
-                              color: Colors.red.shade200,
+                                    if (shouldDelete == true) {
+                                      await eliminarMenu(menu.id!);
+                                    }
+                                  },
+                                  icon: const Icon(Icons.delete),
+                                  color: Colors.red.shade200,
+                                ),
+                              ],
                             )
                           ],
                         ),
@@ -653,7 +675,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                   icon: Icons.edit,
                                   onPressed: (context) async {
                                     _showAlimentoDialog(
-                                        'editar', menuPlatoItem);
+                                        'editar', menuPlatoItem, null);
                                   },
                                 ),
                               ],

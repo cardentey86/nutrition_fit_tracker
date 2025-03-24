@@ -5,11 +5,13 @@ import 'package:nutrition_fit_traker/modules/indices/widgets/cdmn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/imc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/medidas_esteticas.dart';
+import 'package:nutrition_fit_traker/modules/indices/widgets/peso_chart.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pgc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pmm.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/prediccion_ganancia.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/rmc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/tmb.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -21,6 +23,15 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final DatabaseHelper _helper = DatabaseHelper();
   final IndicesController indicesController = IndicesController();
+  bool showPeso = false;
+  bool showImc = false;
+  bool showPgc = false;
+  bool showPmm = false;
+  bool showPecho = false;
+  bool showBiceps = false;
+  bool showCintura = false;
+  bool showMuslo = false;
+  bool showPantorrilla = false;
 
   @override
   void initState() {
@@ -32,6 +43,38 @@ class _HomeScreenState extends State<HomeScreen> {
         ));
       }
     });
+    loadPreferences();
+  }
+
+  Future<void> loadPreferences() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      showPeso = prefs.getBool('showPeso') ?? false;
+      showImc = prefs.getBool('showImc') ?? false;
+      showPgc = prefs.getBool('showPgc') ?? false;
+      showPmm = prefs.getBool('showPmm') ?? false;
+      showPecho = prefs.getBool('showPecho') ?? false;
+      showBiceps = prefs.getBool('showBiceps') ?? false;
+      showCintura = prefs.getBool('showCintura') ?? false;
+      showMuslo = prefs.getBool('showMuslo') ?? false;
+      showPantorrilla = prefs.getBool('showPantorrilla') ?? false;
+    });
+  }
+
+  void closeChart(String key) async {
+    final pref = await SharedPreferences.getInstance();
+    switch (key) {
+      case "peso":
+        {
+          pref.setBool('showPeso', false);
+          setState(() {
+            showPeso = false;
+          });
+        }
+
+        break;
+      default:
+    }
   }
 
   void _showSnackBar(BuildContext context, String text) {
@@ -186,6 +229,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   context,
                   'Medidas Estéticas Ideales (MEI)',
                   const MedidasEsteticasWidget())),
+          SizedBox(
+            height: 16,
+          ),
+          if (showPeso) PesoChartWidget(onClose: () => closeChart('peso')),
         ],
       ),
     );
