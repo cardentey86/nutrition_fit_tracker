@@ -34,7 +34,7 @@ dependencies:
   path_provider: any
   path: any
   cupertino_icons: ^1.0.8
-  flutter_slidable: ^3.1.2
+  flutter_slidable: ^4.0.0
   flutter_svg: ^2.0.17
   syncfusion_flutter_charts: ^28.2.12
   flutter_vector_icons: ^2.0.0

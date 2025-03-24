@@ -34,52 +34,62 @@ class _MyWidgetState extends State<ConfigScreen> {
 
   Future<void> _loadData() async {
     final pref = await SharedPreferences.getInstance();
-    _showPeso = pref.getBool('showPeso') ?? false;
-    /* _showImc = (await storage.read(key: 'showImc')) == 'true';
-    _showPgc = (await storage.read(key: 'showPgc')) == 'true';
-    _showPmm = (await storage.read(key: 'showPmm')) == 'true';
-    _showPecho = (await storage.read(key: 'showPecho')) == 'true';
-    _showBiceps = (await storage.read(key: 'showBiceps')) == 'true';
-    _showCintura = (await storage.read(key: 'showCintura')) == 'true';
-    _showMuslo = (await storage.read(key: 'showMuslo')) == 'true';
-    _showPantorrilla = (await storage.read(key: 'showPantorrilla')) == 'true'; */
+    setState(() {
+      _showPeso = pref.getBool('showPeso') ?? false;
+      _showImc = pref.getBool('showImc') ?? false;
+      _showPgc = pref.getBool('showPgc') ?? false;
+      _showPmm = pref.getBool('showPmm') ?? false;
+      _showPecho = pref.getBool('showPecho') ?? false;
+      _showBiceps = pref.getBool('showBiceps') ?? false;
+      _showCintura = pref.getBool('showCintura') ?? false;
+      _showMuslo = pref.getBool('showMuslo') ?? false;
+      _showPantorrilla = pref.getBool('showPantorrilla') ?? false;
+    });
   }
 
   Future<void> _savePeso() async {
-    //await storage.write(key: 'showPeso', value: _showPeso.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showPeso', _showPeso);
   }
 
   Future<void> _saveImc() async {
-    //await storage.write(key: 'showImc', value: _showImc.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showImc', _showImc);
   }
 
   Future<void> _savePgc() async {
-    //await storage.write(key: 'showPgc', value: _showPgc.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showPgc', _showPgc);
   }
 
   Future<void> _savePmm() async {
-    // await storage.write(key: 'showPmm', value: _showPmm.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showPmm', _showPmm);
   }
 
   Future<void> _savePecho() async {
-    //storage.write(key: 'showPecho', value: _showPecho.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showPecho', _showPecho);
   }
 
   Future<void> _saveBiceps() async {
-    // await storage.write(key: 'showBiceps', value: _showBiceps.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showBiceps', _showBiceps);
   }
 
   Future<void> _saveCintura() async {
-    //await storage.write(key: 'showCintura', value: _showCintura.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showCintura', _showCintura);
   }
 
   Future<void> _saveMuslo() async {
-    //await storage.write(key: 'showMuslo', value: _showMuslo.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showMuslo', _showMuslo);
   }
 
   Future<void> _savePantorrilla() async {
-    //await storage.write(
-    //key: 'showPantorrilla', value: _showPantorrilla.toString());
+    final pref = await SharedPreferences.getInstance();
+    await pref.setBool('showPantorrilla', _showPantorrilla);
   }
 
   @override
@@ -140,7 +150,7 @@ class _MyWidgetState extends State<ConfigScreen> {
               activeColor: Colors.blue.shade800,
               activeTrackColor: Colors.blue.shade400,
               inactiveThumbColor: Colors.grey,
-              inactiveTrackColor: Colors.grey.withOpacity(0.5),
+              inactiveTrackColor: Colors.grey.withValues(alpha: 0.5),
             ),
           ),
           ListTile(
