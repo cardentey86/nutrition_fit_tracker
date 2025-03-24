@@ -3,6 +3,7 @@ import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/game_icons.dart';
 import 'package:iconify_flutter/icons/healthicons.dart';
 import 'package:iconify_flutter/icons/icon_park_outline.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class ConfigScreen extends StatefulWidget {
   const ConfigScreen({super.key});
@@ -32,8 +33,9 @@ class _MyWidgetState extends State<ConfigScreen> {
   }
 
   Future<void> _loadData() async {
-    /* _showPeso = (await storage.read(key: 'showPeso')) == 'true';
-    _showImc = (await storage.read(key: 'showImc')) == 'true';
+    final pref = await SharedPreferences.getInstance();
+    _showPeso = pref.getBool('showPeso') ?? false;
+    /* _showImc = (await storage.read(key: 'showImc')) == 'true';
     _showPgc = (await storage.read(key: 'showPgc')) == 'true';
     _showPmm = (await storage.read(key: 'showPmm')) == 'true';
     _showPecho = (await storage.read(key: 'showPecho')) == 'true';
