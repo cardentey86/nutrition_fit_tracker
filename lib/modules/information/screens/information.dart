@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -9,8 +10,8 @@ class Information extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: const Text(
-          'Información',
+        title: Text(
+          'information.title'.tr(),
           style: TextStyle(color: Colors.black87),
         ),
       ),
@@ -26,7 +27,7 @@ class Information extends StatelessWidget {
             const Text('Version 1.0'),
             const SizedBox(height: 8),
             ExpansionTile(
-              title: const Text('Acerca de NFT'),
+              title: Text('information.about'.tr()),
               children: [
                 ListTile(
                     title: Column(
@@ -38,16 +39,12 @@ class Information extends StatelessWidget {
                         style: TextStyle(color: Colors.black),
                         children: [
                           TextSpan(
-                            text: 'Nutrition Fitness Tracker',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            text:
+                                'Esta app es tu compañero ideal para alcanzar tus metas de salud y bienestar a través de un enfoque holístico en la gestión de la alimentación y el seguimiento del acondicionamiento físico. Nuestra aplicación está diseñada para ayudarte a llevar un control detallado de tus hábitos alimenticios y a calcular índices esenciales que te permitirán entender mejor tu composición corporal y optimizar tu nutrición. \n\n',
                           ),
                           TextSpan(
                             text:
-                                ' es tu compañero ideal para alcanzar tus metas de salud y bienestar a través de un enfoque holístico en la gestión de la alimentación y el seguimiento del acondicionamiento físico. Nuestra aplicación está diseñada para ayudarte a llevar un control detallado de tus hábitos alimenticios y a calcular índices esenciales que te permitirán entender mejor tu composición corporal y optimizar tu nutrición. \n\n',
-                          ),
-                          TextSpan(
-                            text:
-                                'Con Nutrition Fitness Tracker, no solo aprenderás a gestionar tus alimentos de manera efectiva, sino que también obtendrás un entendimiento más profundo de cómo tu dieta y tu entrenamiento impactan en tu salud general. Ya seas un principiante en el mundo del fitness o un atleta experimentado, nuestra aplicación proporciona las herramientas necesarias para empoderarte en tu viaje hacia un estilo de vida más saludable. \n\n',
+                                'No solo aprenderás a gestionar tus alimentos de manera efectiva, sino que también obtendrás un entendimiento más profundo de cómo tu dieta y tu entrenamiento impactan en tu salud general. Ya seas un principiante en el mundo del fitness o un atleta experimentado, nuestra aplicación proporciona las herramientas necesarias para empoderarte en tu viaje hacia un estilo de vida más saludable. \n\n',
                           ),
                           TextSpan(
                             text: 'Principales características: \n\n',
@@ -125,7 +122,7 @@ class Information extends StatelessWidget {
               ],
             ),
             ExpansionTile(
-              title: const Text('Cómo tomar las medidas personales'),
+              title: Text('information.howMeasurements'.tr()),
               children: [
                 ListTile(
                     title: Column(
@@ -133,72 +130,64 @@ class Information extends StatelessWidget {
                   children: [
                     RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         style: TextStyle(color: Colors.black),
                         children: [
                           TextSpan(
-                            text: 'Cuello: ',
+                            text: '${'information.neck'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica por debajo de la nuez de Adán en el punto más estrecho \n\n',
+                            text: '${'information.neckDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Pecho: ',
+                            text: '${'information.chest'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica por debajo de las axilas a la altura de los pezones y mantenerse relajado \n\n',
+                            text: '${'information.chestDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Biceps: ',
+                            text: '${'information.biceps'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica alrededor del centro del biceps por su parte más ancha estando contraido \n\n',
+                            text: '${'information.bicepsDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Antebrazo: ',
+                            text: '${'information.forearm'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica alrededor del antebrazo por la parte mas ancha con el puño apretado en posición recta al antebrazo \n\n',
+                            text: '${'information.forearmDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Cintura: ',
+                            text: '${'information.waist'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica alrededor de la cintura a por sobre el hombligo \n\n',
+                            text: '${'information.waistDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Cadera: ',
+                            text: '${'information.hip'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica alrededor de la cadera a la altura de la pelvis \n\n',
+                            text: '${'information.hipDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Muslo: ',
+                            text: '${'information.thigh'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica alrededor del centro del muslo relajado \n\n',
+                            text: '${'information.thighDesc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Gemelos: ',
+                            text: '${'information.calf'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Pasar la cinta métrica alrededor del gemelo por la parte más gruesa \n\n',
+                            text: '${'information.calfDesc'.tr()} \n\n',
                           ),
                         ],
                       ),
@@ -208,7 +197,7 @@ class Information extends StatelessWidget {
               ],
             ),
             ExpansionTile(
-              title: const Text('Indices personales'),
+              title: Text('information.personalIndex'.tr()),
               children: [
                 ListTile(
                     title: Column(
@@ -216,72 +205,64 @@ class Information extends StatelessWidget {
                   children: [
                     RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         style: TextStyle(color: Colors.black),
                         children: [
                           TextSpan(
-                            text: 'Indice de Masa Corporal: ',
+                            text: '${'information.imc'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'El Índice de Masa Corporal (IMC) es una herramienta útil para evaluar la relación entre el peso y la altura de una persona, proporcionando una estimación de la grasa corporal \n\n',
+                            text: '${'information.imcDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Ritmo máximo cardiaco: ',
+                            text: '${'information.rmc'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'El ritmo máximo cardíaco (RMC) es la frecuencia cardíaca más alta que una persona puede alcanzar durante actividad física intensa \n\n',
+                            text: '${'information.rmcDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Porcentaje de grasa corporal (PGC): ',
+                            text: '${'information.pgc'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Calcular el porcentaje de grasa corporal es importante para evaluar la composición corporal y la salud general de una persona. Existen diferentes métodos para estimar este porcentaje. Fórmula de Navy: Utiliza medidas de la circunferencia de la cintura y el cuello (y de las caderas para las mujeres) junto con la altura para estimar el porcentaje de grasa corporal. Fórmula de YMCA: Se basa en la altura y el peso para estimar el porcentaje de grasa corporal, aunque es menos precisa que otras metodologías. El cálculo del porcentaje de grasa corporal proporciona una visión más completa de la salud y la condición física que solo el peso corporal. Sin embargo, es recomendable combinar estos métodos con otras medidas de salud para obtener una evaluación más precisa y holística. \n\n',
+                            text: '${'information.pgcDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Porcentaje de músculo magro (PMM): ',
+                            text: '${'information.pmm'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'El cálculo del porcentaje de músculo magro es útil para obtener una comprensión más detallada de la composición corporal de una persona. Este porcentaje se refiere a la cantidad de masa muscular en relación con el peso total del cuerpo, excluyendo la grasa.  \n\n',
+                            text: '${'information.pmmDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Tasa metabólica basal (TMB): ',
+                            text: '${'information.tmb'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'La tasa metabólica basal (TMB) es la cantidad de energía que el cuerpo gasta en reposo para mantener funciones vitales como la respiración, circulación sanguínea, regulación de la temperatura corporal y funcionamiento de los órganos. Es un indicador clave de las necesidades energéticas del cuerpo en reposo y sirve como base para personalizar entrenamientos y planes de nutrición. Con una comprensión adecuada de la TMB, los atletas y las personas interesadas en mejorar su salud pueden optimizar su rendimiento y alcanzar sus objetivos de manera más efectiva y saludable \n\n',
+                            text: '${'information.tmbDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Predicción de ganancia muscular (PGM): ',
+                            text: '${'information.pgm'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Predecir la ganancia muscular según la genética es importante por varias razones, tanto para atletas como para individuos que buscan mejorar su composición corporal. La genética desempeña un papel fundamental en la capacidad de una persona para ganar músculo y, al reconocer su influencia, se puede optimizar el entrenamiento, la nutrición y la recuperación. Esto no solo mejora los resultados, sino que también apoya la salud y el bienestar general, brindando un enfoque más consciente y personalizado al desarrollo físico. \n\n',
+                            text: '${'information.pgmDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Consumo diario de macronutrientes (CDM): ',
+                            text: '${'information.cdm'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Conocer cómo debe ser el consumo diario de macronutrientes es fundamental para mantener una salud óptima, alcanzar objetivos de fitness y mejorar el rendimiento físico. Esto implica no solo un conocimiento detallado sobre los macronutrientes, sino también una comprensión de cómo interactúan en el cuerpo y cómo influyen en nuestro día a día. Al final, una alimentación bien planificada y equilibrada es clave para lograr un estilo de vida saludable y sostenible. \n\n',
+                            text: '${'information.cdmDesc'.tr()}\n\n',
                           ),
                           TextSpan(
-                            text: 'Medidas esteticamente ideales (MI): ',
+                            text: '${'information.mei'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
-                            text:
-                                'Conocer las medidas estéticamente ideales para las diferentes partes del cuerpo puede tener varias implicaciones, tanto en términos de salud como de bienestar emocional y autoestima, guiar el desarrollo de un plan de entrenamiento y nutrición, y fomentar la autoaceptación. Sin embargo, es importante abordar este conocimiento con una mentalidad equilibrada, considerando la salud y el bienestar personal por encima de los ideales sociales o culturales. La clave es encontrar un enfoque que promueva no solo la apariencia, sino también la salud y la felicidad personal. \n\n',
+                            text: '${'information.meiDesc'.tr()}\n\n',
                           ),
                         ],
                       ),
@@ -290,8 +271,6 @@ class Information extends StatelessWidget {
                 )),
               ],
             ),
-
-            // Puedes añadir más ExpansionTile según sea necesario
           ],
         ),
       ),

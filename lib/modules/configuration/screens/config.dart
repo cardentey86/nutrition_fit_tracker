@@ -120,11 +120,11 @@ class _MyWidgetState extends State<ConfigScreen> {
             height: 16,
           ),
           ListTile(
-            title: const Text('Idioma'),
-            subtitle: const Text('Cambiar idioma'),
+            title: Text('configuration.language'.tr()),
+            subtitle: Text('configuration.changeLanguage'.tr()),
             leading: const Icon(Icons.language),
             trailing: DropdownButton<String>(
-              hint: const Text('Idioma'),
+              hint: Text('configuration.language'.tr()),
               value: _selectedLanguage,
               onChanged: (String? newValue) {
                 setState(() {
@@ -142,13 +142,13 @@ class _MyWidgetState extends State<ConfigScreen> {
             ),
           ),
           const Divider(),
-          const Padding(
+          Padding(
             padding: EdgeInsets.only(left: 16.0),
-            child: Text('Gráficos'),
+            child: Text('configuration.charts'.tr()),
           ),
           ListTile(
-            title: const Text('Peso'),
-            subtitle: const Text('Progreso de peso corporal'),
+            title: Text('configuration.weight'.tr()),
+            subtitle: Text('configuration.progressWeight'.tr()),
             leading: const Iconify(
               GameIcons.weight_scale,
               color: Colors.black54,
@@ -168,8 +168,8 @@ class _MyWidgetState extends State<ConfigScreen> {
             ),
           ),
           ListTile(
-            title: const Text('IMC'),
-            subtitle: const Text('Indice de masa corporal'),
+            title: Text('configuration.imc'.tr()),
+            subtitle: Text('configuration.progressImc'.tr()),
             leading: const Iconify(
               Healthicons.overweight,
               color: Colors.black54,
@@ -189,8 +189,8 @@ class _MyWidgetState extends State<ConfigScreen> {
             ),
           ),
           ListTile(
-            title: const Text('PGC'),
-            subtitle: const Text('Porciento de grasa corporal'),
+            title: Text('configuration.pgc'.tr()),
+            subtitle: Text('configuration.progressPgc'.tr()),
             leading: const Iconify(
               GameIcons.fat,
               color: Colors.black54,
@@ -212,14 +212,14 @@ class _MyWidgetState extends State<ConfigScreen> {
           ListTile(
             title: Row(
               children: [
-                const Text('PMM '),
+                Text('configuration.pmm'.tr()),
                 Icon(
                   Icons.workspace_premium,
                   color: Colors.yellow.shade800,
                 )
               ],
             ),
-            subtitle: const Text('Porciento de músculo magro'),
+            subtitle: Text('configuration.progressPmm'.tr()),
             leading: const Iconify(
               GameIcons.muscle_up,
               color: Colors.black54,
@@ -241,14 +241,14 @@ class _MyWidgetState extends State<ConfigScreen> {
           ListTile(
             title: Row(
               children: [
-                const Text('Pecho '),
+                Text('configuration.chest'.tr()),
                 Icon(
                   Icons.workspace_premium,
                   color: Colors.yellow.shade800,
                 )
               ],
             ),
-            subtitle: const Text('Progreso de pecho'),
+            subtitle: Text('configuration.progressChest'.tr()),
             leading: const Iconify(
               IconParkOutline.chest,
               color: Colors.black54,
@@ -270,14 +270,14 @@ class _MyWidgetState extends State<ConfigScreen> {
           ListTile(
             title: Row(
               children: [
-                const Text('Biceps '),
+                Text('configuration.biceps'.tr()),
                 Icon(
                   Icons.workspace_premium,
                   color: Colors.yellow.shade800,
                 )
               ],
             ),
-            subtitle: const Text('Progreso de biceps'),
+            subtitle: Text('configuration.progressBiceps'.tr()),
             leading: const Iconify(
               GameIcons.biceps,
               color: Colors.black54,
@@ -299,14 +299,14 @@ class _MyWidgetState extends State<ConfigScreen> {
           ListTile(
             title: Row(
               children: [
-                const Text('Cintura '),
+                Text('configuration.waist'.tr()),
                 Icon(
                   Icons.workspace_premium,
                   color: Colors.yellow.shade800,
                 )
               ],
             ),
-            subtitle: const Text('Progreso de cintura'),
+            subtitle: Text('configuration.progressWaist'.tr()),
             leading: const Iconify(
               IconParkOutline.waistline,
               color: Colors.black54,
@@ -328,14 +328,14 @@ class _MyWidgetState extends State<ConfigScreen> {
           ListTile(
             title: Row(
               children: [
-                const Text('Muslo '),
+                Text('configuration.thigh'.tr()),
                 Icon(
                   Icons.workspace_premium,
                   color: Colors.yellow.shade800,
                 )
               ],
             ),
-            subtitle: const Text('Progreso de muslo'),
+            subtitle: Text('configuration.progressThigh'.tr()),
             leading: const Iconify(
               GameIcons.leg,
               color: Colors.black54,
@@ -357,14 +357,14 @@ class _MyWidgetState extends State<ConfigScreen> {
           ListTile(
             title: Row(
               children: [
-                const Text('Pantorrilla '),
+                Text('configuration.calf'.tr()),
                 Icon(
                   Icons.workspace_premium,
                   color: Colors.yellow.shade800,
                 )
               ],
             ),
-            subtitle: const Text('Progreso de pantorrilla'),
+            subtitle: Text('configuration.progressCalf'.tr()),
             leading: const Iconify(
               Healthicons.leg,
               color: Colors.black54,
