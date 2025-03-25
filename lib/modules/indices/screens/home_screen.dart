@@ -232,7 +232,6 @@ class _HomeScreenState extends State<HomeScreen> {
           SizedBox(
             height: 16,
           ),
-          if (showPeso) PesoChartWidget(onClose: () => closeChart('peso')),
         ],
       ),
     );

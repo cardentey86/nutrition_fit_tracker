@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/layout/models/drawer_menu_options.dart';
 
@@ -35,7 +36,7 @@ class HomeDrawerState extends State<HomeDrawer> {
                 child: ListTile(
                   dense: true,
                   leading: child.icon,
-                  title: Text(child.text),
+                  title: Text(child.text.tr()),
                   onTap: () {
                     widget.onItemTapped(child.route);
                   },

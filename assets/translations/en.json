@@ -1,0 +1,14 @@
+{
+  "configuration":{
+    "title": "Configuraction"
+  },
+  "menu":{
+    "personalIndex": "Personal Index",
+    "menu": "Menu",
+    "food": "Food",
+    "personalMeasure": "Personal Measure",
+    "personalProgress": "Personal Progress",
+    "configuration": "Configuration",
+    "information": "Information"
+  }
+}

@@ -4,15 +4,15 @@ import 'package:nutrition_fit_traker/modules/indices/models/progreso_model.dart'
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-class PesoChartWidget extends StatefulWidget {
+class MusloChartWidget extends StatefulWidget {
   final VoidCallback onClose;
-  const PesoChartWidget({super.key, required this.onClose});
+  const MusloChartWidget({super.key, required this.onClose});
 
   @override
-  State<PesoChartWidget> createState() => _MyWidgetState();
+  State<MusloChartWidget> createState() => _MyWidgetState();
 }
 
-class _MyWidgetState extends State<PesoChartWidget> {
+class _MyWidgetState extends State<MusloChartWidget> {
   final PersonalMeasureController medidasPersonalesController =
       PersonalMeasureController();
   List<ProgresoValores> progressValues = [];
@@ -33,11 +33,10 @@ class _MyWidgetState extends State<PesoChartWidget> {
       result.sort((a, b) => a.fecha.compareTo(b.fecha));
       for (var element in result) {
         progressValues.add(ProgresoValores(
-            date: element.fecha.toString(), value: element.peso));
+            date: element.fecha.toString(), value: element.muslo));
       }
 
-      model = ProgressModel(
-          item: 'Peso Corporal Kg', progressValues: progressValues);
+      model = ProgressModel(item: 'Muslo cm', progressValues: progressValues);
     }
     if (!mounted) return;
     setState(() {
@@ -78,7 +77,7 @@ class _MyWidgetState extends State<PesoChartWidget> {
               final peso = args.dataPoints![0].y;
               final fecha = args.dataPoints![0].x;
               args.text = '$fecha';
-              args.header = 'Peso: ${peso.toStringAsFixed(1)} kg';
+              args.header = 'Muslo cm: ${peso.toStringAsFixed(1)}';
             },
             title: ChartTitle(
               text: model!.item,
@@ -92,7 +91,7 @@ class _MyWidgetState extends State<PesoChartWidget> {
               majorGridLines: const MajorGridLines(width: 0),
             ),
             primaryYAxis: NumericAxis(
-              title: AxisTitle(text: 'Peso (kg)'),
+              title: AxisTitle(text: 'Muslo cm'),
               isVisible: false,
               labelStyle: const TextStyle(fontSize: 12, color: Colors.grey),
               axisLine: const AxisLine(color: Colors.grey),
@@ -102,7 +101,7 @@ class _MyWidgetState extends State<PesoChartWidget> {
             plotAreaBorderWidth: 0,
             series: <CartesianSeries>[
               LineSeries<ProgresoValores, String>(
-                name: 'Peso Kg',
+                name: 'Muslo',
                 dataSource: model!.progressValues,
                 xValueMapper: (ProgresoValores progreso, _) =>
                     DateFormat('dd/MM/yyyy')

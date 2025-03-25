@@ -17,7 +17,8 @@ class IndicesController {
       return 0;
     } else {
       double estaturaMetros = measure.estatura / 100;
-      return measure.peso / (estaturaMetros * estaturaMetros);
+      return double.parse((measure.peso / (estaturaMetros * estaturaMetros))
+          .toStringAsFixed(2));
     }
   }
 
@@ -49,8 +50,8 @@ class IndicesController {
   }
 
   // Se usa en la fuerza aerea de EEUU
-  Future<double> porcientoGrasaJacksonPollock() async {
-    final measure = await _personalMeasureController.getLast();
+  Future<double> porcientoGrasaJacksonPollock(PersonalMeasure? measure) async {
+    measure ??= await _personalMeasureController.getLast();
     if (measure == null) {
       return 0;
     } else {
@@ -73,7 +74,7 @@ class IndicesController {
             78.387;
       }
 
-      return porcientoGrasa;
+      return double.parse(porcientoGrasa.toStringAsFixed(2));
     }
   }
 
@@ -158,7 +159,7 @@ class IndicesController {
     bool medidasPersonales = false;
 
     if (porcientoGrasa == null) {
-      porcientoGrasa = await porcientoGrasaJacksonPollock();
+      porcientoGrasa = await porcientoGrasaJacksonPollock(null);
       medidasPersonales = true;
     }
 
@@ -297,9 +298,11 @@ class IndicesController {
         predictionModel.cuello = convertCmToPlg(personalMeasure.cuello);
         predictionModel.muslo = convertCmToPlg(personalMeasure.muslo);
         predictionModel.pantorrilla = convertCmToPlg(personalMeasure.gemelos);
-        predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
+        predictionModel.porcientoGrasa =
+            await porcientoGrasaJacksonPollock(null);
         predictionModel.pesoMagro = await pesoMagro();
-        predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
+        predictionModel.porcientoGrasa =
+            await porcientoGrasaJacksonPollock(null);
         predictionModel.pesoGrasa =
             predictionModel.pesoTotal - predictionModel.pesoMagro;
       }
@@ -333,7 +336,8 @@ class IndicesController {
         predictionModel.pesoTotal = personalMeasure.peso;
         predictionModel.cintura = convertCmToPlg(personalMeasure.cintura);
         predictionModel.cadera = convertCmToPlg(personalMeasure.cadera);
-        predictionModel.porcientoGrasa = await porcientoGrasaJacksonPollock();
+        predictionModel.porcientoGrasa =
+            await porcientoGrasaJacksonPollock(null);
       } else {
         predictionModel.antebrazo = convertCmToPlg(medida.antebrazo);
         predictionModel.biceps = convertCmToPlg(medida.brazo);
@@ -354,7 +358,7 @@ class IndicesController {
   Future<double> pesoGrasa() async {
     PersonalMeasure? personalMeasure =
         await _personalMeasureController.getLast();
-    double porcientoGrasa = await porcientoGrasaJacksonPollock();
+    double porcientoGrasa = await porcientoGrasaJacksonPollock(null);
     return porcientoGrasa * personalMeasure!.peso / 100;
   }
 

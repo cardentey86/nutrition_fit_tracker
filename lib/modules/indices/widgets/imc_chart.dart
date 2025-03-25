@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/progreso_model.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-class PesoChartWidget extends StatefulWidget {
+class ImcChartWidget extends StatefulWidget {
   final VoidCallback onClose;
-  const PesoChartWidget({super.key, required this.onClose});
+  const ImcChartWidget({super.key, required this.onClose});
 
   @override
-  State<PesoChartWidget> createState() => _MyWidgetState();
+  State<ImcChartWidget> createState() => _MyWidgetState();
 }
 
-class _MyWidgetState extends State<PesoChartWidget> {
+class _MyWidgetState extends State<ImcChartWidget> {
   final PersonalMeasureController medidasPersonalesController =
       PersonalMeasureController();
+  final IndicesController indices = IndicesController();
   List<ProgresoValores> progressValues = [];
   ProgressModel? model;
   bool _isLoading = true;
@@ -33,11 +35,11 @@ class _MyWidgetState extends State<PesoChartWidget> {
       result.sort((a, b) => a.fecha.compareTo(b.fecha));
       for (var element in result) {
         progressValues.add(ProgresoValores(
-            date: element.fecha.toString(), value: element.peso));
+            date: element.fecha.toString(), value: await indices.imc(element)));
       }
 
       model = ProgressModel(
-          item: 'Peso Corporal Kg', progressValues: progressValues);
+          item: 'Indice de Masa Corporal', progressValues: progressValues);
     }
     if (!mounted) return;
     setState(() {
@@ -78,7 +80,7 @@ class _MyWidgetState extends State<PesoChartWidget> {
               final peso = args.dataPoints![0].y;
               final fecha = args.dataPoints![0].x;
               args.text = '$fecha';
-              args.header = 'Peso: ${peso.toStringAsFixed(1)} kg';
+              args.header = 'IMC: ${peso.toStringAsFixed(1)} kg';
             },
             title: ChartTitle(
               text: model!.item,
@@ -92,7 +94,7 @@ class _MyWidgetState extends State<PesoChartWidget> {
               majorGridLines: const MajorGridLines(width: 0),
             ),
             primaryYAxis: NumericAxis(
-              title: AxisTitle(text: 'Peso (kg)'),
+              title: AxisTitle(text: 'IMC'),
               isVisible: false,
               labelStyle: const TextStyle(fontSize: 12, color: Colors.grey),
               axisLine: const AxisLine(color: Colors.grey),
@@ -102,7 +104,7 @@ class _MyWidgetState extends State<PesoChartWidget> {
             plotAreaBorderWidth: 0,
             series: <CartesianSeries>[
               LineSeries<ProgresoValores, String>(
-                name: 'Peso Kg',
+                name: 'IMC',
                 dataSource: model!.progressValues,
                 xValueMapper: (ProgresoValores progreso, _) =>
                     DateFormat('dd/MM/yyyy')

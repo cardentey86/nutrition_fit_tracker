@@ -6,6 +6,7 @@ import 'package:nutrition_fit_traker/modules/layout/screens/layout_screen.dart';
 import 'package:nutrition_fit_traker/modules/food/screens/food_screen.dart';
 import 'package:nutrition_fit_traker/modules/menu/screens/menu_screen.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/screens/personal_measure.dart';
+import 'package:nutrition_fit_traker/modules/progreso/screens/progreso.dart';
 
 class RouterHandler extends StatelessWidget {
   const RouterHandler({
@@ -32,6 +33,8 @@ class RouterHandler extends StatelessWidget {
         return const ConfigScreen();
       case '/menu':
         return const MenuScreen();
+      case '/progress':
+        return const ProgresoWidget();
       default:
         return const HomeScreen();
     }

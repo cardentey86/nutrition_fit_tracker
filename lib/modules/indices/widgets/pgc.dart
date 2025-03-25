@@ -28,9 +28,11 @@ class _MyWidgetState extends State<PgcWidget> {
     setState(() {
       _isLoading = true;
     });
-    final result = await indicesController.porcientoGrasaJacksonPollock();
-    pgc = result;
     personalMeasure = await personalMeasureController.getLast();
+    final result =
+        await indicesController.porcientoGrasaJacksonPollock(personalMeasure);
+    pgc = result;
+
     setState(() {
       _isLoading = false;
     });

@@ -1,8 +1,10 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/game_icons.dart';
 import 'package:iconify_flutter/icons/healthicons.dart';
 import 'package:iconify_flutter/icons/icon_park_outline.dart';
+import 'package:nutrition_fit_traker/modules/configuration/models/languaje_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ConfigScreen extends StatefulWidget {
@@ -14,7 +16,7 @@ class ConfigScreen extends StatefulWidget {
 
 class _MyWidgetState extends State<ConfigScreen> {
   String? _selectedLanguage;
-  final List<String> _languages = ['Español', 'Inglés', 'Francés', 'Alemán'];
+  final List<Languajes> _languages = Languajes.getLanguajes();
   bool _showPeso = false;
   bool _showImc = false;
   bool _showPgc = false;
@@ -24,7 +26,6 @@ class _MyWidgetState extends State<ConfigScreen> {
   bool _showCintura = false;
   bool _showMuslo = false;
   bool _showPantorrilla = false;
-  //final storage = FlutterSecureStorage();
 
   @override
   void initState() {
@@ -34,6 +35,7 @@ class _MyWidgetState extends State<ConfigScreen> {
 
   Future<void> _loadData() async {
     final pref = await SharedPreferences.getInstance();
+    if (!mounted) return;
     setState(() {
       _showPeso = pref.getBool('showPeso') ?? false;
       _showImc = pref.getBool('showImc') ?? false;
@@ -44,7 +46,17 @@ class _MyWidgetState extends State<ConfigScreen> {
       _showCintura = pref.getBool('showCintura') ?? false;
       _showMuslo = pref.getBool('showMuslo') ?? false;
       _showPantorrilla = pref.getBool('showPantorrilla') ?? false;
+      _selectedLanguage = pref.getString('globalization');
+      if (_selectedLanguage != null) {
+        context.setLocale(Locale(_selectedLanguage!));
+      }
     });
+  }
+
+  void _saveLanguaje(BuildContext context) async {
+    SharedPreferences.getInstance().then(
+        (onValue) => onValue.setString('globalization', _selectedLanguage!));
+    context.setLocale(Locale(_selectedLanguage!));
   }
 
   Future<void> _savePeso() async {
@@ -96,9 +108,9 @@ class _MyWidgetState extends State<ConfigScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Configuración',
-          style: TextStyle(color: Colors.black87),
+        title: Text(
+          'configuration.title'.tr(),
+          style: const TextStyle(color: Colors.black87),
         ),
         backgroundColor: Colors.transparent,
       ),
@@ -118,11 +130,13 @@ class _MyWidgetState extends State<ConfigScreen> {
                 setState(() {
                   _selectedLanguage = newValue!;
                 });
+                _saveLanguaje(context);
               },
-              items: _languages.map<DropdownMenuItem<String>>((String value) {
+              items:
+                  _languages.map<DropdownMenuItem<String>>((Languajes value) {
                 return DropdownMenuItem<String>(
-                  value: value,
-                  child: Text(value),
+                  value: value.code,
+                  child: Text(value.languaje),
                 );
               }).toList(),
             ),
