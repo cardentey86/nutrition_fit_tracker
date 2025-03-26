@@ -1,7 +1,33 @@
 {
   "general":{
     "noData": "No data available",
-    "value": "Value"
+    "value": "Value",
+    "macro": {
+      "carbo": "Carbohydrates",
+      "proteins": "Proteins",
+      "fats": "Fats",
+      "calory": "Calories",
+      "fiber": "Fiber",
+      "fat": "Fat"
+    },
+    "body": {
+      "weight": "Weight",
+      "height": "Height",
+      "neck": "Neck",
+      "chest": "Chest",
+      "biceps": "Biceps",
+      "forearm": "Forearm",
+      "waist": "Waist",
+      "hip": "Hip",
+      "thigh": "Thigh",
+      "calf": "Calf",
+      "wrist": "Wrist",
+      "ankle": "Ankle",
+      "weightKg": "Weight (Kg)",
+      "fatPercentage": "Fat Percentage (%)",
+      "fatKg": "Fat (Kg)",
+      "muscleKg":"Muscle (Kg)"
+    }
   },
   "layout": {
     "title": "Nutrition Fitness Tracker"
@@ -36,6 +62,23 @@
       "severeObesityDesc1": "BMI from {value1} to {value2}",
       "extremeObesity": "Extreme Obesity",
       "extremeObesityDesc1": "BMI 40 or more"
+    },
+    "rmcWidget": {
+      "title1": "Resistance training",
+      "desc1": "Staying in the 60-70% range of your MHR helps improve aerobic capacity",
+      "title2": "Power training",
+      "desc2": "Reaching 80-90% of your MHR can be beneficial for improving strength and speed"
+    },
+    "pmmWidget": "The value includes the weight of the bones",
+    "cdmWidget": {
+      "objective": "Objective",
+      "notDefined": "Objective not defined",
+      "lossWeight": "Lose weight",
+      "maintainWeight": "Maintain weight",
+      "gainWeight": "Muscle gain"
+    },
+    "pgmWidget": {
+      "title": "Muscle Gain Comparison in Plg and Kg"
     }
   },
   "configuration":{

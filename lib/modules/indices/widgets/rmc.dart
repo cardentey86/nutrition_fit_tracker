@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 
@@ -36,29 +37,27 @@ class _MyWidgetState extends State<RmcWidget> {
       return const Center(child: CircularProgressIndicator());
     }
     if (rmc == 0) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr())); // No data available
     }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
-          text: 'Valor: $rmc \n\n',
+          text: '${'general.value'.tr()}: $rmc \n\n',
           style: const TextStyle(color: Colors.black87, fontSize: 14),
           children: [
             TextSpan(
                 text:
-                    'Entrenamiento de resistencia (${(rmc * 0.6).toStringAsFixed(0)} - ${(rmc * 0.7).toStringAsFixed(0)}): ',
+                    '${'index.rmcWidget.title1'.tr()} (${(rmc * 0.6).toStringAsFixed(0)} - ${(rmc * 0.7).toStringAsFixed(0)}): ',
                 style: const TextStyle(fontWeight: FontWeight.bold)),
-            const TextSpan(
-              text:
-                  'Mantenerse en un rango del 60-70% del RMC ayuda a mejorar la capacidad aeróbica \n\n',
+            TextSpan(
+              text: '${'index.rmcWidget.desc1'.tr()} \n\n',
             ),
             TextSpan(
                 text:
-                    'Entrenamiento de potencia (${(rmc * 0.8).toStringAsFixed(0)} - ${(rmc * 0.9).toStringAsFixed(0)}): ',
+                    '${'index.rmcWidget.title2'.tr()} (${(rmc * 0.8).toStringAsFixed(0)} - ${(rmc * 0.9).toStringAsFixed(0)}): ',
                 style: const TextStyle(fontWeight: FontWeight.bold)),
-            const TextSpan(
-              text:
-                  'Alcanzar el 80-90% del RMC puede ser beneficioso para mejorar la fuerza y la velocidad \n\n',
+            TextSpan(
+              text: '${'index.rmcWidget.desc2'.tr()} \n\n',
             )
           ]),
     );

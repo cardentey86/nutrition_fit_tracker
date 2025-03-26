@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
@@ -43,16 +44,16 @@ class _MyWidgetState extends State<PmmWidget> {
       return const Center(child: CircularProgressIndicator());
     }
     if (personalMeasure == null) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr())); // No data available
     }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
           text:
-              'Valor: ${pmm.toStringAsFixed(2)} % \u2248 ${(personalMeasure!.peso * (pmm / 100)).toStringAsFixed(0)} kg \n\n',
+              '${'general.value'.tr()}: ${pmm.toStringAsFixed(2)} % \u2248 ${(personalMeasure!.peso * (pmm / 100)).toStringAsFixed(0)} kg \n\n',
           style: const TextStyle(color: Colors.black87, fontSize: 14),
-          children: const [
-            TextSpan(text: 'El valor incluye el peso de los huesos')
+          children: [
+            TextSpan(text: 'index.pmmWidget'.tr()),
           ]),
     );
   }

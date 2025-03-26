@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 
@@ -38,12 +39,12 @@ class _MyWidgetState extends State<TmbWidget> {
       return const Center(child: CircularProgressIndicator());
     }
     if (tmb == 0) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr()));
     }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
-        text: 'Valor: $tmb kcal \n\n',
+        text: '${'general.value'.tr()}: $tmb kcal \n\n',
         style: const TextStyle(color: Colors.black87, fontSize: 14),
       ),
     );

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/prediction_model.dart';
@@ -47,20 +48,20 @@ class _MyWidgetState extends State<PrediccionGananciaWidget> {
       return const Center(child: CircularProgressIndicator());
     }
     if (prediccionGanancia.isEmpty) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr()));
     }
 
     final List<String> campos = [
-      'Pecho',
-      'Biceps',
-      'Antebrazo',
-      'Muslo',
-      'Gemelo',
-      'Cuello',
-      'MusculoKg',
-      'PesoKg',
-      '%Grasa',
-      'GrasaKg'
+      'general.body.chest',
+      'general.body.biceps',
+      'general.body.forearm',
+      'general.body.thigh',
+      'general.body.calf',
+      'general.body.neck',
+      'general.body.muscleKg',
+      'general.body.weightKg',
+      'general.body.fatPercentage',
+      'general.body.fatKg'
     ];
 
     return SizedBox(
@@ -71,7 +72,7 @@ class _MyWidgetState extends State<PrediccionGananciaWidget> {
           isVisible: false, // Oculta los valores del eje Y
         ),
         title: ChartTitle(
-            text: 'Comparación ganancia muscular en Plg y Kg',
+            text: 'index.pgmWidget.title'.tr(),
             textStyle: const TextStyle(fontSize: 12)),
         legend: Legend(isVisible: true, position: LegendPosition.top),
         tooltipBehavior: TooltipBehavior(enable: true),
@@ -80,77 +81,81 @@ class _MyWidgetState extends State<PrediccionGananciaWidget> {
           for (int i = 0; i < prediccionGanancia.length; i++)
             LineSeries<dynamic, String>(
               dataSource: campos.map((campo) {
+                String translatedField = campo.tr();
                 // Mapeamos los valores de los campos a la serie
                 switch (campo) {
-                  case 'Pecho':
+                  case 'general.body.chest':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].pecho.toStringAsFixed(2))
                     };
-                  case 'Biceps':
+                  case 'general.body.biceps':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].biceps.toStringAsFixed(2))
                     };
-                  case 'Antebrazo':
+                  case 'general.body.forearm':
                     return {
-                      'campo': campo,
+                      'campo': 'general.body.forearm'.tr(),
                       'valor': double.parse(
                           prediccionGanancia[i].antebrazo.toStringAsFixed(2))
                     };
-                  case 'Muslo':
+                  case 'general.body.thigh':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].muslo.toStringAsFixed(2))
                     };
-                  case 'Gemelo':
+                  case 'general.body.calf':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].pantorrilla.toStringAsFixed(2))
                     };
-                  case 'Cuello':
+                  case 'general.body.neck':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].cuello.toStringAsFixed(2))
                     };
-                  case 'MusculoKg':
+                  case 'general.body.muscleKg':
                     return {
-                      'campo': campo,
+                      'campo': 'general.body.muscleKg'.tr(),
                       'valor': double.parse(
                           prediccionGanancia[i].pesoMagro.toStringAsFixed(2))
                     };
-                  case 'PesoKg':
+                  case 'general.body.weightKg':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].pesoTotal.toStringAsFixed(2))
                     };
-                  case '%Grasa':
+                  case 'general.body.fatPercentage':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(prediccionGanancia[i]
                           .porcientoGrasa
                           .toStringAsFixed(2))
                     };
-                  case 'GrasaKg':
+                  case 'general.body.fatKg':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           prediccionGanancia[i].pesoGrasa.toStringAsFixed(2))
                     };
                   default:
-                    return {'campo': campo, 'valor': 0.0}; // Valor por defecto
+                    return {
+                      'campo': translatedField,
+                      'valor': 0.0
+                    }; // Valor por defecto
                 }
               }).toList(),
               xValueMapper: (dynamic data, _) => data['campo'],
               yValueMapper: (dynamic data, _) => data['valor'],
               name:
-                  'Grasa: ${double.parse(prediccionGanancia[i].porcientoGrasa.toStringAsFixed(2))} %',
+                  '${'general.macro.fat'.tr()}: ${double.parse(prediccionGanancia[i].porcientoGrasa.toStringAsFixed(2))} %',
               markerSettings: const MarkerSettings(isVisible: true),
               dataLabelSettings: const DataLabelSettings(
                   isVisible: true,

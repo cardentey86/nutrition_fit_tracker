@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
@@ -45,6 +46,19 @@ class _CdmnWidgetState extends State<CdmnWidget> {
     });
   }
 
+  String objetivoTraducido(int idObjetivo) {
+    switch (idObjetivo) {
+      case 1:
+        return 'index.cdmWidget.lossWeight'.tr();
+      case 2:
+        return 'index.cdmWidget.gainWeight'.tr();
+      case 3:
+        return 'index.cdmWidget.maintainWeight'.tr();
+      default:
+        return 'index.cdmWidget.notDefined'.tr();
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     if (_isLoading) {
@@ -52,39 +66,39 @@ class _CdmnWidgetState extends State<CdmnWidget> {
           child: CircularProgressIndicator()); // Muestra un indicador de carga
     }
     if (personalMeasure == null) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr()));
     }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
         style: const TextStyle(color: Colors.black87, fontSize: 14),
         children: [
-          const TextSpan(
-              text: 'Objetivo: ',
+          TextSpan(
+              text: '${'index.cdmWidget.objective'.tr()}: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(
-            text: ' ${objetivo?.name ?? 'No definido'} \n\n',
+            text: '${objetivoTraducido(objetivo!.id)} \n\n',
           ),
-          const TextSpan(
-              text: '•	Calorías: ',
+          TextSpan(
+              text: '•	${'general.calory'.tr()}: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(text: '${cdmn.toStringAsFixed(2)} kcal \n\n'),
-          const TextSpan(
-              text: '•	Proteínas: ',
+          TextSpan(
+              text: '•	${'general.protein'.tr()}: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(
             text:
                 '${(cdmn * (objetivo!.proteinas / 100)).toStringAsFixed(2)} kcal \u2248 ${((cdmn * (objetivo!.proteinas / 100)) / 4).toStringAsFixed(2)} g \n\n',
           ),
-          const TextSpan(
-              text: '•	Carbohidratos: ',
+          TextSpan(
+              text: '•	${'general.carbo'.tr()}: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(
             text:
                 '${(cdmn * (objetivo!.carbohidratos / 100)).toStringAsFixed(2)} kcal \u2248 ${((cdmn * (objetivo!.carbohidratos / 100)) / 4).toStringAsFixed(2)} g \n\n',
           ),
-          const TextSpan(
-              text: '•	Grasas: ',
+          TextSpan(
+              text: '•	${'general.fats'.tr()}: ',
               style: TextStyle(fontWeight: FontWeight.bold)),
           TextSpan(
             text:
