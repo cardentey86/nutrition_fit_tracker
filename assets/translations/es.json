@@ -1,4 +1,39 @@
 {
+  "layout":{
+    "title": "Nutrition Fitness Tracker"
+  },
+  "index":{
+    "imc":"Indice de masa corporal",
+    "imcExt":"Indice de Masa Corporal (IMC)",
+    "rmc":"Ritmo máximo cardiaco",
+    "rmcExt":"Ritmo Máximo Cardiaco (RMC)",
+    "tmb":"Tasa metabólica basal",
+    "tmbExt":"Tasa Metabólica Basal (TMB)",
+    "pgc":"Porciento de grasa corporal",
+    "pgcExt":"Porciento de Grasa Corporal (PGC)",
+    "pmm":"Porciento de músculo magro",
+    "pmmExt":"Porciento de Musculo Magro (PMM)",
+    "cdm":"Consumo diario de macronutrientes",
+    "cdmExt":"Consumo Diario de Macronutrientes (CDM)",
+    "pgm":"Predicción de ganancia muscular",
+    "pgmExt":"Predicción de Ganancia Muscular (PGM)",
+    "mei":"Medidas estéticas ideales",
+    "meiExt":"Medidas Estéticas Ideales (MEI)",
+    "imcWidget": {
+      "lowWeight": "Bajo peso",
+      "lowWeightDesc1": "IMC menor a",
+      "normalWeight": "Peso normal",
+      "normalWeightDesc1": "IMC de {value1} a {value2}",
+      "overWeight": "Sobrepeso",
+      "overWeightDesc1": "IMC de {value1} a {value2}",
+      "obesity": "Obesidad",
+      "obesityDesc1": "IMC de {value1} a {value2}",
+      "severeObesity": "Obesidad severa",
+      "severeObesityDesc1": "IMC de {value1} a {value2}",
+      "extremeObesity": "Obesidad extrema",
+      "extremeObesityDesc1": "IMC de 40 o más"
+    }
+  },
  "configuration":{
     "title": "Configuración",
     "language": "Idioma",

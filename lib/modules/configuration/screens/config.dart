@@ -213,10 +213,6 @@ class _MyWidgetState extends State<ConfigScreen> {
             title: Row(
               children: [
                 Text('configuration.pmm'.tr()),
-                Icon(
-                  Icons.workspace_premium,
-                  color: Colors.yellow.shade800,
-                )
               ],
             ),
             subtitle: Text('configuration.progressPmm'.tr()),
@@ -242,10 +238,6 @@ class _MyWidgetState extends State<ConfigScreen> {
             title: Row(
               children: [
                 Text('configuration.chest'.tr()),
-                Icon(
-                  Icons.workspace_premium,
-                  color: Colors.yellow.shade800,
-                )
               ],
             ),
             subtitle: Text('configuration.progressChest'.tr()),
@@ -271,10 +263,6 @@ class _MyWidgetState extends State<ConfigScreen> {
             title: Row(
               children: [
                 Text('configuration.biceps'.tr()),
-                Icon(
-                  Icons.workspace_premium,
-                  color: Colors.yellow.shade800,
-                )
               ],
             ),
             subtitle: Text('configuration.progressBiceps'.tr()),
@@ -300,10 +288,6 @@ class _MyWidgetState extends State<ConfigScreen> {
             title: Row(
               children: [
                 Text('configuration.waist'.tr()),
-                Icon(
-                  Icons.workspace_premium,
-                  color: Colors.yellow.shade800,
-                )
               ],
             ),
             subtitle: Text('configuration.progressWaist'.tr()),
@@ -329,10 +313,6 @@ class _MyWidgetState extends State<ConfigScreen> {
             title: Row(
               children: [
                 Text('configuration.thigh'.tr()),
-                Icon(
-                  Icons.workspace_premium,
-                  color: Colors.yellow.shade800,
-                )
               ],
             ),
             subtitle: Text('configuration.progressThigh'.tr()),
@@ -358,10 +338,6 @@ class _MyWidgetState extends State<ConfigScreen> {
             title: Row(
               children: [
                 Text('configuration.calf'.tr()),
-                Icon(
-                  Icons.workspace_premium,
-                  color: Colors.yellow.shade800,
-                )
               ],
             ),
             subtitle: Text('configuration.progressCalf'.tr()),

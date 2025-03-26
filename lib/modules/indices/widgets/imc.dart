@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 
@@ -36,23 +37,23 @@ class _MyWidgetState extends State<ImcWidget> {
       return const Center(child: CircularProgressIndicator());
     }
     if (imc == 0) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr())); // No data available
     }
     return RichText(
       textAlign: TextAlign.justify,
       text: TextSpan(
-          text: 'Valor: ${imc.toStringAsFixed(2)}\n\n',
+          text: '${'general.value'.tr()}: ${imc.toStringAsFixed(2)}\n\n',
           style: const TextStyle(color: Colors.black87, fontSize: 14),
           children: [
             TextSpan(
                 style:
                     TextStyle(color: imc < 18.5 ? Colors.blue : Colors.black87),
-                children: const [
+                children: [
                   TextSpan(
-                      text: 'Bajo Peso: ',
+                      text: '${'index.imcWidget.lowWeight'.tr()}: ',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   TextSpan(
-                    text: 'IMC menor de 18.5 \n\n',
+                    text: '${'index.imcWidget.lowWeightDesc1'.tr()} 18.5 \n\n',
                   ),
                 ]),
             TextSpan(
@@ -60,59 +61,72 @@ class _MyWidgetState extends State<ImcWidget> {
                     color: imc > 18.5 && imc < 24.9
                         ? Colors.blue
                         : Colors.black87),
-                children: const [
+                children: [
                   TextSpan(
-                      text: 'Peso Normal: ',
+                      text: '${'index.imcWidget.normalWeight'.tr()}: ',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   TextSpan(
-                    text: 'IMC de 18.5 a 24.9 \n\n',
+                    text: '${'index.imcWidget.normalWeightDesc1'.tr(namedArgs: {
+                          'value1': '18.5',
+                          'value2': '24.9'
+                        })} \n\n',
                   ),
                 ]),
             TextSpan(
                 style: TextStyle(
                     color:
                         imc > 25 && imc < 29.9 ? Colors.blue : Colors.black87),
-                children: const [
+                children: [
                   TextSpan(
-                      text: 'Sobrepeso: ',
+                      text: '${'index.imcWidget.overWeight'.tr()}: ',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   TextSpan(
-                    text: 'IMC de 25 a 29.9 \n\n',
+                    text: '${'index.imcWidget.overWeightDesc1'.tr(namedArgs: {
+                          'value1': '25',
+                          'value2': '29.9'
+                        })} \n\n',
                   ),
                 ]),
             TextSpan(
                 style: TextStyle(
                     color:
                         imc > 30 && imc < 34.9 ? Colors.blue : Colors.black87),
-                children: const [
+                children: [
                   TextSpan(
-                      text: 'Obesidad moderada: ',
+                      text: '${'index.imcWidget.obesity'.tr()}: ',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   TextSpan(
-                    text: 'IMC de 30 a 34.9 \n\n',
+                    text: '${'index.imcWidget.obesityDesc1'.tr(namedArgs: {
+                          'value1': '30',
+                          'value2': '34.9'
+                        })} \n\n',
                   ),
                 ]),
             TextSpan(
                 style: TextStyle(
                     color:
                         imc > 35 && imc < 39.9 ? Colors.blue : Colors.black87),
-                children: const [
+                children: [
                   TextSpan(
-                      text: 'Obesidad severa: ',
+                      text: '${'index.imcWidget.severeObesity'.tr()}: ',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   TextSpan(
-                    text: 'IMC de 35 a 39.9 \n\n',
+                    text:
+                        '${'index.imcWidget.severeObesityDesc1'.tr(namedArgs: {
+                          'value1': '35',
+                          'value2': '39.9'
+                        })} \n\n',
                   ),
                 ]),
             TextSpan(
                 style:
                     TextStyle(color: imc >= 40 ? Colors.blue : Colors.black87),
-                children: const [
+                children: [
                   TextSpan(
-                      text: 'Obesidad mórbida: ',
+                      text: '${'index.imcWidget.extremeObesity'.tr()}: ',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   TextSpan(
-                    text: 'IMC de 40 o más \n\n',
+                    text: '${'index.imcWidget.extremeObesityDesc1'.tr()} \n\n',
                   ),
                 ]),
           ]),

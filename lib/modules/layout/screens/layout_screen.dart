@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/layout/screens/home_drawer.dart';
 import 'package:nutrition_fit_traker/routes/router_handler.dart';
@@ -26,7 +27,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
       child: Scaffold(
         key: _scaffoldKey,
         appBar: AppBar(
-          title: const Text("Nutrition Fitness Tracker"),
+          title: Text("layout.title".tr()),
           titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
           backgroundColor: Colors.blue,
           iconTheme: const IconThemeData(color: Colors.white),

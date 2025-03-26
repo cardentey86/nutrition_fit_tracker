@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
@@ -5,7 +6,6 @@ import 'package:nutrition_fit_traker/modules/indices/widgets/cdmn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/imc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/indice_btn.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/medidas_esteticas.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/peso_chart.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pgc.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/pmm.dart';
 import 'package:nutrition_fit_traker/modules/indices/widgets/prediccion_ganancia.dart';
@@ -42,22 +42,6 @@ class _HomeScreenState extends State<HomeScreen> {
           content: Text("Error on init database"),
         ));
       }
-    });
-    loadPreferences();
-  }
-
-  Future<void> loadPreferences() async {
-    final SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      showPeso = prefs.getBool('showPeso') ?? false;
-      showImc = prefs.getBool('showImc') ?? false;
-      showPgc = prefs.getBool('showPgc') ?? false;
-      showPmm = prefs.getBool('showPmm') ?? false;
-      showPecho = prefs.getBool('showPecho') ?? false;
-      showBiceps = prefs.getBool('showBiceps') ?? false;
-      showCintura = prefs.getBool('showCintura') ?? false;
-      showMuslo = prefs.getBool('showMuslo') ?? false;
-      showPantorrilla = prefs.getBool('showPantorrilla') ?? false;
     });
   }
 
@@ -153,81 +137,75 @@ class _HomeScreenState extends State<HomeScreen> {
       child: ListView(
         children: [
           ListTile(
-              subtitle: const Text('Indice de Masa Corporal'),
+              subtitle: Text('index.imc'.tr()),
               title: const Text('IMC'),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
                     context,
-                    'Indice de Masa Corporal (IMC)',
+                    'index.imcExt'.tr(),
                     const ImcWidget(),
                   )),
           ListTile(
               title: const Text('RMC'),
-              subtitle: const Text('Ritmo Máximo Cardiaco '),
+              subtitle: Text('index.rmc'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
                     context,
-                    'Ritmo Máximo Cardiaco (RMC)',
+                    'index.rmcExt'.tr(),
                     const RmcWidget(),
                   )),
           ListTile(
               title: const Text('TMB'),
-              subtitle: const Text('Tasa Metabólica Basal'),
+              subtitle: Text('index.tmb'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
                     context,
-                    'Tasa Metabólica Basal (TMB)',
+                    'index.tmbExt'.tr(),
                     const TmbWidget(),
                   )),
           ListTile(
               title: const Text('PGC'),
-              subtitle: const Text('Porciento de Grasa Corporal'),
+              subtitle: Text('index.pgc'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
                     context,
-                    'Porciento de Grasa Corporal (PGC)',
+                    'index.pgcExt'.tr(),
                     const PgcWidget(),
                   )),
           ListTile(
               title: const Text('PMM'),
-              subtitle: const Text('Porciento de Músculo Magro'),
+              subtitle: Text('index.pmm'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
                     context,
-                    'Porciento de Músculo Magro (PMM)',
+                    'index.pmm'.tr(),
                     const PmmWidget(),
                   )),
           ListTile(
               title: const Text('CDM'),
-              subtitle: const Text('Consumo Diario de Macronutrientes'),
+              subtitle: Text('index.cdm'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
               onTap: () => _mostrarBottomSheet(
-                  context,
-                  'Consumo Diario de Macronutrientes (CDM)',
-                  const CdmnWidget())),
+                  context, 'index.cdmExt'.tr(), const CdmnWidget())),
           ListTile(
               title: const Text('PGM'),
-              subtitle: const Text('Predicción de Ganancia Muscular'),
+              subtitle: Text('index.pgm'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/man.svg', onTap: () {}),
-              onTap: () => _mostrarBottomSheet(
-                  context,
-                  'Predicción de Ganancia Muscular (PGM)',
+              onTap: () => _mostrarBottomSheet(context, 'index.pgmExt'.tr(),
                   const PrediccionGananciaWidget())),
           ListTile(
               title: const Text('MEI'),
-              subtitle: const Text('Medidas Estéticas Ideales '),
+              subtitle: Text('index.mei'.tr()),
               leading: IndiceBtn(
                   text: 'IMC', image: 'assets/img/manwoman.svg', onTap: () {}),
-              onTap: () => _mostrarBottomSheet(
-                  context,
-                  'Medidas Estéticas Ideales (MEI)',
+              onTap: () => _mostrarBottomSheet(context, 'index.meiExt'.tr(),
                   const MedidasEsteticasWidget())),
           SizedBox(
             height: 16,

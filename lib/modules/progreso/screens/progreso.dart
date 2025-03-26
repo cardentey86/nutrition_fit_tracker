@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/biceps_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/cintura_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/imc_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/muslo_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/pantorrilla_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/pecho_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/peso_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/pgc_chart.dart';
-import 'package:nutrition_fit_traker/modules/indices/widgets/pmm_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/biceps_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/cintura_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/imc_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/muslo_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/pantorrilla_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/pecho_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/peso_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/pgc_chart.dart';
+import 'package:nutrition_fit_traker/modules/progreso/widgets/pmm_chart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // ignore: must_be_immutable

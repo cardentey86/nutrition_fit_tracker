@@ -1,4 +1,43 @@
 {
+  "general":{
+    "noData": "No data available",
+    "value": "Value"
+  },
+  "layout": {
+    "title": "Nutrition Fitness Tracker"
+  },
+  "index": {
+    "imc": "Body Mass Index",
+    "imcExt": "Body Mass Index (BMI)",
+    "rmc": "Maximum Heart Rate",
+    "rmcExt": "Maximum Heart Rate (MHR)",
+    "tmb": "Basal Metabolic Rate",
+    "tmbExt": "Basal Metabolic Rate (BMR)",
+    "pgc": "Body Fat Percentage",
+    "pgcExt": "Body Fat Percentage (BFP)",
+    "pmm": "Lean Muscle Percentage",
+    "pmmExt": "Lean Muscle Percentage (LMP)",
+    "cdm": "Daily Macronutrient Intake",
+    "cdmExt": "Daily Macronutrient Intake (DMI)",
+    "pgm": "Muscle Gain Prediction",
+    "pgmExt": "Muscle Gain Prediction (MGP)",
+    "mei": "Ideal Aesthetic Measurements",
+    "meiExt": "Ideal Aesthetic Measurements (IAM)",
+    "imcWidget":{
+      "lowWeight": "Underweight",
+      "lowWeightDesc1": "BMI less than",
+      "normalWeight": "Normal weight",
+      "normalWeightDesc1": "BMI from {value1} to {value2}",
+      "overWeight": "Overweight",
+      "overWeightDesc1": "BMI from {value1} to {value2}",
+      "obesity": "Obesity",
+      "obesityDesc1": "BMI from {value1} to {value2}",
+      "severeObesity": "Severe Obesity",
+      "severeObesityDesc1": "BMI from {value1} to {value2}",
+      "extremeObesity": "Extreme Obesity",
+      "extremeObesityDesc1": "BMI 40 or more"
+    }
+  },
   "configuration":{
     "title": "Configuration",
     "language": "Language",
