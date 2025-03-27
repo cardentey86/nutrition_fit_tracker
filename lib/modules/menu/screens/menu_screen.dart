@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
@@ -62,10 +63,12 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     setState(() {
       _isLoading = true;
     });
-    final resultMenu = await _menuPlatoController.getAllMenu();
+    final resultMenu =
+        await _menuPlatoController.getAllMenu(context.locale.languageCode);
     menus = [...resultMenu];
 
-    final resultAlimentos = await _alimentoController.getAlimentos();
+    final resultAlimentos =
+        await _alimentoController.getAlimentos(context.locale.languageCode);
     alimentos = [...resultAlimentos];
 
     final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
@@ -90,7 +93,8 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     setState(() {
       _isLoading = true;
     });
-    final result = await _menuPlatoController.getAllMenu();
+    final result =
+        await _menuPlatoController.getAllMenu(context.locale.languageCode);
     menus = [...result];
     calculateMacroPlanificado(menus);
     setState(() {
@@ -228,7 +232,8 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     setState(() {
       _isLoading = true;
     });
-    final result = await _alimentoController.getAlimentos();
+    final result =
+        await _alimentoController.getAlimentos(context.locale.languageCode);
     alimentos = [...result];
     setState(() {
       _isLoading = false;

@@ -60,14 +60,14 @@ class MenuPlatoController {
     return result > 0;
   }
 
-  Future<List<Menu>> getAllMenu() async {
+  Future<List<Menu>> getAllMenu(String code) async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =
         await db.query('Menu', orderBy: 'Id');
 
     List<Menu> menuList = [];
     for (var map in maps) {
-      Menu menu = await Menu.fromMap(map, db);
+      Menu menu = await Menu.fromMap(map, db, code);
       menuList.add(menu);
     }
 
@@ -96,7 +96,7 @@ class MenuPlatoController {
     return count > 0;
   }
 
-  Future<Menu?> getById(int id) async {
+  Future<Menu?> getById(int id, String code) async {
     final db = await _dbHelper.database;
     List<Map<String, dynamic>> maps = await db.query(
       'Menu',
@@ -105,13 +105,13 @@ class MenuPlatoController {
     );
 
     if (maps.isNotEmpty) {
-      return await Menu.fromMap(maps.first, db);
+      return await Menu.fromMap(maps.first, db, code);
     } else {
       return null;
     }
   }
 
-  Future<MenuPlato?> getMenuPlatoById(int id) async {
+  Future<MenuPlato?> getMenuPlatoById(int id, String code) async {
     final db = await _dbHelper.database;
     List<Map<String, dynamic>> maps = await db.query(
       'MenuPlato',
@@ -120,13 +120,13 @@ class MenuPlatoController {
     );
 
     if (maps.isNotEmpty) {
-      return await MenuPlato.fromMap(maps.first, db);
+      return await MenuPlato.fromMap(maps.first, db, code);
     } else {
       return null;
     }
   }
 
-  Future<Menu?> getByName(String name) async {
+  Future<Menu?> getByName(String name, String code) async {
     final db = await _dbHelper.database;
     List<Map<String, dynamic>> maps = await db.query(
       'Menu',
@@ -136,7 +136,7 @@ class MenuPlatoController {
     );
 
     if (maps.isNotEmpty) {
-      return await Menu.fromMap(maps.first, db);
+      return await Menu.fromMap(maps.first, db, code);
     } else {
       return null;
     }

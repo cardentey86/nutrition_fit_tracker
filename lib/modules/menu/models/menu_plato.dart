@@ -1,4 +1,6 @@
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
+import 'package:nutrition_fit_traker/modules/traduccion/traduccion_controller.dart';
+import 'package:nutrition_fit_traker/modules/traduccion/traduccion_model.dart';
 import 'package:sqflite/sqflite.dart';
 
 class MenuPlato {
@@ -18,10 +20,15 @@ class MenuPlato {
       this.alimento});
 
   static Future<MenuPlato> fromMap(
-      Map<String, dynamic> map, Database db) async {
+      Map<String, dynamic> map, Database db, String code) async {
     List<Map<String, dynamic>> alimentoData = await db.query('Alimento',
         where: 'Id = ?', whereArgs: [map['IdAlimento']], limit: 1);
-    Alimento alimento = Alimento.fromMap(alimentoData.first);
+
+    AlimentoTraduccion alimentoTraduccion =
+        await TraduccionController().getTraduccion(map['IdAlimento'], code);
+
+    Alimento alimento =
+        Alimento.fromMap(alimentoData.first, alimentoTraduccion);
 
     return MenuPlato(
         id: map['Id'],

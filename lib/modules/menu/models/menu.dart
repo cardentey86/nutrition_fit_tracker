@@ -1,4 +1,5 @@
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
+import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class Menu {
@@ -12,7 +13,8 @@ class Menu {
     required this.platos,
   });
 
-  static Future<Menu> fromMap(Map<String, dynamic> map, Database db) async {
+  static Future<Menu> fromMap(
+      Map<String, dynamic> map, Database db, String code) async {
     int menuId = map['Id'];
 
     String menuNombre = map['Nombre'] ?? 'Nombre no disponible';
@@ -24,7 +26,7 @@ class Menu {
     ''', [menuId]);
 
     List<Future<MenuPlato>> platosFutures = platosData.map((platoMap) {
-      return MenuPlato.fromMap(platoMap, db);
+      return MenuPlato.fromMap(platoMap, db, code);
     }).toList();
 
     List<MenuPlato> platos = await Future.wait(platosFutures);
