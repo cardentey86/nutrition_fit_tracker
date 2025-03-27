@@ -1,3 +1,5 @@
+import 'package:nutrition_fit_traker/modules/traduccion/traduccion_model.dart';
+
 enum CategoriaAlimento {
   // ignore: constant_identifier_names
   Proteinas(1),
@@ -57,10 +59,11 @@ class Alimento {
     );
   }
 
-  factory Alimento.fromMap(Map<String, dynamic> map) {
+  factory Alimento.fromMap(
+      Map<String, dynamic> map, AlimentoTraduccion traduccion) {
     return Alimento(
       id: map['Id'],
-      nombre: map['Nombre'],
+      nombre: traduccion.nombreAlimento,
       calorias: (map['Calorias'] is int)
           ? (map['Calorias'] as int).toDouble()
           : map['Calorias'],

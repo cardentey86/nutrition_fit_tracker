@@ -1,13 +1,17 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
+import 'package:nutrition_fit_traker/modules/traduccion/traduccion_model.dart';
+import 'package:nutrition_fit_traker/modules/traduccion/traduccion_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:sqflite/sqflite.dart';
 
 class FoodController {
   static final DatabaseHelper _dbHelper = DatabaseHelper();
+  static final TraduccionController _traduccionController =
+      TraduccionController();
 
-  Future<bool> insertAlimento(Alimento alimento) async {
+  Future<bool> insertAlimento(Alimento alimento, String code) async {
     final db = await _dbHelper.database;
     int result = await db.insert(
       'Alimento',
@@ -15,10 +19,26 @@ class FoodController {
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
 
+    switch (code) {
+      case 'es':
+        await _traduccionController.insertTraduccion(AlimentoTraduccion(
+          idAlimento: result,
+          code: 'es',
+          nombreAlimento: alimento.nombre,
+        ));
+        break;
+      case 'en':
+        await _traduccionController.insertTraduccion(AlimentoTraduccion(
+          idAlimento: result,
+          code: 'en',
+          nombreAlimento: alimento.nombre,
+        ));
+    }
+
     return result > 0;
   }
 
-  Future<bool> updateAlimento(Alimento alimento) async {
+  Future<bool> updateAlimento(Alimento alimento, String code) async {
     final db = await _dbHelper.database;
     int result = await db.update(
       'Alimento',
@@ -27,18 +47,41 @@ class FoodController {
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
 
+    await _traduccionController.updateTraduccion(AlimentoTraduccion(
+      idAlimento: alimento.id!,
+      code: code,
+      nombreAlimento: alimento.nombre,
+    ));
+
     return result > 0;
   }
 
-  Future<List<Alimento>> getAlimentos() async {
+  Future<Alimento> getAlimento(int id, String code) async {
+    final db = await _dbHelper.database;
+    final alimento =
+        await db.query('Alimento', where: 'Id = ?', whereArgs: [id], limit: 1);
+
+    final traduccion = await _traduccionController.getTraduccion(id, code);
+
+    return Alimento.fromMap(alimento.first, traduccion);
+  }
+
+  Future<List<Alimento>> getAlimentos(String code) async {
     final db = await _dbHelper.database;
     final List<Map<String, dynamic>> maps =
         await db.query('Alimento', orderBy: 'Nombre');
 
+    final traducciones = await db
+        .query('AlimentoTraduccion', where: 'Code = ?', whereArgs: [code]);
+
     return List.generate(maps.length, (i) {
+      AlimentoTraduccion traduccion = traducciones
+              .firstWhere((element) => element['IdAlimento'] == maps[i]['Id'])
+          as AlimentoTraduccion;
+
       return Alimento(
         id: maps[i]['Id'],
-        nombre: maps[i]['Nombre'],
+        nombre: traduccion.nombreAlimento,
         calorias: (maps[i]['Calorias'] is int)
             ? (maps[i]['Calorias'] as int).toDouble()
             : (maps[i]['Calorias'] as double),
@@ -71,7 +114,7 @@ class FoodController {
     await db.delete('Alimento');
   }
 
-  Future<void> migrarAlimentos() async {
+  /*Future<void> migrarAlimentos() async {
     String jsonString =
         await rootBundle.loadString('assets/data/alimentosJson.json');
     List<dynamic> jsonList = json.decode(jsonString);
@@ -80,23 +123,47 @@ class FoodController {
       Alimento alimento = Alimento.fromJson(item);
       await insertAlimento(alimento);
     }
-  }
+  }*/
 
   Future<bool> eliminarAlimento(int id) async {
     final db = await _dbHelper.database;
+    await _traduccionController.eliminarTraduccion(id);
     int result = await db.delete('Alimento', where: 'Id = $id');
     return result > 0;
   }
 
   Future<void> reiniciarAlimentos() async {
+    final db = await _dbHelper.database;
+    await _traduccionController.clearTraducciones();
     await clearAlimentos();
-    String jsonString =
-        await rootBundle.loadString('assets/data/alimentosJson.json');
-    List<dynamic> jsonList = json.decode(jsonString);
+    String jsonStringEs =
+        await rootBundle.loadString('assets/data/alimentosJsonEs.json');
+    String jsonStringEn =
+        await rootBundle.loadString('assets/data/alimentosJsonEn.json');
 
-    for (var item in jsonList) {
-      Alimento alimento = Alimento.fromJson(item);
-      await insertAlimento(alimento);
+    List<dynamic> jsonListEs = json.decode(jsonStringEs);
+    List<dynamic> jsonListEn = json.decode(jsonStringEn);
+
+    for (int i = 0; i < jsonListEs.length; i++) {
+      Alimento alimentoEs = Alimento.fromJson(jsonListEs[i]);
+      Alimento alimentoEn = Alimento.fromJson(jsonListEn[i]);
+
+      int result = await db.insert(
+        'Alimento',
+        alimentoEs.toMap(),
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+
+      _traduccionController.insertTraduccion(AlimentoTraduccion(
+        idAlimento: alimentoEs.id!,
+        code: 'es',
+        nombreAlimento: alimentoEs.nombre,
+      ));
+      _traduccionController.insertTraduccion(AlimentoTraduccion(
+        idAlimento: alimentoEn.id!,
+        code: 'en',
+        nombreAlimento: alimentoEn.nombre,
+      ));
     }
   }
 

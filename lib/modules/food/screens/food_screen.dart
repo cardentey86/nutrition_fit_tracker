@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -43,7 +44,8 @@ class _FoodScreenState extends State<FoodScreen> {
   }
 
   Future<void> _loadAlimentos() async {
-    List<Alimento> alimentos = await _foodController.getAlimentos();
+    List<Alimento> alimentos =
+        await _foodController.getAlimentos(context.locale.languageCode);
 
     setState(() {
       _alimentos = alimentos;
@@ -392,7 +394,8 @@ class _FoodScreenState extends State<FoodScreen> {
                   bool result = false;
 
                   if (action == 'add') {
-                    result = await _foodController.insertAlimento(alimento);
+                    result = await _foodController.insertAlimento(
+                        alimento, context.locale.languageCode);
                     if (result) {
                       setState(() {
                         _filteredAlimentos.add(alimento);
@@ -401,7 +404,8 @@ class _FoodScreenState extends State<FoodScreen> {
                       setData();
                     }
                   } else {
-                    result = await _foodController.updateAlimento(alimento);
+                    result = await _foodController.updateAlimento(
+                        alimento, context.locale.languageCode);
                     await _loadAlimentos();
                   }
 
