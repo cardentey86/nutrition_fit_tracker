@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
+import 'package:nutrition_fit_traker/modules/menu/infrastructure/menu_plato_controller.dart';
 import 'package:nutrition_fit_traker/modules/traduccion/traduccion_model.dart';
 import 'package:nutrition_fit_traker/modules/traduccion/traduccion_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
@@ -10,6 +11,7 @@ class FoodController {
   static final DatabaseHelper _dbHelper = DatabaseHelper();
   static final TraduccionController _traduccionController =
       TraduccionController();
+  static final MenuPlatoController _menuPlatoController = MenuPlatoController();
 
   Future<bool> insertAlimento(Alimento alimento, String code) async {
     final db = await _dbHelper.database;
@@ -109,9 +111,15 @@ class FoodController {
     return count > 0;
   }
 
-  Future<void> clearAlimentos() async {
+  Future<bool> clearAlimentos() async {
+    final existMenuPlato = await _menuPlatoController.anyMenuPlato();
+
+    if (existMenuPlato) {
+      return false;
+    }
+
     final db = await _dbHelper.database;
-    await db.delete('Alimento');
+    return await db.delete('Alimento') > 0;
   }
 
   /*Future<void> migrarAlimentos() async {
@@ -127,44 +135,58 @@ class FoodController {
 
   Future<bool> eliminarAlimento(int id) async {
     final db = await _dbHelper.database;
+
+    final existMenuPlato = await db.query('MenuPlato',
+        where: 'IdAlimento = ?', whereArgs: [id], limit: 1);
+
+    if (existMenuPlato.isNotEmpty) {
+      return false;
+    }
+
     await _traduccionController.eliminarTraduccion(id);
     int result = await db.delete('Alimento', where: 'Id = $id');
     return result > 0;
   }
 
-  Future<void> reiniciarAlimentos() async {
+  Future<bool> reiniciarAlimentos() async {
     final db = await _dbHelper.database;
     await _traduccionController.clearTraducciones();
-    await clearAlimentos();
-    String jsonStringEs =
-        await rootBundle.loadString('assets/data/alimentosJsonEs.json');
-    String jsonStringEn =
-        await rootBundle.loadString('assets/data/alimentosJsonEn.json');
+    bool clear = await clearAlimentos();
 
-    List<dynamic> jsonListEs = json.decode(jsonStringEs);
-    List<dynamic> jsonListEn = json.decode(jsonStringEn);
+    if (clear) {
+      String jsonStringEs =
+          await rootBundle.loadString('assets/data/alimentosJsonEs.json');
+      String jsonStringEn =
+          await rootBundle.loadString('assets/data/alimentosJsonEn.json');
 
-    for (int i = 0; i < jsonListEs.length; i++) {
-      Alimento alimentoEs = Alimento.fromJson(jsonListEs[i]);
-      Alimento alimentoEn = Alimento.fromJson(jsonListEn[i]);
+      List<dynamic> jsonListEs = json.decode(jsonStringEs);
+      List<dynamic> jsonListEn = json.decode(jsonStringEn);
 
-      int result = await db.insert(
-        'Alimento',
-        alimentoEs.toMap(),
-        conflictAlgorithm: ConflictAlgorithm.replace,
-      );
+      for (int i = 0; i < jsonListEs.length; i++) {
+        Alimento alimentoEs = Alimento.fromJson(jsonListEs[i]);
+        Alimento alimentoEn = Alimento.fromJson(jsonListEn[i]);
 
-      _traduccionController.insertTraduccion(AlimentoTraduccion(
-        idAlimento: alimentoEs.id!,
-        code: 'es',
-        nombreAlimento: alimentoEs.nombre,
-      ));
-      _traduccionController.insertTraduccion(AlimentoTraduccion(
-        idAlimento: alimentoEn.id!,
-        code: 'en',
-        nombreAlimento: alimentoEn.nombre,
-      ));
+        int result = await db.insert(
+          'Alimento',
+          alimentoEs.toMap(),
+          conflictAlgorithm: ConflictAlgorithm.replace,
+        );
+
+        _traduccionController.insertTraduccion(AlimentoTraduccion(
+          idAlimento: alimentoEs.id!,
+          code: 'es',
+          nombreAlimento: alimentoEs.nombre,
+        ));
+        _traduccionController.insertTraduccion(AlimentoTraduccion(
+          idAlimento: alimentoEn.id!,
+          code: 'en',
+          nombreAlimento: alimentoEn.nombre,
+        ));
+      }
+
+      return true;
     }
+    return false;
   }
 
   double CalcularConsumoAlimento(double cantidadGramos, double valorMacro) {

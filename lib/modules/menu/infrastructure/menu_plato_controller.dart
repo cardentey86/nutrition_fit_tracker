@@ -148,6 +148,14 @@ class MenuPlatoController {
     return result > 0;
   }
 
+  Future<bool> anyMenuPlato() async {
+    final db = await _dbHelper.database;
+    final List<Map<String, dynamic>> result =
+        await db.rawQuery('SELECT COUNT(*) AS count FROM MenuPlato');
+    int count = Sqflite.firstIntValue(result)!;
+    return count > 0;
+  }
+
   Future<bool> eliminarMenu(int menuId) async {
     final db = await _dbHelper.database;
 
