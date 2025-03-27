@@ -2,6 +2,7 @@
   "general": {
     "noData": "No hay datos disponibles",
     "value": "Valor",
+    "date": "Fecha",
     "macro":{
       "carbo": "Carbohidratos",
       "proteins": "Proteínas",
@@ -80,6 +81,18 @@
     "meiWidget":{
       "title":"Comparación de Medidas en Pulgadas y Kg"
     }
+  },
+  "progress":{
+    "title": "Progreso Personal",
+    "bicepsChart": "Progreso de Biceps cm",
+    "chestChart": "Progreso de Pecho cm",
+    "waistChart": "Progreso de Cintura cm",
+    "thighChart": "Progreso de Muslo cm",
+    "calfChart": "Progreso de Pantorrillas cm",
+    "weightChart": "Progreso del Peso Corporal Kg",
+    "imcChart": "Progreso del Indice de Masa Corporal",
+    "pgcChart": "Progreso del Porciento de Grasa Corporal",
+    "pmmChart": "Progreso del Porciento de Musculo Magro" 
   },
  "configuration":{
     "title": "Configuración",

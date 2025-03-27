@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/data/database_helper.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
@@ -158,7 +159,7 @@ class _ProgresoWidgetState extends State<ProgresoWidget> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Progreso',
+          'progress.title'.tr(),
           style: TextStyle(color: Colors.black87),
         ),
         backgroundColor: Colors.transparent,

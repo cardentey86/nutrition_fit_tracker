@@ -2,6 +2,7 @@
   "general":{
     "noData": "No data available",
     "value": "Value",
+    "date": "Date",
     "macro": {
       "carbo": "Carbohydrates",
       "proteins": "Proteins",
@@ -79,8 +80,25 @@
     },
     "pgmWidget": {
       "title": "Muscle Gain Comparison in Plg and Kg"
+    },
+    "meiWidget": {
+      "title": "Comparison of Measurements in Inches and Kg"
     }
+
   },
+  "progress": {
+    "title": "Personal Progress",
+    "bicepsChart": "Biceps Progress cm",
+    "chestChart": "Chest Progress cm",
+    "waistChart": "Waist Progress cm",
+    "thighChart": "Thigh Progress cm",
+    "calfChart": "Calf Progress cm",
+    "weightChart": "Body Weight Progress Kg",
+    "imcChart": "Body Mass Index Progress",
+    "pgcChart": "Body Fat Percentage Progress",
+    "pmmChart": "Lean Muscle Percentage Progress"
+  },
+
   "configuration":{
     "title": "Configuration",
     "language": "Language",
