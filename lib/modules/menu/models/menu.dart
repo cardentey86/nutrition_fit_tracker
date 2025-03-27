@@ -1,5 +1,4 @@
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
-import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class Menu {
