@@ -77,8 +77,8 @@
       "maintainWeight":"Mantener el peso",
       "gainWeight":"Aumento de Músculo"
     },
-    "pgmWidget":{
-      "title":"Comparación ganancia muscular en Plg y Kg"
+    "meiWidget":{
+      "title":"Comparación de Medidas en Pulgadas y Kg"
     }
   },
  "configuration":{

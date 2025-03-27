@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/indices/infrastructure/indices_controller.dart';
 import 'package:nutrition_fit_traker/modules/indices/models/prediction_model.dart';
@@ -50,34 +51,34 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
       return const Center(child: CircularProgressIndicator());
     }
     if (medidasEsteticas.isEmpty) {
-      return const Center(child: Text('No hay datos disponibles'));
+      return Center(child: Text('general.noData'.tr()));
     }
 
     final List<String> campos =
         medidasEsteticas.any((medida) => medida!.cadera! == 0)
             ? [
-                'Pecho',
-                'Biceps',
-                'Antebrazo',
-                'Muslo',
-                'Gemelo',
-                'Cuello',
-                'MusculoKg',
-                'PesoKg',
-                '%Grasa',
-                'GrasaKg'
+                'general.body.chest',
+                'general.body.biceps',
+                'general.body.forearm',
+                'general.body.thigh',
+                'general.body.calf',
+                'general.body.neck',
+                'general.body.muscleKg',
+                'general.body.weightKg',
+                'general.body.fatPercentage',
+                'general.body.fatKg',
               ]
             : [
-                'Pecho',
-                'Biceps',
-                'Antebrazo',
-                'Muslo',
-                'Gemelo',
-                'Cuello',
-                'Cintura',
-                'Cadera',
-                'PesoKg',
-                '%Grasa',
+                'general.body.chest',
+                'general.body.biceps',
+                'general.body.forearm',
+                'general.body.thigh',
+                'general.body.calf',
+                'general.body.neck',
+                'general.body.waist',
+                'general.body.hip',
+                'general.body.weightKg',
+                'general.body.fatPercentage',
               ];
 
     return SizedBox(
@@ -88,7 +89,7 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
           isVisible: false, // Oculta los valores del eje Y
         ),
         title: ChartTitle(
-            text: 'Comparación de Medidas en Pulgadas y Kg',
+            text: 'index.meWidget.title'.tr(),
             textStyle: const TextStyle(fontSize: 12)),
         legend: Legend(isVisible: true, position: LegendPosition.top),
         tooltipBehavior: TooltipBehavior(enable: true),
@@ -97,76 +98,77 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
           for (int i = 0; i < medidasEsteticas.length; i++)
             LineSeries<dynamic, String>(
               dataSource: campos.map((campo) {
+                String translatedField = campo.tr();
                 // Mapeamos los valores de los campos a la serie
                 switch (campo) {
-                  case 'Pecho':
+                  case 'general.body.chest':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.pecho.toStringAsFixed(2))
                     };
-                  case 'Biceps':
+                  case 'general.body.biceps':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.biceps.toStringAsFixed(2))
                     };
-                  case 'Antebrazo':
+                  case 'general.body.forearm':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.antebrazo.toStringAsFixed(2))
                     };
-                  case 'Muslo':
+                  case 'general.body.thigh':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.muslo.toStringAsFixed(2))
                     };
-                  case 'Gemelo':
+                  case 'general.body.calf':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.pantorrilla.toStringAsFixed(2))
                     };
-                  case 'Cuello':
+                  case 'general.body.neck':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.cuello.toStringAsFixed(2))
                     };
-                  case 'MusculoKg':
+                  case 'general.body.muscleKg':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.pesoMagro.toStringAsFixed(2))
                     };
-                  case 'PesoKg':
+                  case 'general.body.weightKg':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(
                           medidasEsteticas[i]!.pesoTotal.toStringAsFixed(2))
                     };
-                  case '%Grasa':
+                  case 'general.body.fatPercentage':
                     return {
-                      'campo': campo,
+                      'campo': translatedField,
                       'valor': double.parse(medidasEsteticas[i]!
                           .porcientoGrasa
                           .toStringAsFixed(2))
                     };
-                  case 'GrasaKg':
+                  case 'general.body.fatKg':
                     return {
                       'campo': campo,
                       'valor': double.parse(
                           medidasEsteticas[i]!.pesoGrasa.toStringAsFixed(2))
                     };
-                  case 'Cintura':
+                  case 'general.body.waist':
                     return {
                       'campo': campo,
                       'valor': double.parse(
                           medidasEsteticas[i]!.cintura!.toStringAsFixed(2))
                     };
-                  case 'Cadera':
+                  case 'general.body.hip':
                     return {
                       'campo': campo,
                       'valor': double.parse(
@@ -179,7 +181,7 @@ class _MyWidgetState extends State<MedidasEsteticasWidget> {
               xValueMapper: (dynamic data, _) => data['campo'],
               yValueMapper: (dynamic data, _) => data['valor'],
               name:
-                  'Grasa: ${double.parse(medidasEsteticas[i]!.porcientoGrasa.toStringAsFixed(2))} %',
+                  '${'general.macro.fat'.tr()}: ${double.parse(medidasEsteticas[i]!.porcientoGrasa.toStringAsFixed(2))} %',
               markerSettings: const MarkerSettings(isVisible: true),
               dataLabelSettings: const DataLabelSettings(
                   isVisible: true,
