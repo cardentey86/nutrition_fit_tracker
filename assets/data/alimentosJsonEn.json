@@ -1,0 +1,6058 @@
+[
+  {
+    "Alimento": "ABADEJO, Ahumado",
+    "Calorias": 116,
+    "Carbohidratos": 0,
+    "Proteinas": 25.23,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Abulon, steamed or climbing",
+    "Calorias": 209,
+    "Carbohidratos": 11.97,
+    "Proteinas": 34.05,
+    "Grasas": 1.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frigged Acedias",
+    "Calorias": 256,
+    "Carbohidratos": 12,
+    "Proteinas": 17,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Almond oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Peanut oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Coconut oil",
+    "Calorias": 892,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 99.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sunflower oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corn oil",
+    "Calorias": 900,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Nut oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Olive oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sesame oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Soybean oil",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "UVA oil, Pepita",
+    "Calorias": 899,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "black olives",
+    "Calorias": 105,
+    "Carbohidratos": 6.06,
+    "Proteinas": 0.88,
+    "Grasas": 9.54,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "green olives",
+    "Calorias": 145,
+    "Carbohidratos": 3.84,
+    "Proteinas": 1.03,
+    "Grasas": 15.32,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Stuffed green olives",
+    "Calorias": 128,
+    "Carbohidratos": 4.02,
+    "Proteinas": 1.04,
+    "Grasas": 13.22,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Raw chard",
+    "Calorias": 19,
+    "Carbohidratos": 3.74,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Acerolas",
+    "Calorias": 31,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.4,
+    "Grasas": 0.3,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "César dressing",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Honey and mustard dressing",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Blue cheese or roquefort dressing",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Yogurt dressing",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Carbonated, sweetened water",
+    "Calorias": 34,
+    "Carbohidratos": 8.8,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Spring water",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw avocado",
+    "Calorias": 160,
+    "Carbohidratos": 8.53,
+    "Proteinas": 2,
+    "Grasas": 14.66,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Raw garlic",
+    "Calorias": 149,
+    "Carbohidratos": 33.06,
+    "Proteinas": 6.36,
+    "Grasas": 0.5,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Raw basil",
+    "Calorias": 23,
+    "Carbohidratos": 2.65,
+    "Proteinas": 3.15,
+    "Grasas": 0.64,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raw apricot",
+    "Calorias": 48,
+    "Carbohidratos": 11.12,
+    "Proteinas": 1.4,
+    "Grasas": 0.39,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Albaricoque, cooked or canned, in thick syrup",
+    "Calorias": 83,
+    "Carbohidratos": 21.47,
+    "Proteinas": 0.53,
+    "Grasas": 0.08,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Albaricoque, dry, raw",
+    "Calorias": 241,
+    "Carbohidratos": 62.64,
+    "Proteinas": 3.39,
+    "Grasas": 0.51,
+    "Fibra": 7.3
+  },
+  {
+    "Alimento": "Swedish meatballs with cream or white sauce",
+    "Calorias": 170,
+    "Carbohidratos": 7.22,
+    "Proteinas": 12.43,
+    "Grasas": 9.88,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Artichoke, cooked, canned, made with oil.",
+    "Calorias": 67,
+    "Carbohidratos": 8.89,
+    "Proteinas": 3.01,
+    "Grasas": 3.1,
+    "Fibra": 4.5
+  },
+  {
+    "Alimento": "Artichoke, cooked, fresh, made with oil.",
+    "Calorias": 74,
+    "Carbohidratos": 11.57,
+    "Proteinas": 2.8,
+    "Grasas": 2.95,
+    "Fibra": 5.5
+  },
+  {
+    "Alimento": "Artichokes",
+    "Calorias": 23,
+    "Carbohidratos": 2.3,
+    "Proteinas": 2.9,
+    "Grasas": 0.2,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Chicken wings, grill",
+    "Calorias": 257,
+    "Carbohidratos": 0.6,
+    "Proteinas": 23.42,
+    "Grasas": 18.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw clams / Chirla",
+    "Calorias": 86,
+    "Carbohidratos": 3.57,
+    "Proteinas": 14.67,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canned clams",
+    "Calorias": 108,
+    "Carbohidratos": 4.46,
+    "Proteinas": 18.34,
+    "Grasas": 1.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Salted almonds",
+    "Calorias": 601,
+    "Carbohidratos": 20.18,
+    "Proteinas": 20.13,
+    "Grasas": 53.43,
+    "Fibra": 10.5
+  },
+  {
+    "Alimento": "Almonds without salt",
+    "Calorias": 607,
+    "Carbohidratos": 20.38,
+    "Proteinas": 20.33,
+    "Grasas": 53.96,
+    "Fibra": 10.6
+  },
+  {
+    "Alimento": "Almonds without toast",
+    "Calorias": 579,
+    "Carbohidratos": 21.55,
+    "Proteinas": 21.15,
+    "Grasas": 49.93,
+    "Fibra": 12.5
+  },
+  {
+    "Alimento": "White, canned, drained, fat -free fat",
+    "Calorias": 168,
+    "Carbohidratos": 30.91,
+    "Proteinas": 10.84,
+    "Grasas": 0.57,
+    "Fibra": 7.2
+  },
+  {
+    "Alimento": "Cashew",
+    "Calorias": 609,
+    "Carbohidratos": 30.3,
+    "Proteinas": 12.12,
+    "Grasas": 53.03,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Rana Ancas, steamed",
+    "Calorias": 92,
+    "Carbohidratos": 0,
+    "Proteinas": 20.62,
+    "Grasas": 0.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canned anchovy",
+    "Calorias": 210,
+    "Carbohidratos": 0,
+    "Proteinas": 28.89,
+    "Grasas": 9.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Eel",
+    "Calorias": 168,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ahumada eel",
+    "Calorias": 287,
+    "Carbohidratos": 0,
+    "Proteinas": 28.73,
+    "Grasas": 18.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed or climbing eagle",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 14.66,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Angulas",
+    "Calorias": 205,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Anisette",
+    "Calorias": 297,
+    "Carbohidratos": 2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "COOKED CLOO",
+    "Calorias": 44,
+    "Carbohidratos": 9.63,
+    "Proteinas": 1.57,
+    "Grasas": 0.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Raw celery",
+    "Calorias": 16,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.69,
+    "Grasas": 0.17,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raw blueberries",
+    "Calorias": 57,
+    "Carbohidratos": 14.49,
+    "Proteinas": 0.74,
+    "Grasas": 0.33,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Dry blueberries",
+    "Calorias": 308,
+    "Carbohidratos": 82.8,
+    "Proteinas": 0.17,
+    "Grasas": 1.09,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Raw herring",
+    "Calorias": 158,
+    "Carbohidratos": 0,
+    "Proteinas": 17.96,
+    "Grasas": 9.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Dry sand",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Arenque, smoked",
+    "Calorias": 217,
+    "Carbohidratos": 0,
+    "Proteinas": 24.58,
+    "Grasas": 12.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rice cooked with milk",
+    "Calorias": 143,
+    "Carbohidratos": 25.03,
+    "Proteinas": 5.06,
+    "Grasas": 2.21,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Integral rice",
+    "Calorias": 357,
+    "Carbohidratos": 77,
+    "Proteinas": 7,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Polished rice, white",
+    "Calorias": 361,
+    "Carbohidratos": 87,
+    "Proteinas": 6,
+    "Grasas": 1,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Rice, white, cooked, without adding fat when cooking",
+    "Calorias": 129,
+    "Carbohidratos": 27.99,
+    "Proteinas": 2.67,
+    "Grasas": 0.28,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Rice, integral and wild, cooked, without fat added in cooking",
+    "Calorias": 120,
+    "Carbohidratos": 24.9,
+    "Proteinas": 2.89,
+    "Grasas": 0.88,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Rice, cooked wild, without fat added in cooking",
+    "Calorias": 100,
+    "Carbohidratos": 21.21,
+    "Proteinas": 3.97,
+    "Grasas": 0.34,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Smoked fresh tuna",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fresh, raw tuna",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 24.4,
+    "Grasas": 0.49,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tuna, canned, with oil",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 29.13,
+    "Grasas": 8.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hazelnuts",
+    "Calorias": 628,
+    "Carbohidratos": 16.7,
+    "Proteinas": 14.95,
+    "Grasas": 60.75,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Raw oatmeal",
+    "Calorias": 379,
+    "Carbohidratos": 67.7,
+    "Proteinas": 13.15,
+    "Grasas": 6.52,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Oatmeal, bran",
+    "Calorias": 25,
+    "Carbohidratos": 6.6,
+    "Proteinas": 1.7,
+    "Grasas": 0.7,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Ostrich, cooked",
+    "Calorias": 174,
+    "Carbohidratos": 0,
+    "Proteinas": 25.93,
+    "Grasas": 7.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sugar, white, granulated or lump",
+    "Calorias": 387,
+    "Carbohidratos": 99.98,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sugar, white, pastry, powder",
+    "Calorias": 389,
+    "Carbohidratos": 99.77,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sugar, Brown (Moreno)",
+    "Calorias": 380,
+    "Carbohidratos": 98.09,
+    "Proteinas": 0.12,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Smoked cod",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 23.91,
+    "Grasas": 0.64,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Baked cod or grill, made with oil",
+    "Calorias": 117,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.68,
+    "Grasas": 4.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Baked cod or grilled, made without fat",
+    "Calorias": 87,
+    "Carbohidratos": 0.1,
+    "Proteinas": 19.24,
+    "Grasas": 0.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fresh cod",
+    "Calorias": 76,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Salted cod, soaked",
+    "Calorias": 138,
+    "Carbohidratos": 0,
+    "Proteinas": 32,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cod, dry, salty",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 62.82,
+    "Grasas": 2.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bacon",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Banana",
+    "Calorias": 89,
+    "Carbohidratos": 22.6,
+    "Proteinas": 1.08,
+    "Grasas": 0.34,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Mars almond bar",
+    "Calorias": 467,
+    "Carbohidratos": 62.7,
+    "Proteinas": 8.1,
+    "Grasas": 23,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Snickers bar",
+    "Calorias": 491,
+    "Carbohidratos": 61.51,
+    "Proteinas": 7.53,
+    "Grasas": 23.85,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Sweet potato",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Batata, baked, without peel, without fat added in cooking",
+    "Calorias": 90,
+    "Carbohidratos": 20.63,
+    "Proteinas": 2,
+    "Grasas": 0.15,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Chocolate shake",
+    "Calorias": 366,
+    "Carbohidratos": 77,
+    "Proteinas": 6,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Milk shake, bottling, chocolate",
+    "Calorias": 150,
+    "Carbohidratos": 20.36,
+    "Proteinas": 3.7,
+    "Grasas": 6.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Oat with milk",
+    "Calorias": 82,
+    "Carbohidratos": 15.59,
+    "Proteinas": 1.69,
+    "Grasas": 1.57,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Horchata drink, made with water.",
+    "Calorias": 87,
+    "Carbohidratos": 20.48,
+    "Proteinas": 1.09,
+    "Grasas": 0.11,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Juice drink / fruit juice (Sunny D)",
+    "Calorias": 54,
+    "Carbohidratos": 13.16,
+    "Proteinas": 0.13,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sports drink (Gatorade G)",
+    "Calorias": 26,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sports drink (Powerade)",
+    "Calorias": 32,
+    "Carbohidratos": 7.84,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink (Monster)",
+    "Calorias": 47,
+    "Carbohidratos": 11.28,
+    "Proteinas": 0.47,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy drink (Red Bull)",
+    "Calorias": 43,
+    "Carbohidratos": 10.23,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink (Rockstar)",
+    "Calorias": 58,
+    "Carbohidratos": 12.7,
+    "Proteinas": 0.34,
+    "Grasas": 0.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy drink without sugar (Red Bull)",
+    "Calorias": 5,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy drink, low in calories (monster)",
+    "Calorias": 5,
+    "Carbohidratos": 1.38,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy drink, without sugar (rockstar)",
+    "Calorias": 4,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cooked beroberes",
+    "Calorias": 48,
+    "Carbohidratos": 0,
+    "Proteinas": 10.7,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw eggplant",
+    "Calorias": 25,
+    "Carbohidratos": 5.88,
+    "Proteinas": 0.98,
+    "Grasas": 0.18,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Eggplants, cooked, fats not added in cooking",
+    "Calorias": 35,
+    "Carbohidratos": 8.64,
+    "Proteinas": 0.82,
+    "Grasas": 0.23,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Watercress, cooked, fresh, without fat added in cooking",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Berro, raw",
+    "Calorias": 32,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.6,
+    "Grasas": 0.7,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Sea bream",
+    "Calorias": 90,
+    "Carbohidratos": 0,
+    "Proteinas": 18.1,
+    "Grasas": 1.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cooked bígaros",
+    "Calorias": 135,
+    "Carbohidratos": 5,
+    "Proteinas": 26,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "BISCOTES WELL",
+    "Calorias": 366,
+    "Carbohidratos": 73,
+    "Proteinas": 9,
+    "Grasas": 4,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "BISCOTES INTEGRAL Wheat",
+    "Calorias": 407,
+    "Carbohidratos": 62,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Bloody Mary",
+    "Calorias": 69,
+    "Carbohidratos": 3.16,
+    "Proteinas": 0.64,
+    "Grasas": 0.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Medium buns",
+    "Calorias": 387,
+    "Carbohidratos": 49,
+    "Proteinas": 5,
+    "Grasas": 20,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Media chocolates",
+    "Calorias": 458,
+    "Carbohidratos": 66,
+    "Proteinas": 5,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sweet potato",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Brandy",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bratwurst",
+    "Calorias": 333,
+    "Carbohidratos": 2.85,
+    "Proteinas": 13.72,
+    "Grasas": 29.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Breca (White Fish)",
+    "Calorias": 74,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw Brécol",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Raw broccoli",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Broccoli, cooked, frozen, without adding fat when cooking",
+    "Calorias": 28,
+    "Carbohidratos": 5.32,
+    "Proteinas": 3.08,
+    "Grasas": 0.12,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Soy buds, cooked, fresh, without fat added in cooking",
+    "Calorias": 46,
+    "Carbohidratos": 5.15,
+    "Proteinas": 4.76,
+    "Grasas": 1.95,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Soy buds, raw",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Coconut Buddine",
+    "Calorias": 111,
+    "Carbohidratos": 17.37,
+    "Proteinas": 2.89,
+    "Grasas": 3.43,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Bouillabaisse",
+    "Calorias": 98,
+    "Carbohidratos": 2.15,
+    "Proteinas": 13.43,
+    "Grasas": 3.7,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "French buñuelo",
+    "Calorias": 412,
+    "Carbohidratos": 59.5,
+    "Proteinas": 3.1,
+    "Grasas": 18.3,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Buñuelo, banana",
+    "Calorias": 342,
+    "Carbohidratos": 34.43,
+    "Proteinas": 5.03,
+    "Grasas": 21.33,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Cod fritters",
+    "Calorias": 278,
+    "Carbohidratos": 36.02,
+    "Proteinas": 15.32,
+    "Grasas": 7.45,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Corn fritters",
+    "Calorias": 394,
+    "Carbohidratos": 40.81,
+    "Proteinas": 8.24,
+    "Grasas": 22.57,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Burrito with meat",
+    "Calorias": 242,
+    "Carbohidratos": 14.44,
+    "Proteinas": 13.03,
+    "Grasas": 14.48,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Chicken burrito",
+    "Calorias": 242,
+    "Carbohidratos": 16.57,
+    "Proteinas": 16.9,
+    "Grasas": 12.01,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Burrito, Taco or Quesadilla with egg",
+    "Calorias": 229,
+    "Carbohidratos": 19.69,
+    "Proteinas": 10.27,
+    "Grasas": 11.84,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Butifarra",
+    "Calorias": 243,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 20,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Smoked mackerel",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw mackerel",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 19.08,
+    "Grasas": 11.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canned horses",
+    "Calorias": 156,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 6.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Flesh horse",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Baked goat",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 26.87,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Flesh goat",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fried goat",
+    "Calorias": 153,
+    "Carbohidratos": 0,
+    "Proteinas": 26.46,
+    "Grasas": 4.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Flesh",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Financt peanuts",
+    "Calorias": 567,
+    "Carbohidratos": 16.13,
+    "Proteinas": 25.8,
+    "Grasas": 49.24,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Peanuts, roasted, salty",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Peanuts, roasted, without salt",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Cocoa dust",
+    "Calorias": 357,
+    "Carbohidratos": 11,
+    "Proteinas": 20,
+    "Grasas": 24,
+    "Fibra": 38
+  },
+  {
+    "Alimento": "Capuchino coffee",
+    "Calorias": 27,
+    "Carbohidratos": 2.7,
+    "Proteinas": 1.68,
+    "Grasas": 1.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cuban coffee",
+    "Calorias": 33,
+    "Carbohidratos": 7.86,
+    "Proteinas": 0.11,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Decaffeinated coffee",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0.1,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Express coffee",
+    "Calorias": 9,
+    "Carbohidratos": 1.67,
+    "Proteinas": 0.12,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Coffee Decaffeinated",
+    "Calorias": 9,
+    "Carbohidratos": 1.69,
+    "Proteinas": 0.1,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Extract coffee, dust",
+    "Calorias": 82,
+    "Carbohidratos": 8,
+    "Proteinas": 11,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Infusion coffee",
+    "Calorias": 2,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Instant coffee (soluble powder)",
+    "Calorias": 100,
+    "Carbohidratos": 11,
+    "Proteinas": 15,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Irish coffee",
+    "Calorias": 88,
+    "Carbohidratos": 2.03,
+    "Proteinas": 0.27,
+    "Grasas": 2.41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Torrefacto coffee",
+    "Calorias": 183,
+    "Carbohidratos": 2,
+    "Proteinas": 13,
+    "Grasas": 13,
+    "Fibra": 66
+  },
+  {
+    "Alimento": "Coffee, coffee with milk",
+    "Calorias": 39,
+    "Carbohidratos": 5.64,
+    "Proteinas": 1.64,
+    "Grasas": 1.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Coffee, coffee with milk, decaffeinated.",
+    "Calorias": 39,
+    "Carbohidratos": 5.72,
+    "Proteinas": 1.65,
+    "Grasas": 1.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zucchini",
+    "Calorias": 14,
+    "Carbohidratos": 2.2,
+    "Proteinas": 0.6,
+    "Grasas": 0.2,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Pumpkin, cooked, fresh, fat not added in cooking",
+    "Calorias": 20,
+    "Carbohidratos": 4.88,
+    "Proteinas": 0.72,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Raw squid",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canned squid",
+    "Calorias": 106,
+    "Carbohidratos": 3.54,
+    "Proteinas": 17.9,
+    "Grasas": 1.59,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fish broth, homemade recipe",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 2.26,
+    "Grasas": 0.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken or turkey broth, broth or consommé",
+    "Calorias": 6,
+    "Carbohidratos": 0.44,
+    "Proteinas": 0.64,
+    "Grasas": 0.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vegetable broth, broth",
+    "Calorias": 5,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0.24,
+    "Grasas": 0.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Calluses, cooked",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 12.6,
+    "Grasas": 3.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Calzone, with meat and cheese.",
+    "Calorias": 348,
+    "Carbohidratos": 31.16,
+    "Proteinas": 14.28,
+    "Grasas": 18.24,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Steamed shrimp or boiled",
+    "Calorias": 91,
+    "Carbohidratos": 1.16,
+    "Proteinas": 17.37,
+    "Grasas": 1.29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canelones stuffed with cheese and spinach, without sauce",
+    "Calorias": 158,
+    "Carbohidratos": 17.41,
+    "Proteinas": 6.95,
+    "Grasas": 6.71,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Sea crab",
+    "Calorias": 124,
+    "Carbohidratos": 13.28,
+    "Proteinas": 19.5,
+    "Grasas": 5.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "River crab, boiled or steamed",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 16.66,
+    "Grasas": 1.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canned crab",
+    "Calorias": 83,
+    "Carbohidratos": 0,
+    "Proteinas": 17.88,
+    "Grasas": 0.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crab, baked or grilled, without adding fat in cooking",
+    "Calorias": 102,
+    "Carbohidratos": 0.1,
+    "Proteinas": 21.96,
+    "Grasas": 0.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Caha, raw",
+    "Calorias": 70,
+    "Carbohidratos": 18.59,
+    "Proteinas": 0.58,
+    "Grasas": 0.19,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Terrestrial snail",
+    "Calorias": 86,
+    "Carbohidratos": 2,
+    "Proteinas": 16,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thistle",
+    "Calorias": 21,
+    "Carbohidratos": 4,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Horse horse",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Goat meat",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kid meat",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork, fat",
+    "Calorias": 329,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork, lean",
+    "Calorias": 147,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rabbit meat",
+    "Calorias": 124,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb meat, chop",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb meat, lean",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cordero meat, pallet",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb meat, leg",
+    "Calorias": 240,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Beef, ox tail, cooked",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 30.8,
+    "Grasas": 13.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Venado meat / roasted deer",
+    "Calorias": 190,
+    "Carbohidratos": 0,
+    "Proteinas": 36.08,
+    "Grasas": 3.93,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sheep meat",
+    "Calorias": 235,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Veal meat, lean",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cow meat, chop",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cow meat, steak",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cow meat, stew",
+    "Calorias": 176,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cow meat, lean",
+    "Calorias": 123,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cow meat, sirloin",
+    "Calorias": 272,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ahumada tent",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 27.84,
+    "Grasas": 8.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed tent or climbing",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 22.42,
+    "Grasas": 7.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tent, baked or roasted, fat not added when cooking",
+    "Calorias": 160,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.46,
+    "Grasas": 7.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chestnuts",
+    "Calorias": 245,
+    "Carbohidratos": 52.96,
+    "Proteinas": 3.17,
+    "Grasas": 2.2,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Russian caviar",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 25,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Barley",
+    "Calorias": 360,
+    "Carbohidratos": 84,
+    "Proteinas": 8,
+    "Grasas": 2,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Onion",
+    "Calorias": 40,
+    "Carbohidratos": 9,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Raw chives",
+    "Calorias": 30,
+    "Carbohidratos": 4.35,
+    "Proteinas": 3.27,
+    "Grasas": 0.73,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Centol",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork, pork rinds, cooked",
+    "Calorias": 468,
+    "Carbohidratos": 1.7,
+    "Proteinas": 33.92,
+    "Grasas": 35.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pig, loin, empanized, fried",
+    "Calorias": 294,
+    "Carbohidratos": 15.22,
+    "Proteinas": 22,
+    "Grasas": 15.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Pork, loin, battered, fried",
+    "Calorias": 193,
+    "Carbohidratos": 7.57,
+    "Proteinas": 23.29,
+    "Grasas": 7.07,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Pork, sirloin, for stew",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 27.24,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cereal (Kellogg's Corn Capos)",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Cereal (Kellogg Crispix)",
+    "Calorias": 378,
+    "Carbohidratos": 87.19,
+    "Proteinas": 6.59,
+    "Grasas": 0.8,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Cereal (Kellogg's All-Bran)",
+    "Calorias": 259,
+    "Carbohidratos": 74.24,
+    "Proteinas": 13.14,
+    "Grasas": 4.9,
+    "Fibra": 29.3
+  },
+  {
+    "Alimento": "Cereal (Kellogg's Cocoa Krispies)",
+    "Calorias": 389,
+    "Carbohidratos": 87.9,
+    "Proteinas": 4.6,
+    "Grasas": 2.7,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Cereal (Kellogg's Rice Krispies)",
+    "Calorias": 381,
+    "Carbohidratos": 85.05,
+    "Proteinas": 6.75,
+    "Grasas": 2.05,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Cereal (Kellogg's Special K)",
+    "Calorias": 377,
+    "Carbohidratos": 73.4,
+    "Proteinas": 17.79,
+    "Grasas": 1.79,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Cereal (Kellogg crunchy oat bran)",
+    "Calorias": 395,
+    "Carbohidratos": 70.3,
+    "Proteinas": 9.2,
+    "Grasas": 14.1,
+    "Fibra": 12.7
+  },
+  {
+    "Alimento": "Cereal (crushed wheat and bran)",
+    "Calorias": 339,
+    "Carbohidratos": 80.65,
+    "Proteinas": 10.93,
+    "Grasas": 2.06,
+    "Fibra": 14.7
+  },
+  {
+    "Alimento": "Cereal (weetabix whole grain)",
+    "Calorias": 371,
+    "Carbohidratos": 81.5,
+    "Proteinas": 11.43,
+    "Grasas": 2.86,
+    "Fibra": 11.4
+  },
+  {
+    "Alimento": "Cereal, crunchy rice",
+    "Calorias": 394,
+    "Carbohidratos": 86.22,
+    "Proteinas": 6.69,
+    "Grasas": 1.26,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Cereal, inflated rice",
+    "Calorias": 383,
+    "Carbohidratos": 87.78,
+    "Proteinas": 7.01,
+    "Grasas": 0.9,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Cereal, toasted oats",
+    "Calorias": 357,
+    "Carbohidratos": 75.5,
+    "Proteinas": 10.71,
+    "Grasas": 5.36,
+    "Fibra": 10.7
+  },
+  {
+    "Alimento": "Cereal, mueli",
+    "Calorias": 355,
+    "Carbohidratos": 74.9,
+    "Proteinas": 8.6,
+    "Grasas": 5.4,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Cereal, inflated, sweetened",
+    "Calorias": 380,
+    "Carbohidratos": 88.5,
+    "Proteinas": 5.7,
+    "Grasas": 2.2,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Cereal, inflated wheat",
+    "Calorias": 366,
+    "Carbohidratos": 76.39,
+    "Proteinas": 16.26,
+    "Grasas": 2.15,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Cornflakes cereals",
+    "Calorias": 378,
+    "Carbohidratos": 84,
+    "Proteinas": 7,
+    "Grasas": 0,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Cereals, corn flakes",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Cherries",
+    "Calorias": 50,
+    "Carbohidratos": 12.18,
+    "Proteinas": 1,
+    "Grasas": 0.3,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Frozen cherries",
+    "Calorias": 46,
+    "Carbohidratos": 11.02,
+    "Proteinas": 0.92,
+    "Grasas": 0.44,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Beer",
+    "Calorias": 43,
+    "Carbohidratos": 3.55,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Low carbohydrate beer",
+    "Calorias": 27,
+    "Carbohidratos": 0.73,
+    "Proteinas": 0.17,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ceviche",
+    "Calorias": 62,
+    "Carbohidratos": 3.58,
+    "Proteinas": 10.34,
+    "Grasas": 0.75,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Champagne",
+    "Calorias": 84,
+    "Carbohidratos": 3,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw mushrooms",
+    "Calorias": 22,
+    "Carbohidratos": 3.26,
+    "Proteinas": 3.09,
+    "Grasas": 0.34,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Mushrooms, cooked, made with oil",
+    "Calorias": 52,
+    "Carbohidratos": 5.11,
+    "Proteinas": 2.1,
+    "Grasas": 3.27,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Mushrooms, fresh cream",
+    "Calorias": 81,
+    "Carbohidratos": 7.01,
+    "Proteinas": 2.91,
+    "Grasas": 4.98,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Chanquets",
+    "Calorias": 79,
+    "Carbohidratos": 2,
+    "Proteinas": 11,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheetes cheese, sweets",
+    "Calorias": 158,
+    "Carbohidratos": 15,
+    "Proteinas": 2,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Peas, cooked, fresh, without fat added in cooking",
+    "Calorias": 110,
+    "Carbohidratos": 19.36,
+    "Proteinas": 5.92,
+    "Grasas": 1.35,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Chicharrones",
+    "Calorias": 540,
+    "Carbohidratos": 1,
+    "Proteinas": 20,
+    "Grasas": 51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chile with meatless beans",
+    "Calorias": 42,
+    "Carbohidratos": 8.19,
+    "Proteinas": 2.39,
+    "Grasas": 0.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Chili with meat with beans",
+    "Calorias": 104,
+    "Carbohidratos": 10.71,
+    "Proteinas": 6.88,
+    "Grasas": 3.81,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Custard apple",
+    "Calorias": 75,
+    "Carbohidratos": 18,
+    "Proteinas": 1.2,
+    "Grasas": 0.6,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Chirivías, cooked, without fat added in cooking",
+    "Calorias": 71,
+    "Carbohidratos": 16.9,
+    "Proteinas": 1.31,
+    "Grasas": 0.3,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Chirivías, cream",
+    "Calorias": 105,
+    "Carbohidratos": 13.5,
+    "Proteinas": 2.44,
+    "Grasas": 4.89,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "White chocolate",
+    "Calorias": 539,
+    "Carbohidratos": 59.24,
+    "Proteinas": 5.87,
+    "Grasas": 32.09,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "White chocolate with almonds",
+    "Calorias": 547,
+    "Carbohidratos": 53.15,
+    "Proteinas": 8.2,
+    "Grasas": 35.15,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Milk chocolate",
+    "Calorias": 550,
+    "Carbohidratos": 56,
+    "Proteinas": 6,
+    "Grasas": 34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sweet or dark chocolate",
+    "Calorias": 528,
+    "Carbohidratos": 60.18,
+    "Proteinas": 4.5,
+    "Grasas": 33.2,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Sweet or dark chocolate, with almonds.",
+    "Calorias": 553,
+    "Carbohidratos": 56.48,
+    "Proteinas": 6.55,
+    "Grasas": 33.81,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Chocolate without milk",
+    "Calorias": 530,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sausage",
+    "Calorias": 455,
+    "Carbohidratos": 1.86,
+    "Proteinas": 24.1,
+    "Grasas": 38.27,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheese sausage sausage",
+    "Calorias": 402,
+    "Carbohidratos": 0.4,
+    "Proteinas": 15.76,
+    "Grasas": 36.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork chop, roasted or baked",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork chop, empanada or floured",
+    "Calorias": 239,
+    "Carbohidratos": 8.4,
+    "Proteinas": 26.87,
+    "Grasas": 10.21,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Pork chop, stew, lean and fat",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork chop, fried, lean and fat",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork chop, battered, fried, lean and fat",
+    "Calorias": 281,
+    "Carbohidratos": 12.78,
+    "Proteinas": 22.6,
+    "Grasas": 14.97,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Fried veal, lean and fat",
+    "Calorias": 238,
+    "Carbohidratos": 9.91,
+    "Proteinas": 27.29,
+    "Grasas": 9.18,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Ternera, roasted, lean and fat chuleta",
+    "Calorias": 215,
+    "Carbohidratos": 0,
+    "Proteinas": 24.59,
+    "Grasas": 12.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Churros",
+    "Calorias": 481,
+    "Carbohidratos": 49.8,
+    "Proteinas": 3.02,
+    "Grasas": 30.58,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Crayfish",
+    "Calorias": 67,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 0.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw coriander",
+    "Calorias": 23,
+    "Carbohidratos": 3.67,
+    "Proteinas": 2.13,
+    "Grasas": 0.52,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Raw plum",
+    "Calorias": 46,
+    "Carbohidratos": 11.42,
+    "Proteinas": 0.7,
+    "Grasas": 0.28,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pasas Purchalas, Papillas, Coladas",
+    "Calorias": 100,
+    "Carbohidratos": 23.52,
+    "Proteinas": 1,
+    "Grasas": 0.2,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Fresh coconut",
+    "Calorias": 354,
+    "Carbohidratos": 15.23,
+    "Proteinas": 3.33,
+    "Grasas": 33.49,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Bacardí cocktail",
+    "Calorias": 123,
+    "Carbohidratos": 16.11,
+    "Proteinas": 0.08,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quail, cooked",
+    "Calorias": 226,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 14.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Curly, cooked, fresh",
+    "Calorias": 28,
+    "Carbohidratos": 5.59,
+    "Proteinas": 1.88,
+    "Grasas": 0.4,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Brussels, cooked, fresh cabbage",
+    "Calorias": 36,
+    "Carbohidratos": 7.06,
+    "Proteinas": 2.53,
+    "Grasas": 0.5,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Brussels cabbage, raw",
+    "Calorias": 43,
+    "Carbohidratos": 8.95,
+    "Proteinas": 3.38,
+    "Grasas": 0.3,
+    "Fibra": 3.8
+  },
+  {
+    "Alimento": "Cooked cauliflower",
+    "Calorias": 23,
+    "Carbohidratos": 4.08,
+    "Proteinas": 1.82,
+    "Grasas": 0.45,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Raw cauliflower",
+    "Calorias": 25,
+    "Carbohidratos": 4.97,
+    "Proteinas": 1.92,
+    "Grasas": 0.28,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Booped cauliflower, fried",
+    "Calorias": 216,
+    "Carbohidratos": 14.46,
+    "Proteinas": 3.91,
+    "Grasas": 16.28,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raw colinabo",
+    "Calorias": 27,
+    "Carbohidratos": 6.2,
+    "Proteinas": 1.7,
+    "Grasas": 0.1,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Stewed rabbit",
+    "Calorias": 210,
+    "Carbohidratos": 6.85,
+    "Proteinas": 17.18,
+    "Grasas": 12.44,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Rabbit, wild, cooked",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 32.88,
+    "Grasas": 3.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Conger",
+    "Calorias": 102,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Conguitos",
+    "Calorias": 510,
+    "Carbohidratos": 50.1,
+    "Proteinas": 11.7,
+    "Grasas": 29.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cognac",
+    "Calorias": 232,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Heart lamb",
+    "Calorias": 119,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Beef heart",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb, roast",
+    "Calorias": 265,
+    "Carbohidratos": 0,
+    "Proteinas": 23.83,
+    "Grasas": 18.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb, ribs",
+    "Calorias": 358,
+    "Carbohidratos": 0,
+    "Proteinas": 21.95,
+    "Grasas": 29.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb, loin",
+    "Calorias": 313,
+    "Carbohidratos": 0,
+    "Proteinas": 24.96,
+    "Grasas": 22.89,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamb, palette",
+    "Calorias": 274,
+    "Carbohidratos": 0,
+    "Proteinas": 22.32,
+    "Grasas": 19.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork leather bark",
+    "Calorias": 544,
+    "Carbohidratos": 0,
+    "Proteinas": 61.3,
+    "Grasas": 31.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "CORVINA, Steamed or Step",
+    "Calorias": 131,
+    "Carbohidratos": 0,
+    "Proteinas": 22.36,
+    "Grasas": 3.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corvina, baked or roasted, fat not added when cooking",
+    "Calorias": 131,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.4,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chocolate cream with hazelnuts",
+    "Calorias": 549,
+    "Carbohidratos": 60.5,
+    "Proteinas": 6.2,
+    "Grasas": 33,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Milk cream, chantilly",
+    "Calorias": 331,
+    "Carbohidratos": 10,
+    "Proteinas": 2,
+    "Grasas": 31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crepe, smooth",
+    "Calorias": 223,
+    "Carbohidratos": 21.72,
+    "Proteinas": 8.74,
+    "Grasas": 10.95,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Croissant, chocolate",
+    "Calorias": 421,
+    "Carbohidratos": 49.4,
+    "Proteinas": 7.4,
+    "Grasas": 22.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Croissant, cheese",
+    "Calorias": 414,
+    "Carbohidratos": 47,
+    "Proteinas": 9.2,
+    "Grasas": 20.9,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Ham croquette",
+    "Calorias": 273,
+    "Carbohidratos": 2.58,
+    "Proteinas": 17.98,
+    "Grasas": 20.7,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Curd",
+    "Calorias": 94,
+    "Carbohidratos": 6.7,
+    "Proteinas": 4.8,
+    "Grasas": 5.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Soup cubes",
+    "Calorias": 154,
+    "Carbohidratos": 8,
+    "Proteinas": 23,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Daiquiri",
+    "Calorias": 119,
+    "Carbohidratos": 15.65,
+    "Proteinas": 0.09,
+    "Grasas": 0.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Dates",
+    "Calorias": 282,
+    "Carbohidratos": 75.3,
+    "Proteinas": 2.45,
+    "Grasas": 0.39,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Green lion tooth, raw",
+    "Calorias": 45,
+    "Carbohidratos": 9.2,
+    "Proteinas": 2.7,
+    "Grasas": 0.7,
+    "Fibra": 3.5
+  },
+  {
+    "Alimento": "Golden",
+    "Calorias": 140,
+    "Carbohidratos": 0,
+    "Proteinas": 20.82,
+    "Grasas": 6.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Emperor",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Grilled emperor",
+    "Calorias": 177,
+    "Carbohidratos": 0.49,
+    "Proteinas": 23.8,
+    "Grasas": 8.23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pickles, mixed",
+    "Calorias": 137,
+    "Carbohidratos": 36.94,
+    "Proteinas": 0.39,
+    "Grasas": 0.5,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Endibias",
+    "Calorias": 25,
+    "Carbohidratos": 3.6,
+    "Proteinas": 1.5,
+    "Grasas": 0.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "César chicken or turkey salad, tomato, cheese, without dressing",
+    "Calorias": 65,
+    "Carbohidratos": 2.56,
+    "Proteinas": 9.55,
+    "Grasas": 1.88,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "César salad, with Roman lettuce, without dressing",
+    "Calorias": 71,
+    "Carbohidratos": 6,
+    "Proteinas": 4.77,
+    "Grasas": 3.41,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Egg tuna salad",
+    "Calorias": 191,
+    "Carbohidratos": 2.63,
+    "Proteinas": 10.53,
+    "Grasas": 15.41,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Tuna with cheese salad",
+    "Calorias": 214,
+    "Carbohidratos": 2.8,
+    "Proteinas": 11.54,
+    "Grasas": 17.52,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Cooked asparagus",
+    "Calorias": 18,
+    "Carbohidratos": 1.91,
+    "Proteinas": 2.93,
+    "Grasas": 0.42,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raw asparagus",
+    "Calorias": 20,
+    "Carbohidratos": 3.88,
+    "Proteinas": 2.2,
+    "Grasas": 0.12,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Canned asparagus (preserves)",
+    "Calorias": 24,
+    "Carbohidratos": 3.4,
+    "Proteinas": 1.9,
+    "Grasas": 0.3,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Cooked spinach",
+    "Calorias": 23,
+    "Carbohidratos": 3.39,
+    "Proteinas": 2.8,
+    "Grasas": 0.5,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Fresh cream spinach",
+    "Calorias": 74,
+    "Carbohidratos": 5.96,
+    "Proteinas": 3.32,
+    "Grasas": 4.5,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Raw spinach",
+    "Calorias": 23,
+    "Carbohidratos": 3.63,
+    "Proteinas": 2.86,
+    "Grasas": 0.39,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Smoked sturgeon",
+    "Calorias": 173,
+    "Carbohidratos": 0,
+    "Proteinas": 31.2,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed sturgeon",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 20.3,
+    "Grasas": 5.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yeast extract",
+    "Calorias": 185,
+    "Carbohidratos": 20.42,
+    "Proteinas": 23.88,
+    "Grasas": 0.9,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Cooking pheasan",
+    "Calorias": 238,
+    "Carbohidratos": 0,
+    "Proteinas": 32.26,
+    "Grasas": 12.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Faneca (white fish)",
+    "Calorias": 76,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Grilled chicken fillet",
+    "Calorias": 145,
+    "Carbohidratos": 2.37,
+    "Proteinas": 22.24,
+    "Grasas": 5.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Empanate chicken fillet",
+    "Calorias": 240,
+    "Carbohidratos": 14.86,
+    "Proteinas": 14.62,
+    "Grasas": 13.58,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Pork, grill or baked steak or chop",
+    "Calorias": 239,
+    "Carbohidratos": 0.06,
+    "Proteinas": 22.96,
+    "Grasas": 15.86,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fillet or pork chop, battered, fried, lean and fat",
+    "Calorias": 271,
+    "Carbohidratos": 7.62,
+    "Proteinas": 19.87,
+    "Grasas": 17.53,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Swiss fillet",
+    "Calorias": 131,
+    "Carbohidratos": 3.55,
+    "Proteinas": 10.82,
+    "Grasas": 8.05,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Vaca fillet",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Egg flan",
+    "Calorias": 177,
+    "Carbohidratos": 29.04,
+    "Proteinas": 5.22,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw chartan",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.56,
+    "Grasas": 1.33,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fletan, smoked",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 44.61,
+    "Grasas": 3.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Foie gras",
+    "Calorias": 444,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raspberries, frozen, without sugar",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Raspberries, raw",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Frankfurter, Wiener or Hot Dog",
+    "Calorias": 332,
+    "Carbohidratos": 3.13,
+    "Proteinas": 12.3,
+    "Grasas": 29.58,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frozen strawberries, without sugar",
+    "Calorias": 35,
+    "Carbohidratos": 9.13,
+    "Proteinas": 0.43,
+    "Grasas": 0.11,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Raw strawberries",
+    "Calorias": 32,
+    "Carbohidratos": 7.68,
+    "Proteinas": 0.67,
+    "Grasas": 0.3,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Mugo bean without fat added in cooking",
+    "Calorias": 104,
+    "Carbohidratos": 19.06,
+    "Proteinas": 6.98,
+    "Grasas": 0.38,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Yellow beans without adding fat when cooking",
+    "Calorias": 143,
+    "Carbohidratos": 25.14,
+    "Proteinas": 9.11,
+    "Grasas": 1.07,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "White beans without fat added in cooking",
+    "Calorias": 138,
+    "Carbohidratos": 24.95,
+    "Proteinas": 9.68,
+    "Grasas": 0.35,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Lima beans without fat added in cooking",
+    "Calorias": 114,
+    "Carbohidratos": 20.77,
+    "Proteinas": 7.76,
+    "Grasas": 0.38,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Mexican beans pintos without fat added in cooking",
+    "Calorias": 142,
+    "Carbohidratos": 26.07,
+    "Proteinas": 8.96,
+    "Grasas": 0.65,
+    "Fibra": 8.9
+  },
+  {
+    "Alimento": "Black beans, brown or bay without adding fat when cooking",
+    "Calorias": 131,
+    "Carbohidratos": 23.58,
+    "Proteinas": 8.81,
+    "Grasas": 0.54,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Red beans without fat added in cooking",
+    "Calorias": 126,
+    "Carbohidratos": 22.67,
+    "Proteinas": 8.62,
+    "Grasas": 0.5,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Pink beans without fat added in cooking",
+    "Calorias": 148,
+    "Carbohidratos": 27.75,
+    "Proteinas": 9.01,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Cooked green beans, without fat added in cooking",
+    "Calorias": 68,
+    "Carbohidratos": 13.52,
+    "Proteinas": 4.09,
+    "Grasas": 0.39,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Coconut cookie",
+    "Calorias": 460,
+    "Carbohidratos": 61.22,
+    "Proteinas": 3.02,
+    "Grasas": 22.55,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Butter cookie",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Gingerbrew cookie",
+    "Calorias": 416,
+    "Carbohidratos": 76.9,
+    "Proteinas": 5.6,
+    "Grasas": 9.8,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Cookie, almond",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Cookie, oatmeal",
+    "Calorias": 450,
+    "Carbohidratos": 68.7,
+    "Proteinas": 6.2,
+    "Grasas": 18.1,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Cookie, pass",
+    "Calorias": 401,
+    "Carbohidratos": 68,
+    "Proteinas": 4.1,
+    "Grasas": 13.6,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Salada cookies",
+    "Calorias": 418,
+    "Carbohidratos": 74.05,
+    "Proteinas": 9.46,
+    "Grasas": 8.64,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Rooster",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 15.8,
+    "Grasas": 1.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ajillo prawns",
+    "Calorias": 195,
+    "Carbohidratos": 1.77,
+    "Proteinas": 19.7,
+    "Grasas": 11.73,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Cooked prawns",
+    "Calorias": 96,
+    "Carbohidratos": 0,
+    "Proteinas": 19.8,
+    "Grasas": 1.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Goose, wild, roast",
+    "Calorias": 304,
+    "Carbohidratos": 0,
+    "Proteinas": 25.06,
+    "Grasas": 21.83,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fat -free chickpeas added in cooking",
+    "Calorias": 163,
+    "Carbohidratos": 27.25,
+    "Proteinas": 8.81,
+    "Grasas": 2.57,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "GATORADE",
+    "Calorias": 39,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gazpacho",
+    "Calorias": 37,
+    "Carbohidratos": 3.84,
+    "Proteinas": 0.86,
+    "Grasas": 2.35,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Wheat germ",
+    "Calorias": 382,
+    "Carbohidratos": 49.6,
+    "Proteinas": 29.1,
+    "Grasas": 10.7,
+    "Fibra": 15.1
+  },
+  {
+    "Alimento": "Gin and tonic",
+    "Calorias": 84,
+    "Carbohidratos": 6.57,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Geneva",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "GOFIO MILLO",
+    "Calorias": 377,
+    "Carbohidratos": 83,
+    "Proteinas": 6,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gofio wheat",
+    "Calorias": 371,
+    "Carbohidratos": 82,
+    "Proteinas": 11,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Grenade",
+    "Calorias": 34,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.7,
+    "Grasas": 0.1,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Grelos",
+    "Calorias": 11,
+    "Carbohidratos": 0.1,
+    "Proteinas": 2.7,
+    "Grasas": 0,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Raw currants",
+    "Calorias": 56,
+    "Carbohidratos": 13.8,
+    "Proteinas": 1.4,
+    "Grasas": 0.2,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Canned peas (preserves)",
+    "Calorias": 67,
+    "Carbohidratos": 9.7,
+    "Proteinas": 5.6,
+    "Grasas": 0.5,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Peas, cooked, fresh, without fat added in cooking",
+    "Calorias": 126,
+    "Carbohidratos": 18.8,
+    "Proteinas": 5.76,
+    "Grasas": 3.47,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Peas, fresh cream",
+    "Calorias": 111,
+    "Carbohidratos": 12.78,
+    "Proteinas": 4.69,
+    "Grasas": 4.78,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Guisantes, green, raw",
+    "Calorias": 81,
+    "Carbohidratos": 14.45,
+    "Proteinas": 5.42,
+    "Grasas": 0.4,
+    "Fibra": 5.7
+  },
+  {
+    "Alimento": "Dry beans",
+    "Calorias": 343,
+    "Carbohidratos": 59,
+    "Proteinas": 23,
+    "Grasas": 1.5,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Homemade hamburger",
+    "Calorias": 220,
+    "Carbohidratos": 16.76,
+    "Proteinas": 13.8,
+    "Grasas": 10.5,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Cheese hamburger (Burger King Cheeseburger)",
+    "Calorias": 270,
+    "Carbohidratos": 25.46,
+    "Proteinas": 13.49,
+    "Grasas": 12.9,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Cheese burgers (Burger King Whoopper with cheese)",
+    "Calorias": 268,
+    "Carbohidratos": 17.73,
+    "Proteinas": 13.69,
+    "Grasas": 15.8,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Cheese hamburger (Burger King Whoopper Jr. with cheese)",
+    "Calorias": 225,
+    "Carbohidratos": 18.11,
+    "Proteinas": 11.2,
+    "Grasas": 11.88,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Cheese hamburger (McDonald's Double Cheeseburger)",
+    "Calorias": 282,
+    "Carbohidratos": 17.97,
+    "Proteinas": 16.24,
+    "Grasas": 16.18,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Cheese hamburger (McDonald's Quarter Pounder with cheese)",
+    "Calorias": 269,
+    "Carbohidratos": 19.72,
+    "Proteinas": 15.21,
+    "Grasas": 14.4,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Oatmeal",
+    "Calorias": 401,
+    "Carbohidratos": 73,
+    "Proteinas": 12,
+    "Grasas": 9,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Centeno flour",
+    "Calorias": 303,
+    "Carbohidratos": 68,
+    "Proteinas": 7,
+    "Grasas": 1,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Corn flour",
+    "Calorias": 422,
+    "Carbohidratos": 90,
+    "Proteinas": 8,
+    "Grasas": 4.5,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Soy flour",
+    "Calorias": 447,
+    "Carbohidratos": 24,
+    "Proteinas": 37,
+    "Grasas": 24,
+    "Fibra": 12
+  },
+  {
+    "Alimento": "Wheat flour, integral",
+    "Calorias": 318,
+    "Carbohidratos": 66,
+    "Proteinas": 13,
+    "Grasas": 2,
+    "Fibra": 10
+  },
+  {
+    "Alimento": "Wheat flour, baked",
+    "Calorias": 337,
+    "Carbohidratos": 75,
+    "Proteinas": 11,
+    "Grasas": 1,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Frozen",
+    "Calorias": 209,
+    "Carbohidratos": 21,
+    "Proteinas": 4,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fruit ice cream",
+    "Calorias": 140,
+    "Carbohidratos": 29,
+    "Proteinas": 2,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork Liver",
+    "Calorias": 120,
+    "Carbohidratos": 1,
+    "Proteinas": 21.4,
+    "Grasas": 3.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken Liver",
+    "Calorias": 137,
+    "Carbohidratos": 1.2,
+    "Proteinas": 22.1,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Veal liver",
+    "Calorias": 132,
+    "Carbohidratos": 1.6,
+    "Proteinas": 20.5,
+    "Grasas": 4.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Figs",
+    "Calorias": 74,
+    "Carbohidratos": 19.18,
+    "Proteinas": 0.75,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Dry figs",
+    "Calorias": 213,
+    "Carbohidratos": 53,
+    "Proteinas": 4,
+    "Grasas": 0,
+    "Fibra": 18
+  },
+  {
+    "Alimento": "Thistle leaves, cooked, without fat added to cooking",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Arenque roe",
+    "Calorias": 143,
+    "Carbohidratos": 1.5,
+    "Proteinas": 22.32,
+    "Grasas": 6.42,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sturgeon roe",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 24.6,
+    "Grasas": 17.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hard egg",
+    "Calorias": 145,
+    "Carbohidratos": 0.3,
+    "Proteinas": 12.5,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw whole egg",
+    "Calorias": 143,
+    "Carbohidratos": 0.72,
+    "Proteinas": 12.56,
+    "Grasas": 9.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Folding whole egg with oil.",
+    "Calorias": 215,
+    "Carbohidratos": 0.76,
+    "Proteinas": 13.27,
+    "Grasas": 17.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Egg, only clear, raw",
+    "Calorias": 52,
+    "Carbohidratos": 0.73,
+    "Proteinas": 10.9,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Egg, Solo Yem",
+    "Calorias": 322,
+    "Carbohidratos": 3.59,
+    "Proteinas": 15.86,
+    "Grasas": 26.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hummus",
+    "Calorias": 260,
+    "Carbohidratos": 19.86,
+    "Proteinas": 8.18,
+    "Grasas": 17.78,
+    "Fibra": 5.9
+  },
+  {
+    "Alimento": "Cooked ham",
+    "Calorias": 114,
+    "Carbohidratos": 0.4,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Turkey ham, pre -deed or charcuterie",
+    "Calorias": 124,
+    "Carbohidratos": 2.93,
+    "Proteinas": 19.6,
+    "Grasas": 3.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Serrano ham",
+    "Calorias": 241,
+    "Carbohidratos": 0,
+    "Proteinas": 31,
+    "Grasas": 13,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ham, smoked or cured, canned",
+    "Calorias": 132,
+    "Carbohidratos": 1,
+    "Proteinas": 17.46,
+    "Grasas": 6.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ham, pre -deepened or charcerter, cold sodium, reduced sodium",
+    "Calorias": 107,
+    "Carbohidratos": 0.7,
+    "Proteinas": 16.85,
+    "Grasas": 4.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Dry white beans / dried white beans",
+    "Calorias": 272,
+    "Carbohidratos": 41.6,
+    "Proteinas": 22.2,
+    "Grasas": 1.3,
+    "Fibra": 19.7
+  },
+  {
+    "Alimento": "JUICE / CLOVERY TUEL",
+    "Calorias": 18,
+    "Carbohidratos": 4,
+    "Proteinas": 0.83,
+    "Grasas": 0.16,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Juice / blueberry juice, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 12.2,
+    "Proteinas": 0.39,
+    "Grasas": 0.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Juice / plum juice, 100%",
+    "Calorias": 71,
+    "Carbohidratos": 17.45,
+    "Proteinas": 0.61,
+    "Grasas": 0.03,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Juice / coconut juice",
+    "Calorias": 31,
+    "Carbohidratos": 2.92,
+    "Proteinas": 0.21,
+    "Grasas": 2.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Strawberry juice / juice, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Granada juice / juice, 100%",
+    "Calorias": 54,
+    "Carbohidratos": 13.13,
+    "Proteinas": 0.15,
+    "Grasas": 0.29,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Juice / lime juice, 100%",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Juice / lemon juice, 100%",
+    "Calorias": 22,
+    "Carbohidratos": 6.9,
+    "Proteinas": 0.35,
+    "Grasas": 0.24,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Juice / mandarin juice, 100%",
+    "Calorias": 43,
+    "Carbohidratos": 10.1,
+    "Proteinas": 0.5,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Apple juice / juice, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Maracuyá juice / juice, 100%",
+    "Calorias": 51,
+    "Carbohidratos": 13.6,
+    "Proteinas": 0.39,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Juice / Mora juice, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Orange juice / juice, 100%",
+    "Calorias": 48,
+    "Carbohidratos": 11.45,
+    "Proteinas": 0.68,
+    "Grasas": 0.12,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Papaya juice / juice, 100%",
+    "Calorias": 57,
+    "Carbohidratos": 14.51,
+    "Proteinas": 0.17,
+    "Grasas": 0.15,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Pineapple juice / juice, 100%",
+    "Calorias": 53,
+    "Carbohidratos": 12.87,
+    "Proteinas": 0.36,
+    "Grasas": 0.12,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Juice / Sandia juice, 100%",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Tomato juice / juice, 100%",
+    "Calorias": 17,
+    "Carbohidratos": 3.53,
+    "Proteinas": 0.85,
+    "Grasas": 0.29,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Juice / grape juice, 100%",
+    "Calorias": 60,
+    "Carbohidratos": 14.77,
+    "Proteinas": 0.37,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Juice / carrot juice, 100%",
+    "Calorias": 40,
+    "Carbohidratos": 9.28,
+    "Proteinas": 0.95,
+    "Grasas": 0.15,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Mackerel",
+    "Calorias": 112,
+    "Carbohidratos": 0.8,
+    "Proteinas": 15.4,
+    "Grasas": 5.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kefir",
+    "Calorias": 52,
+    "Carbohidratos": 7.34,
+    "Proteinas": 3.59,
+    "Grasas": 0.92,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ketchup",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Raw kiwi",
+    "Calorias": 61,
+    "Carbohidratos": 14.66,
+    "Proteinas": 1.14,
+    "Grasas": 0.52,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Lobster, steamed or boiled",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.3,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Shrimp",
+    "Calorias": 93,
+    "Carbohidratos": 0,
+    "Proteinas": 20.1,
+    "Grasas": 1.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Low fat (1%) half -nacked milk",
+    "Calorias": 42,
+    "Carbohidratos": 4.99,
+    "Proteinas": 3.37,
+    "Grasas": 0.97,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Low fat (2%) half -nacked milk",
+    "Calorias": 50,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.3,
+    "Grasas": 1.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Condensed, sweetened milk",
+    "Calorias": 321,
+    "Carbohidratos": 54.4,
+    "Proteinas": 7.91,
+    "Grasas": 8.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Almond milk, sweetened",
+    "Calorias": 38,
+    "Carbohidratos": 6.59,
+    "Proteinas": 0.42,
+    "Grasas": 1.04,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Almond milk, without sugar",
+    "Calorias": 15,
+    "Carbohidratos": 0.58,
+    "Proteinas": 0.59,
+    "Grasas": 1.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rice milk",
+    "Calorias": 47,
+    "Carbohidratos": 9.17,
+    "Proteinas": 0.28,
+    "Grasas": 0.97,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Whole goat milk",
+    "Calorias": 69,
+    "Carbohidratos": 4.45,
+    "Proteinas": 3.56,
+    "Grasas": 4.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cocinating coconut milk",
+    "Calorias": 230,
+    "Carbohidratos": 5.54,
+    "Proteinas": 2.29,
+    "Grasas": 23.84,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Soy milk",
+    "Calorias": 43,
+    "Carbohidratos": 4.92,
+    "Proteinas": 2.6,
+    "Grasas": 1.47,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Skim / skim milk",
+    "Calorias": 34,
+    "Carbohidratos": 4.96,
+    "Proteinas": 3.37,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whole milk",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whole milk with calcium",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whole milk, dust",
+    "Calorias": 500,
+    "Carbohidratos": 37,
+    "Proteinas": 25,
+    "Grasas": 26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whole evaporated milk",
+    "Calorias": 134,
+    "Carbohidratos": 10.04,
+    "Proteinas": 6.81,
+    "Grasas": 7.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Evaporated milk, fat (skim / skim)",
+    "Calorias": 78,
+    "Carbohidratos": 11.35,
+    "Proteinas": 7.55,
+    "Grasas": 0.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lastless milk, whole",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw lettuce",
+    "Calorias": 14,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.9,
+    "Grasas": 0.14,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Raw Roman lettuce",
+    "Calorias": 19,
+    "Carbohidratos": 3.78,
+    "Proteinas": 1.39,
+    "Grasas": 0.27,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Lettuce, Boston, raw",
+    "Calorias": 13,
+    "Carbohidratos": 2.23,
+    "Proteinas": 1.35,
+    "Grasas": 0.22,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Lettuce, arugula, raw",
+    "Calorias": 25,
+    "Carbohidratos": 3.65,
+    "Proteinas": 2.58,
+    "Grasas": 0.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Steamed or climbing",
+    "Calorias": 88,
+    "Carbohidratos": 0,
+    "Proteinas": 15.61,
+    "Grasas": 2.43,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Dry lentils",
+    "Calorias": 310,
+    "Carbohidratos": 48.7,
+    "Proteinas": 24.8,
+    "Grasas": 1.2,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Lentils, not added fats in cooking",
+    "Calorias": 115,
+    "Carbohidratos": 20.03,
+    "Proteinas": 8.98,
+    "Grasas": 0.38,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Yeast",
+    "Calorias": 325,
+    "Carbohidratos": 41.22,
+    "Proteinas": 40.44,
+    "Grasas": 7.61,
+    "Fibra": 26.9
+  },
+  {
+    "Alimento": "Beer yeast, dry",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 48,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crude Lichi",
+    "Calorias": 66,
+    "Carbohidratos": 16.53,
+    "Proteinas": 0.83,
+    "Grasas": 0.44,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Raw lime",
+    "Calorias": 30,
+    "Carbohidratos": 10.54,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Raw lemon",
+    "Calorias": 29,
+    "Carbohidratos": 9.32,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Lombard (Col Lombarda)",
+    "Calorias": 27,
+    "Carbohidratos": 3.7,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Embuchado pig loin",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 50,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed or climbing",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 23.18,
+    "Grasas": 2.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed lucio",
+    "Calorias": 111,
+    "Carbohidratos": 0,
+    "Proteinas": 24.22,
+    "Grasas": 0.87,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Macaroni",
+    "Calorias": 370,
+    "Carbohidratos": 79,
+    "Proteinas": 14,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Magdalena",
+    "Calorias": 397,
+    "Carbohidratos": 42,
+    "Proteinas": 6,
+    "Grasas": 23,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Oven corn",
+    "Calorias": 214,
+    "Carbohidratos": 39.68,
+    "Proteinas": 3.5,
+    "Grasas": 4.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Raw corn",
+    "Calorias": 86,
+    "Carbohidratos": 18.7,
+    "Proteinas": 3.27,
+    "Grasas": 1.35,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Sweet mazorca corn",
+    "Calorias": 104,
+    "Carbohidratos": 19.5,
+    "Proteinas": 3.3,
+    "Grasas": 0.78,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Marshmallow",
+    "Calorias": 318,
+    "Carbohidratos": 81.3,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Raw tangerine",
+    "Calorias": 53,
+    "Carbohidratos": 13.34,
+    "Proteinas": 0.81,
+    "Grasas": 0.31,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Raw mango",
+    "Calorias": 60,
+    "Carbohidratos": 14.98,
+    "Proteinas": 0.82,
+    "Grasas": 0.38,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Manhattan Cocktail",
+    "Calorias": 222,
+    "Carbohidratos": 1.82,
+    "Proteinas": 0.03,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lard",
+    "Calorias": 902,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Butter",
+    "Calorias": 717,
+    "Carbohidratos": 0.06,
+    "Proteinas": 0.85,
+    "Grasas": 81.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw apple",
+    "Calorias": 52,
+    "Carbohidratos": 13.81,
+    "Proteinas": 0.26,
+    "Grasas": 0.17,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Apple, dry",
+    "Calorias": 243,
+    "Carbohidratos": 65.89,
+    "Proteinas": 0.93,
+    "Grasas": 0.32,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Margarine",
+    "Calorias": 533,
+    "Carbohidratos": 0.86,
+    "Proteinas": 0.17,
+    "Grasas": 59.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Martini",
+    "Calorias": 201,
+    "Carbohidratos": 0.15,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mayonnaise",
+    "Calorias": 680,
+    "Carbohidratos": 0.57,
+    "Proteinas": 0.96,
+    "Grasas": 74.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mayonnaise, low fat, with olive oil.",
+    "Calorias": 361,
+    "Carbohidratos": 0,
+    "Proteinas": 0.37,
+    "Grasas": 40,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Marzipan",
+    "Calorias": 443,
+    "Carbohidratos": 49,
+    "Proteinas": 9,
+    "Grasas": 25,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Steamed mussels or climbed",
+    "Calorias": 171,
+    "Carbohidratos": 7.35,
+    "Proteinas": 23.7,
+    "Grasas": 4.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw mussels",
+    "Calorias": 86,
+    "Carbohidratos": 3.69,
+    "Proteinas": 11.9,
+    "Grasas": 2.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw peach",
+    "Calorias": 39,
+    "Carbohidratos": 9.54,
+    "Proteinas": 0.91,
+    "Grasas": 0.25,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Peach in syrup",
+    "Calorias": 84,
+    "Carbohidratos": 22,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Melon",
+    "Calorias": 34,
+    "Carbohidratos": 8.16,
+    "Proteinas": 0.84,
+    "Grasas": 0.19,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Quince (sweet of)",
+    "Calorias": 242,
+    "Carbohidratos": 62.8,
+    "Proteinas": 0.14,
+    "Grasas": 0.03,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Hake",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 15.9,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jam, keep",
+    "Calorias": 278,
+    "Carbohidratos": 68.86,
+    "Proteinas": 0.37,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Honey",
+    "Calorias": 304,
+    "Carbohidratos": 82.4,
+    "Proteinas": 0.3,
+    "Grasas": 0,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Miso",
+    "Calorias": 198,
+    "Carbohidratos": 25.37,
+    "Proteinas": 12.79,
+    "Grasas": 6.01,
+    "Fibra": 5.4
+  },
+  {
+    "Alimento": "Molleja, cooked",
+    "Calorias": 154,
+    "Carbohidratos": 0,
+    "Proteinas": 30.4,
+    "Grasas": 2.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frozen blackberries",
+    "Calorias": 64,
+    "Carbohidratos": 15.67,
+    "Proteinas": 1.18,
+    "Grasas": 0.43,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Raw molas",
+    "Calorias": 43,
+    "Carbohidratos": 9.61,
+    "Proteinas": 1.39,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Black pudding",
+    "Calorias": 379,
+    "Carbohidratos": 1.29,
+    "Proteinas": 14.6,
+    "Grasas": 34.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mortadella",
+    "Calorias": 311,
+    "Carbohidratos": 3.05,
+    "Proteinas": 16.37,
+    "Grasas": 25.39,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mustard",
+    "Calorias": 60,
+    "Carbohidratos": 5.83,
+    "Proteinas": 3.74,
+    "Grasas": 3.34,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Chocolate mousse",
+    "Calorias": 209,
+    "Carbohidratos": 16.24,
+    "Proteinas": 4.31,
+    "Grasas": 14.97,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Chocolate Muffin",
+    "Calorias": 390,
+    "Carbohidratos": 50.81,
+    "Proteinas": 6.39,
+    "Grasas": 18.2,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Chicken thigh, roast, with skin",
+    "Calorias": 206,
+    "Carbohidratos": 0.12,
+    "Proteinas": 25.65,
+    "Grasas": 11.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken thigh, roast, skinless",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 27.71,
+    "Grasas": 6.76,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw turnip",
+    "Calorias": 28,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Nachos with cheese",
+    "Calorias": 343,
+    "Carbohidratos": 34.91,
+    "Proteinas": 4.32,
+    "Grasas": 21.5,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Orange",
+    "Calorias": 47,
+    "Carbohidratos": 11.75,
+    "Proteinas": 0.94,
+    "Grasas": 0.12,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Nectarine",
+    "Calorias": 49.7,
+    "Carbohidratos": 10.2,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Nuts (Castilians)",
+    "Calorias": 654,
+    "Carbohidratos": 13.71,
+    "Proteinas": 15.23,
+    "Grasas": 65.21,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Brazil nuts",
+    "Calorias": 659,
+    "Carbohidratos": 11.74,
+    "Proteinas": 14.32,
+    "Grasas": 67.1,
+    "Fibra": 7.5
+  },
+  {
+    "Alimento": "Macadamia nuts",
+    "Calorias": 716,
+    "Carbohidratos": 12.83,
+    "Proteinas": 7.79,
+    "Grasas": 76.08,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Pacana - Pecan walnuts",
+    "Calorias": 691,
+    "Carbohidratos": 13.86,
+    "Proteinas": 9.17,
+    "Grasas": 71.97,
+    "Fibra": 9.6
+  },
+  {
+    "Alimento": "Chicken nuggets",
+    "Calorias": 307,
+    "Carbohidratos": 14.93,
+    "Proteinas": 15.92,
+    "Grasas": 20.36,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Gnocchi, potato",
+    "Calorias": 133,
+    "Carbohidratos": 17.06,
+    "Proteinas": 2.36,
+    "Grasas": 6.24,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Pork ears, tail, head, snout, miscellaneous parts, cooked",
+    "Calorias": 236,
+    "Carbohidratos": 0,
+    "Proteinas": 26.14,
+    "Grasas": 13.77,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw oysters",
+    "Calorias": 51,
+    "Carbohidratos": 2.72,
+    "Proteinas": 5.71,
+    "Grasas": 1.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Paella with seafood",
+    "Calorias": 142,
+    "Carbohidratos": 16.43,
+    "Proteinas": 8.04,
+    "Grasas": 4.68,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Valencian -style meat paella",
+    "Calorias": 270,
+    "Carbohidratos": 16.74,
+    "Proteinas": 21.71,
+    "Grasas": 12.54,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Canned palmitos (preserves)",
+    "Calorias": 47,
+    "Carbohidratos": 8,
+    "Proteinas": 2.8,
+    "Grasas": 0.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pigeon",
+    "Calorias": 178,
+    "Carbohidratos": 0,
+    "Proteinas": 37,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Paloma, fried",
+    "Calorias": 223,
+    "Carbohidratos": 1.44,
+    "Proteinas": 23.06,
+    "Grasas": 13.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "PALOMETA (FISH)",
+    "Calorias": 125,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Popcorn",
+    "Calorias": 438,
+    "Carbohidratos": 74.18,
+    "Proteinas": 10.19,
+    "Grasas": 11.19,
+    "Fibra": 4.9
+  },
+  {
+    "Alimento": "Corn palomites, microwave",
+    "Calorias": 538,
+    "Carbohidratos": 55.99,
+    "Proteinas": 8.69,
+    "Grasas": 31.07,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Palosanto",
+    "Calorias": 64,
+    "Carbohidratos": 15,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "White bread",
+    "Calorias": 266,
+    "Carbohidratos": 49.42,
+    "Proteinas": 8.85,
+    "Grasas": 3.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "White bread, roasted",
+    "Calorias": 297,
+    "Carbohidratos": 65,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Centeno bread, roasted",
+    "Calorias": 285,
+    "Carbohidratos": 53.08,
+    "Proteinas": 9.34,
+    "Grasas": 3.63,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Walnut bread",
+    "Calorias": 392,
+    "Carbohidratos": 49.72,
+    "Proteinas": 6.49,
+    "Grasas": 19.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "French bread or Vienna",
+    "Calorias": 272,
+    "Carbohidratos": 51.88,
+    "Proteinas": 10.75,
+    "Grasas": 2.42,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "French bread or Vienna, of whole wheat",
+    "Calorias": 239,
+    "Carbohidratos": 49.1,
+    "Proteinas": 8.33,
+    "Grasas": 1.04,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Whole wheat bread",
+    "Calorias": 252,
+    "Carbohidratos": 42.71,
+    "Proteinas": 12.45,
+    "Grasas": 3.5,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Multigrano bread",
+    "Calorias": 265,
+    "Carbohidratos": 43.34,
+    "Proteinas": 13.36,
+    "Grasas": 4.23,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Pita bread, roasted",
+    "Calorias": 302,
+    "Carbohidratos": 61.21,
+    "Proteinas": 10,
+    "Grasas": 1.32,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Gluten without bread",
+    "Calorias": 248,
+    "Carbohidratos": 45.78,
+    "Proteinas": 4.31,
+    "Grasas": 5.24,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Bread, oat bran",
+    "Calorias": 299,
+    "Carbohidratos": 53.89,
+    "Proteinas": 9.33,
+    "Grasas": 4.89,
+    "Fibra": 4.4
+  },
+  {
+    "Alimento": "Raw papaya",
+    "Calorias": 43,
+    "Carbohidratos": 10.82,
+    "Proteinas": 0.47,
+    "Grasas": 0.26,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Raisins",
+    "Calorias": 299,
+    "Carbohidratos": 79.18,
+    "Proteinas": 3.07,
+    "Grasas": 0.46,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Cooked paste",
+    "Calorias": 157,
+    "Carbohidratos": 30.68,
+    "Proteinas": 5.76,
+    "Grasas": 0.92,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Pasta with flavors",
+    "Calorias": 87,
+    "Carbohidratos": 14.44,
+    "Proteinas": 2.46,
+    "Grasas": 2.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Wasabi paste",
+    "Calorias": 292,
+    "Carbohidratos": 46.13,
+    "Proteinas": 2.23,
+    "Grasas": 10.9,
+    "Fibra": 6.1
+  },
+  {
+    "Alimento": "Gluten -free paste",
+    "Calorias": 179,
+    "Carbohidratos": 38.05,
+    "Proteinas": 3.2,
+    "Grasas": 1,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pastrami",
+    "Calorias": 147,
+    "Carbohidratos": 0.36,
+    "Proteinas": 21.8,
+    "Grasas": 5.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken legs",
+    "Calorias": 215,
+    "Carbohidratos": 0.2,
+    "Proteinas": 19.4,
+    "Grasas": 14.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roasted potato",
+    "Calorias": 206,
+    "Carbohidratos": 46.1,
+    "Proteinas": 4.3,
+    "Grasas": 0.1,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Boiled potato",
+    "Calorias": 125,
+    "Carbohidratos": 20.45,
+    "Proteinas": 1.87,
+    "Grasas": 4.19,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Chips",
+    "Calorias": 529,
+    "Carbohidratos": 56.54,
+    "Proteinas": 2.92,
+    "Grasas": 32.19,
+    "Fibra": 8.8
+  },
+  {
+    "Alimento": "Stewed potatoes",
+    "Calorias": 114,
+    "Carbohidratos": 19.91,
+    "Proteinas": 1.84,
+    "Grasas": 3.22,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pure potatoes",
+    "Calorias": 111,
+    "Carbohidratos": 17.69,
+    "Proteinas": 2.15,
+    "Grasas": 3.79,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Roast duck",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Turkey",
+    "Calorias": 107,
+    "Carbohidratos": 0,
+    "Proteinas": 21.9,
+    "Grasas": 2.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pepinillos in vinegar, sweet seasoning",
+    "Calorias": 130,
+    "Carbohidratos": 35.06,
+    "Proteinas": 0.37,
+    "Grasas": 0.47,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Raw cucumber",
+    "Calorias": 12,
+    "Carbohidratos": 2.16,
+    "Proteinas": 0.59,
+    "Grasas": 0.16,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Raw pear",
+    "Calorias": 57,
+    "Carbohidratos": 15.23,
+    "Proteinas": 0.36,
+    "Grasas": 0.14,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Sea perca, baked or grilled, fat added in the kitchen",
+    "Calorias": 129,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.73,
+    "Grasas": 5.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ocean, steamed or climbing",
+    "Calorias": 99,
+    "Carbohidratos": 0,
+    "Proteinas": 19.25,
+    "Grasas": 1.94,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ocean perch, raw",
+    "Calorias": 79,
+    "Carbohidratos": 0,
+    "Proteinas": 15.31,
+    "Grasas": 1.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Percebs",
+    "Calorias": 59,
+    "Carbohidratos": 0,
+    "Proteinas": 13.6,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Partridge",
+    "Calorias": 106,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 1.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw parsley",
+    "Calorias": 36,
+    "Carbohidratos": 6.33,
+    "Proteinas": 2.97,
+    "Grasas": 0.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Pugger-healing with mustard",
+    "Calorias": 308,
+    "Carbohidratos": 33,
+    "Proteinas": 11,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whiting",
+    "Calorias": 69,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 0.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Petit-Suisse cheese, type",
+    "Calorias": 173,
+    "Carbohidratos": 4,
+    "Proteinas": 8,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sword fish, baked or grilled, without adding fat in cooking",
+    "Calorias": 182,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.76,
+    "Grasas": 8.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sword, steamed or climbing fish",
+    "Calorias": 181,
+    "Carbohidratos": 0,
+    "Proteinas": 24.72,
+    "Grasas": 8.36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pigeon",
+    "Calorias": 182,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pepper, raw",
+    "Calorias": 24,
+    "Carbohidratos": 5.13,
+    "Proteinas": 0.91,
+    "Grasas": 0.22,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Vinegar peppers",
+    "Calorias": 40,
+    "Carbohidratos": 9.04,
+    "Proteinas": 0.82,
+    "Grasas": 0.19,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Piña Colada",
+    "Calorias": 151,
+    "Carbohidratos": 19.5,
+    "Proteinas": 0.36,
+    "Grasas": 2.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Raw pineapple",
+    "Calorias": 50,
+    "Carbohidratos": 13.12,
+    "Proteinas": 0.54,
+    "Grasas": 0.12,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pineapple in syrup",
+    "Calorias": 81,
+    "Carbohidratos": 21,
+    "Proteinas": 0.3,
+    "Grasas": 0.1,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Dry pineapple",
+    "Calorias": 269,
+    "Carbohidratos": 70.08,
+    "Proteinas": 1.51,
+    "Grasas": 0.34,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Piñones",
+    "Calorias": 673,
+    "Carbohidratos": 13.08,
+    "Proteinas": 13.69,
+    "Grasas": 68.37,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Sunflower pipes",
+    "Calorias": 580,
+    "Carbohidratos": 20,
+    "Proteinas": 27,
+    "Grasas": 43,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Pistachos",
+    "Calorias": 572,
+    "Carbohidratos": 28.28,
+    "Proteinas": 21.05,
+    "Grasas": 45.82,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Raw banana",
+    "Calorias": 89,
+    "Carbohidratos": 22.84,
+    "Proteinas": 1.09,
+    "Grasas": 0.33,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Chicken",
+    "Calorias": 167,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 9.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken (with skin)",
+    "Calorias": 298,
+    "Carbohidratos": 0,
+    "Proteinas": 25.73,
+    "Grasas": 20.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Agrupulce chicken or turkey",
+    "Calorias": 250,
+    "Carbohidratos": 23.86,
+    "Proteinas": 10.1,
+    "Grasas": 12.65,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Chicken, Kentucky fried",
+    "Calorias": 155,
+    "Carbohidratos": 5,
+    "Proteinas": 13,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken, breast, roast",
+    "Calorias": 175,
+    "Carbohidratos": 0.09,
+    "Proteinas": 26.37,
+    "Grasas": 7.67,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chicken, Kentucky breasts",
+    "Calorias": 436,
+    "Carbohidratos": 34,
+    "Proteinas": 25,
+    "Grasas": 22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw grapefruit",
+    "Calorias": 32,
+    "Carbohidratos": 8.08,
+    "Proteinas": 0.63,
+    "Grasas": 0.1,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Egg punch, regular",
+    "Calorias": 88,
+    "Carbohidratos": 8.05,
+    "Proteinas": 4.55,
+    "Grasas": 4.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gelatin dessert",
+    "Calorias": 62,
+    "Carbohidratos": 14.19,
+    "Proteinas": 1.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pretzel",
+    "Calorias": 384,
+    "Carbohidratos": 80.39,
+    "Proteinas": 10.04,
+    "Grasas": 2.93,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Raw leek",
+    "Calorias": 61,
+    "Carbohidratos": 14.15,
+    "Proteinas": 1.5,
+    "Grasas": 0.3,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Boiled octopus",
+    "Calorias": 69,
+    "Carbohidratos": 1.4,
+    "Proteinas": 13.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "American cheese",
+    "Calorias": 307,
+    "Carbohidratos": 8.85,
+    "Proteinas": 16.09,
+    "Grasas": 23.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blue cheese",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Babibel cheese, type",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Navigated white cheese",
+    "Calorias": 68,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Brie",
+    "Calorias": 334,
+    "Carbohidratos": 0.45,
+    "Proteinas": 20.75,
+    "Grasas": 27.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Burgos cheese",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Goat cheese",
+    "Calorias": 250,
+    "Carbohidratos": 2,
+    "Proteinas": 17,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Camembert",
+    "Calorias": 300,
+    "Carbohidratos": 0.46,
+    "Proteinas": 19.8,
+    "Grasas": 24.26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheddar",
+    "Calorias": 404,
+    "Carbohidratos": 3.09,
+    "Proteinas": 22.87,
+    "Grasas": 33.31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chihuahua cheese",
+    "Calorias": 374,
+    "Carbohidratos": 5.56,
+    "Proteinas": 21.56,
+    "Grasas": 29.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Colby cheese",
+    "Calorias": 394,
+    "Carbohidratos": 2.57,
+    "Proteinas": 23.76,
+    "Grasas": 32.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheese with nuts",
+    "Calorias": 424,
+    "Carbohidratos": 5.89,
+    "Proteinas": 17.87,
+    "Grasas": 37.72,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Cotija cheese",
+    "Calorias": 366,
+    "Carbohidratos": 3.97,
+    "Proteinas": 20,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cream cheese",
+    "Calorias": 350,
+    "Carbohidratos": 5.52,
+    "Proteinas": 6.15,
+    "Grasas": 34.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Goat cheese",
+    "Calorias": 360,
+    "Carbohidratos": 0.76,
+    "Proteinas": 23.52,
+    "Grasas": 28.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Emmental cheese",
+    "Calorias": 367,
+    "Carbohidratos": 0,
+    "Proteinas": 27.3,
+    "Grasas": 28.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Feta cheese",
+    "Calorias": 264,
+    "Carbohidratos": 4.09,
+    "Proteinas": 14.21,
+    "Grasas": 21.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fontina cheese",
+    "Calorias": 389,
+    "Carbohidratos": 1.55,
+    "Proteinas": 25.6,
+    "Grasas": 31.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fresh cheese (from Burgos)",
+    "Calorias": 175,
+    "Carbohidratos": 4,
+    "Proteinas": 15,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gouda or Edam Cheese",
+    "Calorias": 357,
+    "Carbohidratos": 1.67,
+    "Proteinas": 24.98,
+    "Grasas": 27.69,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gruyere cheese",
+    "Calorias": 413,
+    "Carbohidratos": 0.36,
+    "Proteinas": 29.81,
+    "Grasas": 32.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Limburger cheese",
+    "Calorias": 327,
+    "Carbohidratos": 0.49,
+    "Proteinas": 20.05,
+    "Grasas": 27.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cured Manchego cheese",
+    "Calorias": 420,
+    "Carbohidratos": 1,
+    "Proteinas": 32,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fresh Manchego cheese",
+    "Calorias": 333,
+    "Carbohidratos": 0,
+    "Proteinas": 26,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Semi -curated Manchego cheese",
+    "Calorias": 390,
+    "Carbohidratos": 0,
+    "Proteinas": 29,
+    "Grasas": 29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Monterey cheese",
+    "Calorias": 373,
+    "Carbohidratos": 0.68,
+    "Proteinas": 24.48,
+    "Grasas": 30.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mozzarella cheese, whole milk",
+    "Calorias": 300,
+    "Carbohidratos": 2.19,
+    "Proteinas": 22.17,
+    "Grasas": 22.35,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Münster cheese",
+    "Calorias": 368,
+    "Carbohidratos": 1.12,
+    "Proteinas": 23.41,
+    "Grasas": 30.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Parmesan cheese, dry grated",
+    "Calorias": 420,
+    "Carbohidratos": 13.91,
+    "Proteinas": 28.42,
+    "Grasas": 27.84,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pyrenees cheese",
+    "Calorias": 355,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "PORTIONS Cheese",
+    "Calorias": 283,
+    "Carbohidratos": 1,
+    "Proteinas": 18,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "PORT DU SALUT Cheese",
+    "Calorias": 356,
+    "Carbohidratos": 2.22,
+    "Proteinas": 24.94,
+    "Grasas": 27.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Provolone",
+    "Calorias": 351,
+    "Carbohidratos": 2.14,
+    "Proteinas": 25.58,
+    "Grasas": 26.62,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quark cheese",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ricota cheese",
+    "Calorias": 156,
+    "Carbohidratos": 4.09,
+    "Proteinas": 11.32,
+    "Grasas": 10.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roquefort cheese",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Swiss cheese",
+    "Calorias": 393,
+    "Carbohidratos": 1.44,
+    "Proteinas": 26.96,
+    "Grasas": 30.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Speisequark type cheese",
+    "Calorias": 101,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quiche Lorraine Bacón-Qsoo",
+    "Calorias": 391,
+    "Carbohidratos": 21,
+    "Proteinas": 15,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw radish",
+    "Calorias": 16,
+    "Carbohidratos": 3.4,
+    "Proteinas": 0.68,
+    "Grasas": 0.1,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Vacune tail",
+    "Calorias": 171,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Snuff",
+    "Calorias": 86,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ratatouille",
+    "Calorias": 65,
+    "Carbohidratos": 6,
+    "Proteinas": 1,
+    "Grasas": 4.6,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raviolis tomato, sauce",
+    "Calorias": 106,
+    "Carbohidratos": 13,
+    "Proteinas": 5,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Co -cool",
+    "Calorias": 42,
+    "Carbohidratos": 10.36,
+    "Proteinas": 0,
+    "Grasas": 0.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Light / diet cool soda",
+    "Calorias": 2,
+    "Carbohidratos": 0.29,
+    "Proteinas": 0.11,
+    "Grasas": 0.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Licorice",
+    "Calorias": 375,
+    "Carbohidratos": 93.55,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Raw beets",
+    "Calorias": 43,
+    "Carbohidratos": 9.56,
+    "Proteinas": 1.61,
+    "Grasas": 0.17,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Beets, cooked",
+    "Calorias": 44,
+    "Carbohidratos": 9.9,
+    "Proteinas": 1.67,
+    "Grasas": 0.18,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Cabbage, Chinese, raw",
+    "Calorias": 13,
+    "Carbohidratos": 2.18,
+    "Proteinas": 1.5,
+    "Grasas": 0.2,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Cabbage, curly, cooked, fat not added when cooking",
+    "Calorias": 28,
+    "Carbohidratos": 6.32,
+    "Proteinas": 2.07,
+    "Grasas": 0.1,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Cottage cheese",
+    "Calorias": 143,
+    "Carbohidratos": 3.18,
+    "Proteinas": 10.49,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cooked kidney",
+    "Calorias": 157,
+    "Carbohidratos": 0,
+    "Proteinas": 27.04,
+    "Grasas": 4.61,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Turbot",
+    "Calorias": 98,
+    "Carbohidratos": 0,
+    "Proteinas": 16.1,
+    "Grasas": 3.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rum",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw Ruibarbo",
+    "Calorias": 21,
+    "Carbohidratos": 4.54,
+    "Proteinas": 0.9,
+    "Grasas": 0.2,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Salt",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Salami",
+    "Calorias": 378,
+    "Carbohidratos": 0.72,
+    "Proteinas": 21.07,
+    "Grasas": 31.65,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork sausages",
+    "Calorias": 367,
+    "Carbohidratos": 10,
+    "Proteinas": 11,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frankfort sausages",
+    "Calorias": 274,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sausage",
+    "Calorias": 454,
+    "Carbohidratos": 2,
+    "Proteinas": 26,
+    "Grasas": 38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Smoked salmon",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 18.28,
+    "Grasas": 4.32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed salmon",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 25.78,
+    "Grasas": 5.53,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw salmon",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20.5,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Raw salmontete",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 19.35,
+    "Grasas": 3.79,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boloñesa sauce",
+    "Calorias": 139,
+    "Carbohidratos": 2,
+    "Proteinas": 8,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "César sauce",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Garlic sauce",
+    "Calorias": 108,
+    "Carbohidratos": 7.32,
+    "Proteinas": 3.07,
+    "Grasas": 7.42,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Cranberry and raspberry sauce",
+    "Calorias": 162,
+    "Carbohidratos": 41.83,
+    "Proteinas": 0.78,
+    "Grasas": 0.22,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Barbecue sauce",
+    "Calorias": 172,
+    "Carbohidratos": 40.77,
+    "Proteinas": 0.82,
+    "Grasas": 0.63,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Onion sauce",
+    "Calorias": 345,
+    "Carbohidratos": 3.23,
+    "Proteinas": 1.86,
+    "Grasas": 36.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Chocolate sauce",
+    "Calorias": 388,
+    "Carbohidratos": 65.39,
+    "Proteinas": 3.33,
+    "Grasas": 13.06,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Plum sauce",
+    "Calorias": 200,
+    "Carbohidratos": 50.67,
+    "Proteinas": 0.65,
+    "Grasas": 0.29,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Cocktail sauce",
+    "Calorias": 124,
+    "Carbohidratos": 28.22,
+    "Proteinas": 1.36,
+    "Grasas": 1.05,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Red enchilada sauce",
+    "Calorias": 30,
+    "Carbohidratos": 4.87,
+    "Proteinas": 0.62,
+    "Grasas": 0.91,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Enchilada sauce, green",
+    "Calorias": 28,
+    "Carbohidratos": 5.5,
+    "Proteinas": 0.99,
+    "Grasas": 0.59,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Dill sauce",
+    "Calorias": 429,
+    "Carbohidratos": 3.08,
+    "Proteinas": 1.92,
+    "Grasas": 45.78,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Honey and mustard sauce",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Fish sauce",
+    "Calorias": 35,
+    "Carbohidratos": 3.64,
+    "Proteinas": 5.06,
+    "Grasas": 0.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheese sauce",
+    "Calorias": 160,
+    "Carbohidratos": 7.66,
+    "Proteinas": 3.24,
+    "Grasas": 13.02,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Blue cheese or roquefort sauce",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Soy sauce",
+    "Calorias": 53,
+    "Carbohidratos": 4.93,
+    "Proteinas": 8.14,
+    "Grasas": 0.57,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Ketchup",
+    "Calorias": 101,
+    "Carbohidratos": 27.4,
+    "Proteinas": 1.04,
+    "Grasas": 0.1,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Yogurt sauce",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Dutch sauce",
+    "Calorias": 504,
+    "Carbohidratos": 1.52,
+    "Proteinas": 4.68,
+    "Grasas": 54.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kétchup sauce",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Pesto sauce",
+    "Calorias": 569,
+    "Carbohidratos": 6.16,
+    "Proteinas": 8.51,
+    "Grasas": 58.52,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Russian sauce",
+    "Calorias": 355,
+    "Carbohidratos": 31.9,
+    "Proteinas": 0.69,
+    "Grasas": 26.18,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Tartara sauce",
+    "Calorias": 211,
+    "Carbohidratos": 13.3,
+    "Proteinas": 1,
+    "Grasas": 16.7,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Teriyaki sauce",
+    "Calorias": 89,
+    "Carbohidratos": 15.56,
+    "Proteinas": 5.93,
+    "Grasas": 0.02,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Tzatziki sauce",
+    "Calorias": 92,
+    "Carbohidratos": 3.95,
+    "Proteinas": 5.35,
+    "Grasas": 6.31,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Green sauce or green sauce",
+    "Calorias": 38,
+    "Carbohidratos": 6.36,
+    "Proteinas": 1.13,
+    "Grasas": 0.89,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Oat bran",
+    "Calorias": 246,
+    "Carbohidratos": 66.22,
+    "Proteinas": 17.3,
+    "Grasas": 7.03,
+    "Fibra": 15.4
+  },
+  {
+    "Alimento": "Wheat bran",
+    "Calorias": 216,
+    "Carbohidratos": 64.51,
+    "Proteinas": 15.55,
+    "Grasas": 4.25,
+    "Fibra": 42.8
+  },
+  {
+    "Alimento": "Raw watermelon",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Beef blood",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blanca Sangria",
+    "Calorias": 94,
+    "Carbohidratos": 8.26,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Red Sangria",
+    "Calorias": 96,
+    "Carbohidratos": 8.27,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cooked sardines",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sardines with tomato sauce",
+    "Calorias": 185,
+    "Carbohidratos": 0.54,
+    "Proteinas": 20.86,
+    "Grasas": 10.45,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Canned sardines in oil",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Dry sardines",
+    "Calorias": 406,
+    "Carbohidratos": 0,
+    "Proteinas": 46.06,
+    "Grasas": 23.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chia seeds",
+    "Calorias": 534,
+    "Carbohidratos": 28.88,
+    "Proteinas": 18.29,
+    "Grasas": 42.16,
+    "Fibra": 27.3
+  },
+  {
+    "Alimento": "Sunflower seeds",
+    "Calorias": 582,
+    "Carbohidratos": 24.07,
+    "Proteinas": 19.33,
+    "Grasas": 49.8,
+    "Fibra": 11.1
+  },
+  {
+    "Alimento": "Sesame seeds",
+    "Calorias": 567,
+    "Carbohidratos": 26.04,
+    "Proteinas": 16.96,
+    "Grasas": 48,
+    "Fibra": 16.9
+  },
+  {
+    "Alimento": "Semolina",
+    "Calorias": 90,
+    "Carbohidratos": 16.43,
+    "Proteinas": 2.34,
+    "Grasas": 1.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Sepia",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pork brains",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 11,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sesos lamb",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sesos veal",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boletus mushrooms",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 3,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Canthallus mushrooms",
+    "Calorias": 11,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Colmenilla mushrooms",
+    "Calorias": 9,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Seven-up, refresco",
+    "Calorias": 144,
+    "Carbohidratos": 36,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Apple cider",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Soy sprouts",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Germinated soy",
+    "Calorias": 54.9,
+    "Carbohidratos": 4.68,
+    "Proteinas": 5.53,
+    "Grasas": 1.03,
+    "Fibra": 2.38
+  },
+  {
+    "Alimento": "Bittersweet soup",
+    "Calorias": 39,
+    "Carbohidratos": 4.35,
+    "Proteinas": 2.58,
+    "Grasas": 1.21,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Onion soup",
+    "Calorias": 46,
+    "Carbohidratos": 6.7,
+    "Proteinas": 3.06,
+    "Grasas": 1.42,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Minestrone soup",
+    "Calorias": 35,
+    "Carbohidratos": 5,
+    "Proteinas": 2,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Citrus sorbet",
+    "Calorias": 95,
+    "Carbohidratos": 23.17,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sorbet, flavors",
+    "Calorias": 144,
+    "Carbohidratos": 30.4,
+    "Proteinas": 1.1,
+    "Grasas": 2,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Ham Stroganoff",
+    "Calorias": 130,
+    "Carbohidratos": 4.97,
+    "Proteinas": 7.52,
+    "Grasas": 9.04,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Apple strudel",
+    "Calorias": 274,
+    "Carbohidratos": 41.1,
+    "Proteinas": 3.3,
+    "Grasas": 11.2,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Sushi",
+    "Calorias": 93,
+    "Carbohidratos": 18.42,
+    "Proteinas": 2.92,
+    "Grasas": 0.67,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Sushi with tuna",
+    "Calorias": 100,
+    "Carbohidratos": 13.39,
+    "Proteinas": 9.66,
+    "Grasas": 0.28,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Sushi with salmon",
+    "Calorias": 107,
+    "Carbohidratos": 13.39,
+    "Proteinas": 8.92,
+    "Grasas": 1.74,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Tamarindo, raw",
+    "Calorias": 239,
+    "Carbohidratos": 62.5,
+    "Proteinas": 2.8,
+    "Grasas": 0.6,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Tapioca",
+    "Calorias": 359,
+    "Carbohidratos": 95,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Homemade apple cake",
+    "Calorias": 282,
+    "Carbohidratos": 43,
+    "Proteinas": 2,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hot tea based on herbal",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hot tea, chamomile",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hot tea, leaf, green",
+    "Calorias": 1,
+    "Carbohidratos": 0,
+    "Proteinas": 0.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tequila",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Toblerone, milk chocolate with honey and almond nougat",
+    "Calorias": 525,
+    "Carbohidratos": 61.21,
+    "Proteinas": 5.71,
+    "Grasas": 28.57,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Bacon",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fried tomato",
+    "Calorias": 88,
+    "Carbohidratos": 5.2,
+    "Proteinas": 1.5,
+    "Grasas": 6.4,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Crushed tomato",
+    "Calorias": 39,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.3,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cooked tomatoes",
+    "Calorias": 18,
+    "Carbohidratos": 3.99,
+    "Proteinas": 0.95,
+    "Grasas": 0.11,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Raw tomatoes",
+    "Calorias": 18,
+    "Carbohidratos": 3.89,
+    "Proteinas": 0.88,
+    "Grasas": 0.2,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Dry red tomatoes",
+    "Calorias": 258,
+    "Carbohidratos": 55.76,
+    "Proteinas": 14.11,
+    "Grasas": 2.97,
+    "Fibra": 12.3
+  },
+  {
+    "Alimento": "Raw green tomatoes",
+    "Calorias": 23,
+    "Carbohidratos": 5.1,
+    "Proteinas": 1.2,
+    "Grasas": 0.2,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Water tonic",
+    "Calorias": 42,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Egg white tortilla, revolt or fried, made with oil",
+    "Calorias": 119,
+    "Carbohidratos": 0.77,
+    "Proteinas": 11.52,
+    "Grasas": 7.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Revolved egg or egg tortilla, made with oil",
+    "Calorias": 180,
+    "Carbohidratos": 1.81,
+    "Proteinas": 11.16,
+    "Grasas": 13.95,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corn tortilla",
+    "Calorias": 218,
+    "Carbohidratos": 44.64,
+    "Proteinas": 5.7,
+    "Grasas": 2.85,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Trout",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Smoked trout",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 35.47,
+    "Grasas": 10.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Baked or roasted trout, made with oil",
+    "Calorias": 205,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.4,
+    "Grasas": 11.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Truffes",
+    "Calorias": 511,
+    "Carbohidratos": 49.61,
+    "Proteinas": 6.77,
+    "Grasas": 31.93,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Medium nougat",
+    "Calorias": 470,
+    "Carbohidratos": 57,
+    "Proteinas": 10,
+    "Grasas": 24,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Twix Caramel Cookie Bars",
+    "Calorias": 502,
+    "Carbohidratos": 64.8,
+    "Proteinas": 4.91,
+    "Grasas": 24.85,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Grapes",
+    "Calorias": 69,
+    "Carbohidratos": 18.1,
+    "Proteinas": 0.72,
+    "Grasas": 0.16,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Raisin grapes",
+    "Calorias": 243,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Dry vermouth",
+    "Calorias": 118,
+    "Carbohidratos": 6,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steamed or boiled",
+    "Calorias": 137,
+    "Carbohidratos": 6.33,
+    "Proteinas": 24.01,
+    "Grasas": 0.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vinegar",
+    "Calorias": 21,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rice wine",
+    "Calorias": 134,
+    "Carbohidratos": 5,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porto came",
+    "Calorias": 157,
+    "Carbohidratos": 12,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Non -alcohol came",
+    "Calorias": 6,
+    "Carbohidratos": 1.1,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wine, table, white",
+    "Calorias": 82,
+    "Carbohidratos": 2.6,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wine, table, pink",
+    "Calorias": 83,
+    "Carbohidratos": 3.8,
+    "Proteinas": 0.36,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wine, table, red",
+    "Calorias": 85,
+    "Carbohidratos": 2.61,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vodka",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whiskey",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yogurt, Greek with fruit",
+    "Calorias": 106,
+    "Carbohidratos": 12.29,
+    "Proteinas": 7.33,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yogurt, natural Greek",
+    "Calorias": 97,
+    "Carbohidratos": 3.98,
+    "Proteinas": 9,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yogurt, ice cream, cone, flavors that are not chocolate",
+    "Calorias": 189,
+    "Carbohidratos": 31.5,
+    "Proteinas": 4.48,
+    "Grasas": 5.38,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Liquid yogurt",
+    "Calorias": 72,
+    "Carbohidratos": 11.81,
+    "Proteinas": 3.71,
+    "Grasas": 1.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Yogurt, skim/skim milk, fruit",
+    "Calorias": 83,
+    "Carbohidratos": 15.02,
+    "Proteinas": 5.09,
+    "Grasas": 0.17,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Yogurt, skim/skim milk, natural",
+    "Calorias": 56,
+    "Carbohidratos": 7.68,
+    "Proteinas": 5.73,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yogurt, whole milk, fruit",
+    "Calorias": 87,
+    "Carbohidratos": 12.36,
+    "Proteinas": 3.1,
+    "Grasas": 2.87,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Yogurt, whole milk, natural",
+    "Calorias": 61,
+    "Carbohidratos": 4.66,
+    "Proteinas": 3.47,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yogurt, soy",
+    "Calorias": 94,
+    "Carbohidratos": 15.96,
+    "Proteinas": 3.5,
+    "Grasas": 1.8,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "French yucca",
+    "Calorias": 267,
+    "Carbohidratos": 34.72,
+    "Proteinas": 1.24,
+    "Grasas": 13.94,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raw carrots",
+    "Calorias": 41,
+    "Carbohidratos": 9.58,
+    "Proteinas": 0.93,
+    "Grasas": 0.24,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Carrots, cooked, cream",
+    "Calorias": 88,
+    "Carbohidratos": 8.38,
+    "Proteinas": 2.08,
+    "Grasas": 5.26,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Carrots, raw, salad",
+    "Calorias": 208,
+    "Carbohidratos": 17.17,
+    "Proteinas": 1.22,
+    "Grasas": 15.7,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Lima juice, 100% freshly squeezed",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Orange juice, 100%, freshly squeezed",
+    "Calorias": 45,
+    "Carbohidratos": 10.4,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Grapefruit juice, 100%, freshly squeezed",
+    "Calorias": 39,
+    "Carbohidratos": 9.2,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 0.1
+  }
+]

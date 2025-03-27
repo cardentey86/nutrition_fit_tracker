@@ -22,37 +22,31 @@ class DatabaseHelper {
     String path = join(await getDatabasesPath(), 'nft.db');
     return await openDatabase(
       path,
-      onCreate: (db, version) {
-        // Crear tabla de alimentos
-        db.execute(
+      version: 2, // ⬅️ incrementa la versión aquí
+      onCreate: (db, version) async {
+        await db.execute(
           'CREATE TABLE Alimento(Id INTEGER PRIMARY KEY, Nombre TEXT, Calorias INTEGER, Carbohidratos REAL, Proteinas REAL, Grasas REAL, Fibra REAL)',
         );
-
-        // Crear tabla de medidas personales
-        db.execute(
+        await db.execute(
           'CREATE TABLE MedidasPersonales(Id INTEGER PRIMARY KEY, Fecha TEXT, Edad INTEGER, Estatura REAL, Peso REAL, Sexo TEXT, Pecho REAL, Cintura REAL, Cadera REAL, Muslo REAL, Gemelos REAL, Biceps REAL, Antebrazo REAL, Muneca REAL, Cuello REAL, Tobillo REAL, Objetivo INTEGER, NivelActividad INTEGER)',
         );
-
-        // Crear tabla de menús
-        db.execute(
+        await db.execute(
           'CREATE TABLE Menu(Id INTEGER PRIMARY KEY, Nombre TEXT)',
         );
-
-        // Crear tabla de platos en menús
-        db.execute(
-          'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, Cantidad REAL, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES alimentos(id))',
+        await db.execute(
+          'CREATE TABLE MenuPlato(Id INTEGER PRIMARY KEY, IdMenu INTEGER, IdAlimento INTEGER, Fecha TEXT, Cantidad REAL, FOREIGN KEY(IdMenu) REFERENCES Menu(Id), FOREIGN KEY(IdAlimento) REFERENCES Alimento(Id))',
+        );
+        await db.execute(
+          'CREATE TABLE AlimentoTraduccion(Id INTEGER PRIMARY KEY AUTOINCREMENT, IdAlimento INTEGER, Code TEXT, NombreAlimento TEXT, FOREIGN KEY(IdAlimento) REFERENCES Alimento(Id))',
         );
       },
-      /* onUpgrade: (db, oldVersion, newVersion) {
-        if (oldVersion < newVersion) {
-          // Cambiar la estructura si estás actualizando a la versión nueva
-          db.execute(
-              'ALTER TABLE MedidasPersonales ADD COLUMN Edad INTEGER, ADD COLUMN Altura REAL, ADD COLUMN Peso REAL, ADD COLUMN Sexo TEXT');
-
-          db.execute('ALTER TABLE MenuPlato ADD COLUMN Nombre TEXT');
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (oldVersion < 2) {
+          await db.execute(
+            'CREATE TABLE AlimentoTraduccion(Id INTEGER PRIMARY KEY AUTOINCREMENT, IdAlimento INTEGER, Code TEXT, NombreAlimento TEXT, FOREIGN KEY(IdAlimento) REFERENCES Alimento(Id))',
+          );
         }
-      }, */
-      version: 1, // Incrementa la versión aquí   */
+      },
     );
   }
 }
