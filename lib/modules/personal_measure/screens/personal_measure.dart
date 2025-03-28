@@ -299,14 +299,15 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                             });
                           },
                           items: [
-                            'personalMeasure.sex.men'.tr(),
-                            'personalMeasure.sex.woman'.tr()
-                          ].map<DropdownMenuItem<String>>((String sexo) {
-                            return DropdownMenuItem<String>(
-                              value: sexo,
-                              child: Text(sexo),
-                            );
-                          }).toList(),
+                            DropdownMenuItem<String>(
+                              value: 'Hombre',
+                              child: Text('personalMeasure.sex.men'.tr()),
+                            ),
+                            DropdownMenuItem<String>(
+                              value: 'Mujer',
+                              child: Text('personalMeasure.sex.woman'.tr()),
+                            ),
+                          ],
                         ),
                       ),
                     ],
