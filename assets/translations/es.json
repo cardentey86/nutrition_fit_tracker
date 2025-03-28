@@ -168,5 +168,48 @@
     "cdmDesc":"Conocer cómo debe ser el consumo diario de macronutrientes es fundamental para mantener una salud óptima, alcanzar objetivos de fitness y mejorar el rendimiento físico. Esto implica no solo un conocimiento detallado sobre los macronutrientes, sino también una comprensión de cómo interactúan en el cuerpo y cómo influyen en nuestro día a día. Al final, una alimentación bien planificada y equilibrada es clave para lograr un estilo de vida saludable y sostenible. \n\n",
     "mei": "Medidas estéticas ideales",
     "meiDesc":"Conocer las medidas estéticamente ideales para las diferentes partes del cuerpo puede tener varias implicaciones, tanto en términos de salud como de bienestar emocional y autoestima, guiar el desarrollo de un plan de entrenamiento y nutrición, y fomentar la autoaceptación. Sin embargo, es importante abordar este conocimiento con una mentalidad equilibrada, considerando la salud y el bienestar personal por encima de los ideales sociales o culturales. La clave es encontrar un enfoque que promueva no solo la apariencia, sino también la salud y la felicidad personal. \n\n"
+  },
+  "menuFood":{
+    "dialog":{
+      "title":"Crear Menú",
+      "select":"Seleccione un menú",
+      "errorSelect":"Por favor, seleccione un menú",
+      "desc":"Descripción del menú",
+      "btnAdd":"Agregar",
+      "btnCancel":"Cancelar"
+    },
+    "menuPlatoDialog":{
+      "titleAdd":"Agregar Alimento",
+      "titleUpdate":"Actualizar Alimento",
+      "select":"Seleccione un plato",
+      "errorSelect":"Por favor, seleccione un plato",
+      "search":"Buscar Alimento",
+      "quantity":"Cantidad (g)",
+      "errorQuantity": "Por favor, ingrese una cantidad válida",
+      "btnAdd":"Agregar",
+      "btnUpdate":"Actualizar",
+      "errorSelectFood":"Por favor, seleccione un alimento",
+      "btnCancel":"Agregar"
+    },
+    "nutritionScreen":{
+      "title":"Recomendado / Planificado"
+    },
+    "menuScreen":{
+      "title":"Menú",
+      "updated":"Actualizado correcto",
+      "existMenu":"El menú ya existe",
+      "existFood":"El alimento ya existe en el menú",
+      "deleted":"Eliminación correcta",
+      "noDataPersonal":"No existen datos de medidas personales",
+      "deleteConfirm":"Confirmar eliminación",
+      "deleteConfirmDesc":"¿Confirma eliminar el menu {menuNombre} con todos sus alimentos?",
+      "deleteConfirmFood":"¿Confirma eliminar el menu {food} con todos sus alimentos?",
+      "btnOk":"Eliminar",
+      "btnCancel":"Cancelar",
+      "edit":"Editar",
+      "delete":"Eliminar",
+      "confirm":"Confirmar"
+    }
   }
+
 }

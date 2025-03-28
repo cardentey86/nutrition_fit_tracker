@@ -173,6 +173,49 @@
   "cdmDesc": "Knowing how daily macronutrient intake should be structured is essential for maintaining optimal health, achieving fitness goals, and improving physical performance. This involves not only a detailed understanding of macronutrients but also how they interact in the body and influence our daily lives. In the end, a well-planned and balanced diet is key to achieving a healthy and sustainable lifestyle. ",
   "mei": "Ideal Aesthetic Measurements",
   "meiDesc": "Knowing the aesthetically ideal measurements for different parts of the body can have several implications, both in terms of health and emotional well-being and self-esteem. It can guide the development of a training and nutrition plan and promote self-acceptance. However, it is important to approach this knowledge with a balanced mindset, considering personal health and well-being above social or cultural ideals. The key is to find an approach that promotes not only appearance but also personal health and happiness."
+},
+"menuFood": {
+  "dialog": {
+    "title": "Create Menu",
+    "select": "Select a menu",
+    "errorSelect": "Please select a menu",
+    "desc": "Menu description",
+    "btnAdd": "Add",
+    "btnCancel": "Cancel"
+  },
+  "menuPlatoDialog": {
+    "titleAdd": "Add Food",
+    "titleUpdate": "Update Food",
+    "select": "Select a dish",
+    "errorSelect": "Please select a dish",
+    "search": "Search Food",
+    "quantity": "Quantity (g)",
+    "errorQuantity": "Please enter a valid quantity",
+    "btnAdd": "Add",
+    "btnUpdate": "Update",
+    "errorSelectFood": "Please select a food item",
+    "btnCancel": "Cancel"
+  },
+  "nutritionScreen": {
+    "title": "Recommended / Planned"
+  },
+  "menuScreen": {
+    "title": "Menu",
+    "updated": "Successfully updated",
+    "existMenu": "The menu already exists",
+    "existFood": "The food item already exists in the menu",
+    "deleted": "Successfully deleted",
+    "noDataPersonal": "No personal measurement data available",
+    "deleteConfirm": "Confirm deletion",
+    "deleteConfirmDesc": "Do you confirm deleting the menu {menuNombre} with all its food items?",
+    "deleteConfirmFood": "Do you confirm deleting the menu {food} with all its food items?",
+    "btnOk": "Delete",
+    "btnCancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm"
+  }
 }
+
 
 }

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/menu/widgets/macro_card.dart';
 
@@ -36,8 +37,8 @@ class NutritionScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Text(
-            'Recomendado / Planificado',
+          Text(
+            'menuFood.nutritionScreen.title'.tr(),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -65,7 +66,7 @@ class NutritionScreen extends StatelessWidget {
                     height: 8,
                   ),
                   MacroCard(
-                    label: "Protein",
+                    label: "Prot".tr(),
                     value: valueProt,
                     maxValue: maxValueProt,
                     color: Colors.blue,
@@ -97,7 +98,7 @@ class NutritionScreen extends StatelessWidget {
                     height: 8,
                   ),
                   MacroCard(
-                    label: "Grasas",
+                    label: "general.macro.fats".tr(),
                     value: valueGrasa,
                     maxValue: maxValueGrasa,
                     color: Colors.green,

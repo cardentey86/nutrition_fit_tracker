@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class MenuDialog extends StatefulWidget {
@@ -18,14 +19,14 @@ class _MenuDialogState extends State<MenuDialog> {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: const Text('Crear Menú'),
+      title: Text('menuFood.dialog.title'.tr()),
       content: SizedBox(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             DropdownButtonFormField<String>(
               value: selectedMenuName,
-              hint: const Text('Seleccione un menú'),
+              hint: Text('menuFood.dialog.select'.tr()),
               onChanged: (String? newValue) {
                 setState(() {
                   selectedMenuName = newValue;
@@ -34,7 +35,8 @@ class _MenuDialogState extends State<MenuDialog> {
               },
               validator: (value) {
                 if (value == null) {
-                  return 'Por favor, seleccione un menú';
+                  return 'menuFood.dialog.errorSelect'
+                      .tr(); // Mensaje de error si no se selecciona un menú
                 }
                 return null; // Valido
               },
@@ -53,14 +55,14 @@ class _MenuDialogState extends State<MenuDialog> {
                 });
               },
               decoration:
-                  const InputDecoration(hintText: "Descripción del menú"),
+                  InputDecoration(hintText: 'menuFood.dialog.desc'.tr()),
             ),
           ],
         ),
       ),
       actions: <Widget>[
         TextButton(
-          child: const Text('Agregar'),
+          child: Text('menuFood.dialog.bntAdd'.tr()),
           onPressed: () {
             if (selectedMenuName != null) {
               widget.onAddMenu(selectedMenuName!, description);
@@ -68,7 +70,7 @@ class _MenuDialogState extends State<MenuDialog> {
           },
         ),
         TextButton(
-          child: const Text('Cancelar'),
+          child: Text('menuFood.dialog.bntCancel'.tr()),
           onPressed: () {
             Navigator.of(context).pop();
           },

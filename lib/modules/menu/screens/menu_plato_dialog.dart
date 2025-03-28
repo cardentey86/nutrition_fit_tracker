@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
@@ -64,8 +65,9 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text(
-          widget.action == 'add' ? 'Agregar Alimento' : 'Actualizar Alimento'),
+      title: Text(widget.action == 'add'
+          ? 'menuFood.menuPlatoDialog.titleAdd'.tr()
+          : 'menuFood.menuPlatoDialog.titleUpdate'.tr()),
       content: SizedBox(
         width: double.maxFinite,
         child: Form(
@@ -75,8 +77,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
             children: [
               menuPlato == null
                   ? DropdownButtonFormField<String>(
-                      decoration: const InputDecoration(
-                        labelText: 'Seleccionar Plato',
+                      decoration: InputDecoration(
+                        labelText: 'menuFood.menuPlatoDialog.select'.tr(),
                       ),
                       value: selectedMeal,
                       items: widget.menuNames.map((menu) {
@@ -91,7 +93,7 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                         });
                       },
                       validator: (value) => value == null
-                          ? 'Por favor seleccionar un plato'
+                          ? 'menuFood.menuPlatoDialog.errorSelect'.tr()
                           : null,
                     )
                   : TextFormField(
@@ -104,8 +106,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
               menuPlato == null
                   ? TextFormField(
                       controller: _alimentoController,
-                      decoration:
-                          const InputDecoration(labelText: 'Buscar Alimento'),
+                      decoration: InputDecoration(
+                          labelText: 'menuFood.menuPlatoDialog.search'.tr()),
                       onChanged: _filterFoods,
                     )
                   : TextFormField(
@@ -133,8 +135,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                                 children: [
                                   Column(
                                     children: [
-                                      const Text(
-                                        'Caloria',
+                                      Text(
+                                        'general.macro.calory'.tr(),
                                         style: TextStyle(
                                             color: Colors.black38,
                                             fontSize: 11),
@@ -146,8 +148,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                                   ),
                                   Column(
                                     children: [
-                                      const Text(
-                                        'Proteína',
+                                      Text(
+                                        'general.macro.proteins'.tr(),
                                         style: TextStyle(
                                             color: Colors.black38,
                                             fontSize: 11),
@@ -159,8 +161,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                                   ),
                                   Column(
                                     children: [
-                                      const Text(
-                                        'Carbohidratos',
+                                      Text(
+                                        'general.macro.carbo'.tr(),
                                         style: TextStyle(
                                             color: Colors.black38,
                                             fontSize: 11),
@@ -173,7 +175,7 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                                   Column(
                                     children: [
                                       const Text(
-                                        'Grasas',
+                                        'general.macro.fats',
                                         style: TextStyle(
                                             color: Colors.black38,
                                             fontSize: 11),
@@ -199,11 +201,11 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                             );
                           },
                         )
-                      : const Center(
-                          child: Text('No hay alimentos disponibles')),
+                      : Center(child: Text('general.noData'.tr())),
                 ),
               TextFormField(
-                decoration: const InputDecoration(labelText: 'Cantidad (g)'),
+                decoration: InputDecoration(
+                    labelText: 'menuFood.menuPlatoDialog.quantity'.tr()),
                 keyboardType: TextInputType.number,
                 initialValue:
                     menuPlato == null ? '' : menuPlato!.cantidad.toString(),
@@ -216,7 +218,7 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                   });
                 },
                 validator: (value) => value == null || value.isEmpty
-                    ? 'Por favor ingresar una cantidad'
+                    ? 'menuFood.menuPlatoDialog.errorQuantity'.tr()
                     : null,
               ),
             ],
@@ -225,22 +227,23 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
       ),
       actions: [
         TextButton(
-          child: Text(widget.action == 'add' ? 'Agregar' : 'Actualizar'),
+          child: Text(widget.action == 'add'
+              ? 'menuFood.menuPlatoDialog.btnAdd'.tr()
+              : 'menuFood.menuPlatoDialog.btnUpdate'.tr()),
           onPressed: () {
             if (_formKey.currentState!.validate() && selectedFood != null) {
               widget.onAddMenuPlato(menuPlato, int.parse(selectedMeal!),
                   int.parse(selectedFood!), double.parse(quantity!));
-              //Navigator.of(context).pop();
             } else if (selectedFood == null) {
               ScaffoldMessenger.of(context).showSnackBar(
                 const SnackBar(
-                    content: Text('Por favor seleccionar un alimento')),
+                    content: Text('menuFood.menuPlatoDialog.errorSelectFood')),
               );
             }
           },
         ),
         TextButton(
-          child: const Text('Cancelar'),
+          child: Text('menuFood.menuPlatoDialog.btnCancel'.tr()),
           onPressed: () {
             Navigator.of(context).pop();
           },

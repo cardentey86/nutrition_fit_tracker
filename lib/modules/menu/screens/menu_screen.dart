@@ -150,7 +150,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
     bool result = await _menuPlatoController.updateMenuPlato(menuPlatoToUpdate);
     if (result) {
       if (mounted) {
-        showSnackBar(context, "Actualizado correcto");
+        showSnackBar(context, 'menuFood.menuScreen.updated'.tr());
       }
     }
   }
@@ -277,7 +277,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
           onAddMenu: (selectedMenu, description) async {
             var exist = menus.any((item) => item.nombre == selectedMenu);
             if (!exist) {
-              if (selectedMenu.contains('Merienda') && description.isNotEmpty) {
+              if (description.isNotEmpty) {
                 await insertMenu('$selectedMenu $description');
               } else {
                 await insertMenu(selectedMenu);
@@ -290,7 +290,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                 Navigator.of(context).pop();
               }
             } else {
-              showSnackBar(context, 'El menú ya existe');
+              showSnackBar(context, 'menuFood.menuScreen.existMenu'.tr());
             }
           },
         );
@@ -322,7 +322,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                 Navigator.of(context).pop();
               } */
                   } else {
-                    showSnackBar(context, 'El alimento ya existe en el menú');
+                    showSnackBar(context, 'menuFood.menuScreen.existFood'.tr());
                   }
                 }
               : (id, selectedMenu, selectedFood, quantity) async {
@@ -354,7 +354,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
 
     if (result) {
       if (mounted) {
-        showSnackBar(context, "Eliminación correcta");
+        showSnackBar(context, 'menuFood.menuScreen.deleted'.tr());
       }
     }
 
@@ -366,7 +366,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
 
     if (result) {
       if (mounted) {
-        showSnackBar(context, "Eliminación correcta");
+        showSnackBar(context, 'menuFood.menuScreen.deleted'.tr());
       }
     }
 
@@ -379,14 +379,14 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
       return const Center(child: CircularProgressIndicator());
     }
     if (medidasPersonales == null) {
-      const Scaffold(
-        body: Center(child: Text('No existen datos de medidas personales')),
+      Scaffold(
+        body: Center(child: Text('menuFood.menuScreen.noDataPersonal'.tr())),
       );
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Menú',
+        title: Text(
+          'menuFood.menuScreen.title'.tr(),
           style: TextStyle(color: Colors.black87),
         ),
         backgroundColor: Colors.transparent,
@@ -472,18 +472,20 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                   if (showPastelCalorias)
                     GraficoPastel(
                       macros: pastelMacroCalorias,
-                      nombreMacro: 'Calorias',
+                      nombreMacro: 'general.macro.calory'.tr(),
                     ),
                   if (showPastelProteinas)
                     GraficoPastel(
-                        macros: pastelMacroProteina, nombreMacro: 'Proteina'),
+                        macros: pastelMacroProteina,
+                        nombreMacro: 'general.macro.proteins'.tr()),
                   if (showPastelCarbohidratos)
                     GraficoPastel(
                         macros: pastelMacroCarbohidratos,
-                        nombreMacro: 'Carbohidratos'),
+                        nombreMacro: 'general.macro.carbo'.tr()),
                   if (showPastelGrasas)
                     GraficoPastel(
-                        macros: pastelMacroGrasas, nombreMacro: 'Grasas'),
+                        macros: pastelMacroGrasas,
+                        nombreMacro: 'general.macro.fats'.tr()),
                   const SizedBox(
                     height: 16,
                   ),
@@ -517,23 +519,32 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                       context: context,
                                       builder: (context) {
                                         return AlertDialog(
-                                          title: const Text(
-                                              'Confirmar eliminación'),
+                                          title: Text(
+                                              'menuFood.menuScreen.deleteConfirm'
+                                                  .tr()),
                                           content: Text(
-                                              '¿Confirma eliminar el menu ${menu.nombre} con todos sus alimentos?'),
+                                            'menuFood.menuScreen.deleteConfirmDesc'
+                                                .tr(namedArgs: {
+                                              'menuNombre': menu.nombre
+                                            }),
+                                          ),
                                           actions: [
                                             TextButton(
                                               onPressed: () {
                                                 Navigator.of(context)
                                                     .pop(false);
                                               },
-                                              child: const Text('Cancelar'),
+                                              child: Text(
+                                                  'menuFood.menuScreen.btnCancel'
+                                                      .tr()),
                                             ),
                                             TextButton(
                                               onPressed: () {
                                                 Navigator.of(context).pop(true);
                                               },
-                                              child: const Text('Confirmar'),
+                                              child: Text(
+                                                  'menuFood.menuScreen.btnOk'
+                                                      .tr()),
                                             ),
                                           ],
                                         );
@@ -675,7 +686,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                   spacing: 2,
                                   backgroundColor: Colors.transparent,
                                   padding: const EdgeInsets.all(8.0),
-                                  label: "Editar",
+                                  label: "menuFood.menuScreen.edit".tr(),
                                   foregroundColor: Colors.blue,
                                   icon: Icons.edit,
                                   onPressed: (context) async {
@@ -692,7 +703,7 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                 SlidableAction(
                                   spacing: 2,
                                   padding: const EdgeInsets.all(8.0),
-                                  label: "Eliminar",
+                                  label: "menuFood.menuScreen.delete".tr(),
                                   backgroundColor: Colors.transparent,
                                   foregroundColor: Colors.red,
                                   icon: Icons.delete,
@@ -701,23 +712,31 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
                                       context: context,
                                       builder: (context) {
                                         return AlertDialog(
-                                          title: const Text(
-                                              'Confirmar eliminación'),
+                                          title: Text(
+                                              'menuFood.menuScreen.deleteConfirm'
+                                                  .tr()),
                                           content: Text(
-                                              '¿Está seguro de que desea eliminar el alimento ${menuPlato.alimento!.nombre}?'),
+                                              'menuFood.menuScreen.deleteConfirmFood'
+                                                  .tr(namedArgs: {
+                                            'food': menuPlato.alimento!.nombre,
+                                          })),
                                           actions: [
                                             TextButton(
                                               onPressed: () {
                                                 Navigator.of(context)
                                                     .pop(false);
                                               },
-                                              child: const Text('Cancelar'),
+                                              child: Text(
+                                                  'menuFood.menuScreen.btnCancel'
+                                                      .tr()),
                                             ),
                                             TextButton(
                                               onPressed: () {
                                                 Navigator.of(context).pop(true);
                                               },
-                                              child: const Text('Confirmar'),
+                                              child: Text(
+                                                  'menuFood.menuScreen.confirm'
+                                                      .tr()),
                                             ),
                                           ],
                                         );
