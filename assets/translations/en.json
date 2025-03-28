@@ -139,6 +139,27 @@
   "information": {
   "title": "Information",
   "about": "About NFT",
+  "aboutSection": {
+    "desc1": "This app is your ideal companion to achieve your health and wellness goals through a holistic approach to food management and fitness tracking. Our app is designed to help you keep a detailed record of your eating habits and calculate essential metrics that will allow you to better understand your body composition and optimize your nutrition.",
+    "desc2": "Not only will you learn to manage your food effectively, but you will also gain a deeper understanding of how your diet and training impact your overall health. Whether you are a beginner in the world of fitness or an experienced athlete, our app provides the necessary tools to empower you on your journey to a healthier lifestyle.",
+    "title": "Key Features",
+    "section1Title": "Food Management",
+    "section1Desc": "Log and track your daily meals with an extensive food database. Access accurate nutritional information to help you make informed decisions about what you eat.",
+    "section2Title": "Macronutrient Calculation",
+    "section2Desc": "The app allows you to calculate and adjust your daily intake of macronutrients (carbohydrates, proteins, and fats) according to your specific goals, whether it's for weight loss, muscle gain, or maintaining a balanced diet.",
+    "section3Title": "Body Fat and Muscle Percentage Calculation",
+    "section3Desc": "Use tools to estimate your body fat percentage and lean muscle mass, allowing you to get a clearer picture of your body composition and adjust your diet and training accordingly.",
+    "section4Title": "Basal Metabolic Rate (BMR)",
+    "section4Desc": "Calculate your BMR to determine how many calories your body needs at rest, which will help you create a personalized and effective meal plan.",
+    "section5Title": "Muscle Gain Prediction",
+    "section5Desc": "Genetic muscle gain prediction is key to customizing training, setting realistic goals, and optimizing nutrition based on individual predisposition. This not only maximizes muscle growth efficiency and athletic performance but also helps prevent injuries and maintain long-term motivation, driving research into more effective training and nutrition strategies.",
+    "section6Title": "Aesthetic Measurements",
+    "section6Desc": "Aesthetic body measurements are important because they reflect the perception of body image, influencing self-esteem, confidence, and psychological well-being. Achieving certain aesthetic standards can improve personal satisfaction, encourage healthy habits such as exercise and a balanced diet, and promote positive social interactions. While it's crucial to balance aesthetics with health and avoid obsession, aesthetic measurements can serve as motivation for self-care and the pursuit of a better quality of life.",
+    "section7Title": "Custom Goals",
+    "section7Desc": "Set nutrition and training goals tailored to your individual needs, and monitor your progress over time. The app will send you reminders and motivation to stay focused on your goals.",
+    "section8Title": "Reports",
+    "section8Desc": "Generate reports on your daily intake, body composition progress, and eating habits, providing valuable information to make adjustments and improve your approach to health."
+  },
   "howMeasurements": "How to take measurements",
   "neck": "Neck",
   "neckDesc": "Place the measuring tape below the Adam’s apple at the narrowest point.",
@@ -181,7 +202,11 @@
     "errorSelect": "Please select a menu",
     "desc": "Menu description",
     "btnAdd": "Add",
-    "btnCancel": "Cancel"
+    "btnCancel": "Cancel",
+    "breakfast":"Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "snack": "Snack"
   },
   "menuPlatoDialog": {
     "titleAdd": "Add Food",
@@ -284,8 +309,27 @@
   }
 }
 
+},
+"foodScreen": {
+  "errorRestart": "Foods must be removed from the menu",
+  "delete": "Delete",
+  "deleteConfirm": "Confirm deletion",
+  "deleteQuestion": "Are you sure you want to delete the food item {alimento}?",
+  "btnCancel": "Cancel",
+  "btnOk": "Confirm",
+  "update": "Update",
+  "updateConfirm": "Confirm update",
+  "updateQuestion": "Are you sure you want to reset the food database? This action will delete all existing food items.",
+  "addFood": "Add Food",
+  "updateFood": "Update Food",
+  "name": "Name",
+  "errorName": "Please enter the name of the food item.",
+  "add": "Add",
+  "foods": "Foods",
+  "search": "Search by name",
+  "sortBy": "Sort by",
+  "sortFinal": "ending",
+  "reloading": "Reloading foods..."
 }
-
-
 
 }

@@ -1,3 +1,5 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/material.dart';
 import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -44,12 +46,12 @@ class Menu {
     };
   }
 
-  static List<String> menuNames() {
+  static List<String> menuNames(BuildContext context) {
     return [
-      'Desayuno',
-      'Almuerzo',
-      'Cena',
-      'Merienda',
+      'menuFood.dialog.breakfast'.tr(),
+      'menuFood.dialog.lunch'.tr(),
+      'menuFood.dialog.dinner'.tr(),
+      'menuFood.dialog.snack'.tr(),
     ];
   }
 }

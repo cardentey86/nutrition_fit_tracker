@@ -134,6 +134,28 @@
   "information":{
     "title": "Información",
     "about": "Acerca de NFT",
+    "aboutSection":{
+      "desc1":"Esta app es tu compañero ideal para alcanzar tus metas de salud y bienestar a través de un enfoque holístico en la gestión de la alimentación y el seguimiento del acondicionamiento físico. Nuestra aplicación está diseñada para ayudarte a llevar un control detallado de tus hábitos alimenticios y a calcular índices esenciales que te permitirán entender mejor tu composición corporal y optimizar tu nutrición.",
+      "desc2":"No solo aprenderás a gestionar tus alimentos de manera efectiva, sino que también obtendrás un entendimiento más profundo de cómo tu dieta y tu entrenamiento impactan en tu salud general. Ya seas un principiante en el mundo del fitness o un atleta experimentado, nuestra aplicación proporciona las herramientas necesarias para empoderarte en tu viaje hacia un estilo de vida más saludable.",
+      "title":"Principales características",
+      "section1Title":"Gestión de alimentos",
+      "section1Desc":"Ingresa y lleva un seguimiento de tus comidas diarias con una amplia base de datos de alimentos. Accede a información nutricional precisa que te ayudará a tomar decisiones informadas sobre lo que comes.",
+      "section2Title":"Cálculo de macronutrientes",
+      "section2Desc":"La aplicación te permite calcular y ajustar tu consumo diario de macronutrientes (carbohidratos, proteínas y grasas) según tus objetivos específicos, ya sea para perder peso, ganar músculo o mantener una alimentación equilibrada.",
+      "section3Title":"Cálculo de porcentaje de grasa y músculo",
+      "section3Desc":"Utiliza herramientas para estimar tu porcentaje de grasa corporal y músculo magro, lo que te permite tener una visión más clara de tu composición corporal y ajustar tu dieta y entrenamiento en consecuencia.",
+      "section4Title":"Tasa Metabólica Basal (TMB)",
+      "section4Desc":"Calcula tu TMB para determinar cuántas calorías necesita tu cuerpo en reposo, lo que te ayudará a establecer un plan de alimentación personalizado y efectivo.",
+      "section5Title":"Predicción de ganancia muscular",
+      "section5Desc":"La predicción genética de la ganancia muscular es clave para personalizar el entrenamiento, estableciendo metas realistas y optimizando la nutrición según la predisposición individual. Esto no solo maximiza la eficiencia del crecimiento muscular y el rendimiento deportivo, sino que también ayuda a prevenir lesiones y a mantener la motivación a largo plazo, impulsando la investigación en estrategias de entrenamiento y nutrición más efectivas.",
+      "section6Title":"Medidas estéticas",
+      "section6Desc":"Las medidas estéticas del cuerpo son importantes porque reflejan la percepción de la imagen corporal, influyendo en la autoestima, la confianza y el bienestar psicológico. Alcanzar ciertos estándares estéticos puede mejorar la satisfacción personal, fomentar hábitos saludables como el ejercicio y una dieta equilibrada, y promover interacciones sociales positivas. Aunque es crucial equilibrar la estética con la salud y evitar la obsesión, las medidas estéticas pueden servir como una motivación para el autocuidado y la búsqueda de una mejor calidad de vida.",
+      "section7Title":"Objetivos Personalizados",
+      "section7Desc":"Establece metas de nutrición y entrenamiento adaptadas a tus necesidades individuales, y monitoriza tu progreso a lo largo del tiempo. La aplicación te enviará recordatorios y motivación para mantenerte enfocado en tus objetivos.",
+      "section8Title":"Informes",
+      "section8Desc":"Genera informes sobre tu ingesta diaria, el progreso en tu composición corporal y tus hábitos alimenticios, brindándote información valiosa para realizar ajustes y mejorar tu enfoque hacia la salud."
+
+    },
     "howMeasurements": "Cómo tomar las medidas",
     "neck":"Cuello",
     "neckDesc":"Pasar la cinta métrica por debajo de la nuez de Adán en el punto más estrecho",
@@ -176,7 +198,11 @@
       "errorSelect":"Por favor, seleccione un menú",
       "desc":"Descripción del menú",
       "btnAdd":"Agregar",
-      "btnCancel":"Cancelar"
+      "btnCancel":"Cancelar",
+      "breakfast":"Desayuno",
+      "lunch": "Almuerzo",
+      "dinner": "Cena",
+      "snack": "Merienda"
     },
     "menuPlatoDialog":{
       "titleAdd":"Agregar Alimento",
@@ -279,6 +305,27 @@
     "obj2":"Ganar Músculo",
     "obj3":"Mantener el peso"
   }
+},
+"foodScreen":{
+  "errorRestart":"Deben eliminarse los alimentos de los menú",
+  "delete":"Eliminar",
+  "deleteConfirm":"Confirmar eliminación",
+  "deleteQuestion":"¿Está seguro de que desea eliminar el alimento {alimento}?",
+  "btnCancel" :"Cancelar",
+  "btnOk":"Confirmar",
+  "update":"Actualizar",
+  "updateConfirm":"Confirmar actualización",
+  "updateQuestion":"¿Está seguro de que desea reiniciar la base de datos de alimentos? Esta acción eliminará todos los alimentos existentes.",
+  "addFood":"Agregar Alimento",
+  "updateFood":"Actualizar Alimento",
+  "name":"Nombre",
+  "errorName":"Por favor ingresa el nombre del alimento.",
+  "add":"Agregar",
+  "foods":"Alimentos",
+  "search": "Buscar por nombre",
+  "sortBy": "Ordenar por",
+  "sortFinal":"endente",
+  "reloading": "Reiniciando alimentos..."
 }
 
 }

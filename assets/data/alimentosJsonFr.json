@@ -1,0 +1,6058 @@
+[
+  {
+    "Alimento": "Abadejo, Ahumado",
+    "Calorias": 116,
+    "Carbohidratos": 0,
+    "Proteinas": 25.23,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Abulon, cuit à la vapeur ou grimper",
+    "Calorias": 209,
+    "Carbohidratos": 11.97,
+    "Proteinas": 34.05,
+    "Grasas": 1.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Acedias frits",
+    "Calorias": 256,
+    "Carbohidratos": 12,
+    "Proteinas": 17,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile d'amande",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile d'arachide",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile de noix de coco",
+    "Calorias": 892,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 99.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile de tournesol",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile de maïs",
+    "Calorias": 900,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile de noix",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile d'olive",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile de sésame",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile de soja",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huile UVA, pepita",
+    "Calorias": 899,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Olives noires",
+    "Calorias": 105,
+    "Carbohidratos": 6.06,
+    "Proteinas": 0.88,
+    "Grasas": 9.54,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Olives vertes",
+    "Calorias": 145,
+    "Carbohidratos": 3.84,
+    "Proteinas": 1.03,
+    "Grasas": 15.32,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Olives vertes farcies",
+    "Calorias": 128,
+    "Carbohidratos": 4.02,
+    "Proteinas": 1.04,
+    "Grasas": 13.22,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Bette à carde",
+    "Calorias": 19,
+    "Carbohidratos": 3.74,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Acerrolas",
+    "Calorias": 31,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.4,
+    "Grasas": 0.3,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Habillage de césar",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Droit du miel et de la moutarde",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Vêtements de fromage bleu ou de roquefort",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Vinaigrette au yaourt",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Eau gazeuse et sucrée",
+    "Calorias": 34,
+    "Carbohidratos": 8.8,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Eau de printemps",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Avocat brut",
+    "Calorias": 160,
+    "Carbohidratos": 8.53,
+    "Proteinas": 2,
+    "Grasas": 14.66,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Ail brut",
+    "Calorias": 149,
+    "Carbohidratos": 33.06,
+    "Proteinas": 6.36,
+    "Grasas": 0.5,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Basilic brut",
+    "Calorias": 23,
+    "Carbohidratos": 2.65,
+    "Proteinas": 3.15,
+    "Grasas": 0.64,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Abricot brut",
+    "Calorias": 48,
+    "Carbohidratos": 11.12,
+    "Proteinas": 1.4,
+    "Grasas": 0.39,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Albaricoque, cuit ou en conserve, dans un sirop épais",
+    "Calorias": 83,
+    "Carbohidratos": 21.47,
+    "Proteinas": 0.53,
+    "Grasas": 0.08,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Albaricoque, sec, cru",
+    "Calorias": 241,
+    "Carbohidratos": 62.64,
+    "Proteinas": 3.39,
+    "Grasas": 0.51,
+    "Fibra": 7.3
+  },
+  {
+    "Alimento": "Boulettes de viande suédois avec de la crème ou de la sauce blanche",
+    "Calorias": 170,
+    "Carbohidratos": 7.22,
+    "Proteinas": 12.43,
+    "Grasas": 9.88,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Artichaut, cuit, en conserve, fait d'huile.",
+    "Calorias": 67,
+    "Carbohidratos": 8.89,
+    "Proteinas": 3.01,
+    "Grasas": 3.1,
+    "Fibra": 4.5
+  },
+  {
+    "Alimento": "Artichaut, cuit, frais, fait d'huile.",
+    "Calorias": 74,
+    "Carbohidratos": 11.57,
+    "Proteinas": 2.8,
+    "Grasas": 2.95,
+    "Fibra": 5.5
+  },
+  {
+    "Alimento": "Artichauts",
+    "Calorias": 23,
+    "Carbohidratos": 2.3,
+    "Proteinas": 2.9,
+    "Grasas": 0.2,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Ailes de poulet, grill",
+    "Calorias": 257,
+    "Carbohidratos": 0.6,
+    "Proteinas": 23.42,
+    "Grasas": 18.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Palourdes brutes / chirla",
+    "Calorias": 86,
+    "Carbohidratos": 3.57,
+    "Proteinas": 14.67,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Palourdes en conserve",
+    "Calorias": 108,
+    "Carbohidratos": 4.46,
+    "Proteinas": 18.34,
+    "Grasas": 1.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Amandes salées",
+    "Calorias": 601,
+    "Carbohidratos": 20.18,
+    "Proteinas": 20.13,
+    "Grasas": 53.43,
+    "Fibra": 10.5
+  },
+  {
+    "Alimento": "Amandes sans sel",
+    "Calorias": 607,
+    "Carbohidratos": 20.38,
+    "Proteinas": 20.33,
+    "Grasas": 53.96,
+    "Fibra": 10.6
+  },
+  {
+    "Alimento": "Amandes sans toast",
+    "Calorias": 579,
+    "Carbohidratos": 21.55,
+    "Proteinas": 21.15,
+    "Grasas": 49.93,
+    "Fibra": 12.5
+  },
+  {
+    "Alimento": "Blanc, en conserve, drainé, sans matières grasses",
+    "Calorias": 168,
+    "Carbohidratos": 30.91,
+    "Proteinas": 10.84,
+    "Grasas": 0.57,
+    "Fibra": 7.2
+  },
+  {
+    "Alimento": "Anacardier",
+    "Calorias": 609,
+    "Carbohidratos": 30.3,
+    "Proteinas": 12.12,
+    "Grasas": 53.03,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Rana Ancas, cuite à la vapeur",
+    "Calorias": 92,
+    "Carbohidratos": 0,
+    "Proteinas": 20.62,
+    "Grasas": 0.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Anchois en conserve",
+    "Calorias": 210,
+    "Carbohidratos": 0,
+    "Proteinas": 28.89,
+    "Grasas": 9.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Anguille",
+    "Calorias": 168,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Anguille ahumada",
+    "Calorias": 287,
+    "Carbohidratos": 0,
+    "Proteinas": 28.73,
+    "Grasas": 18.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Eagle cuit à la vapeur ou à l'escalade",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 14.66,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Angulas",
+    "Calorias": 205,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Anisette",
+    "Calorias": 297,
+    "Carbohidratos": 2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cloo cuit",
+    "Calorias": 44,
+    "Carbohidratos": 9.63,
+    "Proteinas": 1.57,
+    "Grasas": 0.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Céleri brut",
+    "Calorias": 16,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.69,
+    "Grasas": 0.17,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Bleuets bruts",
+    "Calorias": 57,
+    "Carbohidratos": 14.49,
+    "Proteinas": 0.74,
+    "Grasas": 0.33,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Bleuets secs",
+    "Calorias": 308,
+    "Carbohidratos": 82.8,
+    "Proteinas": 0.17,
+    "Grasas": 1.09,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Hareng brut",
+    "Calorias": 158,
+    "Carbohidratos": 0,
+    "Proteinas": 17.96,
+    "Grasas": 9.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sable sec",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Arenque, fumé",
+    "Calorias": 217,
+    "Carbohidratos": 0,
+    "Proteinas": 24.58,
+    "Grasas": 12.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Riz cuit avec du lait",
+    "Calorias": 143,
+    "Carbohidratos": 25.03,
+    "Proteinas": 5.06,
+    "Grasas": 2.21,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Riz intégral",
+    "Calorias": 357,
+    "Carbohidratos": 77,
+    "Proteinas": 7,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Riz poli, blanc",
+    "Calorias": 361,
+    "Carbohidratos": 87,
+    "Proteinas": 6,
+    "Grasas": 1,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Riz, blanc, cuit, sans ajouter de graisse lors de la cuisson",
+    "Calorias": 129,
+    "Carbohidratos": 27.99,
+    "Proteinas": 2.67,
+    "Grasas": 0.28,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Riz, intégral et sauvage, cuit, sans graisse ajoutée dans la cuisson",
+    "Calorias": 120,
+    "Carbohidratos": 24.9,
+    "Proteinas": 2.89,
+    "Grasas": 0.88,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Riz, sauvage cuit, sans graisse ajoutée dans la cuisson",
+    "Calorias": 100,
+    "Carbohidratos": 21.21,
+    "Proteinas": 3.97,
+    "Grasas": 0.34,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Thon fumé",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thon frais et cru",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 24.4,
+    "Grasas": 0.49,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thon, en conserve, avec de l'huile",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 29.13,
+    "Grasas": 8.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Noisette",
+    "Calorias": 628,
+    "Carbohidratos": 16.7,
+    "Proteinas": 14.95,
+    "Grasas": 60.75,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Gruau brut",
+    "Calorias": 379,
+    "Carbohidratos": 67.7,
+    "Proteinas": 13.15,
+    "Grasas": 6.52,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Farine d'avoine, son",
+    "Calorias": 25,
+    "Carbohidratos": 6.6,
+    "Proteinas": 1.7,
+    "Grasas": 0.7,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Autruche, cuite",
+    "Calorias": 174,
+    "Carbohidratos": 0,
+    "Proteinas": 25.93,
+    "Grasas": 7.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sucre, blanc, granulé ou morceau",
+    "Calorias": 387,
+    "Carbohidratos": 99.98,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sucre, blanc, pâtisserie, poudre",
+    "Calorias": 389,
+    "Carbohidratos": 99.77,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sucre, brun (Moreno)",
+    "Calorias": 380,
+    "Carbohidratos": 98.09,
+    "Proteinas": 0.12,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Morue fumée",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 23.91,
+    "Grasas": 0.64,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Morue ou grill au four, faite d'huile",
+    "Calorias": 117,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.68,
+    "Grasas": 4.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Morue cuite ou grillée, faite sans graisse",
+    "Calorias": 87,
+    "Carbohidratos": 0.1,
+    "Proteinas": 19.24,
+    "Grasas": 0.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Morue fraîche",
+    "Calorias": 76,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Morue salée, trempée",
+    "Calorias": 138,
+    "Carbohidratos": 0,
+    "Proteinas": 32,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Morue, sèche, salée",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 62.82,
+    "Grasas": 2.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lard",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Banane",
+    "Calorias": 89,
+    "Carbohidratos": 22.6,
+    "Proteinas": 1.08,
+    "Grasas": 0.34,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "MARS AMMAND BAR",
+    "Calorias": 467,
+    "Carbohidratos": 62.7,
+    "Proteinas": 8.1,
+    "Grasas": 23,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Snickers Bar",
+    "Calorias": 491,
+    "Carbohidratos": 61.51,
+    "Proteinas": 7.53,
+    "Grasas": 23.85,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Patate douce",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Batata, cuit, sans pelage, sans graisse ajoutée dans la cuisson",
+    "Calorias": 90,
+    "Carbohidratos": 20.63,
+    "Proteinas": 2,
+    "Grasas": 0.15,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Secousse au chocolat",
+    "Calorias": 366,
+    "Carbohidratos": 77,
+    "Proteinas": 6,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Milk Shake, bouteille, chocolat",
+    "Calorias": 150,
+    "Carbohidratos": 20.36,
+    "Proteinas": 3.7,
+    "Grasas": 6.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Avoine avec lait",
+    "Calorias": 82,
+    "Carbohidratos": 15.59,
+    "Proteinas": 1.69,
+    "Grasas": 1.57,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Boire à l'horchata, à base d'eau.",
+    "Calorias": 87,
+    "Carbohidratos": 20.48,
+    "Proteinas": 1.09,
+    "Grasas": 0.11,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Juice boisson / jus de fruits (Sunny D)",
+    "Calorias": 54,
+    "Carbohidratos": 13.16,
+    "Proteinas": 0.13,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Boisson sportive (Gatorade G)",
+    "Calorias": 26,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Drink (Powerade)",
+    "Calorias": 32,
+    "Carbohidratos": 7.84,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boisson énergétique (monstre)",
+    "Calorias": 47,
+    "Carbohidratos": 11.28,
+    "Proteinas": 0.47,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boisson énergétique (Red Bull)",
+    "Calorias": 43,
+    "Carbohidratos": 10.23,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boisson énergétique (rockstar)",
+    "Calorias": 58,
+    "Carbohidratos": 12.7,
+    "Proteinas": 0.34,
+    "Grasas": 0.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boisson énergétique sans sucre (Red Bull)",
+    "Calorias": 5,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boisson énergétique, faible en calories (monstre)",
+    "Calorias": 5,
+    "Carbohidratos": 1.38,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boisson énergétique, sans sucre (rockstar)",
+    "Calorias": 4,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Berobéres cuits",
+    "Calorias": 48,
+    "Carbohidratos": 0,
+    "Proteinas": 10.7,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Aubergine",
+    "Calorias": 25,
+    "Carbohidratos": 5.88,
+    "Proteinas": 0.98,
+    "Grasas": 0.18,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Aubergines, cuites, graisses non ajoutées dans la cuisson",
+    "Calorias": 35,
+    "Carbohidratos": 8.64,
+    "Proteinas": 0.82,
+    "Grasas": 0.23,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Cresson, cuit, frais, sans graisse ajoutée dans la cuisson",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Berro, brut",
+    "Calorias": 32,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.6,
+    "Grasas": 0.7,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Brème de mer",
+    "Calorias": 90,
+    "Carbohidratos": 0,
+    "Proteinas": 18.1,
+    "Grasas": 1.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bígaros cuits",
+    "Calorias": 135,
+    "Carbohidratos": 5,
+    "Proteinas": 26,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Biscotes bien",
+    "Calorias": 366,
+    "Carbohidratos": 73,
+    "Proteinas": 9,
+    "Grasas": 4,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Biscotes blé intégral",
+    "Calorias": 407,
+    "Carbohidratos": 62,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Bloody Mary",
+    "Calorias": 69,
+    "Carbohidratos": 3.16,
+    "Proteinas": 0.64,
+    "Grasas": 0.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Petits pains",
+    "Calorias": 387,
+    "Carbohidratos": 49,
+    "Proteinas": 5,
+    "Grasas": 20,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Chocolats médiatiques",
+    "Calorias": 458,
+    "Carbohidratos": 66,
+    "Proteinas": 5,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Patate douce",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Brandy",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bratwurst",
+    "Calorias": 333,
+    "Carbohidratos": 2.85,
+    "Proteinas": 13.72,
+    "Grasas": 29.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Breca (poisson blanc)",
+    "Calorias": 74,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Brrécol brut",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Brocoli brut",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Brocoli, cuit, congelé, sans ajouter de graisse lors de la cuisson",
+    "Calorias": 28,
+    "Carbohidratos": 5.32,
+    "Proteinas": 3.08,
+    "Grasas": 0.12,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Bouette de soja, cuite, fraîche, sans graisse ajoutée dans la cuisson",
+    "Calorias": 46,
+    "Carbohidratos": 5.15,
+    "Proteinas": 4.76,
+    "Grasas": 1.95,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Buts de soja, brut",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Buddine à la noix de coco",
+    "Calorias": 111,
+    "Carbohidratos": 17.37,
+    "Proteinas": 2.89,
+    "Grasas": 3.43,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Bouillabaisse",
+    "Calorias": 98,
+    "Carbohidratos": 2.15,
+    "Proteinas": 13.43,
+    "Grasas": 3.7,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Buñuelo français",
+    "Calorias": 412,
+    "Carbohidratos": 59.5,
+    "Proteinas": 3.1,
+    "Grasas": 18.3,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Buñuelo, banane",
+    "Calorias": 342,
+    "Carbohidratos": 34.43,
+    "Proteinas": 5.03,
+    "Grasas": 21.33,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Beignets de morue",
+    "Calorias": 278,
+    "Carbohidratos": 36.02,
+    "Proteinas": 15.32,
+    "Grasas": 7.45,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Beignets de maïs",
+    "Calorias": 394,
+    "Carbohidratos": 40.81,
+    "Proteinas": 8.24,
+    "Grasas": 22.57,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Burrito avec de la viande",
+    "Calorias": 242,
+    "Carbohidratos": 14.44,
+    "Proteinas": 13.03,
+    "Grasas": 14.48,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Burrito de poulet",
+    "Calorias": 242,
+    "Carbohidratos": 16.57,
+    "Proteinas": 16.9,
+    "Grasas": 12.01,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Burrito, taco ou quesadilla avec œuf",
+    "Calorias": 229,
+    "Carbohidratos": 19.69,
+    "Proteinas": 10.27,
+    "Grasas": 11.84,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Buttifarra",
+    "Calorias": 243,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 20,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Maquereau fumé",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Maquettel brut",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 19.08,
+    "Grasas": 11.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chevaux en conserve",
+    "Calorias": 156,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 6.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheval de chair",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chèvre cuit au four",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 26.87,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chèvre de chair",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chèvre frite",
+    "Calorias": 153,
+    "Carbohidratos": 0,
+    "Proteinas": 26.46,
+    "Grasas": 4.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chair",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Arachides financiers",
+    "Calorias": 567,
+    "Carbohidratos": 16.13,
+    "Proteinas": 25.8,
+    "Grasas": 49.24,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Arachides, rôties, salées",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Arachides, rôties, sans sel",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Poussière de cacao",
+    "Calorias": 357,
+    "Carbohidratos": 11,
+    "Proteinas": 20,
+    "Grasas": 24,
+    "Fibra": 38
+  },
+  {
+    "Alimento": "Café capucino",
+    "Calorias": 27,
+    "Carbohidratos": 2.7,
+    "Proteinas": 1.68,
+    "Grasas": 1.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café cubain",
+    "Calorias": 33,
+    "Carbohidratos": 7.86,
+    "Proteinas": 0.11,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café décaféiné",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0.1,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Exprimer le café",
+    "Calorias": 9,
+    "Carbohidratos": 1.67,
+    "Proteinas": 0.12,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café décaféiné",
+    "Calorias": 9,
+    "Carbohidratos": 1.69,
+    "Proteinas": 0.1,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Extraire le café, la poussière",
+    "Calorias": 82,
+    "Carbohidratos": 8,
+    "Proteinas": 11,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café à perfusion",
+    "Calorias": 2,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café instantané (poudre soluble)",
+    "Calorias": 100,
+    "Carbohidratos": 11,
+    "Proteinas": 15,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café irlandais",
+    "Calorias": 88,
+    "Carbohidratos": 2.03,
+    "Proteinas": 0.27,
+    "Grasas": 2.41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café torrefacto",
+    "Calorias": 183,
+    "Carbohidratos": 2,
+    "Proteinas": 13,
+    "Grasas": 13,
+    "Fibra": 66
+  },
+  {
+    "Alimento": "Café, café avec lait",
+    "Calorias": 39,
+    "Carbohidratos": 5.64,
+    "Proteinas": 1.64,
+    "Grasas": 1.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Café, café avec lait, décaféiné.",
+    "Calorias": 39,
+    "Carbohidratos": 5.72,
+    "Proteinas": 1.65,
+    "Grasas": 1.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Courgettes",
+    "Calorias": 14,
+    "Carbohidratos": 2.2,
+    "Proteinas": 0.6,
+    "Grasas": 0.2,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Citrouille, cuite, fraîche, graisse non ajoutée dans la cuisson",
+    "Calorias": 20,
+    "Carbohidratos": 4.88,
+    "Proteinas": 0.72,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Calmar brut",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Calmar en conserve",
+    "Calorias": 106,
+    "Carbohidratos": 3.54,
+    "Proteinas": 17.9,
+    "Grasas": 1.59,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bouillon de poisson, recette maison",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 2.26,
+    "Grasas": 0.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poulet ou bouillon de dinde, bouillon ou consommé",
+    "Calorias": 6,
+    "Carbohidratos": 0.44,
+    "Proteinas": 0.64,
+    "Grasas": 0.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bouillon de légumes, bouillon",
+    "Calorias": 5,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0.24,
+    "Grasas": 0.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Callosités, cuites",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 12.6,
+    "Grasas": 3.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Calzone, avec de la viande et du fromage.",
+    "Calorias": 348,
+    "Carbohidratos": 31.16,
+    "Proteinas": 14.28,
+    "Grasas": 18.24,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Crevettes cuites à la vapeur ou bouillies",
+    "Calorias": 91,
+    "Carbohidratos": 1.16,
+    "Proteinas": 17.37,
+    "Grasas": 1.29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canelones farcies de fromage et d'épinards, sans sauce",
+    "Calorias": 158,
+    "Carbohidratos": 17.41,
+    "Proteinas": 6.95,
+    "Grasas": 6.71,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Crabe de mer",
+    "Calorias": 124,
+    "Carbohidratos": 13.28,
+    "Proteinas": 19.5,
+    "Grasas": 5.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crabe de la rivière, bouillie ou cuite à la vapeur",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 16.66,
+    "Grasas": 1.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crabe en conserve",
+    "Calorias": 83,
+    "Carbohidratos": 0,
+    "Proteinas": 17.88,
+    "Grasas": 0.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crabe, cuit au four ou grillé, sans ajouter de graisse dans la cuisson",
+    "Calorias": 102,
+    "Carbohidratos": 0.1,
+    "Proteinas": 21.96,
+    "Grasas": 0.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Caha, brut",
+    "Calorias": 70,
+    "Carbohidratos": 18.59,
+    "Proteinas": 0.58,
+    "Grasas": 0.19,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Escargot terrestre",
+    "Calorias": 86,
+    "Carbohidratos": 2,
+    "Proteinas": 16,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chardon",
+    "Calorias": 21,
+    "Carbohidratos": 4,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Cheval à cheval",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de chèvre",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande pour enfants",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porc, gras",
+    "Calorias": 329,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porc, maigre",
+    "Calorias": 147,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de lapin",
+    "Calorias": 124,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande d'agneau, coupe",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande d'agneau, maigre",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de cordero, palette",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande d'agneau, jambe",
+    "Calorias": 240,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bœuf, queue de bœuf, cuit",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 30.8,
+    "Grasas": 13.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Venado viande / cerf rôti",
+    "Calorias": 190,
+    "Carbohidratos": 0,
+    "Proteinas": 36.08,
+    "Grasas": 3.93,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de mouton",
+    "Calorias": 235,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de veau, maigre",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de vache, coupe",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de vache, steak",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de vache, ragoût",
+    "Calorias": 176,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de vache, maigre",
+    "Calorias": 123,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Viande de vache, surlonge",
+    "Calorias": 272,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tente Ahumada",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 27.84,
+    "Grasas": 8.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tente cuite à la vapeur ou grimper",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 22.42,
+    "Grasas": 7.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tente, cuite ou rôti, graisse non ajoutée à la cuisson",
+    "Calorias": 160,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.46,
+    "Grasas": 7.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Châtaignes",
+    "Calorias": 245,
+    "Carbohidratos": 52.96,
+    "Proteinas": 3.17,
+    "Grasas": 2.2,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Caviar russe",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 25,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Orge",
+    "Calorias": 360,
+    "Carbohidratos": 84,
+    "Proteinas": 8,
+    "Grasas": 2,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Oignon",
+    "Calorias": 40,
+    "Carbohidratos": 9,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Ciboulette brute",
+    "Calorias": 30,
+    "Carbohidratos": 4.35,
+    "Proteinas": 3.27,
+    "Grasas": 0.73,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Centol",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porc, écorces de porc, cuites",
+    "Calorias": 468,
+    "Carbohidratos": 1.7,
+    "Proteinas": 33.92,
+    "Grasas": 35.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porc, longe, empanisé, frite",
+    "Calorias": 294,
+    "Carbohidratos": 15.22,
+    "Proteinas": 22,
+    "Grasas": 15.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Porc, longe, battu, frit",
+    "Calorias": 193,
+    "Carbohidratos": 7.57,
+    "Proteinas": 23.29,
+    "Grasas": 7.07,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Porc, surlonge, pour le ragoût",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 27.24,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Céréales (capos de maïs de Kellogg)",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Céréale (Kellogg Crispix)",
+    "Calorias": 378,
+    "Carbohidratos": 87.19,
+    "Proteinas": 6.59,
+    "Grasas": 0.8,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Céréale (Kellogg's All-Bran)",
+    "Calorias": 259,
+    "Carbohidratos": 74.24,
+    "Proteinas": 13.14,
+    "Grasas": 4.9,
+    "Fibra": 29.3
+  },
+  {
+    "Alimento": "Céréale (Kellogg's Cocoa Krispies)",
+    "Calorias": 389,
+    "Carbohidratos": 87.9,
+    "Proteinas": 4.6,
+    "Grasas": 2.7,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Céréale (Kellogg's Rice Krispies)",
+    "Calorias": 381,
+    "Carbohidratos": 85.05,
+    "Proteinas": 6.75,
+    "Grasas": 2.05,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Céréale (Kellogg's Special K)",
+    "Calorias": 377,
+    "Carbohidratos": 73.4,
+    "Proteinas": 17.79,
+    "Grasas": 1.79,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Céréale (Bran d'avoine croustillant Kellogg)",
+    "Calorias": 395,
+    "Carbohidratos": 70.3,
+    "Proteinas": 9.2,
+    "Grasas": 14.1,
+    "Fibra": 12.7
+  },
+  {
+    "Alimento": "Céréales (blé écrasé et son)",
+    "Calorias": 339,
+    "Carbohidratos": 80.65,
+    "Proteinas": 10.93,
+    "Grasas": 2.06,
+    "Fibra": 14.7
+  },
+  {
+    "Alimento": "Céréale (weetabix entier à grain)",
+    "Calorias": 371,
+    "Carbohidratos": 81.5,
+    "Proteinas": 11.43,
+    "Grasas": 2.86,
+    "Fibra": 11.4
+  },
+  {
+    "Alimento": "Céréales, riz croquant",
+    "Calorias": 394,
+    "Carbohidratos": 86.22,
+    "Proteinas": 6.69,
+    "Grasas": 1.26,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Céréales et riz gonflé",
+    "Calorias": 383,
+    "Carbohidratos": 87.78,
+    "Proteinas": 7.01,
+    "Grasas": 0.9,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Céréales, avoine grillée",
+    "Calorias": 357,
+    "Carbohidratos": 75.5,
+    "Proteinas": 10.71,
+    "Grasas": 5.36,
+    "Fibra": 10.7
+  },
+  {
+    "Alimento": "Céréales, Mueli",
+    "Calorias": 355,
+    "Carbohidratos": 74.9,
+    "Proteinas": 8.6,
+    "Grasas": 5.4,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Céréales, gonflées, sucrées",
+    "Calorias": 380,
+    "Carbohidratos": 88.5,
+    "Proteinas": 5.7,
+    "Grasas": 2.2,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Céréal et blé gonflé",
+    "Calorias": 366,
+    "Carbohidratos": 76.39,
+    "Proteinas": 16.26,
+    "Grasas": 2.15,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Céréales de cornflakes",
+    "Calorias": 378,
+    "Carbohidratos": 84,
+    "Proteinas": 7,
+    "Grasas": 0,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Céréales, flocons de maïs",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Cerises",
+    "Calorias": 50,
+    "Carbohidratos": 12.18,
+    "Proteinas": 1,
+    "Grasas": 0.3,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Cerises surgelées",
+    "Calorias": 46,
+    "Carbohidratos": 11.02,
+    "Proteinas": 0.92,
+    "Grasas": 0.44,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Bière",
+    "Calorias": 43,
+    "Carbohidratos": 3.55,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bière à faible teneur en glucides",
+    "Calorias": 27,
+    "Carbohidratos": 0.73,
+    "Proteinas": 0.17,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ceviche",
+    "Calorias": 62,
+    "Carbohidratos": 3.58,
+    "Proteinas": 10.34,
+    "Grasas": 0.75,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Champagne",
+    "Calorias": 84,
+    "Carbohidratos": 3,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Champignons bruts",
+    "Calorias": 22,
+    "Carbohidratos": 3.26,
+    "Proteinas": 3.09,
+    "Grasas": 0.34,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Champignons, cuits, à base d'huile",
+    "Calorias": 52,
+    "Carbohidratos": 5.11,
+    "Proteinas": 2.1,
+    "Grasas": 3.27,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Champignons, crème fraîche",
+    "Calorias": 81,
+    "Carbohidratos": 7.01,
+    "Proteinas": 2.91,
+    "Grasas": 4.98,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Chanquets",
+    "Calorias": 79,
+    "Carbohidratos": 2,
+    "Proteinas": 11,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage Cheetes, bonbons",
+    "Calorias": 158,
+    "Carbohidratos": 15,
+    "Proteinas": 2,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pois, cuits, frais, sans graisse ajoutée dans la cuisson",
+    "Calorias": 110,
+    "Carbohidratos": 19.36,
+    "Proteinas": 5.92,
+    "Grasas": 1.35,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Chicharrones",
+    "Calorias": 540,
+    "Carbohidratos": 1,
+    "Proteinas": 20,
+    "Grasas": 51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chili aux haricots sans viande",
+    "Calorias": 42,
+    "Carbohidratos": 8.19,
+    "Proteinas": 2.39,
+    "Grasas": 0.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Chili avec de la viande avec des haricots",
+    "Calorias": 104,
+    "Carbohidratos": 10.71,
+    "Proteinas": 6.88,
+    "Grasas": 3.81,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Pomme de crème",
+    "Calorias": 75,
+    "Carbohidratos": 18,
+    "Proteinas": 1.2,
+    "Grasas": 0.6,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Chirivías, cuit, sans graisse ajoutée dans la cuisson",
+    "Calorias": 71,
+    "Carbohidratos": 16.9,
+    "Proteinas": 1.31,
+    "Grasas": 0.3,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Chirivías, crème",
+    "Calorias": 105,
+    "Carbohidratos": 13.5,
+    "Proteinas": 2.44,
+    "Grasas": 4.89,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Chocolat blanc",
+    "Calorias": 539,
+    "Carbohidratos": 59.24,
+    "Proteinas": 5.87,
+    "Grasas": 32.09,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Chocolat blanc avec amandes",
+    "Calorias": 547,
+    "Carbohidratos": 53.15,
+    "Proteinas": 8.2,
+    "Grasas": 35.15,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Chocolat au lait",
+    "Calorias": 550,
+    "Carbohidratos": 56,
+    "Proteinas": 6,
+    "Grasas": 34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chocolat sucré ou noir",
+    "Calorias": 528,
+    "Carbohidratos": 60.18,
+    "Proteinas": 4.5,
+    "Grasas": 33.2,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Chocolat sucré ou noir, avec des amandes.",
+    "Calorias": 553,
+    "Carbohidratos": 56.48,
+    "Proteinas": 6.55,
+    "Grasas": 33.81,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Chocolat sans lait",
+    "Calorias": 530,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saucisse",
+    "Calorias": 455,
+    "Carbohidratos": 1.86,
+    "Proteinas": 24.1,
+    "Grasas": 38.27,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saucisse de saucisse au fromage",
+    "Calorias": 402,
+    "Carbohidratos": 0.4,
+    "Proteinas": 15.76,
+    "Grasas": 36.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hop de porc, rôti ou cuit au four",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chop de porc, empanada ou farine",
+    "Calorias": 239,
+    "Carbohidratos": 8.4,
+    "Proteinas": 26.87,
+    "Grasas": 10.21,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Hop de porc, ragoût, maigre et gras",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chop de porc, frite, maigre et graisseuse",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chop de porc, battu, frite, maigre et gras",
+    "Calorias": 281,
+    "Carbohidratos": 12.78,
+    "Proteinas": 22.6,
+    "Grasas": 14.97,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Veau frit, maigre et gras",
+    "Calorias": 238,
+    "Carbohidratos": 9.91,
+    "Proteinas": 27.29,
+    "Grasas": 9.18,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Ternera, rôti, maigre et gras chuleta",
+    "Calorias": 215,
+    "Carbohidratos": 0,
+    "Proteinas": 24.59,
+    "Grasas": 12.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Churros",
+    "Calorias": 481,
+    "Carbohidratos": 49.8,
+    "Proteinas": 3.02,
+    "Grasas": 30.58,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Écrevisse",
+    "Calorias": 67,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 0.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Coriandre brute",
+    "Calorias": 23,
+    "Carbohidratos": 3.67,
+    "Proteinas": 2.13,
+    "Grasas": 0.52,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Prune cru",
+    "Calorias": 46,
+    "Carbohidratos": 11.42,
+    "Proteinas": 0.7,
+    "Grasas": 0.28,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "PASAS ACHAYAS, PAPILLAS, COLADAS",
+    "Calorias": 100,
+    "Carbohidratos": 23.52,
+    "Proteinas": 1,
+    "Grasas": 0.2,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Noix de coco frais",
+    "Calorias": 354,
+    "Carbohidratos": 15.23,
+    "Proteinas": 3.33,
+    "Grasas": 33.49,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Cocktail bacardí",
+    "Calorias": 123,
+    "Carbohidratos": 16.11,
+    "Proteinas": 0.08,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Caille, cuite",
+    "Calorias": 226,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 14.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bouclé, cuit, frais",
+    "Calorias": 28,
+    "Carbohidratos": 5.59,
+    "Proteinas": 1.88,
+    "Grasas": 0.4,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Bruxelles, cuite, chou frais",
+    "Calorias": 36,
+    "Carbohidratos": 7.06,
+    "Proteinas": 2.53,
+    "Grasas": 0.5,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Cabbage de Bruxelles, brut",
+    "Calorias": 43,
+    "Carbohidratos": 8.95,
+    "Proteinas": 3.38,
+    "Grasas": 0.3,
+    "Fibra": 3.8
+  },
+  {
+    "Alimento": "Chou-fleur cuit",
+    "Calorias": 23,
+    "Carbohidratos": 4.08,
+    "Proteinas": 1.82,
+    "Grasas": 0.45,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "!!!>>> Unexpected token '<', \"<html lang\"... is not valid JSON <<<!!!",
+    "Calorias": 25,
+    "Carbohidratos": 4.97,
+    "Proteinas": 1.92,
+    "Grasas": 0.28,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Chou-fleur en flèche, frite",
+    "Calorias": 216,
+    "Carbohidratos": 14.46,
+    "Proteinas": 3.91,
+    "Grasas": 16.28,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Colinabo brut",
+    "Calorias": 27,
+    "Carbohidratos": 6.2,
+    "Proteinas": 1.7,
+    "Grasas": 0.1,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Lapin cuit",
+    "Calorias": 210,
+    "Carbohidratos": 6.85,
+    "Proteinas": 17.18,
+    "Grasas": 12.44,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Lapin, sauvage, cuit",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 32.88,
+    "Grasas": 3.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Congre",
+    "Calorias": 102,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Congitos",
+    "Calorias": 510,
+    "Carbohidratos": 50.1,
+    "Proteinas": 11.7,
+    "Grasas": 29.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cognac",
+    "Calorias": 232,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Agneau du cœur",
+    "Calorias": 119,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Coeur de bœuf",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "!!!>>> Unexpected token '<', \"<html lang\"... is not valid JSON <<<!!!",
+    "Calorias": 265,
+    "Carbohidratos": 0,
+    "Proteinas": 23.83,
+    "Grasas": 18.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Agneau, côtes",
+    "Calorias": 358,
+    "Carbohidratos": 0,
+    "Proteinas": 21.95,
+    "Grasas": 29.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Agneau, longe",
+    "Calorias": 313,
+    "Carbohidratos": 0,
+    "Proteinas": 24.96,
+    "Grasas": 22.89,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Agneau, palette",
+    "Calorias": 274,
+    "Carbohidratos": 0,
+    "Proteinas": 22.32,
+    "Grasas": 19.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Écorce en cuir de porc",
+    "Calorias": 544,
+    "Carbohidratos": 0,
+    "Proteinas": 61.3,
+    "Grasas": 31.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corvina, cuite à la vapeur ou pas",
+    "Calorias": 131,
+    "Carbohidratos": 0,
+    "Proteinas": 22.36,
+    "Grasas": 3.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corvina, cuite ou rôti, graisse non ajoutée à la cuisson",
+    "Calorias": 131,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.4,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crème au chocolat avec noisette",
+    "Calorias": 549,
+    "Carbohidratos": 60.5,
+    "Proteinas": 6.2,
+    "Grasas": 33,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Crème de lait, Chantilly",
+    "Calorias": 331,
+    "Carbohidratos": 10,
+    "Proteinas": 2,
+    "Grasas": 31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crêpe, lisse",
+    "Calorias": 223,
+    "Carbohidratos": 21.72,
+    "Proteinas": 8.74,
+    "Grasas": 10.95,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Croissant, chocolat",
+    "Calorias": 421,
+    "Carbohidratos": 49.4,
+    "Proteinas": 7.4,
+    "Grasas": 22.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Croissant, fromage",
+    "Calorias": 414,
+    "Carbohidratos": 47,
+    "Proteinas": 9.2,
+    "Grasas": 20.9,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Croquette jambon",
+    "Calorias": 273,
+    "Carbohidratos": 2.58,
+    "Proteinas": 17.98,
+    "Grasas": 20.7,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Caillé",
+    "Calorias": 94,
+    "Carbohidratos": 6.7,
+    "Proteinas": 4.8,
+    "Grasas": 5.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cubes de soupe",
+    "Calorias": 154,
+    "Carbohidratos": 8,
+    "Proteinas": 23,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Daiquiri",
+    "Calorias": 119,
+    "Carbohidratos": 15.65,
+    "Proteinas": 0.09,
+    "Grasas": 0.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Dates",
+    "Calorias": 282,
+    "Carbohidratos": 75.3,
+    "Proteinas": 2.45,
+    "Grasas": 0.39,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Dent de lion vert, cru",
+    "Calorias": 45,
+    "Carbohidratos": 9.2,
+    "Proteinas": 2.7,
+    "Grasas": 0.7,
+    "Fibra": 3.5
+  },
+  {
+    "Alimento": "Doré",
+    "Calorias": 140,
+    "Carbohidratos": 0,
+    "Proteinas": 20.82,
+    "Grasas": 6.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Empereur",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Empereur grillé",
+    "Calorias": 177,
+    "Carbohidratos": 0.49,
+    "Proteinas": 23.8,
+    "Grasas": 8.23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cornichons, mélangés",
+    "Calorias": 137,
+    "Carbohidratos": 36.94,
+    "Proteinas": 0.39,
+    "Grasas": 0.5,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Endibias",
+    "Calorias": 25,
+    "Carbohidratos": 3.6,
+    "Proteinas": 1.5,
+    "Grasas": 0.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Poulet César ou salade de dinde, tomate, fromage, sans vinaigrette",
+    "Calorias": 65,
+    "Carbohidratos": 2.56,
+    "Proteinas": 9.55,
+    "Grasas": 1.88,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Salade de César, avec laitue romaine, sans vinaigrette",
+    "Calorias": 71,
+    "Carbohidratos": 6,
+    "Proteinas": 4.77,
+    "Grasas": 3.41,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Salade de thon d'oeuf",
+    "Calorias": 191,
+    "Carbohidratos": 2.63,
+    "Proteinas": 10.53,
+    "Grasas": 15.41,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Thon avec salade de fromage",
+    "Calorias": 214,
+    "Carbohidratos": 2.8,
+    "Proteinas": 11.54,
+    "Grasas": 17.52,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Asperges cuites",
+    "Calorias": 18,
+    "Carbohidratos": 1.91,
+    "Proteinas": 2.93,
+    "Grasas": 0.42,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Asperges brutes",
+    "Calorias": 20,
+    "Carbohidratos": 3.88,
+    "Proteinas": 2.2,
+    "Grasas": 0.12,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Asperges en conserve (conserves)",
+    "Calorias": 24,
+    "Carbohidratos": 3.4,
+    "Proteinas": 1.9,
+    "Grasas": 0.3,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Épinards cuits",
+    "Calorias": 23,
+    "Carbohidratos": 3.39,
+    "Proteinas": 2.8,
+    "Grasas": 0.5,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Épinards à la crème fraîche",
+    "Calorias": 74,
+    "Carbohidratos": 5.96,
+    "Proteinas": 3.32,
+    "Grasas": 4.5,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Épinards bruts",
+    "Calorias": 23,
+    "Carbohidratos": 3.63,
+    "Proteinas": 2.86,
+    "Grasas": 0.39,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Sturgeon fumé",
+    "Calorias": 173,
+    "Carbohidratos": 0,
+    "Proteinas": 31.2,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sturgeon cuit à la vapeur",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 20.3,
+    "Grasas": 5.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Extrait de levure",
+    "Calorias": 185,
+    "Carbohidratos": 20.42,
+    "Proteinas": 23.88,
+    "Grasas": 0.9,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Cuisine Pheasan",
+    "Calorias": 238,
+    "Carbohidratos": 0,
+    "Proteinas": 32.26,
+    "Grasas": 12.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Faneca (poisson blanc)",
+    "Calorias": 76,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Filet de poulet grillé",
+    "Calorias": 145,
+    "Carbohidratos": 2.37,
+    "Proteinas": 22.24,
+    "Grasas": 5.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Empanate Poulet Filet",
+    "Calorias": 240,
+    "Carbohidratos": 14.86,
+    "Proteinas": 14.62,
+    "Grasas": 13.58,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Porc, grill ou steak ou hachage cuit au four",
+    "Calorias": 239,
+    "Carbohidratos": 0.06,
+    "Proteinas": 22.96,
+    "Grasas": 15.86,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chop de filet ou de porc, battu, frite, maigre et gras",
+    "Calorias": 271,
+    "Carbohidratos": 7.62,
+    "Proteinas": 19.87,
+    "Grasas": 17.53,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Filet suisse",
+    "Calorias": 131,
+    "Carbohidratos": 3.55,
+    "Proteinas": 10.82,
+    "Grasas": 8.05,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Viol",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Flan",
+    "Calorias": 177,
+    "Carbohidratos": 29.04,
+    "Proteinas": 5.22,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chartan brut",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.56,
+    "Grasas": 1.33,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fletan, fumé",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 44.61,
+    "Grasas": 3.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Foie gras",
+    "Calorias": 444,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Framboises, congelées, sans sucre",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Framboises, brutes",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Frankfurter, Wiener ou Hot Dog",
+    "Calorias": 332,
+    "Carbohidratos": 3.13,
+    "Proteinas": 12.3,
+    "Grasas": 29.58,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fraises surgelées, sans sucre",
+    "Calorias": 35,
+    "Carbohidratos": 9.13,
+    "Proteinas": 0.43,
+    "Grasas": 0.11,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Fraises brutes",
+    "Calorias": 32,
+    "Carbohidratos": 7.68,
+    "Proteinas": 0.67,
+    "Grasas": 0.3,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Haricot mugo sans graisse ajoutée dans la cuisson",
+    "Calorias": 104,
+    "Carbohidratos": 19.06,
+    "Proteinas": 6.98,
+    "Grasas": 0.38,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Haricots jaunes sans ajouter de graisse lors de la cuisson",
+    "Calorias": 143,
+    "Carbohidratos": 25.14,
+    "Proteinas": 9.11,
+    "Grasas": 1.07,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Haricots blancs sans graisse ajoutée dans la cuisson",
+    "Calorias": 138,
+    "Carbohidratos": 24.95,
+    "Proteinas": 9.68,
+    "Grasas": 0.35,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Haricots de Lima sans graisse ajoutée dans la cuisson",
+    "Calorias": 114,
+    "Carbohidratos": 20.77,
+    "Proteinas": 7.76,
+    "Grasas": 0.38,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Haricots mexicains pintos sans graisse ajoutée dans la cuisson",
+    "Calorias": 142,
+    "Carbohidratos": 26.07,
+    "Proteinas": 8.96,
+    "Grasas": 0.65,
+    "Fibra": 8.9
+  },
+  {
+    "Alimento": "Haricots noirs, brun ou baie sans ajouter de matières grasses lors de la cuisson",
+    "Calorias": 131,
+    "Carbohidratos": 23.58,
+    "Proteinas": 8.81,
+    "Grasas": 0.54,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Haricots rouges sans graisse ajoutée dans la cuisson",
+    "Calorias": 126,
+    "Carbohidratos": 22.67,
+    "Proteinas": 8.62,
+    "Grasas": 0.5,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Haricots roses sans graisse ajoutée dans la cuisson",
+    "Calorias": 148,
+    "Carbohidratos": 27.75,
+    "Proteinas": 9.01,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Haricots verts cuits, sans graisse ajoutée à la cuisson",
+    "Calorias": 68,
+    "Carbohidratos": 13.52,
+    "Proteinas": 4.09,
+    "Grasas": 0.39,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Biscuit de la noix de coco",
+    "Calorias": 460,
+    "Carbohidratos": 61.22,
+    "Proteinas": 3.02,
+    "Grasas": 22.55,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Biscuit au beurre",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Biscuit au gingembre",
+    "Calorias": 416,
+    "Carbohidratos": 76.9,
+    "Proteinas": 5.6,
+    "Grasas": 9.8,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Biscuit, amande",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Biscuit, floc",
+    "Calorias": 450,
+    "Carbohidratos": 68.7,
+    "Proteinas": 6.2,
+    "Grasas": 18.1,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Cookie, passer",
+    "Calorias": 401,
+    "Carbohidratos": 68,
+    "Proteinas": 4.1,
+    "Grasas": 13.6,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Biscuits salada",
+    "Calorias": 418,
+    "Carbohidratos": 74.05,
+    "Proteinas": 9.46,
+    "Grasas": 8.64,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Coq",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 15.8,
+    "Grasas": 1.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crevettes ajillo",
+    "Calorias": 195,
+    "Carbohidratos": 1.77,
+    "Proteinas": 19.7,
+    "Grasas": 11.73,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Crevettes cuites",
+    "Calorias": 96,
+    "Carbohidratos": 0,
+    "Proteinas": 19.8,
+    "Grasas": 1.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Oie, sauvage, rôti",
+    "Calorias": 304,
+    "Carbohidratos": 0,
+    "Proteinas": 25.06,
+    "Grasas": 21.83,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pois chiches sans graisse ajoutés dans la cuisson",
+    "Calorias": 163,
+    "Carbohidratos": 27.25,
+    "Proteinas": 8.81,
+    "Grasas": 2.57,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Gatorade",
+    "Calorias": 39,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gazpacho",
+    "Calorias": 37,
+    "Carbohidratos": 3.84,
+    "Proteinas": 0.86,
+    "Grasas": 2.35,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Germe de blé",
+    "Calorias": 382,
+    "Carbohidratos": 49.6,
+    "Proteinas": 29.1,
+    "Grasas": 10.7,
+    "Fibra": 15.1
+  },
+  {
+    "Alimento": "Gin et tonique",
+    "Calorias": 84,
+    "Carbohidratos": 6.57,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Genève",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gofio Millo",
+    "Calorias": 377,
+    "Carbohidratos": 83,
+    "Proteinas": 6,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blé gofio",
+    "Calorias": 371,
+    "Carbohidratos": 82,
+    "Proteinas": 11,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Grenade",
+    "Calorias": 34,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.7,
+    "Grasas": 0.1,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Grelos",
+    "Calorias": 11,
+    "Carbohidratos": 0.1,
+    "Proteinas": 2.7,
+    "Grasas": 0,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Groseilles brutes",
+    "Calorias": 56,
+    "Carbohidratos": 13.8,
+    "Proteinas": 1.4,
+    "Grasas": 0.2,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Pimes en conserve (conserves)",
+    "Calorias": 67,
+    "Carbohidratos": 9.7,
+    "Proteinas": 5.6,
+    "Grasas": 0.5,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Pois, cuits, frais, sans graisse ajoutée dans la cuisson",
+    "Calorias": 126,
+    "Carbohidratos": 18.8,
+    "Proteinas": 5.76,
+    "Grasas": 3.47,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Pois, crème fraîche",
+    "Calorias": 111,
+    "Carbohidratos": 12.78,
+    "Proteinas": 4.69,
+    "Grasas": 4.78,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Guisantes, verte, brut",
+    "Calorias": 81,
+    "Carbohidratos": 14.45,
+    "Proteinas": 5.42,
+    "Grasas": 0.4,
+    "Fibra": 5.7
+  },
+  {
+    "Alimento": "Haricots secs",
+    "Calorias": 343,
+    "Carbohidratos": 59,
+    "Proteinas": 23,
+    "Grasas": 1.5,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Hamburger fait maison",
+    "Calorias": 220,
+    "Carbohidratos": 16.76,
+    "Proteinas": 13.8,
+    "Grasas": 10.5,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Cheese Hamburger (Burger King Cheeseburger)",
+    "Calorias": 270,
+    "Carbohidratos": 25.46,
+    "Proteinas": 13.49,
+    "Grasas": 12.9,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Burgers au fromage (hurger King Whoopper avec du fromage)",
+    "Calorias": 268,
+    "Carbohidratos": 17.73,
+    "Proteinas": 13.69,
+    "Grasas": 15.8,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Fromage Hamburger (Burger King Whoopper Jr. avec du fromage)",
+    "Calorias": 225,
+    "Carbohidratos": 18.11,
+    "Proteinas": 11.2,
+    "Grasas": 11.88,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Cheese Hamburger (McDonald's Double Cheeseburger)",
+    "Calorias": 282,
+    "Carbohidratos": 17.97,
+    "Proteinas": 16.24,
+    "Grasas": 16.18,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Hamburger au fromage (quart de quart de McDonald's avec fromage)",
+    "Calorias": 269,
+    "Carbohidratos": 19.72,
+    "Proteinas": 15.21,
+    "Grasas": 14.4,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Gruau",
+    "Calorias": 401,
+    "Carbohidratos": 73,
+    "Proteinas": 12,
+    "Grasas": 9,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Farine de centeno",
+    "Calorias": 303,
+    "Carbohidratos": 68,
+    "Proteinas": 7,
+    "Grasas": 1,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Farine de maïs",
+    "Calorias": 422,
+    "Carbohidratos": 90,
+    "Proteinas": 8,
+    "Grasas": 4.5,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Farine de soja",
+    "Calorias": 447,
+    "Carbohidratos": 24,
+    "Proteinas": 37,
+    "Grasas": 24,
+    "Fibra": 12
+  },
+  {
+    "Alimento": "Farine de blé, intégrale",
+    "Calorias": 318,
+    "Carbohidratos": 66,
+    "Proteinas": 13,
+    "Grasas": 2,
+    "Fibra": 10
+  },
+  {
+    "Alimento": "Farine de blé, cuit au four",
+    "Calorias": 337,
+    "Carbohidratos": 75,
+    "Proteinas": 11,
+    "Grasas": 1,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Congelé",
+    "Calorias": 209,
+    "Carbohidratos": 21,
+    "Proteinas": 4,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Glace aux fruits",
+    "Calorias": 140,
+    "Carbohidratos": 29,
+    "Proteinas": 2,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Foie de porc",
+    "Calorias": 120,
+    "Carbohidratos": 1,
+    "Proteinas": 21.4,
+    "Grasas": 3.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Foie de poulet",
+    "Calorias": 137,
+    "Carbohidratos": 1.2,
+    "Proteinas": 22.1,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Foie de veau",
+    "Calorias": 132,
+    "Carbohidratos": 1.6,
+    "Proteinas": 20.5,
+    "Grasas": 4.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Figues",
+    "Calorias": 74,
+    "Carbohidratos": 19.18,
+    "Proteinas": 0.75,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Figs secs",
+    "Calorias": 213,
+    "Carbohidratos": 53,
+    "Proteinas": 4,
+    "Grasas": 0,
+    "Fibra": 18
+  },
+  {
+    "Alimento": "Feuilles de chardon, cuites, sans graisse ajoutée à la cuisson",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Roe Arenque",
+    "Calorias": 143,
+    "Carbohidratos": 1.5,
+    "Proteinas": 22.32,
+    "Grasas": 6.42,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Omniprésente des esturgeons",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 24.6,
+    "Grasas": 17.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Œuf dur",
+    "Calorias": 145,
+    "Carbohidratos": 0.3,
+    "Proteinas": 12.5,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Œuf entier cru",
+    "Calorias": 143,
+    "Carbohidratos": 0.72,
+    "Proteinas": 12.56,
+    "Grasas": 9.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pliant un œuf entier avec de l'huile.",
+    "Calorias": 215,
+    "Carbohidratos": 0.76,
+    "Proteinas": 13.27,
+    "Grasas": 17.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Œuf, seulement clair, cru",
+    "Calorias": 52,
+    "Carbohidratos": 0.73,
+    "Proteinas": 10.9,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Œuf, yem en solo",
+    "Calorias": 322,
+    "Carbohidratos": 3.59,
+    "Proteinas": 15.86,
+    "Grasas": 26.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Houmous",
+    "Calorias": 260,
+    "Carbohidratos": 19.86,
+    "Proteinas": 8.18,
+    "Grasas": 17.78,
+    "Fibra": 5.9
+  },
+  {
+    "Alimento": "Jambon blanc",
+    "Calorias": 114,
+    "Carbohidratos": 0.4,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jambon de dinde, pré-endage ou charcuterie",
+    "Calorias": 124,
+    "Carbohidratos": 2.93,
+    "Proteinas": 19.6,
+    "Grasas": 3.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jambon de serrano",
+    "Calorias": 241,
+    "Carbohidratos": 0,
+    "Proteinas": 31,
+    "Grasas": 13,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jambon, fumé ou durci, en conserve",
+    "Calorias": 132,
+    "Carbohidratos": 1,
+    "Proteinas": 17.46,
+    "Grasas": 6.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jambon, pré-profondément ou charcer, sodium froid, sodium réduit",
+    "Calorias": 107,
+    "Carbohidratos": 0.7,
+    "Proteinas": 16.85,
+    "Grasas": 4.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Haricots blancs secs / haricots blancs séchés",
+    "Calorias": 272,
+    "Carbohidratos": 41.6,
+    "Proteinas": 22.2,
+    "Grasas": 1.3,
+    "Fibra": 19.7
+  },
+  {
+    "Alimento": "Jus / clovery tuel",
+    "Calorias": 18,
+    "Carbohidratos": 4,
+    "Proteinas": 0.83,
+    "Grasas": 0.16,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Jus de jus / myrtille, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 12.2,
+    "Proteinas": 0.39,
+    "Grasas": 0.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Jus de jus / prune, 100%",
+    "Calorias": 71,
+    "Carbohidratos": 17.45,
+    "Proteinas": 0.61,
+    "Grasas": 0.03,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Jus / jus de noix de coco",
+    "Calorias": 31,
+    "Carbohidratos": 2.92,
+    "Proteinas": 0.21,
+    "Grasas": 2.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jus de fraise / jus, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Jus de granade / jus, 100%",
+    "Calorias": 54,
+    "Carbohidratos": 13.13,
+    "Proteinas": 0.15,
+    "Grasas": 0.29,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Jus / jus de citron vert, 100%",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Jus / jus de citron, 100%",
+    "Calorias": 22,
+    "Carbohidratos": 6.9,
+    "Proteinas": 0.35,
+    "Grasas": 0.24,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Jus de jus / mandarine, 100%",
+    "Calorias": 43,
+    "Carbohidratos": 10.1,
+    "Proteinas": 0.5,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Jus de pomme / jus, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Jus de maracuyá / jus, 100%",
+    "Calorias": 51,
+    "Carbohidratos": 13.6,
+    "Proteinas": 0.39,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Jus de jus / mora, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Jus d'orange / jus, 100%",
+    "Calorias": 48,
+    "Carbohidratos": 11.45,
+    "Proteinas": 0.68,
+    "Grasas": 0.12,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Jus de papaye / jus, 100%",
+    "Calorias": 57,
+    "Carbohidratos": 14.51,
+    "Proteinas": 0.17,
+    "Grasas": 0.15,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Jus d'ananas / jus, 100%",
+    "Calorias": 53,
+    "Carbohidratos": 12.87,
+    "Proteinas": 0.36,
+    "Grasas": 0.12,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Jus de jus / sandia, 100%",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Jus de tomate / jus, 100%",
+    "Calorias": 17,
+    "Carbohidratos": 3.53,
+    "Proteinas": 0.85,
+    "Grasas": 0.29,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Jus / jus de raisin, 100%",
+    "Calorias": 60,
+    "Carbohidratos": 14.77,
+    "Proteinas": 0.37,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Jus / jus de carotte, 100%",
+    "Calorias": 40,
+    "Carbohidratos": 9.28,
+    "Proteinas": 0.95,
+    "Grasas": 0.15,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Maquereau",
+    "Calorias": 112,
+    "Carbohidratos": 0.8,
+    "Proteinas": 15.4,
+    "Grasas": 5.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kéfir",
+    "Calorias": 52,
+    "Carbohidratos": 7.34,
+    "Proteinas": 3.59,
+    "Grasas": 0.92,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ketchup",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Kiwi brut",
+    "Calorias": 61,
+    "Carbohidratos": 14.66,
+    "Proteinas": 1.14,
+    "Grasas": 0.52,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Homard, cuit à la vapeur ou bouilli",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.3,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Crevette",
+    "Calorias": 93,
+    "Carbohidratos": 0,
+    "Proteinas": 20.1,
+    "Grasas": 1.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait à moitié (1%) à moitié",
+    "Calorias": 42,
+    "Carbohidratos": 4.99,
+    "Proteinas": 3.37,
+    "Grasas": 0.97,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait à moitié (2%) à moitié",
+    "Calorias": 50,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.3,
+    "Grasas": 1.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait condensé et sucré",
+    "Calorias": 321,
+    "Carbohidratos": 54.4,
+    "Proteinas": 7.91,
+    "Grasas": 8.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait d'amande, sucré",
+    "Calorias": 38,
+    "Carbohidratos": 6.59,
+    "Proteinas": 0.42,
+    "Grasas": 1.04,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Lait d'amande, sans sucre",
+    "Calorias": 15,
+    "Carbohidratos": 0.58,
+    "Proteinas": 0.59,
+    "Grasas": 1.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait de riz",
+    "Calorias": 47,
+    "Carbohidratos": 9.17,
+    "Proteinas": 0.28,
+    "Grasas": 0.97,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Lait de chèvre entier",
+    "Calorias": 69,
+    "Carbohidratos": 4.45,
+    "Proteinas": 3.56,
+    "Grasas": 4.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cocinage de lait de coco",
+    "Calorias": 230,
+    "Carbohidratos": 5.54,
+    "Proteinas": 2.29,
+    "Grasas": 23.84,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Lait de soja",
+    "Calorias": 43,
+    "Carbohidratos": 4.92,
+    "Proteinas": 2.6,
+    "Grasas": 1.47,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Lait écrémé / écumé",
+    "Calorias": 34,
+    "Carbohidratos": 4.96,
+    "Proteinas": 3.37,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait entier",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait entier avec calcium",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait entier, poussière",
+    "Calorias": 500,
+    "Carbohidratos": 37,
+    "Proteinas": 25,
+    "Grasas": 26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait évaporé entier",
+    "Calorias": 134,
+    "Carbohidratos": 10.04,
+    "Proteinas": 6.81,
+    "Grasas": 7.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lait évaporé, graisse (écume / écume)",
+    "Calorias": 78,
+    "Carbohidratos": 11.35,
+    "Proteinas": 7.55,
+    "Grasas": 0.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Du lait de durcissement, entier",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Laitue crue",
+    "Calorias": 14,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.9,
+    "Grasas": 0.14,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Laitue romaine crue",
+    "Calorias": 19,
+    "Carbohidratos": 3.78,
+    "Proteinas": 1.39,
+    "Grasas": 0.27,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Laitue, Boston, cru",
+    "Calorias": 13,
+    "Carbohidratos": 2.23,
+    "Proteinas": 1.35,
+    "Grasas": 0.22,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Laitue, roquette, crue",
+    "Calorias": 25,
+    "Carbohidratos": 3.65,
+    "Proteinas": 2.58,
+    "Grasas": 0.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Cuit à la vapeur ou à l'escalade",
+    "Calorias": 88,
+    "Carbohidratos": 0,
+    "Proteinas": 15.61,
+    "Grasas": 2.43,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lentilles sèches",
+    "Calorias": 310,
+    "Carbohidratos": 48.7,
+    "Proteinas": 24.8,
+    "Grasas": 1.2,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Lentilles, non ajoutées de graisses en cuisson",
+    "Calorias": 115,
+    "Carbohidratos": 20.03,
+    "Proteinas": 8.98,
+    "Grasas": 0.38,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Levure",
+    "Calorias": 325,
+    "Carbohidratos": 41.22,
+    "Proteinas": 40.44,
+    "Grasas": 7.61,
+    "Fibra": 26.9
+  },
+  {
+    "Alimento": "Levure de bière, sec",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 48,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lichi brut",
+    "Calorias": 66,
+    "Carbohidratos": 16.53,
+    "Proteinas": 0.83,
+    "Grasas": 0.44,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Chaux brute",
+    "Calorias": 30,
+    "Carbohidratos": 10.54,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Citron cru",
+    "Calorias": 29,
+    "Carbohidratos": 9.32,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Lombard (Col Lombarda)",
+    "Calorias": 27,
+    "Carbohidratos": 3.7,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Longe de cochado",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 50,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cuit à la vapeur ou à l'escalade",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 23.18,
+    "Grasas": 2.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lucio cuit à la vapeur",
+    "Calorias": 111,
+    "Carbohidratos": 0,
+    "Proteinas": 24.22,
+    "Grasas": 0.87,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Macaroni",
+    "Calorias": 370,
+    "Carbohidratos": 79,
+    "Proteinas": 14,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Magdalena",
+    "Calorias": 397,
+    "Carbohidratos": 42,
+    "Proteinas": 6,
+    "Grasas": 23,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Maïs au four",
+    "Calorias": 214,
+    "Carbohidratos": 39.68,
+    "Proteinas": 3.5,
+    "Grasas": 4.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Maïs cru",
+    "Calorias": 86,
+    "Carbohidratos": 18.7,
+    "Proteinas": 3.27,
+    "Grasas": 1.35,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Maxorca douce",
+    "Calorias": 104,
+    "Carbohidratos": 19.5,
+    "Proteinas": 3.3,
+    "Grasas": 0.78,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Guimauve",
+    "Calorias": 318,
+    "Carbohidratos": 81.3,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Tangerine brute",
+    "Calorias": 53,
+    "Carbohidratos": 13.34,
+    "Proteinas": 0.81,
+    "Grasas": 0.31,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Mangue brute",
+    "Calorias": 60,
+    "Carbohidratos": 14.98,
+    "Proteinas": 0.82,
+    "Grasas": 0.38,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Cocktail de Manhattan",
+    "Calorias": 222,
+    "Carbohidratos": 1.82,
+    "Proteinas": 0.03,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saindoux",
+    "Calorias": 902,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Beurre",
+    "Calorias": 717,
+    "Carbohidratos": 0.06,
+    "Proteinas": 0.85,
+    "Grasas": 81.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pomme brute",
+    "Calorias": 52,
+    "Carbohidratos": 13.81,
+    "Proteinas": 0.26,
+    "Grasas": 0.17,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Pomme, sèche",
+    "Calorias": 243,
+    "Carbohidratos": 65.89,
+    "Proteinas": 0.93,
+    "Grasas": 0.32,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Margarine",
+    "Calorias": 533,
+    "Carbohidratos": 0.86,
+    "Proteinas": 0.17,
+    "Grasas": 59.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Martini",
+    "Calorias": 201,
+    "Carbohidratos": 0.15,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mayonnaise",
+    "Calorias": 680,
+    "Carbohidratos": 0.57,
+    "Proteinas": 0.96,
+    "Grasas": 74.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mayonnaise, faibles en gras, avec de l'huile d'olive.",
+    "Calorias": 361,
+    "Carbohidratos": 0,
+    "Proteinas": 0.37,
+    "Grasas": 40,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Massepain",
+    "Calorias": 443,
+    "Carbohidratos": 49,
+    "Proteinas": 9,
+    "Grasas": 25,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Moules cuites à la vapeur ou grimpés",
+    "Calorias": 171,
+    "Carbohidratos": 7.35,
+    "Proteinas": 23.7,
+    "Grasas": 4.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Moules brutes",
+    "Calorias": 86,
+    "Carbohidratos": 3.69,
+    "Proteinas": 11.9,
+    "Grasas": 2.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pêche brute",
+    "Calorias": 39,
+    "Carbohidratos": 9.54,
+    "Proteinas": 0.91,
+    "Grasas": 0.25,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Pêche dans le sirop",
+    "Calorias": 84,
+    "Carbohidratos": 22,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Melon",
+    "Calorias": 34,
+    "Carbohidratos": 8.16,
+    "Proteinas": 0.84,
+    "Grasas": 0.19,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Coing (doux de)",
+    "Calorias": 242,
+    "Carbohidratos": 62.8,
+    "Proteinas": 0.14,
+    "Grasas": 0.03,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Merlu",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 15.9,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Embouteiller, garder",
+    "Calorias": 278,
+    "Carbohidratos": 68.86,
+    "Proteinas": 0.37,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Chéri",
+    "Calorias": 304,
+    "Carbohidratos": 82.4,
+    "Proteinas": 0.3,
+    "Grasas": 0,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Miso",
+    "Calorias": 198,
+    "Carbohidratos": 25.37,
+    "Proteinas": 12.79,
+    "Grasas": 6.01,
+    "Fibra": 5.4
+  },
+  {
+    "Alimento": "Moleja, cuite",
+    "Calorias": 154,
+    "Carbohidratos": 0,
+    "Proteinas": 30.4,
+    "Grasas": 2.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blackberries gelées",
+    "Calorias": 64,
+    "Carbohidratos": 15.67,
+    "Proteinas": 1.18,
+    "Grasas": 0.43,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Molas bruts",
+    "Calorias": 43,
+    "Carbohidratos": 9.61,
+    "Proteinas": 1.39,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Boudin noir",
+    "Calorias": 379,
+    "Carbohidratos": 1.29,
+    "Proteinas": 14.6,
+    "Grasas": 34.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mordaine",
+    "Calorias": 311,
+    "Carbohidratos": 3.05,
+    "Proteinas": 16.37,
+    "Grasas": 25.39,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Moutarde",
+    "Calorias": 60,
+    "Carbohidratos": 5.83,
+    "Proteinas": 3.74,
+    "Grasas": 3.34,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Mousse au chocolat",
+    "Calorias": 209,
+    "Carbohidratos": 16.24,
+    "Proteinas": 4.31,
+    "Grasas": 14.97,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Bouffin au chocolat",
+    "Calorias": 390,
+    "Carbohidratos": 50.81,
+    "Proteinas": 6.39,
+    "Grasas": 18.2,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Cuisse de poulet, rôti, avec peau",
+    "Calorias": 206,
+    "Carbohidratos": 0.12,
+    "Proteinas": 25.65,
+    "Grasas": 11.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cuisse de poulet, rôti, sans peau",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 27.71,
+    "Grasas": 6.76,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Navet brut",
+    "Calorias": 28,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Nachos au fromage",
+    "Calorias": 343,
+    "Carbohidratos": 34.91,
+    "Proteinas": 4.32,
+    "Grasas": 21.5,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Orange",
+    "Calorias": 47,
+    "Carbohidratos": 11.75,
+    "Proteinas": 0.94,
+    "Grasas": 0.12,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Nectarine",
+    "Calorias": 49.7,
+    "Carbohidratos": 10.2,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Noix (castiliens)",
+    "Calorias": 654,
+    "Carbohidratos": 13.71,
+    "Proteinas": 15.23,
+    "Grasas": 65.21,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "noix du Brésil",
+    "Calorias": 659,
+    "Carbohidratos": 11.74,
+    "Proteinas": 14.32,
+    "Grasas": 67.1,
+    "Fibra": 7.5
+  },
+  {
+    "Alimento": "Macadamia noix",
+    "Calorias": 716,
+    "Carbohidratos": 12.83,
+    "Proteinas": 7.79,
+    "Grasas": 76.08,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Pacana - noix de noix de pécan",
+    "Calorias": 691,
+    "Carbohidratos": 13.86,
+    "Proteinas": 9.17,
+    "Grasas": 71.97,
+    "Fibra": 9.6
+  },
+  {
+    "Alimento": "Pépites de poulet",
+    "Calorias": 307,
+    "Carbohidratos": 14.93,
+    "Proteinas": 15.92,
+    "Grasas": 20.36,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Gnocchis, pomme de terre",
+    "Calorias": 133,
+    "Carbohidratos": 17.06,
+    "Proteinas": 2.36,
+    "Grasas": 6.24,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Oreilles de porc, queue, tête, museau, pièces diverses, cuites",
+    "Calorias": 236,
+    "Carbohidratos": 0,
+    "Proteinas": 26.14,
+    "Grasas": 13.77,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huîtres brutes",
+    "Calorias": 51,
+    "Carbohidratos": 2.72,
+    "Proteinas": 5.71,
+    "Grasas": 1.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Paella avec fruits de mer",
+    "Calorias": 142,
+    "Carbohidratos": 16.43,
+    "Proteinas": 8.04,
+    "Grasas": 4.68,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Paella de viande de style valence",
+    "Calorias": 270,
+    "Carbohidratos": 16.74,
+    "Proteinas": 21.71,
+    "Grasas": 12.54,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Palmitos en conserve (conserves)",
+    "Calorias": 47,
+    "Carbohidratos": 8,
+    "Proteinas": 2.8,
+    "Grasas": 0.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pigeon",
+    "Calorias": 178,
+    "Carbohidratos": 0,
+    "Proteinas": 37,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Paloma, frite",
+    "Calorias": 223,
+    "Carbohidratos": 1.44,
+    "Proteinas": 23.06,
+    "Grasas": 13.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Palometa (poisson)",
+    "Calorias": 125,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Popcorn",
+    "Calorias": 438,
+    "Carbohidratos": 74.18,
+    "Proteinas": 10.19,
+    "Grasas": 11.19,
+    "Fibra": 4.9
+  },
+  {
+    "Alimento": "Palomites de maïs, micro-ondes",
+    "Calorias": 538,
+    "Carbohidratos": 55.99,
+    "Proteinas": 8.69,
+    "Grasas": 31.07,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Palosanto",
+    "Calorias": 64,
+    "Carbohidratos": 15,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Pain blanc",
+    "Calorias": 266,
+    "Carbohidratos": 49.42,
+    "Proteinas": 8.85,
+    "Grasas": 3.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Pain blanc, rôti",
+    "Calorias": 297,
+    "Carbohidratos": 65,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Pain ceteno, rôti",
+    "Calorias": 285,
+    "Carbohidratos": 53.08,
+    "Proteinas": 9.34,
+    "Grasas": 3.63,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Pain de noix",
+    "Calorias": 392,
+    "Carbohidratos": 49.72,
+    "Proteinas": 6.49,
+    "Grasas": 19.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Pain français ou Vienne",
+    "Calorias": 272,
+    "Carbohidratos": 51.88,
+    "Proteinas": 10.75,
+    "Grasas": 2.42,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Pain français ou Vienne, de blé entier",
+    "Calorias": 239,
+    "Carbohidratos": 49.1,
+    "Proteinas": 8.33,
+    "Grasas": 1.04,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Pain de blé entier",
+    "Calorias": 252,
+    "Carbohidratos": 42.71,
+    "Proteinas": 12.45,
+    "Grasas": 3.5,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Pain multigrano",
+    "Calorias": 265,
+    "Carbohidratos": 43.34,
+    "Proteinas": 13.36,
+    "Grasas": 4.23,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Pain pita, rôti",
+    "Calorias": 302,
+    "Carbohidratos": 61.21,
+    "Proteinas": 10,
+    "Grasas": 1.32,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Gluten sans pain",
+    "Calorias": 248,
+    "Carbohidratos": 45.78,
+    "Proteinas": 4.31,
+    "Grasas": 5.24,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Pain, son d'avoine",
+    "Calorias": 299,
+    "Carbohidratos": 53.89,
+    "Proteinas": 9.33,
+    "Grasas": 4.89,
+    "Fibra": 4.4
+  },
+  {
+    "Alimento": "Papaye brute",
+    "Calorias": 43,
+    "Carbohidratos": 10.82,
+    "Proteinas": 0.47,
+    "Grasas": 0.26,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Raisins secs",
+    "Calorias": 299,
+    "Carbohidratos": 79.18,
+    "Proteinas": 3.07,
+    "Grasas": 0.46,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Pâte cuite",
+    "Calorias": 157,
+    "Carbohidratos": 30.68,
+    "Proteinas": 5.76,
+    "Grasas": 0.92,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Pâtes avec des saveurs",
+    "Calorias": 87,
+    "Carbohidratos": 14.44,
+    "Proteinas": 2.46,
+    "Grasas": 2.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Pâte de wasabi",
+    "Calorias": 292,
+    "Carbohidratos": 46.13,
+    "Proteinas": 2.23,
+    "Grasas": 10.9,
+    "Fibra": 6.1
+  },
+  {
+    "Alimento": "Pâte sans gluten",
+    "Calorias": 179,
+    "Carbohidratos": 38.05,
+    "Proteinas": 3.2,
+    "Grasas": 1,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pastrami",
+    "Calorias": 147,
+    "Carbohidratos": 0.36,
+    "Proteinas": 21.8,
+    "Grasas": 5.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cuisses de poulet",
+    "Calorias": 215,
+    "Carbohidratos": 0.2,
+    "Proteinas": 19.4,
+    "Grasas": 14.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pomme de terre rôtie",
+    "Calorias": 206,
+    "Carbohidratos": 46.1,
+    "Proteinas": 4.3,
+    "Grasas": 0.1,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Pomme de terre bouillie",
+    "Calorias": 125,
+    "Carbohidratos": 20.45,
+    "Proteinas": 1.87,
+    "Grasas": 4.19,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Puces",
+    "Calorias": 529,
+    "Carbohidratos": 56.54,
+    "Proteinas": 2.92,
+    "Grasas": 32.19,
+    "Fibra": 8.8
+  },
+  {
+    "Alimento": "Pommes de terre cuites",
+    "Calorias": 114,
+    "Carbohidratos": 19.91,
+    "Proteinas": 1.84,
+    "Grasas": 3.22,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pommes de terre purs",
+    "Calorias": 111,
+    "Carbohidratos": 17.69,
+    "Proteinas": 2.15,
+    "Grasas": 3.79,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Canard rôti",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Turquie",
+    "Calorias": 107,
+    "Carbohidratos": 0,
+    "Proteinas": 21.9,
+    "Grasas": 2.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pepinillos en vinaigre, assaisonnement doux",
+    "Calorias": 130,
+    "Carbohidratos": 35.06,
+    "Proteinas": 0.37,
+    "Grasas": 0.47,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Concombre brut",
+    "Calorias": 12,
+    "Carbohidratos": 2.16,
+    "Proteinas": 0.59,
+    "Grasas": 0.16,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Poire crue",
+    "Calorias": 57,
+    "Carbohidratos": 15.23,
+    "Proteinas": 0.36,
+    "Grasas": 0.14,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Perca de mer, cuite ou grillée, graisse ajoutée dans la cuisine",
+    "Calorias": 129,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.73,
+    "Grasas": 5.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Océan, cuit à la vapeur ou grimper",
+    "Calorias": 99,
+    "Carbohidratos": 0,
+    "Proteinas": 19.25,
+    "Grasas": 1.94,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Perchoir océan, cru",
+    "Calorias": 79,
+    "Carbohidratos": 0,
+    "Proteinas": 15.31,
+    "Grasas": 1.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Percebs",
+    "Calorias": 59,
+    "Carbohidratos": 0,
+    "Proteinas": 13.6,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Perdrix",
+    "Calorias": 106,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 1.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Persil brut",
+    "Calorias": 36,
+    "Carbohidratos": 6.33,
+    "Proteinas": 2.97,
+    "Grasas": 0.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Pugger-Healing avec de la moutarde",
+    "Calorias": 308,
+    "Carbohidratos": 33,
+    "Proteinas": 11,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Merlan",
+    "Calorias": 69,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 0.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage de petite suisse, type",
+    "Calorias": 173,
+    "Carbohidratos": 4,
+    "Proteinas": 8,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poisson à l'épée, cuit au four ou grillé, sans ajouter de graisse dans la cuisson",
+    "Calorias": 182,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.76,
+    "Grasas": 8.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Épée, à la vapeur ou à l'escalade de poisson",
+    "Calorias": 181,
+    "Carbohidratos": 0,
+    "Proteinas": 24.72,
+    "Grasas": 8.36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pigeon",
+    "Calorias": 182,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poivre, cru",
+    "Calorias": 24,
+    "Carbohidratos": 5.13,
+    "Proteinas": 0.91,
+    "Grasas": 0.22,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Poivrons du vinaigre",
+    "Calorias": 40,
+    "Carbohidratos": 9.04,
+    "Proteinas": 0.82,
+    "Grasas": 0.19,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Piña colada",
+    "Calorias": 151,
+    "Carbohidratos": 19.5,
+    "Proteinas": 0.36,
+    "Grasas": 2.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Ananas brut",
+    "Calorias": 50,
+    "Carbohidratos": 13.12,
+    "Proteinas": 0.54,
+    "Grasas": 0.12,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Ananas dans le sirop",
+    "Calorias": 81,
+    "Carbohidratos": 21,
+    "Proteinas": 0.3,
+    "Grasas": 0.1,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Ananas sec",
+    "Calorias": 269,
+    "Carbohidratos": 70.08,
+    "Proteinas": 1.51,
+    "Grasas": 0.34,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Piñones",
+    "Calorias": 673,
+    "Carbohidratos": 13.08,
+    "Proteinas": 13.69,
+    "Grasas": 68.37,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Tuyaux de tournesol",
+    "Calorias": 580,
+    "Carbohidratos": 20,
+    "Proteinas": 27,
+    "Grasas": 43,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Pistaches",
+    "Calorias": 572,
+    "Carbohidratos": 28.28,
+    "Proteinas": 21.05,
+    "Grasas": 45.82,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Banane brute",
+    "Calorias": 89,
+    "Carbohidratos": 22.84,
+    "Proteinas": 1.09,
+    "Grasas": 0.33,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Poulet",
+    "Calorias": 167,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 9.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poulet (avec peau)",
+    "Calorias": 298,
+    "Carbohidratos": 0,
+    "Proteinas": 25.73,
+    "Grasas": 20.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poulet ou dinde",
+    "Calorias": 250,
+    "Carbohidratos": 23.86,
+    "Proteinas": 10.1,
+    "Grasas": 12.65,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Poulet, Kentucky Fried",
+    "Calorias": 155,
+    "Carbohidratos": 5,
+    "Proteinas": 13,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poulet, poitrine, rôti",
+    "Calorias": 175,
+    "Carbohidratos": 0.09,
+    "Proteinas": 26.37,
+    "Grasas": 7.67,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Poulet, seins du Kentucky",
+    "Calorias": 436,
+    "Carbohidratos": 34,
+    "Proteinas": 25,
+    "Grasas": 22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pamplemousse brut",
+    "Calorias": 32,
+    "Carbohidratos": 8.08,
+    "Proteinas": 0.63,
+    "Grasas": 0.1,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Punch aux œufs, régulier",
+    "Calorias": 88,
+    "Carbohidratos": 8.05,
+    "Proteinas": 4.55,
+    "Grasas": 4.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Dessert de gélatine",
+    "Calorias": 62,
+    "Carbohidratos": 14.19,
+    "Proteinas": 1.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bretzel",
+    "Calorias": 384,
+    "Carbohidratos": 80.39,
+    "Proteinas": 10.04,
+    "Grasas": 2.93,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Poireau brut",
+    "Calorias": 61,
+    "Carbohidratos": 14.15,
+    "Proteinas": 1.5,
+    "Grasas": 0.3,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Pieuvre bouillie",
+    "Calorias": 69,
+    "Carbohidratos": 1.4,
+    "Proteinas": 13.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage américain",
+    "Calorias": 307,
+    "Carbohidratos": 8.85,
+    "Proteinas": 16.09,
+    "Grasas": 23.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage bleu",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage Babibel, Type",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage blanc navigué",
+    "Calorias": 68,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Brie",
+    "Calorias": 334,
+    "Carbohidratos": 0.45,
+    "Proteinas": 20.75,
+    "Grasas": 27.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Burgos",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage de chèvre",
+    "Calorias": 250,
+    "Carbohidratos": 2,
+    "Proteinas": 17,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Camembert",
+    "Calorias": 300,
+    "Carbohidratos": 0.46,
+    "Proteinas": 19.8,
+    "Grasas": 24.26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheddar",
+    "Calorias": 404,
+    "Carbohidratos": 3.09,
+    "Proteinas": 22.87,
+    "Grasas": 33.31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage chihuahua",
+    "Calorias": 374,
+    "Carbohidratos": 5.56,
+    "Proteinas": 21.56,
+    "Grasas": 29.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage colby",
+    "Calorias": 394,
+    "Carbohidratos": 2.57,
+    "Proteinas": 23.76,
+    "Grasas": 32.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage aux noix",
+    "Calorias": 424,
+    "Carbohidratos": 5.89,
+    "Proteinas": 17.87,
+    "Grasas": 37.72,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Fromage cotija",
+    "Calorias": 366,
+    "Carbohidratos": 3.97,
+    "Proteinas": 20,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage à la crème",
+    "Calorias": 350,
+    "Carbohidratos": 5.52,
+    "Proteinas": 6.15,
+    "Grasas": 34.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage de chèvre",
+    "Calorias": 360,
+    "Carbohidratos": 0.76,
+    "Proteinas": 23.52,
+    "Grasas": 28.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage émental",
+    "Calorias": 367,
+    "Carbohidratos": 0,
+    "Proteinas": 27.3,
+    "Grasas": 28.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage feta",
+    "Calorias": 264,
+    "Carbohidratos": 4.09,
+    "Proteinas": 14.21,
+    "Grasas": 21.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage Fontina",
+    "Calorias": 389,
+    "Carbohidratos": 1.55,
+    "Proteinas": 25.6,
+    "Grasas": 31.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage frais (de burgos)",
+    "Calorias": 175,
+    "Carbohidratos": 4,
+    "Proteinas": 15,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gouda ou fromage Edam",
+    "Calorias": 357,
+    "Carbohidratos": 1.67,
+    "Proteinas": 24.98,
+    "Grasas": 27.69,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage de gruyère",
+    "Calorias": 413,
+    "Carbohidratos": 0.36,
+    "Proteinas": 29.81,
+    "Grasas": 32.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage",
+    "Calorias": 327,
+    "Carbohidratos": 0.49,
+    "Proteinas": 20.05,
+    "Grasas": 27.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage manchego durci",
+    "Calorias": 420,
+    "Carbohidratos": 1,
+    "Proteinas": 32,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage manchego frais",
+    "Calorias": 333,
+    "Carbohidratos": 0,
+    "Proteinas": 26,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage à manchego semi-transporté",
+    "Calorias": 390,
+    "Carbohidratos": 0,
+    "Proteinas": 29,
+    "Grasas": 29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage monterey",
+    "Calorias": 373,
+    "Carbohidratos": 0.68,
+    "Proteinas": 24.48,
+    "Grasas": 30.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage mozzarella, lait entier",
+    "Calorias": 300,
+    "Carbohidratos": 2.19,
+    "Proteinas": 22.17,
+    "Grasas": 22.35,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage Münster",
+    "Calorias": 368,
+    "Carbohidratos": 1.12,
+    "Proteinas": 23.41,
+    "Grasas": 30.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage parmesan, sèche râpé",
+    "Calorias": 420,
+    "Carbohidratos": 13.91,
+    "Proteinas": 28.42,
+    "Grasas": 27.84,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage pyrénées",
+    "Calorias": 355,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Portions de fromage",
+    "Calorias": 283,
+    "Carbohidratos": 1,
+    "Proteinas": 18,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage Port du Halut",
+    "Calorias": 356,
+    "Carbohidratos": 2.22,
+    "Proteinas": 24.94,
+    "Grasas": 27.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Provolone",
+    "Calorias": 351,
+    "Carbohidratos": 2.14,
+    "Proteinas": 25.58,
+    "Grasas": 26.62,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quark",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ricota",
+    "Calorias": 156,
+    "Carbohidratos": 4.09,
+    "Proteinas": 11.32,
+    "Grasas": 10.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage roquefort",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage suisse",
+    "Calorias": 393,
+    "Carbohidratos": 1.44,
+    "Proteinas": 26.96,
+    "Grasas": 30.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fromage de type speisequark",
+    "Calorias": 101,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quiche Lorraine Bacón-Qsoo",
+    "Calorias": 391,
+    "Carbohidratos": 21,
+    "Proteinas": 15,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Radis brut",
+    "Calorias": 16,
+    "Carbohidratos": 3.4,
+    "Proteinas": 0.68,
+    "Grasas": 0.1,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Queue vide",
+    "Calorias": 171,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tabac à priser",
+    "Calorias": 86,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ratatouille",
+    "Calorias": 65,
+    "Carbohidratos": 6,
+    "Proteinas": 1,
+    "Grasas": 4.6,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raviolis Tomate, sauce",
+    "Calorias": 106,
+    "Carbohidratos": 13,
+    "Proteinas": 5,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cool de cool",
+    "Calorias": 42,
+    "Carbohidratos": 10.36,
+    "Proteinas": 0,
+    "Grasas": 0.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Soda frais léger / régime",
+    "Calorias": 2,
+    "Carbohidratos": 0.29,
+    "Proteinas": 0.11,
+    "Grasas": 0.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Réglisse",
+    "Calorias": 375,
+    "Carbohidratos": 93.55,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Betteraves brutes",
+    "Calorias": 43,
+    "Carbohidratos": 9.56,
+    "Proteinas": 1.61,
+    "Grasas": 0.17,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Betteraves, cuites",
+    "Calorias": 44,
+    "Carbohidratos": 9.9,
+    "Proteinas": 1.67,
+    "Grasas": 0.18,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Chou, chinois, brut",
+    "Calorias": 13,
+    "Carbohidratos": 2.18,
+    "Proteinas": 1.5,
+    "Grasas": 0.2,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Chou, bouclé, cuit, gras non ajouté à la cuisson",
+    "Calorias": 28,
+    "Carbohidratos": 6.32,
+    "Proteinas": 2.07,
+    "Grasas": 0.1,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Fromage blanc",
+    "Calorias": 143,
+    "Carbohidratos": 3.18,
+    "Proteinas": 10.49,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rein cuit",
+    "Calorias": 157,
+    "Carbohidratos": 0,
+    "Proteinas": 27.04,
+    "Grasas": 4.61,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Turbot",
+    "Calorias": 98,
+    "Carbohidratos": 0,
+    "Proteinas": 16.1,
+    "Grasas": 3.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rhum",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ruibarbo brut",
+    "Calorias": 21,
+    "Carbohidratos": 4.54,
+    "Proteinas": 0.9,
+    "Grasas": 0.2,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Sel",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Salami",
+    "Calorias": 378,
+    "Carbohidratos": 0.72,
+    "Proteinas": 21.07,
+    "Grasas": 31.65,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saucisses de porc",
+    "Calorias": 367,
+    "Carbohidratos": 10,
+    "Proteinas": 11,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frankfort Saucisses",
+    "Calorias": 274,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saucisse",
+    "Calorias": 454,
+    "Carbohidratos": 2,
+    "Proteinas": 26,
+    "Grasas": 38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saumon fumé",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 18.28,
+    "Grasas": 4.32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saumon cuit à la vapeur",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 25.78,
+    "Grasas": 5.53,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Saumon cru",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20.5,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Salmontete cru",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 19.35,
+    "Grasas": 3.79,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sauce boloñesa",
+    "Calorias": 139,
+    "Carbohidratos": 2,
+    "Proteinas": 8,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sauce César",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Sauce à l'ail",
+    "Calorias": 108,
+    "Carbohidratos": 7.32,
+    "Proteinas": 3.07,
+    "Grasas": 7.42,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Canneberge et sauce framboise",
+    "Calorias": 162,
+    "Carbohidratos": 41.83,
+    "Proteinas": 0.78,
+    "Grasas": 0.22,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Sauce barbecue",
+    "Calorias": 172,
+    "Carbohidratos": 40.77,
+    "Proteinas": 0.82,
+    "Grasas": 0.63,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Sauce à l'oignon",
+    "Calorias": 345,
+    "Carbohidratos": 3.23,
+    "Proteinas": 1.86,
+    "Grasas": 36.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sauce au chocolat",
+    "Calorias": 388,
+    "Carbohidratos": 65.39,
+    "Proteinas": 3.33,
+    "Grasas": 13.06,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Sauce aux prunes",
+    "Calorias": 200,
+    "Carbohidratos": 50.67,
+    "Proteinas": 0.65,
+    "Grasas": 0.29,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Sauce à cocktails",
+    "Calorias": 124,
+    "Carbohidratos": 28.22,
+    "Proteinas": 1.36,
+    "Grasas": 1.05,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Sauce d'enchilada rouge",
+    "Calorias": 30,
+    "Carbohidratos": 4.87,
+    "Proteinas": 0.62,
+    "Grasas": 0.91,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Sauce Enchilada, vert",
+    "Calorias": 28,
+    "Carbohidratos": 5.5,
+    "Proteinas": 0.99,
+    "Grasas": 0.59,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Sauce à l'aneth",
+    "Calorias": 429,
+    "Carbohidratos": 3.08,
+    "Proteinas": 1.92,
+    "Grasas": 45.78,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Miel et sauce à la moutarde",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Sauce de poisson",
+    "Calorias": 35,
+    "Carbohidratos": 3.64,
+    "Proteinas": 5.06,
+    "Grasas": 0.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sauce au fromage",
+    "Calorias": 160,
+    "Carbohidratos": 7.66,
+    "Proteinas": 3.24,
+    "Grasas": 13.02,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Fromage bleu ou sauce roquefort",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Sauce de soja",
+    "Calorias": 53,
+    "Carbohidratos": 4.93,
+    "Proteinas": 8.14,
+    "Grasas": 0.57,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Ketchup",
+    "Calorias": 101,
+    "Carbohidratos": 27.4,
+    "Proteinas": 1.04,
+    "Grasas": 0.1,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Sauce au yaourt",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sauce néerlandaise",
+    "Calorias": 504,
+    "Carbohidratos": 1.52,
+    "Proteinas": 4.68,
+    "Grasas": 54.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sauce kétchup",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Sauce pesto",
+    "Calorias": 569,
+    "Carbohidratos": 6.16,
+    "Proteinas": 8.51,
+    "Grasas": 58.52,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Sauce russe",
+    "Calorias": 355,
+    "Carbohidratos": 31.9,
+    "Proteinas": 0.69,
+    "Grasas": 26.18,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Sauce tartara",
+    "Calorias": 211,
+    "Carbohidratos": 13.3,
+    "Proteinas": 1,
+    "Grasas": 16.7,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Sauce teriyaki",
+    "Calorias": 89,
+    "Carbohidratos": 15.56,
+    "Proteinas": 5.93,
+    "Grasas": 0.02,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sauce tzatziki",
+    "Calorias": 92,
+    "Carbohidratos": 3.95,
+    "Proteinas": 5.35,
+    "Grasas": 6.31,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Sauce verte ou sauce verte",
+    "Calorias": 38,
+    "Carbohidratos": 6.36,
+    "Proteinas": 1.13,
+    "Grasas": 0.89,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Son de l'avoine",
+    "Calorias": 246,
+    "Carbohidratos": 66.22,
+    "Proteinas": 17.3,
+    "Grasas": 7.03,
+    "Fibra": 15.4
+  },
+  {
+    "Alimento": "Blé de blé",
+    "Calorias": 216,
+    "Carbohidratos": 64.51,
+    "Proteinas": 15.55,
+    "Grasas": 4.25,
+    "Fibra": 42.8
+  },
+  {
+    "Alimento": "Pastèque crue",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Sang",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blanca Sangria",
+    "Calorias": 94,
+    "Carbohidratos": 8.26,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sangrie rouge",
+    "Calorias": 96,
+    "Carbohidratos": 8.27,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sardines cuites",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sardines avec sauce tomate",
+    "Calorias": 185,
+    "Carbohidratos": 0.54,
+    "Proteinas": 20.86,
+    "Grasas": 10.45,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sardines en conserve dans l'huile",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sardines sèches",
+    "Calorias": 406,
+    "Carbohidratos": 0,
+    "Proteinas": 46.06,
+    "Grasas": 23.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Graines de chia",
+    "Calorias": 534,
+    "Carbohidratos": 28.88,
+    "Proteinas": 18.29,
+    "Grasas": 42.16,
+    "Fibra": 27.3
+  },
+  {
+    "Alimento": "Graines de tournesol",
+    "Calorias": 582,
+    "Carbohidratos": 24.07,
+    "Proteinas": 19.33,
+    "Grasas": 49.8,
+    "Fibra": 11.1
+  },
+  {
+    "Alimento": "Graines de sésame",
+    "Calorias": 567,
+    "Carbohidratos": 26.04,
+    "Proteinas": 16.96,
+    "Grasas": 48,
+    "Fibra": 16.9
+  },
+  {
+    "Alimento": "Semoule",
+    "Calorias": 90,
+    "Carbohidratos": 16.43,
+    "Proteinas": 2.34,
+    "Grasas": 1.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Sépia",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cerveau de porc",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 11,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Agneau Sesos",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Veale Sesos",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Champignons boletus",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 3,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Champignons de Canthallus",
+    "Calorias": 11,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Champignons Colmenilla",
+    "Calorias": 9,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Sept-up, refresco",
+    "Calorias": 144,
+    "Carbohidratos": 36,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cidre de pomme",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Choueurs de soja",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Soja germé",
+    "Calorias": 54.9,
+    "Carbohidratos": 4.68,
+    "Proteinas": 5.53,
+    "Grasas": 1.03,
+    "Fibra": 2.38
+  },
+  {
+    "Alimento": "Soupe douce-amère",
+    "Calorias": 39,
+    "Carbohidratos": 4.35,
+    "Proteinas": 2.58,
+    "Grasas": 1.21,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Soupe à l'oignon",
+    "Calorias": 46,
+    "Carbohidratos": 6.7,
+    "Proteinas": 3.06,
+    "Grasas": 1.42,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Soupe minestrone",
+    "Calorias": 35,
+    "Carbohidratos": 5,
+    "Proteinas": 2,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sorbet d'agrumes",
+    "Calorias": 95,
+    "Carbohidratos": 23.17,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sorbet, saveurs",
+    "Calorias": 144,
+    "Carbohidratos": 30.4,
+    "Proteinas": 1.1,
+    "Grasas": 2,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Ham Stroganoff",
+    "Calorias": 130,
+    "Carbohidratos": 4.97,
+    "Proteinas": 7.52,
+    "Grasas": 9.04,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Strudel aux pommes",
+    "Calorias": 274,
+    "Carbohidratos": 41.1,
+    "Proteinas": 3.3,
+    "Grasas": 11.2,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Sushis",
+    "Calorias": 93,
+    "Carbohidratos": 18.42,
+    "Proteinas": 2.92,
+    "Grasas": 0.67,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Sushis avec thon",
+    "Calorias": 100,
+    "Carbohidratos": 13.39,
+    "Proteinas": 9.66,
+    "Grasas": 0.28,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Sushis avec saumon",
+    "Calorias": 107,
+    "Carbohidratos": 13.39,
+    "Proteinas": 8.92,
+    "Grasas": 1.74,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Tamarindo, brut",
+    "Calorias": 239,
+    "Carbohidratos": 62.5,
+    "Proteinas": 2.8,
+    "Grasas": 0.6,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Tapioca",
+    "Calorias": 359,
+    "Carbohidratos": 95,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gâteau aux pommes fait maison",
+    "Calorias": 282,
+    "Carbohidratos": 43,
+    "Proteinas": 2,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thé chaud basé sur à base de plantes",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thé chaud, camomille",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thé chaud, feuille, vert",
+    "Calorias": 1,
+    "Carbohidratos": 0,
+    "Proteinas": 0.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tequila",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Toblerone, chocolat au lait avec du miel et des amandes Nougat",
+    "Calorias": 525,
+    "Carbohidratos": 61.21,
+    "Proteinas": 5.71,
+    "Grasas": 28.57,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Lard",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tomate frite",
+    "Calorias": 88,
+    "Carbohidratos": 5.2,
+    "Proteinas": 1.5,
+    "Grasas": 6.4,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Tomate écrasée",
+    "Calorias": 39,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.3,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tomates cuites",
+    "Calorias": 18,
+    "Carbohidratos": 3.99,
+    "Proteinas": 0.95,
+    "Grasas": 0.11,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Tomates brutes",
+    "Calorias": 18,
+    "Carbohidratos": 3.89,
+    "Proteinas": 0.88,
+    "Grasas": 0.2,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Tomates rouges sèches",
+    "Calorias": 258,
+    "Carbohidratos": 55.76,
+    "Proteinas": 14.11,
+    "Grasas": 2.97,
+    "Fibra": 12.3
+  },
+  {
+    "Alimento": "Tomates vertes brutes",
+    "Calorias": 23,
+    "Carbohidratos": 5.1,
+    "Proteinas": 1.2,
+    "Grasas": 0.2,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Tonique",
+    "Calorias": 42,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tortilla blanc d'oeuf, révolte ou frite, à base d'huile",
+    "Calorias": 119,
+    "Carbohidratos": 0.77,
+    "Proteinas": 11.52,
+    "Grasas": 7.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tortilla oeuf ou œuf tourné, à base d'huile",
+    "Calorias": 180,
+    "Carbohidratos": 1.81,
+    "Proteinas": 11.16,
+    "Grasas": 13.95,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tortilla de maïs",
+    "Calorias": 218,
+    "Carbohidratos": 44.64,
+    "Proteinas": 5.7,
+    "Grasas": 2.85,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Truite",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Truite fumée",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 35.47,
+    "Grasas": 10.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Trout cuit au four ou rôti, à base d'huile",
+    "Calorias": 205,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.4,
+    "Grasas": 11.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Truffes",
+    "Calorias": 511,
+    "Carbohidratos": 49.61,
+    "Proteinas": 6.77,
+    "Grasas": 31.93,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Nougat moyen",
+    "Calorias": 470,
+    "Carbohidratos": 57,
+    "Proteinas": 10,
+    "Grasas": 24,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Bars à biscuits en caramel Twix",
+    "Calorias": 502,
+    "Carbohidratos": 64.8,
+    "Proteinas": 4.91,
+    "Grasas": 24.85,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Raisins",
+    "Calorias": 69,
+    "Carbohidratos": 18.1,
+    "Proteinas": 0.72,
+    "Grasas": 0.16,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Raisins de raisin",
+    "Calorias": 243,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Vermouth sec",
+    "Calorias": 118,
+    "Carbohidratos": 6,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cuit à la vapeur ou bouilli",
+    "Calorias": 137,
+    "Carbohidratos": 6.33,
+    "Proteinas": 24.01,
+    "Grasas": 0.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vinaigre",
+    "Calorias": 21,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vin de riz",
+    "Calorias": 134,
+    "Carbohidratos": 5,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porto est venu",
+    "Calorias": 157,
+    "Carbohidratos": 12,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Non-alcool est venu",
+    "Calorias": 6,
+    "Carbohidratos": 1.1,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vin, table, blanc",
+    "Calorias": 82,
+    "Carbohidratos": 2.6,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vin, table, rose",
+    "Calorias": 83,
+    "Carbohidratos": 3.8,
+    "Proteinas": 0.36,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vin, table, rouge",
+    "Calorias": 85,
+    "Carbohidratos": 2.61,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vodka",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whisky",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yaourt, grec avec fruits",
+    "Calorias": 106,
+    "Carbohidratos": 12.29,
+    "Proteinas": 7.33,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yaourt, grec naturel",
+    "Calorias": 97,
+    "Carbohidratos": 3.98,
+    "Proteinas": 9,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yaourt, crème glacée, cône, saveurs qui ne sont pas du chocolat",
+    "Calorias": 189,
+    "Carbohidratos": 31.5,
+    "Proteinas": 4.48,
+    "Grasas": 5.38,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Yaourt liquide",
+    "Calorias": 72,
+    "Carbohidratos": 11.81,
+    "Proteinas": 3.71,
+    "Grasas": 1.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Yaourt, lait écrémé / écrémé, fruits",
+    "Calorias": 83,
+    "Carbohidratos": 15.02,
+    "Proteinas": 5.09,
+    "Grasas": 0.17,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Yaourt, lait écrémé / écrémé, naturel",
+    "Calorias": 56,
+    "Carbohidratos": 7.68,
+    "Proteinas": 5.73,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yaourt, lait entier, fruits",
+    "Calorias": 87,
+    "Carbohidratos": 12.36,
+    "Proteinas": 3.1,
+    "Grasas": 2.87,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Yaourt, lait entier, naturel",
+    "Calorias": 61,
+    "Carbohidratos": 4.66,
+    "Proteinas": 3.47,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Yaourt, soja",
+    "Calorias": 94,
+    "Carbohidratos": 15.96,
+    "Proteinas": 3.5,
+    "Grasas": 1.8,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Yucca française",
+    "Calorias": 267,
+    "Carbohidratos": 34.72,
+    "Proteinas": 1.24,
+    "Grasas": 13.94,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Carottes brutes",
+    "Calorias": 41,
+    "Carbohidratos": 9.58,
+    "Proteinas": 0.93,
+    "Grasas": 0.24,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Carottes, cuites, crème",
+    "Calorias": 88,
+    "Carbohidratos": 8.38,
+    "Proteinas": 2.08,
+    "Grasas": 5.26,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Carottes, crues, salade",
+    "Calorias": 208,
+    "Carbohidratos": 17.17,
+    "Proteinas": 1.22,
+    "Grasas": 15.7,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Lima Juice, 100% fraîchement pressé",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Jus d'orange, 100%, fraîchement pressé",
+    "Calorias": 45,
+    "Carbohidratos": 10.4,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Jus de pamplemousse, 100%, fraîchement pressé",
+    "Calorias": 39,
+    "Carbohidratos": 9.2,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 0.1
+  }
+]

@@ -25,13 +25,15 @@ class _FoodScreenState extends State<FoodScreen> {
   List<Slidable> _items = [];
   String currentOrderOption = _orderOptions[0];
   final List<DropdownMenuItem> _orderFields = [
-    const DropdownMenuItem(value: 'nombre', child: Text('Nombre')),
-    const DropdownMenuItem(value: 'proteina', child: Text('Proteína')),
-    const DropdownMenuItem(
-        value: 'carbohidratos', child: Text('Carbohidratos')),
-    const DropdownMenuItem(value: 'grasas', child: Text('Grasas')),
-    const DropdownMenuItem(value: 'fibra', child: Text('Fibra')),
-    const DropdownMenuItem(value: 'calorias', child: Text('Calorías'))
+    DropdownMenuItem(value: 'nombre', child: Text('foodScreen.name'.tr())),
+    DropdownMenuItem(
+        value: 'proteina', child: Text('general.macro.proteins'.tr())),
+    DropdownMenuItem(
+        value: 'carbohidratos', child: Text('general.macro.carbo'.tr())),
+    DropdownMenuItem(value: 'grasas', child: Text('general.macro.fats'.tr())),
+    DropdownMenuItem(value: 'fibra', child: Text('general.macro.fiber'.tr())),
+    DropdownMenuItem(
+        value: 'calorias', child: Text('general.macro.calory'.tr()))
   ];
   String orderSelectedField = 'nombre';
   final _formKey = GlobalKey<FormState>();
@@ -40,7 +42,14 @@ class _FoodScreenState extends State<FoodScreen> {
   @override
   void initState() {
     super.initState();
-    _loadAlimentos();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (!isLoading) {
+      _loadAlimentos();
+    }
   }
 
   Future<void> _loadAlimentos() async {
@@ -99,7 +108,7 @@ class _FoodScreenState extends State<FoodScreen> {
                 SlidableAction(
                   spacing: 2,
                   padding: const EdgeInsets.all(8.0),
-                  label: "Eliminar",
+                  label: "foodScreen.delete".tr(),
                   backgroundColor: Colors.transparent,
                   foregroundColor: Colors.red,
                   icon: Icons.delete,
@@ -108,23 +117,23 @@ class _FoodScreenState extends State<FoodScreen> {
                       context: context,
                       builder: (context) {
                         return AlertDialog(
-                          title: const Text('Confirmar eliminación'),
-                          content: Text(
-                              '¿Está seguro de que desea eliminar el alimento ${alimento.nombre}?'),
+                          title: Text("foodScreen.deleteConfirm".tr()),
+                          content: Text('foodScreen.deleteConfirm'
+                              .tr(namedArgs: {'alimento': alimento.nombre})),
                           actions: [
                             TextButton(
                               onPressed: () {
                                 Navigator.of(context)
                                     .pop(false); // Cerrar y devolver false
                               },
-                              child: const Text('Cancelar'),
+                              child: Text("foodScreen.btnCancel".tr()),
                             ),
                             TextButton(
                               onPressed: () {
                                 Navigator.of(context)
                                     .pop(true); // Cerrar y devolver verdadero
                               },
-                              child: const Text('Confirmar'),
+                              child: Text("foodScreen.btnOk".tr()),
                             ),
                           ],
                         );
@@ -158,8 +167,8 @@ class _FoodScreenState extends State<FoodScreen> {
                     children: [
                       Column(
                         children: [
-                          const Text(
-                            'Calorías',
+                          Text(
+                            'general.macro.calory'.tr(),
                             style: TextStyle(color: Colors.grey),
                           ),
                           Text('${alimento.calorias} Kcal',
@@ -168,7 +177,7 @@ class _FoodScreenState extends State<FoodScreen> {
                       ),
                       Column(
                         children: [
-                          const Text('Proteínas',
+                          Text('general.macro.proteins'.tr(),
                               style: TextStyle(color: Colors.grey)),
                           Text('${alimento.proteinas}g',
                               style: const TextStyle(color: Colors.black87)),
@@ -176,7 +185,7 @@ class _FoodScreenState extends State<FoodScreen> {
                       ),
                       Column(
                         children: [
-                          const Text('Carbohidratos',
+                          Text('general.macro.carbo'.tr(),
                               style: TextStyle(color: Colors.grey)),
                           Text('${alimento.carbohidratos}g',
                               style: const TextStyle(color: Colors.black87)),
@@ -184,7 +193,7 @@ class _FoodScreenState extends State<FoodScreen> {
                       ),
                       Column(
                         children: [
-                          const Text('Grasas',
+                          Text('general.macro.fats'.tr(),
                               style: TextStyle(color: Colors.grey)),
                           Text('${alimento.grasas}g',
                               style: const TextStyle(color: Colors.black87)),
@@ -192,7 +201,7 @@ class _FoodScreenState extends State<FoodScreen> {
                       ),
                       Column(
                         children: [
-                          const Text('Fibra',
+                          Text('general.macro.fiber'.tr(),
                               style: TextStyle(color: Colors.grey)),
                           Text('${alimento.fibra}g',
                               style: const TextStyle(color: Colors.black87)),
@@ -202,8 +211,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   ),
                 ),
                 if (alimento.nombre !=
-                    _filteredAlimentos[_filteredAlimentos.length - 1]
-                        .nombre) // Evita el separador en el último elemento
+                    _filteredAlimentos[_filteredAlimentos.length - 1].nombre)
                   const Divider(
                     color: Colors.blueGrey,
                   ),
@@ -216,23 +224,21 @@ class _FoodScreenState extends State<FoodScreen> {
   }
 
   Future<void> _restartAlimentos() async {
-    // Mostrar un cuadro de diálogo de confirmación
     if (await _foodController.any()) {
       await showDialog<bool>(
         // ignore: use_build_context_synchronously
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: const Text('Confirmar actualización'),
-            content: const Text(
-                '¿Está seguro de que desea reiniciar la base de datos de alimentos? Esta acción eliminará todos los alimentos existentes.'),
+            title: Text('foodScreen.updateConfirm'.tr()),
+            content: Text('foodScreen.updateQuestion'.tr()),
             actions: [
               TextButton(
                 onPressed: () {
                   Navigator.of(context)
                       .pop(false); // Cerrar el diálogo y devolver falso
                 },
-                child: const Text('Cancelar'),
+                child: Text('foodScreen.btnCancel'.tr()),
               ),
               TextButton(
                 onPressed: () {
@@ -240,7 +246,7 @@ class _FoodScreenState extends State<FoodScreen> {
                   Navigator.of(context)
                       .pop(true); // Cerrar el diálogo y devolver verdadero
                 },
-                child: const Text('Confirmar'),
+                child: Text('foodScreen.btnOk'.tr()),
               ),
             ],
           );
@@ -255,9 +261,15 @@ class _FoodScreenState extends State<FoodScreen> {
     setState(() {
       isLoading = true;
     });
-    await _foodController.reiniciarAlimentos();
-    await _loadAlimentos();
-    setData();
+    if (await _foodController.reiniciarAlimentos()) {
+      await _loadAlimentos();
+      setData();
+    } else {
+      if (mounted) {
+        showSnackBar(context, 'foodScreen.errorRestart'.tr());
+      }
+    }
+
     setState(() {
       isLoading = false;
     });
@@ -300,8 +312,9 @@ class _FoodScreenState extends State<FoodScreen> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text(
-              action == 'add' ? 'Agregar Alimento' : 'Actualizar Alimento'),
+          title: Text(action == 'add'
+              ? 'foodScreen.addFood'.tr()
+              : 'foodScreen.updateFood'.tr()),
           content: Form(
             key: _formKey,
             child: Column(
@@ -309,17 +322,19 @@ class _FoodScreenState extends State<FoodScreen> {
               children: [
                 TextFormField(
                   controller: nombreController,
-                  decoration: const InputDecoration(labelText: 'Nombre'),
+                  decoration:
+                      InputDecoration(labelText: 'foodScreen.name'.tr()),
                   validator: (value) {
                     if (value == null || value.isEmpty) {
-                      return 'Por favor ingresa el nombre del alimento.';
+                      return 'foodScreen.errorName'.tr();
                     }
                     return null;
                   },
                 ),
                 TextField(
                   controller: caloriasController,
-                  decoration: const InputDecoration(labelText: 'Calorías'),
+                  decoration:
+                      InputDecoration(labelText: 'general.macro.calory'.tr()),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
                     FilteringTextInputFormatter.digitsOnly
@@ -327,7 +342,8 @@ class _FoodScreenState extends State<FoodScreen> {
                 ),
                 TextField(
                   controller: proteinaController,
-                  decoration: const InputDecoration(labelText: 'Proteinas'),
+                  decoration:
+                      InputDecoration(labelText: 'general.macro.proteins'.tr()),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
                     FilteringTextInputFormatter.digitsOnly
@@ -335,7 +351,8 @@ class _FoodScreenState extends State<FoodScreen> {
                 ),
                 TextField(
                   controller: carbohidratoController,
-                  decoration: const InputDecoration(labelText: 'Carbohidratos'),
+                  decoration:
+                      InputDecoration(labelText: 'general.macro.carbo'.tr()),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
                     FilteringTextInputFormatter.digitsOnly
@@ -343,7 +360,8 @@ class _FoodScreenState extends State<FoodScreen> {
                 ),
                 TextField(
                   controller: grasaController,
-                  decoration: const InputDecoration(labelText: 'Grasas'),
+                  decoration:
+                      InputDecoration(labelText: 'general.macro.fats'.tr()),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
                     FilteringTextInputFormatter.digitsOnly
@@ -351,7 +369,8 @@ class _FoodScreenState extends State<FoodScreen> {
                 ),
                 TextField(
                   controller: fibraController,
-                  decoration: const InputDecoration(labelText: 'Fibra'),
+                  decoration:
+                      InputDecoration(labelText: 'general.macro.fiber'.tr()),
                   keyboardType: TextInputType.number,
                   inputFormatters: <TextInputFormatter>[
                     FilteringTextInputFormatter.digitsOnly
@@ -362,13 +381,15 @@ class _FoodScreenState extends State<FoodScreen> {
           ),
           actions: [
             TextButton(
-              child: const Text('Cancelar'),
+              child: Text('foodScreen.btnCancel'.tr()),
               onPressed: () {
                 Navigator.of(context).pop();
               },
             ),
             TextButton(
-              child: Text(action == 'add' ? 'Agregar' : 'Actualizar'),
+              child: Text(action == 'add'
+                  ? 'foodScreen.add'.tr()
+                  : 'foodScreen.update'.tr()),
               onPressed: () async {
                 if (_formKey.currentState?.validate() == true) {
                   final nombre = nombreController.text;
@@ -423,12 +444,15 @@ class _FoodScreenState extends State<FoodScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (isLoading) {
+      return Center(child: CircularProgressIndicator());
+    }
     return Scaffold(
       appBar: AppBar(
         title:
             Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-          const Text(
-            'Alimentos',
+          Text(
+            'foodScreen.foods'.tr(),
             style: TextStyle(color: Colors.black87),
           ),
           const SizedBox(
@@ -439,8 +463,8 @@ class _FoodScreenState extends State<FoodScreen> {
               padding: const EdgeInsets.only(top: 12.0),
               child: TextField(
                 controller: _searchController,
-                decoration: const InputDecoration(
-                  hintText: 'Buscar por nombre',
+                decoration: InputDecoration(
+                  hintText: 'foodScreen.search'.tr(),
                   hintStyle: TextStyle(color: Colors.grey),
                   border: InputBorder.none,
                   suffixIcon: Icon(Icons.search, color: Colors.black54),
@@ -487,7 +511,7 @@ class _FoodScreenState extends State<FoodScreen> {
                 onPressed: _restartAlimentos,
               ),
               const Spacer(),
-              const Text('Ordenar por:'),
+              Text('${'foodScreen.sortBy'.tr()}:'),
               const SizedBox(
                 width: 8,
               ),
@@ -516,8 +540,8 @@ class _FoodScreenState extends State<FoodScreen> {
                     return PopupMenuItem<String>(
                       value: option,
                       child: Text(option == currentOrderOption
-                          ? '* ${option}endente'
-                          : '${option}endente'),
+                          ? '* ${option}${'foodScreen.sortFinal'.tr()}'
+                          : '${option}${'foodScreen.sortFinal'.tr()}'),
                     );
                   }).toList();
                 },
@@ -529,13 +553,13 @@ class _FoodScreenState extends State<FoodScreen> {
           ),
           Expanded(
               child: isLoading
-                  ? const Center(
+                  ? Center(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           CircularProgressIndicator(),
                           SizedBox(height: 16),
-                          Text('Reiniciando alimentos...'),
+                          Text('foodScreen.reloading'.tr()),
                         ],
                       ),
                     )

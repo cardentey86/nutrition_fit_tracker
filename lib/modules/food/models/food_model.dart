@@ -60,10 +60,10 @@ class Alimento {
   }
 
   factory Alimento.fromMap(
-      Map<String, dynamic> map, AlimentoTraduccion traduccion) {
+      Map<String, dynamic> map, AlimentoTraduccion? traduccion) {
     return Alimento(
       id: map['Id'],
-      nombre: traduccion.nombreAlimento,
+      nombre: traduccion != null ? traduccion.nombreAlimento : map['Nombre'],
       calorias: (map['Calorias'] is int)
           ? (map['Calorias'] as int).toDouble()
           : map['Calorias'],

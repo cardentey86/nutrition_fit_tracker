@@ -22,7 +22,7 @@ class AlimentoTraduccion {
   Map<String, dynamic> toMap() {
     return {
       'Id': id,
-      'Nombre': nombreAlimento,
+      'NombreAlimento': nombreAlimento,
       'Code': code,
       'idAlimento': idAlimento,
     };

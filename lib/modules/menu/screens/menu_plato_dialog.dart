@@ -174,8 +174,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                                   ),
                                   Column(
                                     children: [
-                                      const Text(
-                                        'general.macro.fats',
+                                      Text(
+                                        'general.macro.fats'.tr(),
                                         style: TextStyle(
                                             color: Colors.black38,
                                             fontSize: 11),

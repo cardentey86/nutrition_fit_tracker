@@ -35,84 +35,92 @@ class Information extends StatelessWidget {
                   children: [
                     RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         style: TextStyle(color: Colors.black),
                         children: [
                           TextSpan(
                             text:
-                                'Esta app es tu compañero ideal para alcanzar tus metas de salud y bienestar a través de un enfoque holístico en la gestión de la alimentación y el seguimiento del acondicionamiento físico. Nuestra aplicación está diseñada para ayudarte a llevar un control detallado de tus hábitos alimenticios y a calcular índices esenciales que te permitirán entender mejor tu composición corporal y optimizar tu nutrición. \n\n',
+                                '${'information.aboutSection.desc1'.tr()} \n\n',
                           ),
                           TextSpan(
                             text:
-                                'No solo aprenderás a gestionar tus alimentos de manera efectiva, sino que también obtendrás un entendimiento más profundo de cómo tu dieta y tu entrenamiento impactan en tu salud general. Ya seas un principiante en el mundo del fitness o un atleta experimentado, nuestra aplicación proporciona las herramientas necesarias para empoderarte en tu viaje hacia un estilo de vida más saludable. \n\n',
-                          ),
-                          TextSpan(
-                            text: 'Principales características: \n\n',
-                            style: TextStyle(fontWeight: FontWeight.bold),
-                          ),
-                          TextSpan(
-                            text: 'Gestión de alimentos: ',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                                '${'information.aboutSection.desc2'.tr()} \n\n',
                           ),
                           TextSpan(
                             text:
-                                'Ingresa y lleva un seguimiento de tus comidas diarias con una amplia base de datos de alimentos. Accede a información nutricional precisa que te ayudará a tomar decisiones informadas sobre lo que comes. \n\n',
-                          ),
-                          TextSpan(
-                            text: 'Cálculo de macronutrientes: ',
+                                '${'information.aboutSection.title'.tr()}: \n\n',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'La aplicación te permite calcular y ajustar tu consumo diario de macronutrientes (carbohidratos, proteínas y grasas) según tus objetivos específicos, ya sea para perder peso, ganar músculo o mantener una alimentación equilibrada. \n\n',
-                          ),
-                          TextSpan(
-                            text: 'Cálculo de porcentaje de grasa y músculo: ',
+                                '${'information.aboutSection.section1Title'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'Utiliza herramientas para estimar tu porcentaje de grasa corporal y músculo magro, lo que te permite tener una visión más clara de tu composición corporal y ajustar tu dieta y entrenamiento en consecuencia. \n\n',
+                                '${'information.aboutSection.section1Desc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Tasa Metabólica Basal (TMB)',
+                            text:
+                                '${'information.aboutSection.section2Title'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'Calcula tu TMB para determinar cuántas calorías necesita tu cuerpo en reposo, lo que te ayudará a establecer un plan de alimentación personalizado y efectivo. \n\n',
+                                '${'information.aboutSection.section2Desc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Predicción de ganancia muscular: ',
+                            text:
+                                '${'information.aboutSection.section3Title'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'La predicción genética de la ganancia muscular es clave para personalizar el entrenamiento, estableciendo metas realistas y optimizando la nutrición según la predisposición individual. Esto no solo maximiza la eficiencia del crecimiento muscular y el rendimiento deportivo, sino que también ayuda a prevenir lesiones y a mantener la motivación a largo plazo, impulsando la investigación en estrategias de entrenamiento y nutrición más efectivas. \n\n',
+                                '${'information.aboutSection.section3Desc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Medidas estéticas: ',
+                            text: 'information.aboutSection.section4Title'.tr(),
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'Las medidas estéticas del cuerpo son importantes porque reflejan la percepción de la imagen corporal, influyendo en la autoestima, la confianza y el bienestar psicológico. Alcanzar ciertos estándares estéticos puede mejorar la satisfacción personal, fomentar hábitos saludables como el ejercicio y una dieta equilibrada, y promover interacciones sociales positivas. Aunque es crucial equilibrar la estética con la salud y evitar la obsesión, las medidas estéticas pueden servir como una motivación para el autocuidado y la búsqueda de una mejor calidad de vida. \n\n',
+                                '${'information.aboutSection.section4Desc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Objetivos Personalizados: ',
+                            text:
+                                '${'information.aboutSection.section5Title'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'Establece metas de nutrición y entrenamiento adaptadas a tus necesidades individuales, y monitoriza tu progreso a lo largo del tiempo. La aplicación te enviará recordatorios y motivación para mantenerte enfocado en tus objetivos. \n\n',
+                                '${'information.aboutSection.section5Desc'.tr()} \n\n',
                           ),
                           TextSpan(
-                            text: 'Informes: ',
+                            text:
+                                '${'information.aboutSection.section6Title'.tr()}: ',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           TextSpan(
                             text:
-                                'Genera informes sobre tu ingesta diaria, el progreso en tu composición corporal y tus hábitos alimenticios, brindándote información valiosa para realizar ajustes y mejorar tu enfoque hacia la salud. \n\n',
+                                '${'information.aboutSection.section6Desc'.tr()} \n\n',
+                          ),
+                          TextSpan(
+                            text:
+                                '${'information.aboutSection.section7Title'.tr()}: ',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          TextSpan(
+                            text:
+                                '${'information.aboutSection.section7Desc'.tr()} \n\n',
+                          ),
+                          TextSpan(
+                            text:
+                                '${'information.aboutSection.section8Title'.tr()}: ',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          TextSpan(
+                            text:
+                                '${'information.aboutSection.section8Desc'.tr()} \n\n',
                           ),
                         ],
                       ),

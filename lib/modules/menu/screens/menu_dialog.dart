@@ -62,7 +62,7 @@ class _MenuDialogState extends State<MenuDialog> {
       ),
       actions: <Widget>[
         TextButton(
-          child: Text('menuFood.dialog.bntAdd'.tr()),
+          child: Text('menuFood.dialog.btnAdd'.tr()),
           onPressed: () {
             if (selectedMenuName != null) {
               widget.onAddMenu(selectedMenuName!, description);
@@ -70,7 +70,7 @@ class _MenuDialogState extends State<MenuDialog> {
           },
         ),
         TextButton(
-          child: Text('menuFood.dialog.bntCancel'.tr()),
+          child: Text('menuFood.dialog.btnCancel'.tr()),
           onPressed: () {
             Navigator.of(context).pop();
           },

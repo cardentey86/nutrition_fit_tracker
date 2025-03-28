@@ -55,8 +55,14 @@ class _MyWidgetState extends State<MenuScreen> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    menuNames = Menu.menuNames();
+  }
+
+  @override
+  void didChangeDependencies() {
+    menuNames =
+        Menu.menuNames(context).map((toElement) => toElement.tr()).toList();
     _loadData();
+    super.didChangeDependencies();
   }
 
   Future<void> _loadData() async {

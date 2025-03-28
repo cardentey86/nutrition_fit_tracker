@@ -77,13 +77,21 @@ class FoodController {
         .query('AlimentoTraduccion', where: 'Code = ?', whereArgs: [code]);
 
     return List.generate(maps.length, (i) {
-      AlimentoTraduccion traduccion = traducciones
-              .firstWhere((element) => element['IdAlimento'] == maps[i]['Id'])
-          as AlimentoTraduccion;
+      final alimentoMap = maps[i];
+      AlimentoTraduccion? traduccion;
+      try {
+        final alimentoTraduccion = traducciones.firstWhere(
+          (t) => t['IdAlimento'] == alimentoMap['Id'],
+        );
+        traduccion = AlimentoTraduccion.fromMap(alimentoTraduccion);
+      } catch (_) {
+        traduccion = null;
+      }
 
       return Alimento(
         id: maps[i]['Id'],
-        nombre: traduccion.nombreAlimento,
+        nombre:
+            traduccion != null ? traduccion.nombreAlimento : maps[i]['Nombre'],
         calorias: (maps[i]['Calorias'] is int)
             ? (maps[i]['Calorias'] as int).toDouble()
             : (maps[i]['Calorias'] as double),
@@ -173,12 +181,12 @@ class FoodController {
         );
 
         _traduccionController.insertTraduccion(AlimentoTraduccion(
-          idAlimento: alimentoEs.id!,
+          idAlimento: result,
           code: 'es',
           nombreAlimento: alimentoEs.nombre,
         ));
         _traduccionController.insertTraduccion(AlimentoTraduccion(
-          idAlimento: alimentoEn.id!,
+          idAlimento: result,
           code: 'en',
           nombreAlimento: alimentoEn.nombre,
         ));

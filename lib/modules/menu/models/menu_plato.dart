@@ -24,7 +24,7 @@ class MenuPlato {
     List<Map<String, dynamic>> alimentoData = await db.query('Alimento',
         where: 'Id = ?', whereArgs: [map['IdAlimento']], limit: 1);
 
-    AlimentoTraduccion alimentoTraduccion =
+    AlimentoTraduccion? alimentoTraduccion =
         await TraduccionController().getTraduccion(map['IdAlimento'], code);
 
     Alimento alimento =

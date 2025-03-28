@@ -38,7 +38,7 @@ class TraduccionController {
       final alimentoTraduccion = AlimentoTraduccion.fromMap(element);
 
       await db.delete('AlimentoTraduccion',
-          where: 'IdAlimento = ${alimentoTraduccion.idAlimento}');
+          where: 'IdAlimento = ?', whereArgs: [alimentoTraduccion.idAlimento]);
     }
     return true;
   }
@@ -48,11 +48,18 @@ class TraduccionController {
     await db.delete('AlimentoTraduccion');
   }
 
-  Future<AlimentoTraduccion> getTraduccion(int idAlimento, String code) async {
+  Future<AlimentoTraduccion?> getTraduccion(int idAlimento, String code) async {
     final db = await _dbHelper.database;
-    final traduccion = await db.query('AlimentoTraduccion',
-        where: 'IdAlimento = $idAlimento and code = $code');
+    final traduccion = await db.query(
+      'AlimentoTraduccion',
+      where: 'IdAlimento = ? AND code = ?',
+      whereArgs: [idAlimento, code],
+    );
 
-    return AlimentoTraduccion.fromMap(traduccion.first);
+    if (traduccion.isNotEmpty) {
+      return AlimentoTraduccion.fromMap(traduccion.first);
+    } else {
+      return null;
+    }
   }
 }
