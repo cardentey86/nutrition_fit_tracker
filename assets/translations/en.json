@@ -239,8 +239,9 @@
     "edit": "Edit",
     "delete": "Delete",
     "confirm": "Confirm"
-  },
-  "personalMeasure": {
+  }
+},
+"personalMeasure": {
   "title": "Personal Measurements",
   "saved": "Measurements saved",
   "errorSaved": "Error saving",
@@ -249,7 +250,7 @@
   "btnCancel": "Cancel",
   "btnOk": "Accept",
   "personalInfo": "Personal Information",
-  "measure": "Personal Information",
+  "measure": "Personal Measurements",
   "age": {
     "title": "Age",
     "error1": "Enter age value",
@@ -307,8 +308,6 @@
     "obj2": "Gain Muscle",
     "obj3": "Maintain Weight"
   }
-}
-
 },
 "foodScreen": {
   "errorRestart": "Foods must be removed from the menu",
