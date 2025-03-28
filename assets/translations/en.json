@@ -214,8 +214,78 @@
     "edit": "Edit",
     "delete": "Delete",
     "confirm": "Confirm"
+  },
+  "personalMeasure": {
+  "title": "Personal Measurements",
+  "saved": "Measurements saved",
+  "errorSaved": "Error saving",
+  "addConfirmTitle": "Confirm Addition",
+  "addConfirmDesc": "A new personal measurement record will be created",
+  "btnCancel": "Cancel",
+  "btnOk": "Accept",
+  "personalInfo": "Personal Information",
+  "measure": "Personal Information",
+  "age": {
+    "title": "Age",
+    "error1": "Enter age value",
+    "error2": "Invalid age value"
+  },
+  "sex": {
+    "title": "Sex",
+    "error1": "Select sex",
+    "men": "Male",
+    "woman": "Female"
+  },
+  "obj": {
+    "title": "Objective",
+    "error1": "Select an objective"
+  },
+  "level": {
+    "title": "Physical Activity Level",
+    "error1": "Select the physical activity level"
+  },
+  "errors": {
+    "calf1": "Enter calf measurement",
+    "calf2": "Invalid calf measurement",
+    "thigh1": "Enter thigh measurement",
+    "thigh2": "Invalid thigh measurement",
+    "forearm1": "Enter forearm measurement",
+    "forearm2": "Invalid forearm measurement",
+    "bicep1": "Enter bicep measurement",
+    "bicep2": "Invalid bicep measurement",
+    "chest1": "Enter chest measurement",
+    "chest2": "Invalid chest measurement",
+    "ankle1": "Enter ankle measurement",
+    "ankle2": "Invalid ankle measurement",
+    "wrist1": "Enter wrist measurement",
+    "wrist2": "Invalid wrist measurement",
+    "neck1": "Enter neck measurement",
+    "neck2": "Invalid neck measurement",
+    "hip1": "Enter hip measurement",
+    "hip2": "Invalid hip measurement",
+    "waist1": "Enter waist measurement",
+    "waist2": "Invalid waist measurement",
+    "weight1": "Enter weight value",
+    "weight2": "Invalid weight value",
+    "height1": "Enter height value",
+    "height2": "Invalid height value"
+  },
+  "activity": {
+    "activity1": "Sedentary",
+    "activity2": "Lightly active (exercise 1-3 days per week)",
+    "activity3": "Moderately active (exercise 3-5 days per week)",
+    "activity4": "Active (exercise 6-7 days per week)",
+    "activity5": "High Performance"
+  },
+  "objetive": {
+    "obj1": "Lose Weight",
+    "obj2": "Gain Muscle",
+    "obj3": "Maintain Weight"
   }
 }
+
+}
+
 
 
 }

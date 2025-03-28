@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nutrition_fit_traker/modules/personal_measure/infrastructure/personal_measure_controller.dart';
@@ -111,13 +112,13 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
 
       if (mounted) {
         if (result) {
-          showSnackBar(context, 'Medidas guardadas');
+          showSnackBar(context, 'personalMeasure.saved'.tr());
         } else {
-          showSnackBar(context, 'Error al guardar');
+          showSnackBar(context, 'personalMeasure.errorSaved'.tr());
         }
       }
     } else {
-      showSnackBar(context, 'Error al guardar');
+      showSnackBar(context, 'personalMeasure.errorSaved'.tr());
     }
   }
 
@@ -148,9 +149,9 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
 
     if (mounted) {
       if (result) {
-        showSnackBar(context, 'Medidas guardadas');
+        showSnackBar(context, 'personalMeasure.saved'.tr());
       } else {
-        showSnackBar(context, 'Error al guardar guardadas');
+        showSnackBar(context, 'personalMeasure.errorSaved'.tr());
       }
     }
   }
@@ -162,8 +163,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Medidas Personales',
+        title: Text(
+          'personalMeasure.title'.tr(),
           style: TextStyle(color: Colors.black87),
         ),
         backgroundColor: Colors.transparent,
@@ -180,23 +181,22 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                     context: context,
                     builder: (context) {
                       return AlertDialog(
-                        title: const Text('Confirmar adición'),
-                        content: const Text(
-                            'Se creará un nuevo registro de medidas personales'),
+                        title: Text('personalMeasure.addConfirmTitle'.tr()),
+                        content: Text('personalMeasure.addConfirmDesc'.tr()),
                         actions: [
                           TextButton(
                             onPressed: () {
                               Navigator.of(context)
                                   .pop(false); // Cerrar y devolver false
                             },
-                            child: const Text('Cancelar'),
+                            child: Text('personalMeasure.btnCancel'.tr()),
                           ),
                           TextButton(
                             onPressed: () {
                               Navigator.of(context)
                                   .pop(true); // Cerrar y devolver verdadero
                             },
-                            child: const Text('Aceptar'),
+                            child: Text('personalMeasure.btnOk'.tr()),
                           ),
                         ],
                       );
@@ -249,7 +249,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
               key: _formKey,
               child: ListView(
                 children: [
-                  const Text('Información Personal'),
+                  Text('personalMeasure.personalInfo'.tr()),
                   const Divider(),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -259,19 +259,20 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: edadController,
-                          decoration:
-                              const InputDecoration(labelText: 'Edad *'),
+                          decoration: InputDecoration(
+                              labelText:
+                                  '${'personalMeasure.age.title'.tr()} *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.digitsOnly
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de edad';
+                              return 'personalMeasure.age.error1'.tr();
                             }
                             if (int.parse(value) > 100 ||
                                 int.parse(value) < 10) {
-                              return 'Valor de edad no válido';
+                              return 'personalMeasure.age.error2'.tr();
                             }
                             return null;
                           },
@@ -286,19 +287,21 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           value: sexoSelected,
                           validator: (value) {
                             if (value == null) {
-                              return 'Seleccione el sexo';
+                              return 'personalMeasure.sex.error1'.tr();
                             } else {
                               return null;
                             }
                           },
-                          hint: const Text("Sexo *"),
+                          hint: Text("${'personalMeasure.sex.title'.tr()} *"),
                           onChanged: (String? newValue) {
                             setState(() {
                               sexoSelected = newValue;
                             });
                           },
-                          items: ['Hombre', 'Mujer']
-                              .map<DropdownMenuItem<String>>((String sexo) {
+                          items: [
+                            'personalMeasure.sex.men'.tr(),
+                            'personalMeasure.sex.woman'.tr()
+                          ].map<DropdownMenuItem<String>>((String sexo) {
                             return DropdownMenuItem<String>(
                               value: sexo,
                               child: Text(sexo),
@@ -312,12 +315,12 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                     value: objetivoSelected,
                     validator: (value) {
                       if (value == null) {
-                        return 'Seleccione el objetivo';
+                        return 'personalMeasure.obj.error1'.tr();
                       } else {
                         return null;
                       }
                     },
-                    hint: const Text("Objetivo *"),
+                    hint: Text("${'personalMeasure.obj.title'.tr()} *"),
                     onChanged: (int? newValue) {
                       setState(() {
                         objetivoSelected = newValue;
@@ -337,13 +340,13 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                     value: nivelActividadSelected,
                     validator: (value) {
                       if (value == null) {
-                        return 'Seleccione el nivel de actividad física';
+                        return 'personalMeasure.level.error1'.tr();
                       } else {
                         return null;
                       }
                     },
-                    hint: const Text(
-                      "Nivel de actividad física *",
+                    hint: Text(
+                      "${'personalMeasure.level.title'.tr()} *",
                     ),
                     onChanged: (int? newValue) {
                       setState(() {
@@ -365,7 +368,7 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                   const SizedBox(
                     height: 32,
                   ),
-                  const Text('Medidas Personales'),
+                  Text('personalMeasure.measure'.tr()),
                   const Divider(),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -375,8 +378,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: estaturaController,
-                          decoration:
-                              const InputDecoration(labelText: 'Estatura cm*'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.height'.tr()} cm*'),
                           keyboardType: const TextInputType.numberWithOptions(
                               signed: false, decimal: true),
                           inputFormatters: <TextInputFormatter>[
@@ -385,11 +388,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de estatura';
+                              return 'personalMeasure.errors.height1'.tr();
                             }
                             if (double.parse(value) > 250 ||
                                 double.parse(value) < 50) {
-                              return 'Valor de estatura no válido';
+                              return 'personalMeasure.errors.height2'.tr();
                             }
                             return null;
                           },
@@ -402,8 +405,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: pesoController,
-                          decoration:
-                              const InputDecoration(labelText: 'Peso kg *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.weight'.tr()} kg *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -411,11 +414,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de peso';
+                              return 'personalMeasure.errors.weight1'.tr();
                             }
                             if (double.parse(value) > 600 ||
                                 double.parse(value) < 30) {
-                              return 'valor de peso no válido';
+                              return 'personalMeasure.errors.weight2'.tr();
                             }
                             return null;
                           },
@@ -431,8 +434,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: cinturaController,
-                          decoration:
-                              const InputDecoration(labelText: 'Cintura cm *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.waist'.tr()} cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -440,11 +443,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de cintura';
+                              return 'personalMeasure.errors.waist1'.tr();
                             }
                             if (double.parse(value) > 200 ||
                                 double.parse(value) < 30) {
-                              return 'Valor de cintura no válido';
+                              return 'personalMeasure.errors.waist2'.tr();
                             }
                             return null;
                           },
@@ -457,8 +460,9 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: caderaController,
-                          decoration: const InputDecoration(
-                              labelText: 'Cadera cm (Mujer)'),
+                          decoration: InputDecoration(
+                              labelText:
+                                  '${'general.body.hip'.tr()} cm (${'personalMeasure.sex.woman'.tr()})'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -468,14 +472,14 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                             if (sexoSelected != null &&
                                 sexoSelected == "Mujer" &&
                                 (value == null || value.isEmpty)) {
-                              return 'Ingrese valor de cadera';
+                              return 'personalMeasure.errors.hip1'.tr();
                             }
 
                             if (value!.isNotEmpty &&
                                 double.parse(value) > 0 &&
                                 (double.parse(value) > 400 ||
                                     double.parse(value) < 40)) {
-                              return 'Valor de cadera no válido';
+                              return 'personalMeasure.errors.hip2'.tr();
                             }
                             return null;
                           },
@@ -491,8 +495,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: cuelloController,
-                          decoration:
-                              const InputDecoration(labelText: 'Cuello cm *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.neck'.tr()} cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -500,11 +504,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor del cuello';
+                              return 'personalMeasure.errors.neck1'.tr();
                             }
                             if (double.parse(value) > 200 ||
                                 double.parse(value) < 15) {
-                              return 'Valor de cuello no válido';
+                              return 'personalMeasure.errors.neck2'.tr();
                             }
                             return null;
                           },
@@ -517,8 +521,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: munecaController,
-                          decoration:
-                              const InputDecoration(labelText: 'Muñeca cm*'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.wrist'.tr()} cm*'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -526,11 +530,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de muñeca';
+                              return 'personalMeasure.errors.wrist1'.tr();
                             }
                             if (double.parse(value) > 40 ||
                                 double.parse(value) < 5) {
-                              return 'Valor de muñeca no válido';
+                              return 'personalMeasure.errors.wrist2'.tr();
                             }
                             return null;
                           },
@@ -543,8 +547,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: tobilloController,
-                          decoration:
-                              const InputDecoration(labelText: 'Tobillo cm*'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.ankle'.tr()} cm*'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -552,11 +556,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de tobillo';
+                              return 'personalMeasure.errors.ankle1'.tr();
                             }
                             if (double.parse(value) > 60 ||
                                 double.parse(value) < 5) {
-                              return 'Valor de tobillo no válido';
+                              return 'personalMeasure.errors.ankle2'.tr();
                             }
                             return null;
                           },
@@ -572,8 +576,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: pechoController,
-                          decoration:
-                              const InputDecoration(labelText: 'Pecho cm *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.chest'.tr()} cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -581,11 +585,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de pecho';
+                              return 'personalMeasure.errors.chest1'.tr();
                             }
                             if (double.parse(value) > 250 ||
                                 double.parse(value) < 40) {
-                              return 'Valor de pecho no válido';
+                              return 'personalMeasure.errors.chest2'.tr();
                             }
                             return null;
                           },
@@ -598,8 +602,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: bicepsController,
-                          decoration:
-                              const InputDecoration(labelText: 'Biceps cm *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.biceps'.tr()} cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -607,11 +611,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de biceps';
+                              return 'personalMeasure.errors.bicep1'.tr();
                             }
                             if (double.parse(value) > 200 ||
                                 double.parse(value) < 10) {
-                              return 'Valor de biceps no válido';
+                              return 'personalMeasure.errors.bicep2'.tr();
                             }
                             return null;
                           },
@@ -627,8 +631,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: antebrazoController,
-                          decoration: const InputDecoration(
-                              labelText: 'Antebrazo cm *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.forearm'.tr()} cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -636,11 +640,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de antebrazo';
+                              return 'personalMeasure.errors.forearm1'.tr();
                             }
                             if (double.parse(value) > 150 ||
                                 double.parse(value) < 10) {
-                              return 'Valor de antebrazo no válido';
+                              return 'personalMeasure.errors.forearm2'.tr();
                             }
                             return null;
                           },
@@ -653,8 +657,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                         flex: 1,
                         child: TextFormField(
                           controller: musloController,
-                          decoration:
-                              const InputDecoration(labelText: 'Muslo cm *'),
+                          decoration: InputDecoration(
+                              labelText: '${'general.body.thigh'.tr()} cm *'),
                           keyboardType: TextInputType.number,
                           inputFormatters: <TextInputFormatter>[
                             FilteringTextInputFormatter.allow(
@@ -662,11 +666,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                           ],
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return 'Ingrese valor de muslo';
+                              return 'personalMeasure.errors.thigh1'.tr();
                             }
                             if (double.parse(value) > 200 ||
                                 double.parse(value) < 30) {
-                              return 'Valor de muslo no válido';
+                              return 'personalMeasure.errors.thigh2'.tr();
                             }
                             return null;
                           },
@@ -676,8 +680,8 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                   ),
                   TextFormField(
                     controller: pantorrillaController,
-                    decoration:
-                        const InputDecoration(labelText: 'Gemelos cm *'),
+                    decoration: InputDecoration(
+                        labelText: '${'general.body.calf'.tr()} cm *'),
                     keyboardType: TextInputType.number,
                     inputFormatters: <TextInputFormatter>[
                       FilteringTextInputFormatter.allow(
@@ -685,11 +689,11 @@ class _MedidasPersonalesState extends State<MedidasPersonales> {
                     ],
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return 'Ingrese valor de gemelos';
+                        return 'personalMeasure.errors.calf1'.tr();
                       }
                       if (double.parse(value) > 100 ||
                           double.parse(value) < 10) {
-                        return 'Valor de gemelos no válido';
+                        return 'personalMeasure.errors.calf2'.tr();
                       }
                       return null;
                     },
