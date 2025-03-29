@@ -45,6 +45,7 @@ class _FoodScreenState extends State<FoodScreen> {
   String orderSelectedField = 'nombre';
   final _formKey = GlobalKey<FormState>();
   Alimento? alimentoToUpdate;
+  Alimento? alimentoToAdd;
 
   @override
   void initState() {
@@ -95,9 +96,10 @@ class _FoodScreenState extends State<FoodScreen> {
         return AddFoodDialog(
             menuPlato: menuPlatoToUpdate,
             selectedMenu: selectedMenu,
+            selectedFood: selectedFood,
             action: action,
             menuNames: menus,
-            alimentos: [],
+            alimentos: [alimentoToAdd!],
             onAddMenuPlato: (id, selectedMenu, selectedFood, quantity) async {
               var exist = menuPlato.any((item) =>
                   item.idAlimento == selectedFood &&
@@ -146,6 +148,9 @@ class _FoodScreenState extends State<FoodScreen> {
                   foregroundColor: Colors.green,
                   icon: Icons.add_box,
                   onPressed: (context) {
+                    setState(() {
+                      alimentoToAdd = alimento;
+                    });
                     _showAlimentoDialog(
                         'add', null, null, alimento.id.toString());
                   },

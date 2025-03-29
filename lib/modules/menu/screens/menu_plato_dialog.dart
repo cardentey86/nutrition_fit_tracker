@@ -47,6 +47,7 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
       selectedMeal = widget.selectedMenu;
     } else if (widget.selectedFood != null) {
       selectedFood = widget.selectedFood;
+      _alimentoController.text = widget.alimentos.first.nombre;
     }
     super.initState();
   }
@@ -196,10 +197,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
                                   selectedFood =
                                       filteredFoods[index].id.toString();
                                   _alimentoController.text =
-                                      filteredFoods[index]
-                                          .nombre; // Actualiza el campo
-                                  filteredFoods =
-                                      []; // Oculta la lista de sugerencias
+                                      filteredFoods[index].nombre;
+                                  filteredFoods = [];
                                 });
                               },
                             );
