@@ -11,6 +11,7 @@ class AddFoodDialog extends StatefulWidget {
   final Function(MenuPlato?, int, int, double) onAddMenuPlato;
   final String action;
   final String? selectedMenu;
+  final String? selectedFood;
   final MenuPlato? menuPlato;
   const AddFoodDialog(
       {super.key,
@@ -19,7 +20,8 @@ class AddFoodDialog extends StatefulWidget {
       required this.onAddMenuPlato,
       required this.action,
       this.menuPlato,
-      this.selectedMenu});
+      this.selectedMenu,
+      this.selectedFood});
 
   @override
   _AddFoodDialogState createState() => _AddFoodDialogState();
@@ -43,6 +45,8 @@ class _AddFoodDialogState extends State<AddFoodDialog> {
       menuPlato = widget.menuPlato;
     } else if (widget.selectedMenu != null) {
       selectedMeal = widget.selectedMenu;
+    } else if (widget.selectedFood != null) {
+      selectedFood = widget.selectedFood;
     }
     super.initState();
   }

@@ -4,6 +4,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:nutrition_fit_traker/modules/food/infrastructure/food_controller.dart';
 import 'package:nutrition_fit_traker/modules/food/models/food_model.dart';
+import 'package:nutrition_fit_traker/modules/menu/infrastructure/menu_plato_controller.dart';
+import 'package:nutrition_fit_traker/modules/menu/models/menu.dart';
+import 'package:nutrition_fit_traker/modules/menu/models/menu_plato.dart';
+import 'package:nutrition_fit_traker/modules/menu/screens/menu_plato_dialog.dart';
 
 class FoodScreen extends StatefulWidget {
   const FoodScreen({super.key});
@@ -16,6 +20,9 @@ List<String> _orderOptions = ['asc', 'desc'];
 
 class _FoodScreenState extends State<FoodScreen> {
   final FoodController _foodController = FoodController();
+  final MenuPlatoController _menuPlatoController = MenuPlatoController();
+  List<Menu> menus = [];
+  List<MenuPlato> menuPlato = [];
 
   List<Alimento> _alimentos = [];
   List<Alimento> _filteredAlimentos = [];
@@ -56,11 +63,54 @@ class _FoodScreenState extends State<FoodScreen> {
     List<Alimento> alimentos =
         await _foodController.getAlimentos(context.locale.languageCode);
 
+    final resultMenu =
+        await _menuPlatoController.getAllMenu(context.locale.languageCode);
+    menus = [...resultMenu];
+
+    final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
+    menuPlato = [...resultMenuPlato];
+
     setState(() {
       _alimentos = alimentos;
       _filteredAlimentos = [..._alimentos];
       setData();
     });
+  }
+
+  Future<void> insertMenuPlato(
+      int idMenu, int idAlimento, double cantidad) async {
+    MenuPlato menuPlato = MenuPlato(
+        idMenu: idMenu,
+        idAlimento: idAlimento,
+        fecha: DateTime.now().toString(),
+        cantidad: cantidad);
+    await _menuPlatoController.insertMenuPlato(menuPlato);
+  }
+
+  void _showAlimentoDialog(String action, MenuPlato? menuPlatoToUpdate,
+      String? selectedMenu, String? selectedFood) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AddFoodDialog(
+            menuPlato: menuPlatoToUpdate,
+            selectedMenu: selectedMenu,
+            action: action,
+            menuNames: menus,
+            alimentos: [],
+            onAddMenuPlato: (id, selectedMenu, selectedFood, quantity) async {
+              var exist = menuPlato.any((item) =>
+                  item.idAlimento == selectedFood &&
+                  item.idMenu == selectedMenu);
+              if (!exist) {
+                await insertMenuPlato(selectedMenu, selectedFood, quantity);
+                Navigator.pop(context);
+              } else {
+                showSnackBar(context, 'menuFood.menuScreen.existFood'.tr());
+              }
+            });
+      },
+    );
   }
 
   void setData() {
@@ -96,7 +146,8 @@ class _FoodScreenState extends State<FoodScreen> {
                   foregroundColor: Colors.green,
                   icon: Icons.add_box,
                   onPressed: (context) {
-                    showSnackBar(context, "Add Menu");
+                    _showAlimentoDialog(
+                        'add', null, null, alimento.id.toString());
                   },
                 )
               ],
@@ -540,8 +591,8 @@ class _FoodScreenState extends State<FoodScreen> {
                     return PopupMenuItem<String>(
                       value: option,
                       child: Text(option == currentOrderOption
-                          ? '* ${option}${'foodScreen.sortFinal'.tr()}'
-                          : '${option}${'foodScreen.sortFinal'.tr()}'),
+                          ? '* $option${'foodScreen.sortFinal'.tr()}'
+                          : '$option${'foodScreen.sortFinal'.tr()}'),
                     );
                   }).toList();
                 },
