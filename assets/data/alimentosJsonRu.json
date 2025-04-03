@@ -1,0 +1,6058 @@
+[
+  {
+    "Alimento": "Абадехо, Ахумадо",
+    "Calorias": 116,
+    "Carbohidratos": 0,
+    "Proteinas": 25.23,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Абулон, приготовленный на пару или скалолазание",
+    "Calorias": 209,
+    "Carbohidratos": 11.97,
+    "Proteinas": 34.05,
+    "Grasas": 1.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Блаженные Акедиас",
+    "Calorias": 256,
+    "Carbohidratos": 12,
+    "Proteinas": 17,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Миндальное масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Арахисовое масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кокосовое масло",
+    "Calorias": 892,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 99.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Подсолнечное масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кукурузное масло",
+    "Calorias": 900,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ореховое масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Оливковое масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кунжутное масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Соевое масло",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "UVA Oil, Pepita",
+    "Calorias": 899,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "маслины",
+    "Calorias": 105,
+    "Carbohidratos": 6.06,
+    "Proteinas": 0.88,
+    "Grasas": 9.54,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "оливки",
+    "Calorias": 145,
+    "Carbohidratos": 3.84,
+    "Proteinas": 1.03,
+    "Grasas": 15.32,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Фаршированные зеленые оливки",
+    "Calorias": 128,
+    "Carbohidratos": 4.02,
+    "Proteinas": 1.04,
+    "Grasas": 13.22,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Сырой мангольд",
+    "Calorias": 19,
+    "Carbohidratos": 3.74,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Акаролас",
+    "Calorias": 31,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.4,
+    "Grasas": 0.3,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "César заправка",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Мед и горчичная заправка",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Голубой сыр или заправка",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Йогуртовая заправка",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Газированная, подслащенная вода",
+    "Calorias": 34,
+    "Carbohidratos": 8.8,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Весенняя вода",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой авокадо",
+    "Calorias": 160,
+    "Carbohidratos": 8.53,
+    "Proteinas": 2,
+    "Grasas": 14.66,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Сырой чеснок",
+    "Calorias": 149,
+    "Carbohidratos": 33.06,
+    "Proteinas": 6.36,
+    "Grasas": 0.5,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Сырой базилик",
+    "Calorias": 23,
+    "Carbohidratos": 2.65,
+    "Proteinas": 3.15,
+    "Grasas": 0.64,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Сырой абрикосой",
+    "Calorias": 48,
+    "Carbohidratos": 11.12,
+    "Proteinas": 1.4,
+    "Grasas": 0.39,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Альбарикок, приготовленный или консервированный, в толстом сиропе",
+    "Calorias": 83,
+    "Carbohidratos": 21.47,
+    "Proteinas": 0.53,
+    "Grasas": 0.08,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Альбарикок, сухой, сырой",
+    "Calorias": 241,
+    "Carbohidratos": 62.64,
+    "Proteinas": 3.39,
+    "Grasas": 0.51,
+    "Fibra": 7.3
+  },
+  {
+    "Alimento": "Шведские фрикадельки со сливками или белым соусом",
+    "Calorias": 170,
+    "Carbohidratos": 7.22,
+    "Proteinas": 12.43,
+    "Grasas": 9.88,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Артишок, приготовленный, консервированный, приготовлен из масла.",
+    "Calorias": 67,
+    "Carbohidratos": 8.89,
+    "Proteinas": 3.01,
+    "Grasas": 3.1,
+    "Fibra": 4.5
+  },
+  {
+    "Alimento": "Артишок, приготовленный, свежий, приготовлен из масла.",
+    "Calorias": 74,
+    "Carbohidratos": 11.57,
+    "Proteinas": 2.8,
+    "Grasas": 2.95,
+    "Fibra": 5.5
+  },
+  {
+    "Alimento": "Артишоки",
+    "Calorias": 23,
+    "Carbohidratos": 2.3,
+    "Proteinas": 2.9,
+    "Grasas": 0.2,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Куриные крылышки, гриль",
+    "Calorias": 257,
+    "Carbohidratos": 0.6,
+    "Proteinas": 23.42,
+    "Grasas": 18.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырые моллюски / чирла",
+    "Calorias": 86,
+    "Carbohidratos": 3.57,
+    "Proteinas": 14.67,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Консервированные моллюски",
+    "Calorias": 108,
+    "Carbohidratos": 4.46,
+    "Proteinas": 18.34,
+    "Grasas": 1.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Соленый миндаль",
+    "Calorias": 601,
+    "Carbohidratos": 20.18,
+    "Proteinas": 20.13,
+    "Grasas": 53.43,
+    "Fibra": 10.5
+  },
+  {
+    "Alimento": "Миндаль без соли",
+    "Calorias": 607,
+    "Carbohidratos": 20.38,
+    "Proteinas": 20.33,
+    "Grasas": 53.96,
+    "Fibra": 10.6
+  },
+  {
+    "Alimento": "Миндаль без тоста",
+    "Calorias": 579,
+    "Carbohidratos": 21.55,
+    "Proteinas": 21.15,
+    "Grasas": 49.93,
+    "Fibra": 12.5
+  },
+  {
+    "Alimento": "Белый, консервированный, дренированный, жирный жир",
+    "Calorias": 168,
+    "Carbohidratos": 30.91,
+    "Proteinas": 10.84,
+    "Grasas": 0.57,
+    "Fibra": 7.2
+  },
+  {
+    "Alimento": "Кешью",
+    "Calorias": 609,
+    "Carbohidratos": 30.3,
+    "Proteinas": 12.12,
+    "Grasas": 53.03,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Рана Анкас, на пару",
+    "Calorias": 92,
+    "Carbohidratos": 0,
+    "Proteinas": 20.62,
+    "Grasas": 0.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Консервированный анчоус",
+    "Calorias": 210,
+    "Carbohidratos": 0,
+    "Proteinas": 28.89,
+    "Grasas": 9.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Угорь",
+    "Calorias": 168,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ахумада угря",
+    "Calorias": 287,
+    "Carbohidratos": 0,
+    "Proteinas": 28.73,
+    "Grasas": 18.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленный на пару или лазание орел",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 14.66,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ангулы",
+    "Calorias": 205,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Анисетт",
+    "Calorias": 297,
+    "Carbohidratos": 2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленный Cloo",
+    "Calorias": 44,
+    "Carbohidratos": 9.63,
+    "Proteinas": 1.57,
+    "Grasas": 0.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Сырой сельдерей",
+    "Calorias": 16,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.69,
+    "Grasas": 0.17,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Сырая черника",
+    "Calorias": 57,
+    "Carbohidratos": 14.49,
+    "Proteinas": 0.74,
+    "Grasas": 0.33,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Сухая черника",
+    "Calorias": 308,
+    "Carbohidratos": 82.8,
+    "Proteinas": 0.17,
+    "Grasas": 1.09,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Сырая сельдь",
+    "Calorias": 158,
+    "Carbohidratos": 0,
+    "Proteinas": 17.96,
+    "Grasas": 9.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сухой песок",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Аренк, копчено",
+    "Calorias": 217,
+    "Carbohidratos": 0,
+    "Proteinas": 24.58,
+    "Grasas": 12.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Рис, приготовленный с молоком",
+    "Calorias": 143,
+    "Carbohidratos": 25.03,
+    "Proteinas": 5.06,
+    "Grasas": 2.21,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Интегральный рис",
+    "Calorias": 357,
+    "Carbohidratos": 77,
+    "Proteinas": 7,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Полированный рис, белый",
+    "Calorias": 361,
+    "Carbohidratos": 87,
+    "Proteinas": 6,
+    "Grasas": 1,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Рис, белый, приготовленный, не добавляя жира при приготовлении",
+    "Calorias": 129,
+    "Carbohidratos": 27.99,
+    "Proteinas": 2.67,
+    "Grasas": 0.28,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Рис, интегральный и дикий, приготовленный, без жира, добавленного в приготовление пищи",
+    "Calorias": 120,
+    "Carbohidratos": 24.9,
+    "Proteinas": 2.89,
+    "Grasas": 0.88,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Рис, приготовленный диким, без жира, добавленного в приготовление пищи",
+    "Calorias": 100,
+    "Carbohidratos": 21.21,
+    "Proteinas": 3.97,
+    "Grasas": 0.34,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Копчено свежего тунца",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свежий, сырой тунец",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 24.4,
+    "Grasas": 0.49,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Тунец, консервированный, с маслом",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 29.13,
+    "Grasas": 8.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Фундук",
+    "Calorias": 628,
+    "Carbohidratos": 16.7,
+    "Proteinas": 14.95,
+    "Grasas": 60.75,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Сырая овсянка",
+    "Calorias": 379,
+    "Carbohidratos": 67.7,
+    "Proteinas": 13.15,
+    "Grasas": 6.52,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Овсянка, отрран",
+    "Calorias": 25,
+    "Carbohidratos": 6.6,
+    "Proteinas": 1.7,
+    "Grasas": 0.7,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Страус, приготовленный",
+    "Calorias": 174,
+    "Carbohidratos": 0,
+    "Proteinas": 25.93,
+    "Grasas": 7.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сахар, белый, гранулированный или комок",
+    "Calorias": 387,
+    "Carbohidratos": 99.98,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сахар, белый, тесто, порошок",
+    "Calorias": 389,
+    "Carbohidratos": 99.77,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сахар, коричневый (Морено)",
+    "Calorias": 380,
+    "Carbohidratos": 98.09,
+    "Proteinas": 0.12,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Копченая треска",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 23.91,
+    "Grasas": 0.64,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Запеченная треска или гриль, сделанный из масла",
+    "Calorias": 117,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.68,
+    "Grasas": 4.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Запеченная треска или жареная, сделанная без жира",
+    "Calorias": 87,
+    "Carbohidratos": 0.1,
+    "Proteinas": 19.24,
+    "Grasas": 0.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свежая треска",
+    "Calorias": 76,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Соленая треска, пропитанная",
+    "Calorias": 138,
+    "Carbohidratos": 0,
+    "Proteinas": 32,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Треска, сухой, соленый",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 62.82,
+    "Grasas": 2.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Бекон",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Банан",
+    "Calorias": 89,
+    "Carbohidratos": 22.6,
+    "Proteinas": 1.08,
+    "Grasas": 0.34,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Марс миндальный бар",
+    "Calorias": 467,
+    "Carbohidratos": 62.7,
+    "Proteinas": 8.1,
+    "Grasas": 23,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Snickers Bar",
+    "Calorias": 491,
+    "Carbohidratos": 61.51,
+    "Proteinas": 7.53,
+    "Grasas": 23.85,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Сладкий картофель",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Батата, запеченная, без кожуры, без жира, добавленной в приготовление пищи",
+    "Calorias": 90,
+    "Carbohidratos": 20.63,
+    "Proteinas": 2,
+    "Grasas": 0.15,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Шоколадный коктейль",
+    "Calorias": 366,
+    "Carbohidratos": 77,
+    "Proteinas": 6,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Коктейль молока, бутылка, шоколад",
+    "Calorias": 150,
+    "Carbohidratos": 20.36,
+    "Proteinas": 3.7,
+    "Grasas": 6.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Овся с молоком",
+    "Calorias": 82,
+    "Carbohidratos": 15.59,
+    "Proteinas": 1.69,
+    "Grasas": 1.57,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Выпить Horchata, приготовленное из воды.",
+    "Calorias": 87,
+    "Carbohidratos": 20.48,
+    "Proteinas": 1.09,
+    "Grasas": 0.11,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Сок напиток / фруктовый сок (солнечный D)",
+    "Calorias": 54,
+    "Carbohidratos": 13.16,
+    "Proteinas": 0.13,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Спортивный напиток (Gatorade G)",
+    "Calorias": 26,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Спортивный напиток (Powerade)",
+    "Calorias": 32,
+    "Carbohidratos": 7.84,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Энергетический напиток (монстр)",
+    "Calorias": 47,
+    "Carbohidratos": 11.28,
+    "Proteinas": 0.47,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Энергетический напиток (Red Bull)",
+    "Calorias": 43,
+    "Carbohidratos": 10.23,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Энергетический напиток (Rockstar)",
+    "Calorias": 58,
+    "Carbohidratos": 12.7,
+    "Proteinas": 0.34,
+    "Grasas": 0.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Энергетический напиток без сахара (Red Bull)",
+    "Calorias": 5,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Энергетический напиток, низкий уровень калорий (монстр)",
+    "Calorias": 5,
+    "Carbohidratos": 1.38,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Энергетический напиток, без сахара (Rockstar)",
+    "Calorias": 4,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовлены Бероберес",
+    "Calorias": 48,
+    "Carbohidratos": 0,
+    "Proteinas": 10.7,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой баклажан",
+    "Calorias": 25,
+    "Carbohidratos": 5.88,
+    "Proteinas": 0.98,
+    "Grasas": 0.18,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Баклажаны, приготовленные, жиры, не добавленные в приготовление пищи",
+    "Calorias": 35,
+    "Carbohidratos": 8.64,
+    "Proteinas": 0.82,
+    "Grasas": 0.23,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Кресс для воды, приготовленный, свежий, без жира, добавленного в приготовление пищи",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Берро, RAW",
+    "Calorias": 32,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.6,
+    "Grasas": 0.7,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Морский лещ",
+    "Calorias": 90,
+    "Carbohidratos": 0,
+    "Proteinas": 18.1,
+    "Grasas": 1.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленный Бигарос",
+    "Calorias": 135,
+    "Carbohidratos": 5,
+    "Proteinas": 26,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Бискоты хорошо",
+    "Calorias": 366,
+    "Carbohidratos": 73,
+    "Proteinas": 9,
+    "Grasas": 4,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Бискот интегральная пшеница",
+    "Calorias": 407,
+    "Carbohidratos": 62,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Кровавая Мэри",
+    "Calorias": 69,
+    "Carbohidratos": 3.16,
+    "Proteinas": 0.64,
+    "Grasas": 0.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Средние булочки",
+    "Calorias": 387,
+    "Carbohidratos": 49,
+    "Proteinas": 5,
+    "Grasas": 20,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "СМИ шоколад",
+    "Calorias": 458,
+    "Carbohidratos": 66,
+    "Proteinas": 5,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сладкий картофель",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "бренди",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bratwurst",
+    "Calorias": 333,
+    "Carbohidratos": 2.85,
+    "Proteinas": 13.72,
+    "Grasas": 29.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Брека (белая рыба)",
+    "Calorias": 74,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой Брекол",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Сырой брокколи",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Брокколи, приготовленная, замороженная, не добавляя жира при приготовлении",
+    "Calorias": 28,
+    "Carbohidratos": 5.32,
+    "Proteinas": 3.08,
+    "Grasas": 0.12,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Соевые почки, приготовленные, свежие, без жира, добавленные в приготовление пищи",
+    "Calorias": 46,
+    "Carbohidratos": 5.15,
+    "Proteinas": 4.76,
+    "Grasas": 1.95,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Соевые почки, сырые",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Кокосовый приятель",
+    "Calorias": 111,
+    "Carbohidratos": 17.37,
+    "Proteinas": 2.89,
+    "Grasas": 3.43,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Bouillabaisse",
+    "Calorias": 98,
+    "Carbohidratos": 2.15,
+    "Proteinas": 13.43,
+    "Grasas": 3.7,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Французский Бунуэло",
+    "Calorias": 412,
+    "Carbohidratos": 59.5,
+    "Proteinas": 3.1,
+    "Grasas": 18.3,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Бунуэло, банан",
+    "Calorias": 342,
+    "Carbohidratos": 34.43,
+    "Proteinas": 5.03,
+    "Grasas": 21.33,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Оладьи трески",
+    "Calorias": 278,
+    "Carbohidratos": 36.02,
+    "Proteinas": 15.32,
+    "Grasas": 7.45,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Кукурузные оладьи",
+    "Calorias": 394,
+    "Carbohidratos": 40.81,
+    "Proteinas": 8.24,
+    "Grasas": 22.57,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Буррито с мясом",
+    "Calorias": 242,
+    "Carbohidratos": 14.44,
+    "Proteinas": 13.03,
+    "Grasas": 14.48,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Куриный буррито",
+    "Calorias": 242,
+    "Carbohidratos": 16.57,
+    "Proteinas": 16.9,
+    "Grasas": 12.01,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Буррито, тако или кесадилья с яйцом",
+    "Calorias": 229,
+    "Carbohidratos": 19.69,
+    "Proteinas": 10.27,
+    "Grasas": 11.84,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Бутфарра",
+    "Calorias": 243,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 20,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Копченая скумбрия",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырая скумбрия",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 19.08,
+    "Grasas": 11.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Консервированные лошади",
+    "Calorias": 156,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 6.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Плоть лошадь",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Запеченная коза",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 26.87,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Плоть козы",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Жареная коза",
+    "Calorias": 153,
+    "Carbohidratos": 0,
+    "Proteinas": 26.46,
+    "Grasas": 4.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Плоть",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Финансирование арахиса",
+    "Calorias": 567,
+    "Carbohidratos": 16.13,
+    "Proteinas": 25.8,
+    "Grasas": 49.24,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Арахис, жареный, соленый",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Арахис, жареный, без соли",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Какао -пыль",
+    "Calorias": 357,
+    "Carbohidratos": 11,
+    "Proteinas": 20,
+    "Grasas": 24,
+    "Fibra": 38
+  },
+  {
+    "Alimento": "Капучино кофе",
+    "Calorias": 27,
+    "Carbohidratos": 2.7,
+    "Proteinas": 1.68,
+    "Grasas": 1.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кубинский кофе",
+    "Calorias": 33,
+    "Carbohidratos": 7.86,
+    "Proteinas": 0.11,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кофе без кофеина",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0.1,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Экспресс кофе",
+    "Calorias": 9,
+    "Carbohidratos": 1.67,
+    "Proteinas": 0.12,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кофе без кофеина",
+    "Calorias": 9,
+    "Carbohidratos": 1.69,
+    "Proteinas": 0.1,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Извлечь кофе, пыль",
+    "Calorias": 82,
+    "Carbohidratos": 8,
+    "Proteinas": 11,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Инфузионный кофе",
+    "Calorias": 2,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мгновенный кофе (растворимый порошок)",
+    "Calorias": 100,
+    "Carbohidratos": 11,
+    "Proteinas": 15,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ирландский кофе",
+    "Calorias": 88,
+    "Carbohidratos": 2.03,
+    "Proteinas": 0.27,
+    "Grasas": 2.41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "TorreFacto Coffee",
+    "Calorias": 183,
+    "Carbohidratos": 2,
+    "Proteinas": 13,
+    "Grasas": 13,
+    "Fibra": 66
+  },
+  {
+    "Alimento": "Кофе, кофе с молоком",
+    "Calorias": 39,
+    "Carbohidratos": 5.64,
+    "Proteinas": 1.64,
+    "Grasas": 1.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кофе, кофе с молоком, кофейнина.",
+    "Calorias": 39,
+    "Carbohidratos": 5.72,
+    "Proteinas": 1.65,
+    "Grasas": 1.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Цуккини",
+    "Calorias": 14,
+    "Carbohidratos": 2.2,
+    "Proteinas": 0.6,
+    "Grasas": 0.2,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Тыква, приготовленная, свежая, жира, не добавленная при приготовлении пищи",
+    "Calorias": 20,
+    "Carbohidratos": 4.88,
+    "Proteinas": 0.72,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Сырой кальмар",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Консервированный кальмар",
+    "Calorias": 106,
+    "Carbohidratos": 3.54,
+    "Proteinas": 17.9,
+    "Grasas": 1.59,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Рыбный бульон, домашний рецепт",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 2.26,
+    "Grasas": 0.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Куриный или индейский бульон, бульон или консоме",
+    "Calorias": 6,
+    "Carbohidratos": 0.44,
+    "Proteinas": 0.64,
+    "Grasas": 0.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Овощный бульон, бульон",
+    "Calorias": 5,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0.24,
+    "Grasas": 0.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мозоли, приготовленные",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 12.6,
+    "Grasas": 3.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кальцоне, с мясом и сыром.",
+    "Calorias": 348,
+    "Carbohidratos": 31.16,
+    "Proteinas": 14.28,
+    "Grasas": 18.24,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Приготовленные на пару креветки или вареные",
+    "Calorias": 91,
+    "Carbohidratos": 1.16,
+    "Proteinas": 17.37,
+    "Grasas": 1.29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canelones фарширован сыром и шпинатом, без соуса",
+    "Calorias": 158,
+    "Carbohidratos": 17.41,
+    "Proteinas": 6.95,
+    "Grasas": 6.71,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Морской краб",
+    "Calorias": 124,
+    "Carbohidratos": 13.28,
+    "Proteinas": 19.5,
+    "Grasas": 5.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Речный краб, вареный или приготовленный на пару",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 16.66,
+    "Grasas": 1.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Консервированный краб",
+    "Calorias": 83,
+    "Carbohidratos": 0,
+    "Proteinas": 17.88,
+    "Grasas": 0.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Краб, запеченные или жареные, не добавляя жира в приготовление пищи",
+    "Calorias": 102,
+    "Carbohidratos": 0.1,
+    "Proteinas": 21.96,
+    "Grasas": 0.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Caha, Raw",
+    "Calorias": 70,
+    "Carbohidratos": 18.59,
+    "Proteinas": 0.58,
+    "Grasas": 0.19,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Наземная улитка",
+    "Calorias": 86,
+    "Carbohidratos": 2,
+    "Proteinas": 16,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Чертополох",
+    "Calorias": 21,
+    "Carbohidratos": 4,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Лошадь",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Козьим мясо",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Детское мясо",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свинина, толстая",
+    "Calorias": 329,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свинина, худой",
+    "Calorias": 147,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мясо кролика",
+    "Calorias": 124,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мясо из баранины, отбивка",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мясо ягненка, худое",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мясо Кордеро, поддон",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мясо ягненка, нога",
+    "Calorias": 240,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Говядина, хвост вола, приготовленный",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 30.8,
+    "Grasas": 13.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мясо венадо / жареный олень",
+    "Calorias": 190,
+    "Carbohidratos": 0,
+    "Proteinas": 36.08,
+    "Grasas": 3.93,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Овечье мясо",
+    "Calorias": 235,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Совместное мясо, худое",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Коровея мясо, отбитая",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Коровье мясо, стейк",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Коровье мясо, тушеное мясо",
+    "Calorias": 176,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Коровея мясо, худое",
+    "Calorias": 123,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Коровов мясо, филе",
+    "Calorias": 272,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ахумада палатка",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 27.84,
+    "Grasas": 8.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Парированная палатка или скалолазание",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 22.42,
+    "Grasas": 7.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Палатка, запеченная или жареная, жир не добавляется при приготовлении",
+    "Calorias": 160,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.46,
+    "Grasas": 7.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Каштаны",
+    "Calorias": 245,
+    "Carbohidratos": 52.96,
+    "Proteinas": 3.17,
+    "Grasas": 2.2,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Русская икра",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 25,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ячмень",
+    "Calorias": 360,
+    "Carbohidratos": 84,
+    "Proteinas": 8,
+    "Grasas": 2,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Лук",
+    "Calorias": 40,
+    "Carbohidratos": 9,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Сырой лук",
+    "Calorias": 30,
+    "Carbohidratos": 4.35,
+    "Proteinas": 3.27,
+    "Grasas": 0.73,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Накапливаться",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свинина, свиная кожура, приготовленная",
+    "Calorias": 468,
+    "Carbohidratos": 1.7,
+    "Proteinas": 33.92,
+    "Grasas": 35.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свинья, поясница, эмпанизированная, жареная",
+    "Calorias": 294,
+    "Carbohidratos": 15.22,
+    "Proteinas": 22,
+    "Grasas": 15.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Свинина, поясница, избитая, жареная",
+    "Calorias": 193,
+    "Carbohidratos": 7.57,
+    "Proteinas": 23.29,
+    "Grasas": 7.07,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Свинина, филе, для рагу",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 27.24,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Зерновые (кукуруза Kellogg)",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Зерновые (Kellogg Crispix)",
+    "Calorias": 378,
+    "Carbohidratos": 87.19,
+    "Proteinas": 6.59,
+    "Grasas": 0.8,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Зерновые (All-Bran's Kellogg)",
+    "Calorias": 259,
+    "Carbohidratos": 74.24,
+    "Proteinas": 13.14,
+    "Grasas": 4.9,
+    "Fibra": 29.3
+  },
+  {
+    "Alimento": "Зерновые (Келлогг Какао Криспис)",
+    "Calorias": 389,
+    "Carbohidratos": 87.9,
+    "Proteinas": 4.6,
+    "Grasas": 2.7,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Зерновые (рис Kellogg's Rice Krispies)",
+    "Calorias": 381,
+    "Carbohidratos": 85.05,
+    "Proteinas": 6.75,
+    "Grasas": 2.05,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Зерновые (специальная k Kellogg)",
+    "Calorias": 377,
+    "Carbohidratos": 73.4,
+    "Proteinas": 17.79,
+    "Grasas": 1.79,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Зерновые (келлог -хрустящие овсяные отруби)",
+    "Calorias": 395,
+    "Carbohidratos": 70.3,
+    "Proteinas": 9.2,
+    "Grasas": 14.1,
+    "Fibra": 12.7
+  },
+  {
+    "Alimento": "Зерновые (измельченная пшеница и отруби)",
+    "Calorias": 339,
+    "Carbohidratos": 80.65,
+    "Proteinas": 10.93,
+    "Grasas": 2.06,
+    "Fibra": 14.7
+  },
+  {
+    "Alimento": "Зерновые (Weetabix цельное зерно)",
+    "Calorias": 371,
+    "Carbohidratos": 81.5,
+    "Proteinas": 11.43,
+    "Grasas": 2.86,
+    "Fibra": 11.4
+  },
+  {
+    "Alimento": "Хрупки, хрустящий рис",
+    "Calorias": 394,
+    "Carbohidratos": 86.22,
+    "Proteinas": 6.69,
+    "Grasas": 1.26,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Зерновые, раздутый рис",
+    "Calorias": 383,
+    "Carbohidratos": 87.78,
+    "Proteinas": 7.01,
+    "Grasas": 0.9,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Зерновые, поджаренные овес",
+    "Calorias": 357,
+    "Carbohidratos": 75.5,
+    "Proteinas": 10.71,
+    "Grasas": 5.36,
+    "Fibra": 10.7
+  },
+  {
+    "Alimento": "Зерновые, Муэли",
+    "Calorias": 355,
+    "Carbohidratos": 74.9,
+    "Proteinas": 8.6,
+    "Grasas": 5.4,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Зерновые, раздутые, подслащенные",
+    "Calorias": 380,
+    "Carbohidratos": 88.5,
+    "Proteinas": 5.7,
+    "Grasas": 2.2,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Зерновые, раздутая пшеница",
+    "Calorias": 366,
+    "Carbohidratos": 76.39,
+    "Proteinas": 16.26,
+    "Grasas": 2.15,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Керлосные кукурузные хлопья",
+    "Calorias": 378,
+    "Carbohidratos": 84,
+    "Proteinas": 7,
+    "Grasas": 0,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Зерновые, кукурузные хлопья",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Вишня",
+    "Calorias": 50,
+    "Carbohidratos": 12.18,
+    "Proteinas": 1,
+    "Grasas": 0.3,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Замороженная вишня",
+    "Calorias": 46,
+    "Carbohidratos": 11.02,
+    "Proteinas": 0.92,
+    "Grasas": 0.44,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Пиво",
+    "Calorias": 43,
+    "Carbohidratos": 3.55,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Низкое углеводное пиво",
+    "Calorias": 27,
+    "Carbohidratos": 0.73,
+    "Proteinas": 0.17,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Севиче",
+    "Calorias": 62,
+    "Carbohidratos": 3.58,
+    "Proteinas": 10.34,
+    "Grasas": 0.75,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "шампанское",
+    "Calorias": 84,
+    "Carbohidratos": 3,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырые грибы",
+    "Calorias": 22,
+    "Carbohidratos": 3.26,
+    "Proteinas": 3.09,
+    "Grasas": 0.34,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Грибы, приготовленные, приготовленные из масла",
+    "Calorias": 52,
+    "Carbohidratos": 5.11,
+    "Proteinas": 2.1,
+    "Grasas": 3.27,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Грибы, свежие сливки",
+    "Calorias": 81,
+    "Carbohidratos": 7.01,
+    "Proteinas": 2.91,
+    "Grasas": 4.98,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Чанкетс",
+    "Calorias": 79,
+    "Carbohidratos": 2,
+    "Proteinas": 11,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Чиды сыр, сладости",
+    "Calorias": 158,
+    "Carbohidratos": 15,
+    "Proteinas": 2,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Горох, приготовленный, свежий, без жира, добавленного в приготовление пищи",
+    "Calorias": 110,
+    "Carbohidratos": 19.36,
+    "Proteinas": 5.92,
+    "Grasas": 1.35,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Чичарроны",
+    "Calorias": 540,
+    "Carbohidratos": 1,
+    "Proteinas": 20,
+    "Grasas": 51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Чили с без мяса",
+    "Calorias": 42,
+    "Carbohidratos": 8.19,
+    "Proteinas": 2.39,
+    "Grasas": 0.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Чили с мясом с бобами",
+    "Calorias": 104,
+    "Carbohidratos": 10.71,
+    "Proteinas": 6.88,
+    "Grasas": 3.81,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Заварной заварной яблоко",
+    "Calorias": 75,
+    "Carbohidratos": 18,
+    "Proteinas": 1.2,
+    "Grasas": 0.6,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Chirivías, приготовленный, без жира, добавленного в приготовление пищи",
+    "Calorias": 71,
+    "Carbohidratos": 16.9,
+    "Proteinas": 1.31,
+    "Grasas": 0.3,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Chirivías, крем",
+    "Calorias": 105,
+    "Carbohidratos": 13.5,
+    "Proteinas": 2.44,
+    "Grasas": 4.89,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Белый шоколад",
+    "Calorias": 539,
+    "Carbohidratos": 59.24,
+    "Proteinas": 5.87,
+    "Grasas": 32.09,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Белый шоколад с миндалем",
+    "Calorias": 547,
+    "Carbohidratos": 53.15,
+    "Proteinas": 8.2,
+    "Grasas": 35.15,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Молочный шоколад",
+    "Calorias": 550,
+    "Carbohidratos": 56,
+    "Proteinas": 6,
+    "Grasas": 34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сладкий или темный шоколад",
+    "Calorias": 528,
+    "Carbohidratos": 60.18,
+    "Proteinas": 4.5,
+    "Grasas": 33.2,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Сладкий или темный шоколад, с миндалем.",
+    "Calorias": 553,
+    "Carbohidratos": 56.48,
+    "Proteinas": 6.55,
+    "Grasas": 33.81,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Шоколад без молока",
+    "Calorias": 530,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Колбаса",
+    "Calorias": 455,
+    "Carbohidratos": 1.86,
+    "Proteinas": 24.1,
+    "Grasas": 38.27,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырная колбаса колбаса",
+    "Calorias": 402,
+    "Carbohidratos": 0.4,
+    "Proteinas": 15.76,
+    "Grasas": 36.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиная отбивная, жареная или запеченная",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиная отбивная, эмпанада или посыпать",
+    "Calorias": 239,
+    "Carbohidratos": 8.4,
+    "Proteinas": 26.87,
+    "Grasas": 10.21,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Свиная отбивная, тушеное мясо, худое и жирное",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиная отбивная, жареная, худой и толстая",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиная отбивная, избитая, жареная, худой и толстая",
+    "Calorias": 281,
+    "Carbohidratos": 12.78,
+    "Proteinas": 22.6,
+    "Grasas": 14.97,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Жареная телянка, худой и толстый",
+    "Calorias": 238,
+    "Carbohidratos": 9.91,
+    "Proteinas": 27.29,
+    "Grasas": 9.18,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Тернера, жареная, худой и толстая чувета",
+    "Calorias": 215,
+    "Carbohidratos": 0,
+    "Proteinas": 24.59,
+    "Grasas": 12.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Чуррос",
+    "Calorias": 481,
+    "Carbohidratos": 49.8,
+    "Proteinas": 3.02,
+    "Grasas": 30.58,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Рак",
+    "Calorias": 67,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 0.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой кориандр",
+    "Calorias": 23,
+    "Carbohidratos": 3.67,
+    "Proteinas": 2.13,
+    "Grasas": 0.52,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Сырая слива",
+    "Calorias": 46,
+    "Carbohidratos": 11.42,
+    "Proteinas": 0.7,
+    "Grasas": 0.28,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "PASAS POOCLAS, Papillas, Coladas",
+    "Calorias": 100,
+    "Carbohidratos": 23.52,
+    "Proteinas": 1,
+    "Grasas": 0.2,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Свежий кокос",
+    "Calorias": 354,
+    "Carbohidratos": 15.23,
+    "Proteinas": 3.33,
+    "Grasas": 33.49,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Коктейль Бакарда",
+    "Calorias": 123,
+    "Carbohidratos": 16.11,
+    "Proteinas": 0.08,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Перепели, приготовленный",
+    "Calorias": 226,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 14.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кудрявый, приготовленный, свежий",
+    "Calorias": 28,
+    "Carbohidratos": 5.59,
+    "Proteinas": 1.88,
+    "Grasas": 0.4,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Брюссель, приготовленная, свежая капуста",
+    "Calorias": 36,
+    "Carbohidratos": 7.06,
+    "Proteinas": 2.53,
+    "Grasas": 0.5,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Брюссельская капуста, сырая",
+    "Calorias": 43,
+    "Carbohidratos": 8.95,
+    "Proteinas": 3.38,
+    "Grasas": 0.3,
+    "Fibra": 3.8
+  },
+  {
+    "Alimento": "Приготовленная цветная капуста",
+    "Calorias": 23,
+    "Carbohidratos": 4.08,
+    "Proteinas": 1.82,
+    "Grasas": 0.45,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Сырая цветная капуста",
+    "Calorias": 25,
+    "Carbohidratos": 4.97,
+    "Proteinas": 1.92,
+    "Grasas": 0.28,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Цветная капуста, жареная",
+    "Calorias": 216,
+    "Carbohidratos": 14.46,
+    "Proteinas": 3.91,
+    "Grasas": 16.28,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Сырой Колинабо",
+    "Calorias": 27,
+    "Carbohidratos": 6.2,
+    "Proteinas": 1.7,
+    "Grasas": 0.1,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Тушеный кролик",
+    "Calorias": 210,
+    "Carbohidratos": 6.85,
+    "Proteinas": 17.18,
+    "Grasas": 12.44,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Кролик, дикий, приготовленный",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 32.88,
+    "Grasas": 3.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Конггер",
+    "Calorias": 102,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Conguitos",
+    "Calorias": 510,
+    "Carbohidratos": 50.1,
+    "Proteinas": 11.7,
+    "Grasas": 29.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "коньяк",
+    "Calorias": 232,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сердце ягненка",
+    "Calorias": 119,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Говяжий сердце",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ягненок, жареный",
+    "Calorias": 265,
+    "Carbohidratos": 0,
+    "Proteinas": 23.83,
+    "Grasas": 18.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ягненок, ребра",
+    "Calorias": 358,
+    "Carbohidratos": 0,
+    "Proteinas": 21.95,
+    "Grasas": 29.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ягненок, поясница",
+    "Calorias": 313,
+    "Carbohidratos": 0,
+    "Proteinas": 24.96,
+    "Grasas": 22.89,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ягненок, палитра",
+    "Calorias": 274,
+    "Carbohidratos": 0,
+    "Proteinas": 22.32,
+    "Grasas": 19.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кожа свиной кожи",
+    "Calorias": 544,
+    "Carbohidratos": 0,
+    "Proteinas": 61.3,
+    "Grasas": 31.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Корвина, на пару или шаг",
+    "Calorias": 131,
+    "Carbohidratos": 0,
+    "Proteinas": 22.36,
+    "Grasas": 3.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Корвина, запеченная или жареная, жир не добавляется при приготовлении",
+    "Calorias": 131,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.4,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Шоколадный крем с фундуками",
+    "Calorias": 549,
+    "Carbohidratos": 60.5,
+    "Proteinas": 6.2,
+    "Grasas": 33,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Молочный крем, Шантильи",
+    "Calorias": 331,
+    "Carbohidratos": 10,
+    "Proteinas": 2,
+    "Grasas": 31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Креп, гладкий",
+    "Calorias": 223,
+    "Carbohidratos": 21.72,
+    "Proteinas": 8.74,
+    "Grasas": 10.95,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Круассан, шоколад",
+    "Calorias": 421,
+    "Carbohidratos": 49.4,
+    "Proteinas": 7.4,
+    "Grasas": 22.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Круассан, сыр",
+    "Calorias": 414,
+    "Carbohidratos": 47,
+    "Proteinas": 9.2,
+    "Grasas": 20.9,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Хэм Крокет",
+    "Calorias": 273,
+    "Carbohidratos": 2.58,
+    "Proteinas": 17.98,
+    "Grasas": 20.7,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Творог",
+    "Calorias": 94,
+    "Carbohidratos": 6.7,
+    "Proteinas": 4.8,
+    "Grasas": 5.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Супы кубики",
+    "Calorias": 154,
+    "Carbohidratos": 8,
+    "Proteinas": 23,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Дайкири",
+    "Calorias": 119,
+    "Carbohidratos": 15.65,
+    "Proteinas": 0.09,
+    "Grasas": 0.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Даты",
+    "Calorias": 282,
+    "Carbohidratos": 75.3,
+    "Proteinas": 2.45,
+    "Grasas": 0.39,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Зеленый зуб льва, сырой",
+    "Calorias": 45,
+    "Carbohidratos": 9.2,
+    "Proteinas": 2.7,
+    "Grasas": 0.7,
+    "Fibra": 3.5
+  },
+  {
+    "Alimento": "Золотой",
+    "Calorias": 140,
+    "Carbohidratos": 0,
+    "Proteinas": 20.82,
+    "Grasas": 6.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Император",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Император на гриле",
+    "Calorias": 177,
+    "Carbohidratos": 0.49,
+    "Proteinas": 23.8,
+    "Grasas": 8.23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Соленые огурцы, смешанные",
+    "Calorias": 137,
+    "Carbohidratos": 36.94,
+    "Proteinas": 0.39,
+    "Grasas": 0.5,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Эндибиа",
+    "Calorias": 25,
+    "Carbohidratos": 3.6,
+    "Proteinas": 1.5,
+    "Grasas": 0.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "César курица или салат из индейки, помидоры, сыр, без заправки",
+    "Calorias": 65,
+    "Carbohidratos": 2.56,
+    "Proteinas": 9.55,
+    "Grasas": 1.88,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Салат с сисаром, с римским салатом, без заправки",
+    "Calorias": 71,
+    "Carbohidratos": 6,
+    "Proteinas": 4.77,
+    "Grasas": 3.41,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Салат из яичного тунца",
+    "Calorias": 191,
+    "Carbohidratos": 2.63,
+    "Proteinas": 10.53,
+    "Grasas": 15.41,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Тунец с сыром салатом",
+    "Calorias": 214,
+    "Carbohidratos": 2.8,
+    "Proteinas": 11.54,
+    "Grasas": 17.52,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Приготовленная спаржа",
+    "Calorias": 18,
+    "Carbohidratos": 1.91,
+    "Proteinas": 2.93,
+    "Grasas": 0.42,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Сырая спаржа",
+    "Calorias": 20,
+    "Carbohidratos": 3.88,
+    "Proteinas": 2.2,
+    "Grasas": 0.12,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Консервированная спаржа (консервы)",
+    "Calorias": 24,
+    "Carbohidratos": 3.4,
+    "Proteinas": 1.9,
+    "Grasas": 0.3,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Приготовленный шпинат",
+    "Calorias": 23,
+    "Carbohidratos": 3.39,
+    "Proteinas": 2.8,
+    "Grasas": 0.5,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Свежий кремовый шпинат",
+    "Calorias": 74,
+    "Carbohidratos": 5.96,
+    "Proteinas": 3.32,
+    "Grasas": 4.5,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Сырой шпинат",
+    "Calorias": 23,
+    "Carbohidratos": 3.63,
+    "Proteinas": 2.86,
+    "Grasas": 0.39,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Копченый осетр",
+    "Calorias": 173,
+    "Carbohidratos": 0,
+    "Proteinas": 31.2,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "На пару осетр",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 20.3,
+    "Grasas": 5.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Дрожжевой экстракт",
+    "Calorias": 185,
+    "Carbohidratos": 20.42,
+    "Proteinas": 23.88,
+    "Grasas": 0.9,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Приготовление фазана",
+    "Calorias": 238,
+    "Carbohidratos": 0,
+    "Proteinas": 32.26,
+    "Grasas": 12.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Фанека (белая рыба)",
+    "Calorias": 76,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Жареная куриное филе",
+    "Calorias": 145,
+    "Carbohidratos": 2.37,
+    "Proteinas": 22.24,
+    "Grasas": 5.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Куриное филе эмпаната",
+    "Calorias": 240,
+    "Carbohidratos": 14.86,
+    "Proteinas": 14.62,
+    "Grasas": 13.58,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Свинина, гриль или запеченный стейк или отбив",
+    "Calorias": 239,
+    "Carbohidratos": 0.06,
+    "Proteinas": 22.96,
+    "Grasas": 15.86,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Филе или свиная отбивная, избитая, жареная, худое и жирное",
+    "Calorias": 271,
+    "Carbohidratos": 7.62,
+    "Proteinas": 19.87,
+    "Grasas": 17.53,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Швейцарское филе",
+    "Calorias": 131,
+    "Carbohidratos": 3.55,
+    "Proteinas": 10.82,
+    "Grasas": 8.05,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "ФИЛЛ VACA",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Яичный флан",
+    "Calorias": 177,
+    "Carbohidratos": 29.04,
+    "Proteinas": 5.22,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой чарт",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.56,
+    "Grasas": 1.33,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Флетан, копчено",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 44.61,
+    "Grasas": 3.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Фуа-гра",
+    "Calorias": 444,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Малина, замороженная, без сахара",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Малина, сырой",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Франкфуртер, Винер или хот -дог",
+    "Calorias": 332,
+    "Carbohidratos": 3.13,
+    "Proteinas": 12.3,
+    "Grasas": 29.58,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Замороженная клубника без сахара",
+    "Calorias": 35,
+    "Carbohidratos": 9.13,
+    "Proteinas": 0.43,
+    "Grasas": 0.11,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Сырая клубника",
+    "Calorias": 32,
+    "Carbohidratos": 7.68,
+    "Proteinas": 0.67,
+    "Grasas": 0.3,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Mugo Bean без жира, добавленная в приготовление пищи",
+    "Calorias": 104,
+    "Carbohidratos": 19.06,
+    "Proteinas": 6.98,
+    "Grasas": 0.38,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Желтая фасоль без добавления жира при приготовлении пищи",
+    "Calorias": 143,
+    "Carbohidratos": 25.14,
+    "Proteinas": 9.11,
+    "Grasas": 1.07,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Белая фасоль без жира добавлена ​​в приготовление пищи",
+    "Calorias": 138,
+    "Carbohidratos": 24.95,
+    "Proteinas": 9.68,
+    "Grasas": 0.35,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Бобы лимы без жира добавлены в приготовление пищи",
+    "Calorias": 114,
+    "Carbohidratos": 20.77,
+    "Proteinas": 7.76,
+    "Grasas": 0.38,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Мексиканские бобы пинто без жира, добавленные в приготовление пищи",
+    "Calorias": 142,
+    "Carbohidratos": 26.07,
+    "Proteinas": 8.96,
+    "Grasas": 0.65,
+    "Fibra": 8.9
+  },
+  {
+    "Alimento": "Черная фасоль, коричневая или бухта, не добавляя жира при приготовлении пищи",
+    "Calorias": 131,
+    "Carbohidratos": 23.58,
+    "Proteinas": 8.81,
+    "Grasas": 0.54,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Красная фасоль без жира, добавленная в приготовление пищи",
+    "Calorias": 126,
+    "Carbohidratos": 22.67,
+    "Proteinas": 8.62,
+    "Grasas": 0.5,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Розовые бобы без жира, добавленная в приготовление пищи",
+    "Calorias": 148,
+    "Carbohidratos": 27.75,
+    "Proteinas": 9.01,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Приготовленные зеленую фасоль, без жира, добавленного в приготовление пищи",
+    "Calorias": 68,
+    "Carbohidratos": 13.52,
+    "Proteinas": 4.09,
+    "Grasas": 0.39,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Кокосовое печенье",
+    "Calorias": 460,
+    "Carbohidratos": 61.22,
+    "Proteinas": 3.02,
+    "Grasas": 22.55,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Масляное печенье",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Джинджервиво печенье",
+    "Calorias": 416,
+    "Carbohidratos": 76.9,
+    "Proteinas": 5.6,
+    "Grasas": 9.8,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Печенье, миндаль",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Печенье, овсянка",
+    "Calorias": 450,
+    "Carbohidratos": 68.7,
+    "Proteinas": 6.2,
+    "Grasas": 18.1,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Печенье, проход",
+    "Calorias": 401,
+    "Carbohidratos": 68,
+    "Proteinas": 4.1,
+    "Grasas": 13.6,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Салада печенье",
+    "Calorias": 418,
+    "Carbohidratos": 74.05,
+    "Proteinas": 9.46,
+    "Grasas": 8.64,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Петух",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 15.8,
+    "Grasas": 1.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Эджилло креветки",
+    "Calorias": 195,
+    "Carbohidratos": 1.77,
+    "Proteinas": 19.7,
+    "Grasas": 11.73,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Приготовленные креветки",
+    "Calorias": 96,
+    "Carbohidratos": 0,
+    "Proteinas": 19.8,
+    "Grasas": 1.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Гусь, дикий, жареный",
+    "Calorias": 304,
+    "Carbohidratos": 0,
+    "Proteinas": 25.06,
+    "Grasas": 21.83,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Жирный нут добавлен в приготовление пищи",
+    "Calorias": 163,
+    "Carbohidratos": 27.25,
+    "Proteinas": 8.81,
+    "Grasas": 2.57,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Gatorade",
+    "Calorias": 39,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Гаспачо",
+    "Calorias": 37,
+    "Carbohidratos": 3.84,
+    "Proteinas": 0.86,
+    "Grasas": 2.35,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Пшеница зародыш",
+    "Calorias": 382,
+    "Carbohidratos": 49.6,
+    "Proteinas": 29.1,
+    "Grasas": 10.7,
+    "Fibra": 15.1
+  },
+  {
+    "Alimento": "Джин и тоник",
+    "Calorias": 84,
+    "Carbohidratos": 6.57,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Женева",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Гофио Мило",
+    "Calorias": 377,
+    "Carbohidratos": 83,
+    "Proteinas": 6,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Гофио пшеница",
+    "Calorias": 371,
+    "Carbohidratos": 82,
+    "Proteinas": 11,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Граната",
+    "Calorias": 34,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.7,
+    "Grasas": 0.1,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Грелос",
+    "Calorias": 11,
+    "Carbohidratos": 0.1,
+    "Proteinas": 2.7,
+    "Grasas": 0,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Сырая смородина",
+    "Calorias": 56,
+    "Carbohidratos": 13.8,
+    "Proteinas": 1.4,
+    "Grasas": 0.2,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Консервированный горох (консервы)",
+    "Calorias": 67,
+    "Carbohidratos": 9.7,
+    "Proteinas": 5.6,
+    "Grasas": 0.5,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Горох, приготовленный, свежий, без жира, добавленного в приготовление пищи",
+    "Calorias": 126,
+    "Carbohidratos": 18.8,
+    "Proteinas": 5.76,
+    "Grasas": 3.47,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Горох, свежий крем",
+    "Calorias": 111,
+    "Carbohidratos": 12.78,
+    "Proteinas": 4.69,
+    "Grasas": 4.78,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Гисантес, зеленый, сырой",
+    "Calorias": 81,
+    "Carbohidratos": 14.45,
+    "Proteinas": 5.42,
+    "Grasas": 0.4,
+    "Fibra": 5.7
+  },
+  {
+    "Alimento": "Сухой фасоль",
+    "Calorias": 343,
+    "Carbohidratos": 59,
+    "Proteinas": 23,
+    "Grasas": 1.5,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Домашний гамбургер",
+    "Calorias": 220,
+    "Carbohidratos": 16.76,
+    "Proteinas": 13.8,
+    "Grasas": 10.5,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Сыр гамбургер (бургер Кинг Чизбургер)",
+    "Calorias": 270,
+    "Carbohidratos": 25.46,
+    "Proteinas": 13.49,
+    "Grasas": 12.9,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Сырные гамбургеры (бургер Кинг Вуппер с сыром)",
+    "Calorias": 268,
+    "Carbohidratos": 17.73,
+    "Proteinas": 13.69,
+    "Grasas": 15.8,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Сыр гамбургер (Burger King Whoopper Jr. с сыром)",
+    "Calorias": 225,
+    "Carbohidratos": 18.11,
+    "Proteinas": 11.2,
+    "Grasas": 11.88,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Сыр гамбургер (двойной чизбургер McDonald's)",
+    "Calorias": 282,
+    "Carbohidratos": 17.97,
+    "Proteinas": 16.24,
+    "Grasas": 16.18,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Сырный гамбургер (четверть фунта с сыром McDonald's)",
+    "Calorias": 269,
+    "Carbohidratos": 19.72,
+    "Proteinas": 15.21,
+    "Grasas": 14.4,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Овсянка",
+    "Calorias": 401,
+    "Carbohidratos": 73,
+    "Proteinas": 12,
+    "Grasas": 9,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Centeno мука",
+    "Calorias": 303,
+    "Carbohidratos": 68,
+    "Proteinas": 7,
+    "Grasas": 1,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Кукурузная мука",
+    "Calorias": 422,
+    "Carbohidratos": 90,
+    "Proteinas": 8,
+    "Grasas": 4.5,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Соевая мука",
+    "Calorias": 447,
+    "Carbohidratos": 24,
+    "Proteinas": 37,
+    "Grasas": 24,
+    "Fibra": 12
+  },
+  {
+    "Alimento": "Пшеничная мука, интегральная",
+    "Calorias": 318,
+    "Carbohidratos": 66,
+    "Proteinas": 13,
+    "Grasas": 2,
+    "Fibra": 10
+  },
+  {
+    "Alimento": "Пшеничная мука, запеченная",
+    "Calorias": 337,
+    "Carbohidratos": 75,
+    "Proteinas": 11,
+    "Grasas": 1,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Заморожен",
+    "Calorias": 209,
+    "Carbohidratos": 21,
+    "Proteinas": 4,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Фруктовое мороженое",
+    "Calorias": 140,
+    "Carbohidratos": 29,
+    "Proteinas": 2,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиная печень",
+    "Calorias": 120,
+    "Carbohidratos": 1,
+    "Proteinas": 21.4,
+    "Grasas": 3.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Куриная печень",
+    "Calorias": 137,
+    "Carbohidratos": 1.2,
+    "Proteinas": 22.1,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Веляная печень",
+    "Calorias": 132,
+    "Carbohidratos": 1.6,
+    "Proteinas": 20.5,
+    "Grasas": 4.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Фиг",
+    "Calorias": 74,
+    "Carbohidratos": 19.18,
+    "Proteinas": 0.75,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Сухой инжир",
+    "Calorias": 213,
+    "Carbohidratos": 53,
+    "Proteinas": 4,
+    "Grasas": 0,
+    "Fibra": 18
+  },
+  {
+    "Alimento": "Листья чертополоха, приготовленные, без жира, добавленного в приготовление пищи",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Аренк Роу",
+    "Calorias": 143,
+    "Carbohidratos": 1.5,
+    "Proteinas": 22.32,
+    "Grasas": 6.42,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Осетр Роу",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 24.6,
+    "Grasas": 17.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Твердое яйцо",
+    "Calorias": 145,
+    "Carbohidratos": 0.3,
+    "Proteinas": 12.5,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырое целое яйцо",
+    "Calorias": 143,
+    "Carbohidratos": 0.72,
+    "Proteinas": 12.56,
+    "Grasas": 9.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Складывая целое яйцо с маслом.",
+    "Calorias": 215,
+    "Carbohidratos": 0.76,
+    "Proteinas": 13.27,
+    "Grasas": 17.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Яйцо, только чистое, сырое",
+    "Calorias": 52,
+    "Carbohidratos": 0.73,
+    "Proteinas": 10.9,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Яйцо, Соло Йем",
+    "Calorias": 322,
+    "Carbohidratos": 3.59,
+    "Proteinas": 15.86,
+    "Grasas": 26.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Хумус",
+    "Calorias": 260,
+    "Carbohidratos": 19.86,
+    "Proteinas": 8.18,
+    "Grasas": 17.78,
+    "Fibra": 5.9
+  },
+  {
+    "Alimento": "Приготовленная ветчина",
+    "Calorias": 114,
+    "Carbohidratos": 0.4,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ветчина индейки, предварительная или коллега",
+    "Calorias": 124,
+    "Carbohidratos": 2.93,
+    "Proteinas": 19.6,
+    "Grasas": 3.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Серрано Хэм",
+    "Calorias": 241,
+    "Carbohidratos": 0,
+    "Proteinas": 31,
+    "Grasas": 13,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ветчина, копченая или вылеченная, консервированная",
+    "Calorias": 132,
+    "Carbohidratos": 1,
+    "Proteinas": 17.46,
+    "Grasas": 6.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ветчина, предварительно погруженная или зарядка, холодный натрия, уменьшенный натрий",
+    "Calorias": 107,
+    "Carbohidratos": 0.7,
+    "Proteinas": 16.85,
+    "Grasas": 4.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сухая белая фасоль / сухой белая фасоль",
+    "Calorias": 272,
+    "Carbohidratos": 41.6,
+    "Proteinas": 22.2,
+    "Grasas": 1.3,
+    "Fibra": 19.7
+  },
+  {
+    "Alimento": "Сок / клевера Тул",
+    "Calorias": 18,
+    "Carbohidratos": 4,
+    "Proteinas": 0.83,
+    "Grasas": 0.16,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Сок / черничный сок, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 12.2,
+    "Proteinas": 0.39,
+    "Grasas": 0.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Сок / сливовый сок, 100%",
+    "Calorias": 71,
+    "Carbohidratos": 17.45,
+    "Proteinas": 0.61,
+    "Grasas": 0.03,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Сок / кокосовый сок",
+    "Calorias": 31,
+    "Carbohidratos": 2.92,
+    "Proteinas": 0.21,
+    "Grasas": 2.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Клубничный сок / сок, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Сок / сок гранады, 100%",
+    "Calorias": 54,
+    "Carbohidratos": 13.13,
+    "Proteinas": 0.15,
+    "Grasas": 0.29,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Сок сока / лайма, 100%",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Сок / лимонный сок, 100%",
+    "Calorias": 22,
+    "Carbohidratos": 6.9,
+    "Proteinas": 0.35,
+    "Grasas": 0.24,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Сок сока / мандарина, 100%",
+    "Calorias": 43,
+    "Carbohidratos": 10.1,
+    "Proteinas": 0.5,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Яблочный сок / сок, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Сок / сок маракуя, 100%",
+    "Calorias": 51,
+    "Carbohidratos": 13.6,
+    "Proteinas": 0.39,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Сок сок / мора, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Апельсиновый сок / сок, 100%",
+    "Calorias": 48,
+    "Carbohidratos": 11.45,
+    "Proteinas": 0.68,
+    "Grasas": 0.12,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Сок / сок папайи, 100%",
+    "Calorias": 57,
+    "Carbohidratos": 14.51,
+    "Proteinas": 0.17,
+    "Grasas": 0.15,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Ананасовый сок / сок, 100%",
+    "Calorias": 53,
+    "Carbohidratos": 12.87,
+    "Proteinas": 0.36,
+    "Grasas": 0.12,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Сок / сок Sandia, 100%",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Томатный сок / сок, 100%",
+    "Calorias": 17,
+    "Carbohidratos": 3.53,
+    "Proteinas": 0.85,
+    "Grasas": 0.29,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Сок / виноградный сок, 100%",
+    "Calorias": 60,
+    "Carbohidratos": 14.77,
+    "Proteinas": 0.37,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Сок / морковный сок, 100%",
+    "Calorias": 40,
+    "Carbohidratos": 9.28,
+    "Proteinas": 0.95,
+    "Grasas": 0.15,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Скумбрия",
+    "Calorias": 112,
+    "Carbohidratos": 0.8,
+    "Proteinas": 15.4,
+    "Grasas": 5.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кефир",
+    "Calorias": 52,
+    "Carbohidratos": 7.34,
+    "Proteinas": 3.59,
+    "Grasas": 0.92,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кетчуп",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Сырой киви",
+    "Calorias": 61,
+    "Carbohidratos": 14.66,
+    "Proteinas": 1.14,
+    "Grasas": 0.52,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Лобстер, приготовленный на пару или вареный",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.3,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Креветка",
+    "Calorias": 93,
+    "Carbohidratos": 0,
+    "Proteinas": 20.1,
+    "Grasas": 1.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "С низким содержанием жира (1%) половинное молоко",
+    "Calorias": 42,
+    "Carbohidratos": 4.99,
+    "Proteinas": 3.37,
+    "Grasas": 0.97,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "С низким содержанием жира (2%) наполовину",
+    "Calorias": 50,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.3,
+    "Grasas": 1.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сгущенное, подслащенное молоко",
+    "Calorias": 321,
+    "Carbohidratos": 54.4,
+    "Proteinas": 7.91,
+    "Grasas": 8.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Миндальное молоко, подслащенное",
+    "Calorias": 38,
+    "Carbohidratos": 6.59,
+    "Proteinas": 0.42,
+    "Grasas": 1.04,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Миндальное молоко, без сахара",
+    "Calorias": 15,
+    "Carbohidratos": 0.58,
+    "Proteinas": 0.59,
+    "Grasas": 1.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Рисовое молоко",
+    "Calorias": 47,
+    "Carbohidratos": 9.17,
+    "Proteinas": 0.28,
+    "Grasas": 0.97,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Цельное козиловое молоко",
+    "Calorias": 69,
+    "Carbohidratos": 4.45,
+    "Proteinas": 3.56,
+    "Grasas": 4.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кокосовое кокосовое молоко",
+    "Calorias": 230,
+    "Carbohidratos": 5.54,
+    "Proteinas": 2.29,
+    "Grasas": 23.84,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Соевое молоко",
+    "Calorias": 43,
+    "Carbohidratos": 4.92,
+    "Proteinas": 2.6,
+    "Grasas": 1.47,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Обезжирить / обезжиренное молоко",
+    "Calorias": 34,
+    "Carbohidratos": 4.96,
+    "Proteinas": 3.37,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Целое молоко",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Цельное молоко с кальцием",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Цельное молоко, пыль",
+    "Calorias": 500,
+    "Carbohidratos": 37,
+    "Proteinas": 25,
+    "Grasas": 26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Целое испаренное молоко",
+    "Calorias": 134,
+    "Carbohidratos": 10.04,
+    "Proteinas": 6.81,
+    "Grasas": 7.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Испаренное молоко, жир (обезжиренная / обезжиренная)",
+    "Calorias": 78,
+    "Carbohidratos": 11.35,
+    "Proteinas": 7.55,
+    "Grasas": 0.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Последнее молоко, целое",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой салат",
+    "Calorias": 14,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.9,
+    "Grasas": 0.14,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Сырой римский салат",
+    "Calorias": 19,
+    "Carbohidratos": 3.78,
+    "Proteinas": 1.39,
+    "Grasas": 0.27,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Салат, Бостон, сырой",
+    "Calorias": 13,
+    "Carbohidratos": 2.23,
+    "Proteinas": 1.35,
+    "Grasas": 0.22,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Салат, руккола, сырой",
+    "Calorias": 25,
+    "Carbohidratos": 3.65,
+    "Proteinas": 2.58,
+    "Grasas": 0.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "На пару или лазание",
+    "Calorias": 88,
+    "Carbohidratos": 0,
+    "Proteinas": 15.61,
+    "Grasas": 2.43,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сухая чечевица",
+    "Calorias": 310,
+    "Carbohidratos": 48.7,
+    "Proteinas": 24.8,
+    "Grasas": 1.2,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Чечевица, не добавляя жиры в приготовление пищи",
+    "Calorias": 115,
+    "Carbohidratos": 20.03,
+    "Proteinas": 8.98,
+    "Grasas": 0.38,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Дрожжи",
+    "Calorias": 325,
+    "Carbohidratos": 41.22,
+    "Proteinas": 40.44,
+    "Grasas": 7.61,
+    "Fibra": 26.9
+  },
+  {
+    "Alimento": "Пивные дрожжи, сухой",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 48,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Грубая личи",
+    "Calorias": 66,
+    "Carbohidratos": 16.53,
+    "Proteinas": 0.83,
+    "Grasas": 0.44,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Сырой лайм",
+    "Calorias": 30,
+    "Carbohidratos": 10.54,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Сырой лимон",
+    "Calorias": 29,
+    "Carbohidratos": 9.32,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Ломбард (полковник Ломбарда)",
+    "Calorias": 27,
+    "Carbohidratos": 3.7,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Поясница для свиньи",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 50,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "На пару или лазание",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 23.18,
+    "Grasas": 2.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленный на пару Люсио",
+    "Calorias": 111,
+    "Carbohidratos": 0,
+    "Proteinas": 24.22,
+    "Grasas": 0.87,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Макароны",
+    "Calorias": 370,
+    "Carbohidratos": 79,
+    "Proteinas": 14,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Магдалена",
+    "Calorias": 397,
+    "Carbohidratos": 42,
+    "Proteinas": 6,
+    "Grasas": 23,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Духовка кукурузы",
+    "Calorias": 214,
+    "Carbohidratos": 39.68,
+    "Proteinas": 3.5,
+    "Grasas": 4.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Сырая кукуруза",
+    "Calorias": 86,
+    "Carbohidratos": 18.7,
+    "Proteinas": 3.27,
+    "Grasas": 1.35,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Сладкая кукуруза мазорки",
+    "Calorias": 104,
+    "Carbohidratos": 19.5,
+    "Proteinas": 3.3,
+    "Grasas": 0.78,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Зефир",
+    "Calorias": 318,
+    "Carbohidratos": 81.3,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Сырой мандарин",
+    "Calorias": 53,
+    "Carbohidratos": 13.34,
+    "Proteinas": 0.81,
+    "Grasas": 0.31,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Сырое манго",
+    "Calorias": 60,
+    "Carbohidratos": 14.98,
+    "Proteinas": 0.82,
+    "Grasas": 0.38,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Манхэттенский коктейль",
+    "Calorias": 222,
+    "Carbohidratos": 1.82,
+    "Proteinas": 0.03,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сало",
+    "Calorias": 902,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Масло",
+    "Calorias": 717,
+    "Carbohidratos": 0.06,
+    "Proteinas": 0.85,
+    "Grasas": 81.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырое яблоко",
+    "Calorias": 52,
+    "Carbohidratos": 13.81,
+    "Proteinas": 0.26,
+    "Grasas": 0.17,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Яблоко, сухое",
+    "Calorias": 243,
+    "Carbohidratos": 65.89,
+    "Proteinas": 0.93,
+    "Grasas": 0.32,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Маргарин",
+    "Calorias": 533,
+    "Carbohidratos": 0.86,
+    "Proteinas": 0.17,
+    "Grasas": 59.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "мартини",
+    "Calorias": 201,
+    "Carbohidratos": 0.15,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Майонез",
+    "Calorias": 680,
+    "Carbohidratos": 0.57,
+    "Proteinas": 0.96,
+    "Grasas": 74.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Майонез, с низким содержанием жира, с оливковым маслом.",
+    "Calorias": 361,
+    "Carbohidratos": 0,
+    "Proteinas": 0.37,
+    "Grasas": 40,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Марципан",
+    "Calorias": 443,
+    "Carbohidratos": 49,
+    "Proteinas": 9,
+    "Grasas": 25,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Приготовленные на пару мидии или поднялись",
+    "Calorias": 171,
+    "Carbohidratos": 7.35,
+    "Proteinas": 23.7,
+    "Grasas": 4.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырые мидии",
+    "Calorias": 86,
+    "Carbohidratos": 3.69,
+    "Proteinas": 11.9,
+    "Grasas": 2.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой персик",
+    "Calorias": 39,
+    "Carbohidratos": 9.54,
+    "Proteinas": 0.91,
+    "Grasas": 0.25,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Персик в сиропе",
+    "Calorias": 84,
+    "Carbohidratos": 22,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Дыня",
+    "Calorias": 34,
+    "Carbohidratos": 8.16,
+    "Proteinas": 0.84,
+    "Grasas": 0.19,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Айва (сладкий)",
+    "Calorias": 242,
+    "Carbohidratos": 62.8,
+    "Proteinas": 0.14,
+    "Grasas": 0.03,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Гак",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 15.9,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Джам, держи",
+    "Calorias": 278,
+    "Carbohidratos": 68.86,
+    "Proteinas": 0.37,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Мед",
+    "Calorias": 304,
+    "Carbohidratos": 82.4,
+    "Proteinas": 0.3,
+    "Grasas": 0,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Мисо",
+    "Calorias": 198,
+    "Carbohidratos": 25.37,
+    "Proteinas": 12.79,
+    "Grasas": 6.01,
+    "Fibra": 5.4
+  },
+  {
+    "Alimento": "Molleja, приготовлен",
+    "Calorias": 154,
+    "Carbohidratos": 0,
+    "Proteinas": 30.4,
+    "Grasas": 2.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Замороженная ежевика",
+    "Calorias": 64,
+    "Carbohidratos": 15.67,
+    "Proteinas": 1.18,
+    "Grasas": 0.43,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Сырой молас",
+    "Calorias": 43,
+    "Carbohidratos": 9.61,
+    "Proteinas": 1.39,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Кровяная колбаса",
+    "Calorias": 379,
+    "Carbohidratos": 1.29,
+    "Proteinas": 14.6,
+    "Grasas": 34.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мортаделла",
+    "Calorias": 311,
+    "Carbohidratos": 3.05,
+    "Proteinas": 16.37,
+    "Grasas": 25.39,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Горчица",
+    "Calorias": 60,
+    "Carbohidratos": 5.83,
+    "Proteinas": 3.74,
+    "Grasas": 3.34,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Шоколадный мусс",
+    "Calorias": 209,
+    "Carbohidratos": 16.24,
+    "Proteinas": 4.31,
+    "Grasas": 14.97,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Шоколадный кекс",
+    "Calorias": 390,
+    "Carbohidratos": 50.81,
+    "Proteinas": 6.39,
+    "Grasas": 18.2,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Куриное бедро, жаркое, с кожей",
+    "Calorias": 206,
+    "Carbohidratos": 0.12,
+    "Proteinas": 25.65,
+    "Grasas": 11.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Курица бедра, жаркое, без кожи",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 27.71,
+    "Grasas": 6.76,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырая репа",
+    "Calorias": 28,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Начос с сыром",
+    "Calorias": 343,
+    "Carbohidratos": 34.91,
+    "Proteinas": 4.32,
+    "Grasas": 21.5,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Апельсин",
+    "Calorias": 47,
+    "Carbohidratos": 11.75,
+    "Proteinas": 0.94,
+    "Grasas": 0.12,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Нектарин",
+    "Calorias": 49.7,
+    "Carbohidratos": 10.2,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Орехи (кастильцы)",
+    "Calorias": 654,
+    "Carbohidratos": 13.71,
+    "Proteinas": 15.23,
+    "Grasas": 65.21,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Бразильские орехи",
+    "Calorias": 659,
+    "Carbohidratos": 11.74,
+    "Proteinas": 14.32,
+    "Grasas": 67.1,
+    "Fibra": 7.5
+  },
+  {
+    "Alimento": "Макадамия орехи",
+    "Calorias": 716,
+    "Carbohidratos": 12.83,
+    "Proteinas": 7.79,
+    "Grasas": 76.08,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Пакана - орехи пекан",
+    "Calorias": 691,
+    "Carbohidratos": 13.86,
+    "Proteinas": 9.17,
+    "Grasas": 71.97,
+    "Fibra": 9.6
+  },
+  {
+    "Alimento": "Куриные самородки",
+    "Calorias": 307,
+    "Carbohidratos": 14.93,
+    "Proteinas": 15.92,
+    "Grasas": 20.36,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Ньокки, картофель",
+    "Calorias": 133,
+    "Carbohidratos": 17.06,
+    "Proteinas": 2.36,
+    "Grasas": 6.24,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Свиные уши, хвост, голова, морда, разные детали, приготовленные",
+    "Calorias": 236,
+    "Carbohidratos": 0,
+    "Proteinas": 26.14,
+    "Grasas": 13.77,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырые устрицы",
+    "Calorias": 51,
+    "Carbohidratos": 2.72,
+    "Proteinas": 5.71,
+    "Grasas": 1.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Паэлья с морепродуктами",
+    "Calorias": 142,
+    "Carbohidratos": 16.43,
+    "Proteinas": 8.04,
+    "Grasas": 4.68,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Мясная паэлья в стиле Валенсиан",
+    "Calorias": 270,
+    "Carbohidratos": 16.74,
+    "Proteinas": 21.71,
+    "Grasas": 12.54,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Консервированное пальмитос (консервы)",
+    "Calorias": 47,
+    "Carbohidratos": 8,
+    "Proteinas": 2.8,
+    "Grasas": 0.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Голубь",
+    "Calorias": 178,
+    "Carbohidratos": 0,
+    "Proteinas": 37,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Палома, жареная",
+    "Calorias": 223,
+    "Carbohidratos": 1.44,
+    "Proteinas": 23.06,
+    "Grasas": 13.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Palometa (рыба)",
+    "Calorias": 125,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Попкорн",
+    "Calorias": 438,
+    "Carbohidratos": 74.18,
+    "Proteinas": 10.19,
+    "Grasas": 11.19,
+    "Fibra": 4.9
+  },
+  {
+    "Alimento": "Кукурузные паломиты, микроволновая печь",
+    "Calorias": 538,
+    "Carbohidratos": 55.99,
+    "Proteinas": 8.69,
+    "Grasas": 31.07,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Палосанто",
+    "Calorias": 64,
+    "Carbohidratos": 15,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Белый хлеб",
+    "Calorias": 266,
+    "Carbohidratos": 49.42,
+    "Proteinas": 8.85,
+    "Grasas": 3.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Белый хлеб, жареный",
+    "Calorias": 297,
+    "Carbohidratos": 65,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Centeno Хлеб, жареный",
+    "Calorias": 285,
+    "Carbohidratos": 53.08,
+    "Proteinas": 9.34,
+    "Grasas": 3.63,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Грецкий хлеб",
+    "Calorias": 392,
+    "Carbohidratos": 49.72,
+    "Proteinas": 6.49,
+    "Grasas": 19.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Французский хлеб или Вена",
+    "Calorias": 272,
+    "Carbohidratos": 51.88,
+    "Proteinas": 10.75,
+    "Grasas": 2.42,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Французский хлеб или Вена, цельная пшеница",
+    "Calorias": 239,
+    "Carbohidratos": 49.1,
+    "Proteinas": 8.33,
+    "Grasas": 1.04,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Цельная пшеничная хлеб",
+    "Calorias": 252,
+    "Carbohidratos": 42.71,
+    "Proteinas": 12.45,
+    "Grasas": 3.5,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Мультиграновый хлеб",
+    "Calorias": 265,
+    "Carbohidratos": 43.34,
+    "Proteinas": 13.36,
+    "Grasas": 4.23,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Лаваш хлеб, жареный",
+    "Calorias": 302,
+    "Carbohidratos": 61.21,
+    "Proteinas": 10,
+    "Grasas": 1.32,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Глютен без хлеба",
+    "Calorias": 248,
+    "Carbohidratos": 45.78,
+    "Proteinas": 4.31,
+    "Grasas": 5.24,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Хлеб, овсяные отруби",
+    "Calorias": 299,
+    "Carbohidratos": 53.89,
+    "Proteinas": 9.33,
+    "Grasas": 4.89,
+    "Fibra": 4.4
+  },
+  {
+    "Alimento": "Сырой папайя",
+    "Calorias": 43,
+    "Carbohidratos": 10.82,
+    "Proteinas": 0.47,
+    "Grasas": 0.26,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Изюм",
+    "Calorias": 299,
+    "Carbohidratos": 79.18,
+    "Proteinas": 3.07,
+    "Grasas": 0.46,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Приготовленная паста",
+    "Calorias": 157,
+    "Carbohidratos": 30.68,
+    "Proteinas": 5.76,
+    "Grasas": 0.92,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Паста с ароматами",
+    "Calorias": 87,
+    "Carbohidratos": 14.44,
+    "Proteinas": 2.46,
+    "Grasas": 2.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Васаби Паста",
+    "Calorias": 292,
+    "Carbohidratos": 46.13,
+    "Proteinas": 2.23,
+    "Grasas": 10.9,
+    "Fibra": 6.1
+  },
+  {
+    "Alimento": "Глютен -безжалостная паста",
+    "Calorias": 179,
+    "Carbohidratos": 38.05,
+    "Proteinas": 3.2,
+    "Grasas": 1,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Пастрами",
+    "Calorias": 147,
+    "Carbohidratos": 0.36,
+    "Proteinas": 21.8,
+    "Grasas": 5.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Куриные ножки",
+    "Calorias": 215,
+    "Carbohidratos": 0.2,
+    "Proteinas": 19.4,
+    "Grasas": 14.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Жареный картофель",
+    "Calorias": 206,
+    "Carbohidratos": 46.1,
+    "Proteinas": 4.3,
+    "Grasas": 0.1,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Вареный картофель",
+    "Calorias": 125,
+    "Carbohidratos": 20.45,
+    "Proteinas": 1.87,
+    "Grasas": 4.19,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Чипсы",
+    "Calorias": 529,
+    "Carbohidratos": 56.54,
+    "Proteinas": 2.92,
+    "Grasas": 32.19,
+    "Fibra": 8.8
+  },
+  {
+    "Alimento": "Тушеный картофель",
+    "Calorias": 114,
+    "Carbohidratos": 19.91,
+    "Proteinas": 1.84,
+    "Grasas": 3.22,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Чистый картофель",
+    "Calorias": 111,
+    "Carbohidratos": 17.69,
+    "Proteinas": 2.15,
+    "Grasas": 3.79,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Жареная утка",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Турция",
+    "Calorias": 107,
+    "Carbohidratos": 0,
+    "Proteinas": 21.9,
+    "Grasas": 2.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pepinillos в уксусе, сладкая приправа",
+    "Calorias": 130,
+    "Carbohidratos": 35.06,
+    "Proteinas": 0.37,
+    "Grasas": 0.47,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Сырой огурец",
+    "Calorias": 12,
+    "Carbohidratos": 2.16,
+    "Proteinas": 0.59,
+    "Grasas": 0.16,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Сырая груша",
+    "Calorias": 57,
+    "Carbohidratos": 15.23,
+    "Proteinas": 0.36,
+    "Grasas": 0.14,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Морская перка, запеченная или жареная, жир добавлен на кухню",
+    "Calorias": 129,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.73,
+    "Grasas": 5.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Океан, на пару или лазание",
+    "Calorias": 99,
+    "Carbohidratos": 0,
+    "Proteinas": 19.25,
+    "Grasas": 1.94,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Океан окунь, сырой",
+    "Calorias": 79,
+    "Carbohidratos": 0,
+    "Proteinas": 15.31,
+    "Grasas": 1.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Percebs",
+    "Calorias": 59,
+    "Carbohidratos": 0,
+    "Proteinas": 13.6,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Куропатка",
+    "Calorias": 106,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 1.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырая петрушка",
+    "Calorias": 36,
+    "Carbohidratos": 6.33,
+    "Proteinas": 2.97,
+    "Grasas": 0.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Заживание пуггера с горчицей",
+    "Calorias": 308,
+    "Carbohidratos": 33,
+    "Proteinas": 11,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Белый",
+    "Calorias": 69,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 0.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Petit-Suisse, тип",
+    "Calorias": 173,
+    "Carbohidratos": 4,
+    "Proteinas": 8,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Меч -рыба, запеченная или жареная на гриле, не добавляя жира в приготовление пищи",
+    "Calorias": 182,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.76,
+    "Grasas": 8.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Меч, на пару или лазание по рыбе",
+    "Calorias": 181,
+    "Carbohidratos": 0,
+    "Proteinas": 24.72,
+    "Grasas": 8.36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Голубь",
+    "Calorias": 182,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Перец, сырой",
+    "Calorias": 24,
+    "Carbohidratos": 5.13,
+    "Proteinas": 0.91,
+    "Grasas": 0.22,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Уксус перец",
+    "Calorias": 40,
+    "Carbohidratos": 9.04,
+    "Proteinas": 0.82,
+    "Grasas": 0.19,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Пинья Колада",
+    "Calorias": 151,
+    "Carbohidratos": 19.5,
+    "Proteinas": 0.36,
+    "Grasas": 2.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Сырой ананас",
+    "Calorias": 50,
+    "Carbohidratos": 13.12,
+    "Proteinas": 0.54,
+    "Grasas": 0.12,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Ананас в сиропе",
+    "Calorias": 81,
+    "Carbohidratos": 21,
+    "Proteinas": 0.3,
+    "Grasas": 0.1,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Сухой ананас",
+    "Calorias": 269,
+    "Carbohidratos": 70.08,
+    "Proteinas": 1.51,
+    "Grasas": 0.34,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Пиноны",
+    "Calorias": 673,
+    "Carbohidratos": 13.08,
+    "Proteinas": 13.69,
+    "Grasas": 68.37,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Подсолнечные трубы",
+    "Calorias": 580,
+    "Carbohidratos": 20,
+    "Proteinas": 27,
+    "Grasas": 43,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Фистахоты",
+    "Calorias": 572,
+    "Carbohidratos": 28.28,
+    "Proteinas": 21.05,
+    "Grasas": 45.82,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Сырой банан",
+    "Calorias": 89,
+    "Carbohidratos": 22.84,
+    "Proteinas": 1.09,
+    "Grasas": 0.33,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Курица",
+    "Calorias": 167,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 9.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Курица (с кожей)",
+    "Calorias": 298,
+    "Carbohidratos": 0,
+    "Proteinas": 25.73,
+    "Grasas": 20.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Агрупция курица или индейка",
+    "Calorias": 250,
+    "Carbohidratos": 23.86,
+    "Proteinas": 10.1,
+    "Grasas": 12.65,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Курица, Кентукки жарен",
+    "Calorias": 155,
+    "Carbohidratos": 5,
+    "Proteinas": 13,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Курица, грудь, жаркое",
+    "Calorias": 175,
+    "Carbohidratos": 0.09,
+    "Proteinas": 26.37,
+    "Grasas": 7.67,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Курица, Кентукки грудь",
+    "Calorias": 436,
+    "Carbohidratos": 34,
+    "Proteinas": 25,
+    "Grasas": 22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой грейпфрут",
+    "Calorias": 32,
+    "Carbohidratos": 8.08,
+    "Proteinas": 0.63,
+    "Grasas": 0.1,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Яичный удар, обычный",
+    "Calorias": 88,
+    "Carbohidratos": 8.05,
+    "Proteinas": 4.55,
+    "Grasas": 4.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Желатиновый десерт",
+    "Calorias": 62,
+    "Carbohidratos": 14.19,
+    "Proteinas": 1.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Крендель",
+    "Calorias": 384,
+    "Carbohidratos": 80.39,
+    "Proteinas": 10.04,
+    "Grasas": 2.93,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Сырой лук",
+    "Calorias": 61,
+    "Carbohidratos": 14.15,
+    "Proteinas": 1.5,
+    "Grasas": 0.3,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Вареный осьминог",
+    "Calorias": 69,
+    "Carbohidratos": 1.4,
+    "Proteinas": 13.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Американский сыр",
+    "Calorias": 307,
+    "Carbohidratos": 8.85,
+    "Proteinas": 16.09,
+    "Grasas": 23.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Голубой сыр",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Бабибел, тип",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Навигал белый сыр",
+    "Calorias": 68,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Бри",
+    "Calorias": 334,
+    "Carbohidratos": 0.45,
+    "Proteinas": 20.75,
+    "Grasas": 27.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Бургос сыр",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Козий сыр",
+    "Calorias": 250,
+    "Carbohidratos": 2,
+    "Proteinas": 17,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "камамбер",
+    "Calorias": 300,
+    "Carbohidratos": 0.46,
+    "Proteinas": 19.8,
+    "Grasas": 24.26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "чеддер",
+    "Calorias": 404,
+    "Carbohidratos": 3.09,
+    "Proteinas": 22.87,
+    "Grasas": 33.31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Чихуахуа сыр",
+    "Calorias": 374,
+    "Carbohidratos": 5.56,
+    "Proteinas": 21.56,
+    "Grasas": 29.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Колби",
+    "Calorias": 394,
+    "Carbohidratos": 2.57,
+    "Proteinas": 23.76,
+    "Grasas": 32.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр с орехами",
+    "Calorias": 424,
+    "Carbohidratos": 5.89,
+    "Proteinas": 17.87,
+    "Grasas": 37.72,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Сыр Котия",
+    "Calorias": 366,
+    "Carbohidratos": 3.97,
+    "Proteinas": 20,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сливочный сыр",
+    "Calorias": 350,
+    "Carbohidratos": 5.52,
+    "Proteinas": 6.15,
+    "Grasas": 34.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Козий сыр",
+    "Calorias": 360,
+    "Carbohidratos": 0.76,
+    "Proteinas": 23.52,
+    "Grasas": 28.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Эмментальный сыр",
+    "Calorias": 367,
+    "Carbohidratos": 0,
+    "Proteinas": 27.3,
+    "Grasas": 28.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр фета",
+    "Calorias": 264,
+    "Carbohidratos": 4.09,
+    "Proteinas": 14.21,
+    "Grasas": 21.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Фонтина",
+    "Calorias": 389,
+    "Carbohidratos": 1.55,
+    "Proteinas": 25.6,
+    "Grasas": 31.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свежий сыр (от бургоса)",
+    "Calorias": 175,
+    "Carbohidratos": 4,
+    "Proteinas": 15,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gouda или Edam Cheese",
+    "Calorias": 357,
+    "Carbohidratos": 1.67,
+    "Proteinas": 24.98,
+    "Grasas": 27.69,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Грюйер",
+    "Calorias": 413,
+    "Carbohidratos": 0.36,
+    "Proteinas": 29.81,
+    "Grasas": 32.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Лимбургер сыр",
+    "Calorias": 327,
+    "Carbohidratos": 0.49,
+    "Proteinas": 20.05,
+    "Grasas": 27.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Вылеченный манчего сыр",
+    "Calorias": 420,
+    "Carbohidratos": 1,
+    "Proteinas": 32,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свежий манчего сыр",
+    "Calorias": 333,
+    "Carbohidratos": 0,
+    "Proteinas": 26,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Полубитый сыр Манчего",
+    "Calorias": 390,
+    "Carbohidratos": 0,
+    "Proteinas": 29,
+    "Grasas": 29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Монтерей",
+    "Calorias": 373,
+    "Carbohidratos": 0.68,
+    "Proteinas": 24.48,
+    "Grasas": 30.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр моцарелла, целое молоко",
+    "Calorias": 300,
+    "Carbohidratos": 2.19,
+    "Proteinas": 22.17,
+    "Grasas": 22.35,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Мюнстерский сыр",
+    "Calorias": 368,
+    "Carbohidratos": 1.12,
+    "Proteinas": 23.41,
+    "Grasas": 30.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр пармезан, сухой тертый",
+    "Calorias": 420,
+    "Carbohidratos": 13.91,
+    "Proteinas": 28.42,
+    "Grasas": 27.84,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Пиреневый сыр",
+    "Calorias": 355,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Порции сыр",
+    "Calorias": 283,
+    "Carbohidratos": 1,
+    "Proteinas": 18,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Port du Salut Cheese",
+    "Calorias": 356,
+    "Carbohidratos": 2.22,
+    "Proteinas": 24.94,
+    "Grasas": 27.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Проволон",
+    "Calorias": 351,
+    "Carbohidratos": 2.14,
+    "Proteinas": 25.58,
+    "Grasas": 26.62,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кварк сыр",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр Рикота",
+    "Calorias": 156,
+    "Carbohidratos": 4.09,
+    "Proteinas": 11.32,
+    "Grasas": 10.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Рокфорт сыр",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Швейцарский сыр",
+    "Calorias": 393,
+    "Carbohidratos": 1.44,
+    "Proteinas": 26.96,
+    "Grasas": 30.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сыр типа Speisequark",
+    "Calorias": 101,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "КВИЧ ЛОРЕРИНА БАКОН-КСУ",
+    "Calorias": 391,
+    "Carbohidratos": 21,
+    "Proteinas": 15,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырая редька",
+    "Calorias": 16,
+    "Carbohidratos": 3.4,
+    "Proteinas": 0.68,
+    "Grasas": 0.1,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Вауновый хвост",
+    "Calorias": 171,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Заново",
+    "Calorias": 86,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Рататуй",
+    "Calorias": 65,
+    "Carbohidratos": 6,
+    "Proteinas": 1,
+    "Grasas": 4.6,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Равиолис помидор, соус",
+    "Calorias": 106,
+    "Carbohidratos": 13,
+    "Proteinas": 5,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Co -cool",
+    "Calorias": 42,
+    "Carbohidratos": 10.36,
+    "Proteinas": 0,
+    "Grasas": 0.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свет / диета прохладная сода",
+    "Calorias": 2,
+    "Carbohidratos": 0.29,
+    "Proteinas": 0.11,
+    "Grasas": 0.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Солодка",
+    "Calorias": 375,
+    "Carbohidratos": 93.55,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Сырая свекла",
+    "Calorias": 43,
+    "Carbohidratos": 9.56,
+    "Proteinas": 1.61,
+    "Grasas": 0.17,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Свекла, приготовленная",
+    "Calorias": 44,
+    "Carbohidratos": 9.9,
+    "Proteinas": 1.67,
+    "Grasas": 0.18,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Капуста, китайский, сырой",
+    "Calorias": 13,
+    "Carbohidratos": 2.18,
+    "Proteinas": 1.5,
+    "Grasas": 0.2,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Капуста, кудрявая, приготовленная, жирная не добавлена ​​при приготовлении",
+    "Calorias": 28,
+    "Carbohidratos": 6.32,
+    "Proteinas": 2.07,
+    "Grasas": 0.1,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Творог",
+    "Calorias": 143,
+    "Carbohidratos": 3.18,
+    "Proteinas": 10.49,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленная почка",
+    "Calorias": 157,
+    "Carbohidratos": 0,
+    "Proteinas": 27.04,
+    "Grasas": 4.61,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Палтус",
+    "Calorias": 98,
+    "Carbohidratos": 0,
+    "Proteinas": 16.1,
+    "Grasas": 3.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ром",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "RAW RUIBARBO",
+    "Calorias": 21,
+    "Carbohidratos": 4.54,
+    "Proteinas": 0.9,
+    "Grasas": 0.2,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Соль",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Салями",
+    "Calorias": 378,
+    "Carbohidratos": 0.72,
+    "Proteinas": 21.07,
+    "Grasas": 31.65,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиные колбаски",
+    "Calorias": 367,
+    "Carbohidratos": 10,
+    "Proteinas": 11,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Франкфорные колбасы",
+    "Calorias": 274,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Колбаса",
+    "Calorias": 454,
+    "Carbohidratos": 2,
+    "Proteinas": 26,
+    "Grasas": 38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Копченый лосось",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 18.28,
+    "Grasas": 4.32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Лосось на пару",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 25.78,
+    "Grasas": 5.53,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой лосось",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20.5,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырой сальмонтет",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 19.35,
+    "Grasas": 3.79,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Болонеса соус",
+    "Calorias": 139,
+    "Carbohidratos": 2,
+    "Proteinas": 8,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Соус César",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Чесночный соус",
+    "Calorias": 108,
+    "Carbohidratos": 7.32,
+    "Proteinas": 3.07,
+    "Grasas": 7.42,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Клюква и малиновый соус",
+    "Calorias": 162,
+    "Carbohidratos": 41.83,
+    "Proteinas": 0.78,
+    "Grasas": 0.22,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Соус для барбекю",
+    "Calorias": 172,
+    "Carbohidratos": 40.77,
+    "Proteinas": 0.82,
+    "Grasas": 0.63,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Луковый соус",
+    "Calorias": 345,
+    "Carbohidratos": 3.23,
+    "Proteinas": 1.86,
+    "Grasas": 36.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Шоколадный соус",
+    "Calorias": 388,
+    "Carbohidratos": 65.39,
+    "Proteinas": 3.33,
+    "Grasas": 13.06,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Сливовый соус",
+    "Calorias": 200,
+    "Carbohidratos": 50.67,
+    "Proteinas": 0.65,
+    "Grasas": 0.29,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Коктейльный соус",
+    "Calorias": 124,
+    "Carbohidratos": 28.22,
+    "Proteinas": 1.36,
+    "Grasas": 1.05,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Красный соус энчилада",
+    "Calorias": 30,
+    "Carbohidratos": 4.87,
+    "Proteinas": 0.62,
+    "Grasas": 0.91,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Соус энчилада, зеленый",
+    "Calorias": 28,
+    "Carbohidratos": 5.5,
+    "Proteinas": 0.99,
+    "Grasas": 0.59,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Укроп соус",
+    "Calorias": 429,
+    "Carbohidratos": 3.08,
+    "Proteinas": 1.92,
+    "Grasas": 45.78,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Мед и горчичный соус",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Рыбный соус",
+    "Calorias": 35,
+    "Carbohidratos": 3.64,
+    "Proteinas": 5.06,
+    "Grasas": 0.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сырный соус",
+    "Calorias": 160,
+    "Carbohidratos": 7.66,
+    "Proteinas": 3.24,
+    "Grasas": 13.02,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Голубой сыр или соус Roquefor",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Соевый соус",
+    "Calorias": 53,
+    "Carbohidratos": 4.93,
+    "Proteinas": 8.14,
+    "Grasas": 0.57,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Кетчуп",
+    "Calorias": 101,
+    "Carbohidratos": 27.4,
+    "Proteinas": 1.04,
+    "Grasas": 0.1,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Йогурт -соус",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Голландский соус",
+    "Calorias": 504,
+    "Carbohidratos": 1.52,
+    "Proteinas": 4.68,
+    "Grasas": 54.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кетчуп соус",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Соус песто",
+    "Calorias": 569,
+    "Carbohidratos": 6.16,
+    "Proteinas": 8.51,
+    "Grasas": 58.52,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Русский соус",
+    "Calorias": 355,
+    "Carbohidratos": 31.9,
+    "Proteinas": 0.69,
+    "Grasas": 26.18,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Соус тартара",
+    "Calorias": 211,
+    "Carbohidratos": 13.3,
+    "Proteinas": 1,
+    "Grasas": 16.7,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Соус Терияки",
+    "Calorias": 89,
+    "Carbohidratos": 15.56,
+    "Proteinas": 5.93,
+    "Grasas": 0.02,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Соус Цаццики",
+    "Calorias": 92,
+    "Carbohidratos": 3.95,
+    "Proteinas": 5.35,
+    "Grasas": 6.31,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Зеленый соус или зеленый соус",
+    "Calorias": 38,
+    "Carbohidratos": 6.36,
+    "Proteinas": 1.13,
+    "Grasas": 0.89,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Овсяные отруби",
+    "Calorias": 246,
+    "Carbohidratos": 66.22,
+    "Proteinas": 17.3,
+    "Grasas": 7.03,
+    "Fibra": 15.4
+  },
+  {
+    "Alimento": "Пшеничная отруби",
+    "Calorias": 216,
+    "Carbohidratos": 64.51,
+    "Proteinas": 15.55,
+    "Grasas": 4.25,
+    "Fibra": 42.8
+  },
+  {
+    "Alimento": "Сырой арбуз",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Говядина кровь",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Бланка Сангрия",
+    "Calorias": 94,
+    "Carbohidratos": 8.26,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Красная Сангрия",
+    "Calorias": 96,
+    "Carbohidratos": 8.27,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленные сардины",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сардины с томатным соусом",
+    "Calorias": 185,
+    "Carbohidratos": 0.54,
+    "Proteinas": 20.86,
+    "Grasas": 10.45,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Консервированные сардины в масле",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сухие сардины",
+    "Calorias": 406,
+    "Carbohidratos": 0,
+    "Proteinas": 46.06,
+    "Grasas": 23.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Семена чиа",
+    "Calorias": 534,
+    "Carbohidratos": 28.88,
+    "Proteinas": 18.29,
+    "Grasas": 42.16,
+    "Fibra": 27.3
+  },
+  {
+    "Alimento": "Семена подсолнечника",
+    "Calorias": 582,
+    "Carbohidratos": 24.07,
+    "Proteinas": 19.33,
+    "Grasas": 49.8,
+    "Fibra": 11.1
+  },
+  {
+    "Alimento": "Семена кунжута",
+    "Calorias": 567,
+    "Carbohidratos": 26.04,
+    "Proteinas": 16.96,
+    "Grasas": 48,
+    "Fibra": 16.9
+  },
+  {
+    "Alimento": "Маная",
+    "Calorias": 90,
+    "Carbohidratos": 16.43,
+    "Proteinas": 2.34,
+    "Grasas": 1.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Сепия",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Свиные мозги",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 11,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ягненок сесо",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Сесос телятина",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Болетус грибы",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 3,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Canthallus mushrooms",
+    "Calorias": 11,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Colmenilla Mushrooms",
+    "Calorias": 9,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Семерка, Рефреско",
+    "Calorias": 144,
+    "Carbohidratos": 36,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Яблочный сидр",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Соевые ростки",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Проросший сою",
+    "Calorias": 54.9,
+    "Carbohidratos": 4.68,
+    "Proteinas": 5.53,
+    "Grasas": 1.03,
+    "Fibra": 2.38
+  },
+  {
+    "Alimento": "Борьба -сладкий суп",
+    "Calorias": 39,
+    "Carbohidratos": 4.35,
+    "Proteinas": 2.58,
+    "Grasas": 1.21,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Луковый суп",
+    "Calorias": 46,
+    "Carbohidratos": 6.7,
+    "Proteinas": 3.06,
+    "Grasas": 1.42,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Minestrone Soup",
+    "Calorias": 35,
+    "Carbohidratos": 5,
+    "Proteinas": 2,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Цитрусовый сорбет",
+    "Calorias": 95,
+    "Carbohidratos": 23.17,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Сорбет, ароматы",
+    "Calorias": 144,
+    "Carbohidratos": 30.4,
+    "Proteinas": 1.1,
+    "Grasas": 2,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Хэм Строганофф",
+    "Calorias": 130,
+    "Carbohidratos": 4.97,
+    "Proteinas": 7.52,
+    "Grasas": 9.04,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Яблочный штрудель",
+    "Calorias": 274,
+    "Carbohidratos": 41.1,
+    "Proteinas": 3.3,
+    "Grasas": 11.2,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Суши",
+    "Calorias": 93,
+    "Carbohidratos": 18.42,
+    "Proteinas": 2.92,
+    "Grasas": 0.67,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Суши с тунцом",
+    "Calorias": 100,
+    "Carbohidratos": 13.39,
+    "Proteinas": 9.66,
+    "Grasas": 0.28,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Суши с лососем",
+    "Calorias": 107,
+    "Carbohidratos": 13.39,
+    "Proteinas": 8.92,
+    "Grasas": 1.74,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Тамариндо, сырой",
+    "Calorias": 239,
+    "Carbohidratos": 62.5,
+    "Proteinas": 2.8,
+    "Grasas": 0.6,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Тапиока",
+    "Calorias": 359,
+    "Carbohidratos": 95,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Домашний яблочный торт",
+    "Calorias": 282,
+    "Carbohidratos": 43,
+    "Proteinas": 2,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Горячий чай на основе травяных",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Горячий чай, ромашка",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Горячий чай, лист, зеленый",
+    "Calorias": 1,
+    "Carbohidratos": 0,
+    "Proteinas": 0.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Текила",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Toblerone, молочный шоколад с медом и миндалем Nougat",
+    "Calorias": 525,
+    "Carbohidratos": 61.21,
+    "Proteinas": 5.71,
+    "Grasas": 28.57,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Бекон",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Жареный помидор",
+    "Calorias": 88,
+    "Carbohidratos": 5.2,
+    "Proteinas": 1.5,
+    "Grasas": 6.4,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Измельченный помидор",
+    "Calorias": 39,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.3,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Приготовленные помидоры",
+    "Calorias": 18,
+    "Carbohidratos": 3.99,
+    "Proteinas": 0.95,
+    "Grasas": 0.11,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Сырые помидоры",
+    "Calorias": 18,
+    "Carbohidratos": 3.89,
+    "Proteinas": 0.88,
+    "Grasas": 0.2,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Сухие красные помидоры",
+    "Calorias": 258,
+    "Carbohidratos": 55.76,
+    "Proteinas": 14.11,
+    "Grasas": 2.97,
+    "Fibra": 12.3
+  },
+  {
+    "Alimento": "Сырые зеленые помидоры",
+    "Calorias": 23,
+    "Carbohidratos": 5.1,
+    "Proteinas": 1.2,
+    "Grasas": 0.2,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Водный тоник",
+    "Calorias": 42,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Лепешка из яичного белка, восстание или жареные, приготовленные из масла",
+    "Calorias": 119,
+    "Carbohidratos": 0.77,
+    "Proteinas": 11.52,
+    "Grasas": 7.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Вращающаяся яйцо или яичная тортилья, приготовленная из масла",
+    "Calorias": 180,
+    "Carbohidratos": 1.81,
+    "Proteinas": 11.16,
+    "Grasas": 13.95,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Кукурузная тортилья",
+    "Calorias": 218,
+    "Carbohidratos": 44.64,
+    "Proteinas": 5.7,
+    "Grasas": 2.85,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Форель",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Копченая форель",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 35.47,
+    "Grasas": 10.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Запеченная или жареная форель, сделанная из масла",
+    "Calorias": 205,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.4,
+    "Grasas": 11.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Тройки",
+    "Calorias": 511,
+    "Carbohidratos": 49.61,
+    "Proteinas": 6.77,
+    "Grasas": 31.93,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Средний нугат",
+    "Calorias": 470,
+    "Carbohidratos": 57,
+    "Proteinas": 10,
+    "Grasas": 24,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Wix caramel cookie bars",
+    "Calorias": 502,
+    "Carbohidratos": 64.8,
+    "Proteinas": 4.91,
+    "Grasas": 24.85,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Виноград",
+    "Calorias": 69,
+    "Carbohidratos": 18.1,
+    "Proteinas": 0.72,
+    "Grasas": 0.16,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Изюм виноград",
+    "Calorias": 243,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Сухой вермут",
+    "Calorias": 118,
+    "Carbohidratos": 6,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "На пару или вареные",
+    "Calorias": 137,
+    "Carbohidratos": 6.33,
+    "Proteinas": 24.01,
+    "Grasas": 0.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Уксус",
+    "Calorias": 21,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Рисовое вино",
+    "Calorias": 134,
+    "Carbohidratos": 5,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Порту пришел",
+    "Calorias": 157,
+    "Carbohidratos": 12,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Неалкоголь пришел",
+    "Calorias": 6,
+    "Carbohidratos": 1.1,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Вино, стол, белый",
+    "Calorias": 82,
+    "Carbohidratos": 2.6,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Вино, стол, розовый",
+    "Calorias": 83,
+    "Carbohidratos": 3.8,
+    "Proteinas": 0.36,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Вино, стол, красный",
+    "Calorias": 85,
+    "Carbohidratos": 2.61,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Водка",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Виски",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Йогурт, греческий с фруктами",
+    "Calorias": 106,
+    "Carbohidratos": 12.29,
+    "Proteinas": 7.33,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Йогурт, натуральный греческий",
+    "Calorias": 97,
+    "Carbohidratos": 3.98,
+    "Proteinas": 9,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Йогурт, мороженое, конус, ароматы, которые не являются шоколадом",
+    "Calorias": 189,
+    "Carbohidratos": 31.5,
+    "Proteinas": 4.48,
+    "Grasas": 5.38,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Жидкий йогурт",
+    "Calorias": 72,
+    "Carbohidratos": 11.81,
+    "Proteinas": 3.71,
+    "Grasas": 1.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Йогурт, обезжиренное/обезжиренное молоко, фрукты",
+    "Calorias": 83,
+    "Carbohidratos": 15.02,
+    "Proteinas": 5.09,
+    "Grasas": 0.17,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Йогурт, обезжиренное/обезжиренное молоко, натуральное",
+    "Calorias": 56,
+    "Carbohidratos": 7.68,
+    "Proteinas": 5.73,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Йогурт, целое молоко, фрукты",
+    "Calorias": 87,
+    "Carbohidratos": 12.36,
+    "Proteinas": 3.1,
+    "Grasas": 2.87,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Йогурт, целое молоко, натуральное",
+    "Calorias": 61,
+    "Carbohidratos": 4.66,
+    "Proteinas": 3.47,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Йогурт, соя",
+    "Calorias": 94,
+    "Carbohidratos": 15.96,
+    "Proteinas": 3.5,
+    "Grasas": 1.8,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Французский Юкка",
+    "Calorias": 267,
+    "Carbohidratos": 34.72,
+    "Proteinas": 1.24,
+    "Grasas": 13.94,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Сырая морковь",
+    "Calorias": 41,
+    "Carbohidratos": 9.58,
+    "Proteinas": 0.93,
+    "Grasas": 0.24,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Морковь, приготовленная, сливки",
+    "Calorias": 88,
+    "Carbohidratos": 8.38,
+    "Proteinas": 2.08,
+    "Grasas": 5.26,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Морковь, сырой, салат",
+    "Calorias": 208,
+    "Carbohidratos": 17.17,
+    "Proteinas": 1.22,
+    "Grasas": 15.7,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Лима сок, 100% свежевыжатый",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Апельсиновый сок, 100%, свежевыжатый",
+    "Calorias": 45,
+    "Carbohidratos": 10.4,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Грейпфрутовый сок, 100%, свежевыжатый",
+    "Calorias": 39,
+    "Carbohidratos": 9.2,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 0.1
+  }
+]

@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="nutrition_fit_traker"
-        android:name="${applicationName}"
+        android:name="com.google.android.gms.ads.${applicationName}"
+        android:value="ca-app-pub-3940256099942544/9214589741"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
