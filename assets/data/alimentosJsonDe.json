@@ -1,0 +1,6058 @@
+[
+  {
+    "Alimento": "ABADEJO, AHUMADO",
+    "Calorias": 116,
+    "Carbohidratos": 0,
+    "Proteinas": 25.23,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Abulon, gedämpft oder klettern",
+    "Calorias": 209,
+    "Carbohidratos": 11.97,
+    "Proteinas": 34.05,
+    "Grasas": 1.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kühlungen Acedias",
+    "Calorias": 256,
+    "Carbohidratos": 12,
+    "Proteinas": 17,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mandelöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Erdnussöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kokosöl",
+    "Calorias": 892,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 99.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sonnenblumenöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Maisöl",
+    "Calorias": 900,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Nussöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Olivenöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sesamöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sojabohnenöl",
+    "Calorias": 884,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "UVA -Öl, Pepita",
+    "Calorias": 899,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "schwarze Oliven",
+    "Calorias": 105,
+    "Carbohidratos": 6.06,
+    "Proteinas": 0.88,
+    "Grasas": 9.54,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "grüne Oliven",
+    "Calorias": 145,
+    "Carbohidratos": 3.84,
+    "Proteinas": 1.03,
+    "Grasas": 15.32,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Gefüllte grüne Oliven",
+    "Calorias": 128,
+    "Carbohidratos": 4.02,
+    "Proteinas": 1.04,
+    "Grasas": 13.22,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Rohe Manghalle",
+    "Calorias": 19,
+    "Carbohidratos": 3.74,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Acerolas",
+    "Calorias": 31,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.4,
+    "Grasas": 0.3,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "César Dressing",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Honig und Senfdressing",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Blauschimmelkäse- oder Roquefort -Dressing",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Joghurt -Dressing",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Kohlensäurehaltig, gesüßtes Wasser",
+    "Calorias": 34,
+    "Carbohidratos": 8.8,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quellwasser",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Avocado",
+    "Calorias": 160,
+    "Carbohidratos": 8.53,
+    "Proteinas": 2,
+    "Grasas": 14.66,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Roher Knoblauch",
+    "Calorias": 149,
+    "Carbohidratos": 33.06,
+    "Proteinas": 6.36,
+    "Grasas": 0.5,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Rohbasilikum",
+    "Calorias": 23,
+    "Carbohidratos": 2.65,
+    "Proteinas": 3.15,
+    "Grasas": 0.64,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Rohe Aprikose",
+    "Calorias": 48,
+    "Carbohidratos": 11.12,
+    "Proteinas": 1.4,
+    "Grasas": 0.39,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Albarikoque, gekocht oder Dosen in dickem Sirup",
+    "Calorias": 83,
+    "Carbohidratos": 21.47,
+    "Proteinas": 0.53,
+    "Grasas": 0.08,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Albaricoque, trocken, roh",
+    "Calorias": 241,
+    "Carbohidratos": 62.64,
+    "Proteinas": 3.39,
+    "Grasas": 0.51,
+    "Fibra": 7.3
+  },
+  {
+    "Alimento": "Schwedische Fleischbällchen mit Sahne oder weißer Sauce",
+    "Calorias": 170,
+    "Carbohidratos": 7.22,
+    "Proteinas": 12.43,
+    "Grasas": 9.88,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Artischocke, gekocht, konserviert, mit Öl hergestellt.",
+    "Calorias": 67,
+    "Carbohidratos": 8.89,
+    "Proteinas": 3.01,
+    "Grasas": 3.1,
+    "Fibra": 4.5
+  },
+  {
+    "Alimento": "Artischocke, gekocht, frisch, aus Öl hergestellt.",
+    "Calorias": 74,
+    "Carbohidratos": 11.57,
+    "Proteinas": 2.8,
+    "Grasas": 2.95,
+    "Fibra": 5.5
+  },
+  {
+    "Alimento": "Artischocken",
+    "Calorias": 23,
+    "Carbohidratos": 2.3,
+    "Proteinas": 2.9,
+    "Grasas": 0.2,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Hühnerflügel, Grill",
+    "Calorias": 257,
+    "Carbohidratos": 0.6,
+    "Proteinas": 23.42,
+    "Grasas": 18.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohmuscheln / Chirla",
+    "Calorias": 86,
+    "Carbohidratos": 3.57,
+    "Proteinas": 14.67,
+    "Grasas": 0.96,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Muscheln in Dosen",
+    "Calorias": 108,
+    "Carbohidratos": 4.46,
+    "Proteinas": 18.34,
+    "Grasas": 1.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gesalzene Mandeln",
+    "Calorias": 601,
+    "Carbohidratos": 20.18,
+    "Proteinas": 20.13,
+    "Grasas": 53.43,
+    "Fibra": 10.5
+  },
+  {
+    "Alimento": "Mandeln ohne Salz",
+    "Calorias": 607,
+    "Carbohidratos": 20.38,
+    "Proteinas": 20.33,
+    "Grasas": 53.96,
+    "Fibra": 10.6
+  },
+  {
+    "Alimento": "Mandeln ohne Toast",
+    "Calorias": 579,
+    "Carbohidratos": 21.55,
+    "Proteinas": 21.15,
+    "Grasas": 49.93,
+    "Fibra": 12.5
+  },
+  {
+    "Alimento": "Weiß, dose, abgelaugt, fettfreies Fett",
+    "Calorias": 168,
+    "Carbohidratos": 30.91,
+    "Proteinas": 10.84,
+    "Grasas": 0.57,
+    "Fibra": 7.2
+  },
+  {
+    "Alimento": "Cashew",
+    "Calorias": 609,
+    "Carbohidratos": 30.3,
+    "Proteinas": 12.12,
+    "Grasas": 53.03,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Rana Ancas, gedämpft",
+    "Calorias": 92,
+    "Carbohidratos": 0,
+    "Proteinas": 20.62,
+    "Grasas": 0.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sardellenkonserven",
+    "Calorias": 210,
+    "Carbohidratos": 0,
+    "Proteinas": 28.89,
+    "Grasas": 9.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Aal",
+    "Calorias": 168,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ahumada Aal",
+    "Calorias": 287,
+    "Carbohidratos": 0,
+    "Proteinas": 28.73,
+    "Grasas": 18.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpfter oder Kletteradler",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 14.66,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Angulas",
+    "Calorias": 205,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 16,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Anislikör",
+    "Calorias": 297,
+    "Carbohidratos": 2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gekochte Cloo",
+    "Calorias": 44,
+    "Carbohidratos": 9.63,
+    "Proteinas": 1.57,
+    "Grasas": 0.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Roher Sellerie",
+    "Calorias": 16,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.69,
+    "Grasas": 0.17,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Rohe Blaubeeren",
+    "Calorias": 57,
+    "Carbohidratos": 14.49,
+    "Proteinas": 0.74,
+    "Grasas": 0.33,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Trockene Blaubeeren",
+    "Calorias": 308,
+    "Carbohidratos": 82.8,
+    "Proteinas": 0.17,
+    "Grasas": 1.09,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Roher Hering",
+    "Calorias": 158,
+    "Carbohidratos": 0,
+    "Proteinas": 17.96,
+    "Grasas": 9.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Trockener Sand",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Arenque, geraucht",
+    "Calorias": 217,
+    "Carbohidratos": 0,
+    "Proteinas": 24.58,
+    "Grasas": 12.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mit Milch gekochte Reis",
+    "Calorias": 143,
+    "Carbohidratos": 25.03,
+    "Proteinas": 5.06,
+    "Grasas": 2.21,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Integraler Reis",
+    "Calorias": 357,
+    "Carbohidratos": 77,
+    "Proteinas": 7,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Polierter Reis, weiß",
+    "Calorias": 361,
+    "Carbohidratos": 87,
+    "Proteinas": 6,
+    "Grasas": 1,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Reis, weiß, gekocht, ohne beim Kochen Fett hinzuzufügen",
+    "Calorias": 129,
+    "Carbohidratos": 27.99,
+    "Proteinas": 2.67,
+    "Grasas": 0.28,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Reis, integral und wild, gekocht, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 120,
+    "Carbohidratos": 24.9,
+    "Proteinas": 2.89,
+    "Grasas": 0.88,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Reis, wild gekocht, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 100,
+    "Carbohidratos": 21.21,
+    "Proteinas": 3.97,
+    "Grasas": 0.34,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Raucher frischer Thunfisch",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frischer, roher Thunfisch",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 24.4,
+    "Grasas": 0.49,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Thunfisch, Dosen mit Öl",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 29.13,
+    "Grasas": 8.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Haselnüsse",
+    "Calorias": 628,
+    "Carbohidratos": 16.7,
+    "Proteinas": 14.95,
+    "Grasas": 60.75,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Rohes Haferflocken",
+    "Calorias": 379,
+    "Carbohidratos": 67.7,
+    "Proteinas": 13.15,
+    "Grasas": 6.52,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Haferflocken, Bran",
+    "Calorias": 25,
+    "Carbohidratos": 6.6,
+    "Proteinas": 1.7,
+    "Grasas": 0.7,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Strauß, gekocht",
+    "Calorias": 174,
+    "Carbohidratos": 0,
+    "Proteinas": 25.93,
+    "Grasas": 7.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zucker, Weiß, granuliert oder Klumpen",
+    "Calorias": 387,
+    "Carbohidratos": 99.98,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zucker, Weiß, Gebäck, Pulver",
+    "Calorias": 389,
+    "Carbohidratos": 99.77,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zucker, braun (Moreno)",
+    "Calorias": 380,
+    "Carbohidratos": 98.09,
+    "Proteinas": 0.12,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Geräucherter Kabeljau",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 23.91,
+    "Grasas": 0.64,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gebackener Kabeljau oder Grill, aus Öl hergestellt",
+    "Calorias": 117,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.68,
+    "Grasas": 4.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gebackener Kabeljau oder gegrillt, ohne Fett gemacht",
+    "Calorias": 87,
+    "Carbohidratos": 0.1,
+    "Proteinas": 19.24,
+    "Grasas": 0.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frischer Kabeljau",
+    "Calorias": 76,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gesalzener Kabeljau, durchnässt",
+    "Calorias": 138,
+    "Carbohidratos": 0,
+    "Proteinas": 32,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kabeljau, trocken, salzig",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 62.82,
+    "Grasas": 2.37,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Speck",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Banane",
+    "Calorias": 89,
+    "Carbohidratos": 22.6,
+    "Proteinas": 1.08,
+    "Grasas": 0.34,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Mars Mandelbar",
+    "Calorias": 467,
+    "Carbohidratos": 62.7,
+    "Proteinas": 8.1,
+    "Grasas": 23,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Snickers Bar",
+    "Calorias": 491,
+    "Carbohidratos": 61.51,
+    "Proteinas": 7.53,
+    "Grasas": 23.85,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Süßkartoffel",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Batata, gebacken, ohne Peeling, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 90,
+    "Carbohidratos": 20.63,
+    "Proteinas": 2,
+    "Grasas": 0.15,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Schokoladenschütteln",
+    "Calorias": 366,
+    "Carbohidratos": 77,
+    "Proteinas": 6,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Milchshake, Abfüllung, Schokolade",
+    "Calorias": 150,
+    "Carbohidratos": 20.36,
+    "Proteinas": 3.7,
+    "Grasas": 6.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Hafer mit Milch",
+    "Calorias": 82,
+    "Carbohidratos": 15.59,
+    "Proteinas": 1.69,
+    "Grasas": 1.57,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Horchata -Getränk, aus Wasser hergestellt.",
+    "Calorias": 87,
+    "Carbohidratos": 20.48,
+    "Proteinas": 1.09,
+    "Grasas": 0.11,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Saftgetränk / Fruchtsaft (sonnig D)",
+    "Calorias": 54,
+    "Carbohidratos": 13.16,
+    "Proteinas": 0.13,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sportgetränk (Gatorade G)",
+    "Calorias": 26,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sportgetränk (Powerade)",
+    "Calorias": 32,
+    "Carbohidratos": 7.84,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink (Monster)",
+    "Calorias": 47,
+    "Carbohidratos": 11.28,
+    "Proteinas": 0.47,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink (Red Bull)",
+    "Calorias": 43,
+    "Carbohidratos": 10.23,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink (Rockstar)",
+    "Calorias": 58,
+    "Carbohidratos": 12.7,
+    "Proteinas": 0.34,
+    "Grasas": 0.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink ohne Zucker (Red Bull)",
+    "Calorias": 5,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink, kalorienarm (Monster)",
+    "Calorias": 5,
+    "Carbohidratos": 1.38,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Energy Drink, ohne Zucker (Rockstar)",
+    "Calorias": 4,
+    "Carbohidratos": 0.7,
+    "Proteinas": 0.25,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Koch berberer",
+    "Calorias": 48,
+    "Carbohidratos": 0,
+    "Proteinas": 10.7,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Aubergine",
+    "Calorias": 25,
+    "Carbohidratos": 5.88,
+    "Proteinas": 0.98,
+    "Grasas": 0.18,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Auberginen, gekocht, Fette beim Kochen nicht hinzugefügt",
+    "Calorias": 35,
+    "Carbohidratos": 8.64,
+    "Proteinas": 0.82,
+    "Grasas": 0.23,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Brunnenkresse, gekocht, frisch, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Berro, roh",
+    "Calorias": 32,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.6,
+    "Grasas": 0.7,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Seebrasse",
+    "Calorias": 90,
+    "Carbohidratos": 0,
+    "Proteinas": 18.1,
+    "Grasas": 1.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gekochte Bígaros",
+    "Calorias": 135,
+    "Carbohidratos": 5,
+    "Proteinas": 26,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Biscotes gut",
+    "Calorias": 366,
+    "Carbohidratos": 73,
+    "Proteinas": 9,
+    "Grasas": 4,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Biscotes Integral Weizen",
+    "Calorias": 407,
+    "Carbohidratos": 62,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Bloody Mary",
+    "Calorias": 69,
+    "Carbohidratos": 3.16,
+    "Proteinas": 0.64,
+    "Grasas": 0.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Mittlere Brötchen",
+    "Calorias": 387,
+    "Carbohidratos": 49,
+    "Proteinas": 5,
+    "Grasas": 20,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Medienschokolade",
+    "Calorias": 458,
+    "Carbohidratos": 66,
+    "Proteinas": 5,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Süßkartoffel",
+    "Calorias": 101,
+    "Carbohidratos": 23,
+    "Proteinas": 1.2,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Brandy",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Bratwurst",
+    "Calorias": 333,
+    "Carbohidratos": 2.85,
+    "Proteinas": 13.72,
+    "Grasas": 29.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Breca (weißer Fisch)",
+    "Calorias": 74,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohbrécol",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Rohbrokkoli",
+    "Calorias": 34,
+    "Carbohidratos": 6.64,
+    "Proteinas": 2.82,
+    "Grasas": 0.37,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Brokkoli, gekocht, gefroren, ohne beim Kochen Fett hinzuzufügen",
+    "Calorias": 28,
+    "Carbohidratos": 5.32,
+    "Proteinas": 3.08,
+    "Grasas": 0.12,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Soja -Knospen, gekocht, frisch, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 46,
+    "Carbohidratos": 5.15,
+    "Proteinas": 4.76,
+    "Grasas": 1.95,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Soja -Knospen, roh",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Kokosnussbuddine",
+    "Calorias": 111,
+    "Carbohidratos": 17.37,
+    "Proteinas": 2.89,
+    "Grasas": 3.43,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Bouillabaisse",
+    "Calorias": 98,
+    "Carbohidratos": 2.15,
+    "Proteinas": 13.43,
+    "Grasas": 3.7,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Französisch Buñuelo",
+    "Calorias": 412,
+    "Carbohidratos": 59.5,
+    "Proteinas": 3.1,
+    "Grasas": 18.3,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Buñuelo, Banane",
+    "Calorias": 342,
+    "Carbohidratos": 34.43,
+    "Proteinas": 5.03,
+    "Grasas": 21.33,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Kabeljaukrapfen",
+    "Calorias": 278,
+    "Carbohidratos": 36.02,
+    "Proteinas": 15.32,
+    "Grasas": 7.45,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Maiskrapfen",
+    "Calorias": 394,
+    "Carbohidratos": 40.81,
+    "Proteinas": 8.24,
+    "Grasas": 22.57,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Burrito mit Fleisch",
+    "Calorias": 242,
+    "Carbohidratos": 14.44,
+    "Proteinas": 13.03,
+    "Grasas": 14.48,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Hühnerburrito",
+    "Calorias": 242,
+    "Carbohidratos": 16.57,
+    "Proteinas": 16.9,
+    "Grasas": 12.01,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Burrito, Taco oder Quesadilla mit Ei",
+    "Calorias": 229,
+    "Carbohidratos": 19.69,
+    "Proteinas": 10.27,
+    "Grasas": 11.84,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Butifarra",
+    "Calorias": 243,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 20,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Geräucherter Makrelen",
+    "Calorias": 200,
+    "Carbohidratos": 0,
+    "Proteinas": 25.54,
+    "Grasas": 10.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Makrele",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 19.08,
+    "Grasas": 11.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Konserven",
+    "Calorias": 156,
+    "Carbohidratos": 0,
+    "Proteinas": 23.19,
+    "Grasas": 6.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fleischpferd",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gebackene Ziege",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 26.87,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fleischziege",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gebratene Ziege",
+    "Calorias": 153,
+    "Carbohidratos": 0,
+    "Proteinas": 26.46,
+    "Grasas": 4.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fleisch",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Finanzierte Erdnüsse",
+    "Calorias": 567,
+    "Carbohidratos": 16.13,
+    "Proteinas": 25.8,
+    "Grasas": 49.24,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Erdnüsse, geröstet, salzig",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Erdnüsse, geröstet, ohne Salz",
+    "Calorias": 599,
+    "Carbohidratos": 15.26,
+    "Proteinas": 28.03,
+    "Grasas": 52.5,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Kakaostaub",
+    "Calorias": 357,
+    "Carbohidratos": 11,
+    "Proteinas": 20,
+    "Grasas": 24,
+    "Fibra": 38
+  },
+  {
+    "Alimento": "Kapuzino -Kaffee",
+    "Calorias": 27,
+    "Carbohidratos": 2.7,
+    "Proteinas": 1.68,
+    "Grasas": 1.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kubanischer Kaffee",
+    "Calorias": 33,
+    "Carbohidratos": 7.86,
+    "Proteinas": 0.11,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Entkoffeinierter Kaffee",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0.1,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kaffee ausdrücken",
+    "Calorias": 9,
+    "Carbohidratos": 1.67,
+    "Proteinas": 0.12,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kaffee entkoffeiniert",
+    "Calorias": 9,
+    "Carbohidratos": 1.69,
+    "Proteinas": 0.1,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kaffee extrahieren, Staub",
+    "Calorias": 82,
+    "Carbohidratos": 8,
+    "Proteinas": 11,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Infusionskaffee",
+    "Calorias": 2,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Instantkaffee (lösliches Pulver)",
+    "Calorias": 100,
+    "Carbohidratos": 11,
+    "Proteinas": 15,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Irish Coffee",
+    "Calorias": 88,
+    "Carbohidratos": 2.03,
+    "Proteinas": 0.27,
+    "Grasas": 2.41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Torrefacto Kaffee",
+    "Calorias": 183,
+    "Carbohidratos": 2,
+    "Proteinas": 13,
+    "Grasas": 13,
+    "Fibra": 66
+  },
+  {
+    "Alimento": "Kaffee, Kaffee mit Milch",
+    "Calorias": 39,
+    "Carbohidratos": 5.64,
+    "Proteinas": 1.64,
+    "Grasas": 1.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kaffee, Kaffee mit Milch, entkoffeiniert.",
+    "Calorias": 39,
+    "Carbohidratos": 5.72,
+    "Proteinas": 1.65,
+    "Grasas": 1.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zucchini",
+    "Calorias": 14,
+    "Carbohidratos": 2.2,
+    "Proteinas": 0.6,
+    "Grasas": 0.2,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Kürbis, gekocht, frisch, fett nicht beim Kochen hinzugefügt",
+    "Calorias": 20,
+    "Carbohidratos": 4.88,
+    "Proteinas": 0.72,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Roher Tintenfisch",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tintenfisch Dosen",
+    "Calorias": 106,
+    "Carbohidratos": 3.54,
+    "Proteinas": 17.9,
+    "Grasas": 1.59,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fischbrühe, hausgemachtes Rezept",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 2.26,
+    "Grasas": 0.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hühner- oder Truthahnbrühe, Brühe oder Konsommé",
+    "Calorias": 6,
+    "Carbohidratos": 0.44,
+    "Proteinas": 0.64,
+    "Grasas": 0.21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gemüsebrühe, Brühe",
+    "Calorias": 5,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0.24,
+    "Grasas": 0.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hallusse, gekocht",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 12.6,
+    "Grasas": 3.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Calzone mit Fleisch und Käse.",
+    "Calorias": 348,
+    "Carbohidratos": 31.16,
+    "Proteinas": 14.28,
+    "Grasas": 18.24,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Gedämpfte Garnelen oder gekocht",
+    "Calorias": 91,
+    "Carbohidratos": 1.16,
+    "Proteinas": 17.37,
+    "Grasas": 1.29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Canelones mit Käse und Spinat ohne Sauce gefüllt",
+    "Calorias": 158,
+    "Carbohidratos": 17.41,
+    "Proteinas": 6.95,
+    "Grasas": 6.71,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Meereskrebs",
+    "Calorias": 124,
+    "Carbohidratos": 13.28,
+    "Proteinas": 19.5,
+    "Grasas": 5.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Flusskrabbe, gekocht oder gedämpft",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 16.66,
+    "Grasas": 1.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Krabbe in Dosen",
+    "Calorias": 83,
+    "Carbohidratos": 0,
+    "Proteinas": 17.88,
+    "Grasas": 0.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Krabben, gebacken oder gegrillt, ohne beim Kochen Fett hinzuzufügen",
+    "Calorias": 102,
+    "Carbohidratos": 0.1,
+    "Proteinas": 21.96,
+    "Grasas": 0.91,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Caha, roh",
+    "Calorias": 70,
+    "Carbohidratos": 18.59,
+    "Proteinas": 0.58,
+    "Grasas": 0.19,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Terrestrische Schnecke",
+    "Calorias": 86,
+    "Carbohidratos": 2,
+    "Proteinas": 16,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Distel",
+    "Calorias": 21,
+    "Carbohidratos": 4,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Pferd",
+    "Calorias": 113,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ziegenfleisch",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kinderfleisch",
+    "Calorias": 161,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinefleisch, fett",
+    "Calorias": 329,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinefleisch, schlank",
+    "Calorias": 147,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kaninchenfleisch",
+    "Calorias": 124,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lammfleisch, hacken",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lammfleisch, schlank",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cordero Fleisch, Palette",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lammfleisch, Bein",
+    "Calorias": 240,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rindfleisch, Ochsenschwanz, gekocht",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 30.8,
+    "Grasas": 13.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Venado Fleisch / geröstetes Hirsch",
+    "Calorias": 190,
+    "Carbohidratos": 0,
+    "Proteinas": 36.08,
+    "Grasas": 3.93,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schaffleisch",
+    "Calorias": 235,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kalbfleisch, schlank",
+    "Calorias": 109,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kuhfleisch, hacken",
+    "Calorias": 290,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kuhfleisch, Steak",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kuhfleisch, Eintopf",
+    "Calorias": 176,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kuhfleisch, schlank",
+    "Calorias": 123,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kuhfleisch, Lendenrand",
+    "Calorias": 272,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ahumada Zelt",
+    "Calorias": 198,
+    "Carbohidratos": 0,
+    "Proteinas": 27.84,
+    "Grasas": 8.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpftes Zelt oder Klettern",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 22.42,
+    "Grasas": 7.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zelt, gebacken oder geröstet, fett beim Kochen nicht hinzugefügt",
+    "Calorias": 160,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.46,
+    "Grasas": 7.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kastanien",
+    "Calorias": 245,
+    "Carbohidratos": 52.96,
+    "Proteinas": 3.17,
+    "Grasas": 2.2,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Russischer Kaviar",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 25,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gerste",
+    "Calorias": 360,
+    "Carbohidratos": 84,
+    "Proteinas": 8,
+    "Grasas": 2,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Zwiebel",
+    "Calorias": 40,
+    "Carbohidratos": 9,
+    "Proteinas": 1,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Rohe Schnittlauch",
+    "Calorias": 30,
+    "Carbohidratos": 4.35,
+    "Proteinas": 3.27,
+    "Grasas": 0.73,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Centol",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinefleisch, Schweineschalen, gekocht",
+    "Calorias": 468,
+    "Carbohidratos": 1.7,
+    "Proteinas": 33.92,
+    "Grasas": 35.09,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schwein, Lenden, Eingefühl, gebraten",
+    "Calorias": 294,
+    "Carbohidratos": 15.22,
+    "Proteinas": 22,
+    "Grasas": 15.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Schweinefleisch, Lenden, geschlagen, gebraten",
+    "Calorias": 193,
+    "Carbohidratos": 7.57,
+    "Proteinas": 23.29,
+    "Grasas": 7.07,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Schweinefleisch, Lenden Sie für Eintopf",
+    "Calorias": 142,
+    "Carbohidratos": 0,
+    "Proteinas": 27.24,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Müsli (Kelloggs Maiskapos)",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Müsli (Kellogg Crispix)",
+    "Calorias": 378,
+    "Carbohidratos": 87.19,
+    "Proteinas": 6.59,
+    "Grasas": 0.8,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Müsli (Kelloggs All-Bran)",
+    "Calorias": 259,
+    "Carbohidratos": 74.24,
+    "Proteinas": 13.14,
+    "Grasas": 4.9,
+    "Fibra": 29.3
+  },
+  {
+    "Alimento": "Müsli (Kelloggs Kakao Krispies)",
+    "Calorias": 389,
+    "Carbohidratos": 87.9,
+    "Proteinas": 4.6,
+    "Grasas": 2.7,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Müsli (Kelloggs Rice Krispies)",
+    "Calorias": 381,
+    "Carbohidratos": 85.05,
+    "Proteinas": 6.75,
+    "Grasas": 2.05,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Müsli (Kelloggs Special K)",
+    "Calorias": 377,
+    "Carbohidratos": 73.4,
+    "Proteinas": 17.79,
+    "Grasas": 1.79,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Müsli (Kellogg Crunchy Hafer Bran)",
+    "Calorias": 395,
+    "Carbohidratos": 70.3,
+    "Proteinas": 9.2,
+    "Grasas": 14.1,
+    "Fibra": 12.7
+  },
+  {
+    "Alimento": "Müsli (zerquetschter Weizen und Kleie)",
+    "Calorias": 339,
+    "Carbohidratos": 80.65,
+    "Proteinas": 10.93,
+    "Grasas": 2.06,
+    "Fibra": 14.7
+  },
+  {
+    "Alimento": "Müsli (Weetabix Vollkorn)",
+    "Calorias": 371,
+    "Carbohidratos": 81.5,
+    "Proteinas": 11.43,
+    "Grasas": 2.86,
+    "Fibra": 11.4
+  },
+  {
+    "Alimento": "Müsli, knuspriger Reis",
+    "Calorias": 394,
+    "Carbohidratos": 86.22,
+    "Proteinas": 6.69,
+    "Grasas": 1.26,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Müslisch, aufgeblähtes Reis",
+    "Calorias": 383,
+    "Carbohidratos": 87.78,
+    "Proteinas": 7.01,
+    "Grasas": 0.9,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Müsli, gerösteter Hafer",
+    "Calorias": 357,
+    "Carbohidratos": 75.5,
+    "Proteinas": 10.71,
+    "Grasas": 5.36,
+    "Fibra": 10.7
+  },
+  {
+    "Alimento": "Müsli, Mueli",
+    "Calorias": 355,
+    "Carbohidratos": 74.9,
+    "Proteinas": 8.6,
+    "Grasas": 5.4,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Müsli, aufgeblasen, gesüßt",
+    "Calorias": 380,
+    "Carbohidratos": 88.5,
+    "Proteinas": 5.7,
+    "Grasas": 2.2,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Müslisch, aufgeblähtes Weizen",
+    "Calorias": 366,
+    "Carbohidratos": 76.39,
+    "Proteinas": 16.26,
+    "Grasas": 2.15,
+    "Fibra": 9.4
+  },
+  {
+    "Alimento": "Cornflakes Müsli",
+    "Calorias": 378,
+    "Carbohidratos": 84,
+    "Proteinas": 7,
+    "Grasas": 0,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Müsli, Maisflocken",
+    "Calorias": 357,
+    "Carbohidratos": 84.1,
+    "Proteinas": 7.5,
+    "Grasas": 0.4,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Kirschen",
+    "Calorias": 50,
+    "Carbohidratos": 12.18,
+    "Proteinas": 1,
+    "Grasas": 0.3,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Gefrorene Kirschen",
+    "Calorias": 46,
+    "Carbohidratos": 11.02,
+    "Proteinas": 0.92,
+    "Grasas": 0.44,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Bier",
+    "Calorias": 43,
+    "Carbohidratos": 3.55,
+    "Proteinas": 0.46,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Niedriges Kohlenhydratbier",
+    "Calorias": 27,
+    "Carbohidratos": 0.73,
+    "Proteinas": 0.17,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ceviche",
+    "Calorias": 62,
+    "Carbohidratos": 3.58,
+    "Proteinas": 10.34,
+    "Grasas": 0.75,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Sekt",
+    "Calorias": 84,
+    "Carbohidratos": 3,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Pilze",
+    "Calorias": 22,
+    "Carbohidratos": 3.26,
+    "Proteinas": 3.09,
+    "Grasas": 0.34,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Pilze, gekocht, mit Öl hergestellt",
+    "Calorias": 52,
+    "Carbohidratos": 5.11,
+    "Proteinas": 2.1,
+    "Grasas": 3.27,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Pilze, frische Creme",
+    "Calorias": 81,
+    "Carbohidratos": 7.01,
+    "Proteinas": 2.91,
+    "Grasas": 4.98,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Chanquets",
+    "Calorias": 79,
+    "Carbohidratos": 2,
+    "Proteinas": 11,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheets Käse, Süßigkeiten",
+    "Calorias": 158,
+    "Carbohidratos": 15,
+    "Proteinas": 2,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Erbsen, gekocht, frisch, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 110,
+    "Carbohidratos": 19.36,
+    "Proteinas": 5.92,
+    "Grasas": 1.35,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Chicharrones",
+    "Calorias": 540,
+    "Carbohidratos": 1,
+    "Proteinas": 20,
+    "Grasas": 51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chile mit fleischlosen Bohnen",
+    "Calorias": 42,
+    "Carbohidratos": 8.19,
+    "Proteinas": 2.39,
+    "Grasas": 0.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Chili mit Fleisch mit Bohnen",
+    "Calorias": 104,
+    "Carbohidratos": 10.71,
+    "Proteinas": 6.88,
+    "Grasas": 3.81,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Puddingapfel",
+    "Calorias": 75,
+    "Carbohidratos": 18,
+    "Proteinas": 1.2,
+    "Grasas": 0.6,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Chirivías, gekocht, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 71,
+    "Carbohidratos": 16.9,
+    "Proteinas": 1.31,
+    "Grasas": 0.3,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Chirivías, Creme",
+    "Calorias": 105,
+    "Carbohidratos": 13.5,
+    "Proteinas": 2.44,
+    "Grasas": 4.89,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Weiße Schokolade",
+    "Calorias": 539,
+    "Carbohidratos": 59.24,
+    "Proteinas": 5.87,
+    "Grasas": 32.09,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Weiße Schokolade mit Mandeln",
+    "Calorias": 547,
+    "Carbohidratos": 53.15,
+    "Proteinas": 8.2,
+    "Grasas": 35.15,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Vollmilchschokolade",
+    "Calorias": 550,
+    "Carbohidratos": 56,
+    "Proteinas": 6,
+    "Grasas": 34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Süße oder dunkle Schokolade",
+    "Calorias": 528,
+    "Carbohidratos": 60.18,
+    "Proteinas": 4.5,
+    "Grasas": 33.2,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Süße oder dunkle Schokolade mit Mandeln.",
+    "Calorias": 553,
+    "Carbohidratos": 56.48,
+    "Proteinas": 6.55,
+    "Grasas": 33.81,
+    "Fibra": 7.7
+  },
+  {
+    "Alimento": "Schokolade ohne Milch",
+    "Calorias": 530,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wurst",
+    "Calorias": 455,
+    "Carbohidratos": 1.86,
+    "Proteinas": 24.1,
+    "Grasas": 38.27,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Käsewurstwurst",
+    "Calorias": 402,
+    "Carbohidratos": 0.4,
+    "Proteinas": 15.76,
+    "Grasas": 36.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinekotelett, geröstet oder gebacken",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinekotelett, Empanada oder Mehl",
+    "Calorias": 239,
+    "Carbohidratos": 8.4,
+    "Proteinas": 26.87,
+    "Grasas": 10.21,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Schweinekotelett, Eintopf, Mager und Fett",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinekotelett, gebraten, schlank und fett",
+    "Calorias": 211,
+    "Carbohidratos": 0,
+    "Proteinas": 27.69,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinekotelett, geschlagen, gebraten, schlank und fett",
+    "Calorias": 281,
+    "Carbohidratos": 12.78,
+    "Proteinas": 22.6,
+    "Grasas": 14.97,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Gebratene Kalbfleisch, schlank und fett",
+    "Calorias": 238,
+    "Carbohidratos": 9.91,
+    "Proteinas": 27.29,
+    "Grasas": 9.18,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Ternera, geröstet, mageres und fettes Chuleta",
+    "Calorias": 215,
+    "Carbohidratos": 0,
+    "Proteinas": 24.59,
+    "Grasas": 12.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Churros",
+    "Calorias": 481,
+    "Carbohidratos": 49.8,
+    "Proteinas": 3.02,
+    "Grasas": 30.58,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Flusskrebs",
+    "Calorias": 67,
+    "Carbohidratos": 0,
+    "Proteinas": 15,
+    "Grasas": 0.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roher Koriander",
+    "Calorias": 23,
+    "Carbohidratos": 3.67,
+    "Proteinas": 2.13,
+    "Grasas": 0.52,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Rohe Pflaume",
+    "Calorias": 46,
+    "Carbohidratos": 11.42,
+    "Proteinas": 0.7,
+    "Grasas": 0.28,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pasas -Käufe, Papillas, Koladas",
+    "Calorias": 100,
+    "Carbohidratos": 23.52,
+    "Proteinas": 1,
+    "Grasas": 0.2,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Frische Kokosnuss",
+    "Calorias": 354,
+    "Carbohidratos": 15.23,
+    "Proteinas": 3.33,
+    "Grasas": 33.49,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Bacardí Cocktail",
+    "Calorias": 123,
+    "Carbohidratos": 16.11,
+    "Proteinas": 0.08,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wachtel, gekocht",
+    "Calorias": 226,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 14.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lockig, gekocht, frisch",
+    "Calorias": 28,
+    "Carbohidratos": 5.59,
+    "Proteinas": 1.88,
+    "Grasas": 0.4,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Brüssel, gekocht, frischer Kohl",
+    "Calorias": 36,
+    "Carbohidratos": 7.06,
+    "Proteinas": 2.53,
+    "Grasas": 0.5,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Brüsseler Kohl, roh",
+    "Calorias": 43,
+    "Carbohidratos": 8.95,
+    "Proteinas": 3.38,
+    "Grasas": 0.3,
+    "Fibra": 3.8
+  },
+  {
+    "Alimento": "Gekochtes Blumenkohl",
+    "Calorias": 23,
+    "Carbohidratos": 4.08,
+    "Proteinas": 1.82,
+    "Grasas": 0.45,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Rohblumenkohl",
+    "Calorias": 25,
+    "Carbohidratos": 4.97,
+    "Proteinas": 1.92,
+    "Grasas": 0.28,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Bausetuch, gebraten",
+    "Calorias": 216,
+    "Carbohidratos": 14.46,
+    "Proteinas": 3.91,
+    "Grasas": 16.28,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Roh Colinabo",
+    "Calorias": 27,
+    "Carbohidratos": 6.2,
+    "Proteinas": 1.7,
+    "Grasas": 0.1,
+    "Fibra": 3.6
+  },
+  {
+    "Alimento": "Stewed Kaninchen",
+    "Calorias": 210,
+    "Carbohidratos": 6.85,
+    "Proteinas": 17.18,
+    "Grasas": 12.44,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Kaninchen, wild, gekocht",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 32.88,
+    "Grasas": 3.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Conger",
+    "Calorias": 102,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Konguitos",
+    "Calorias": 510,
+    "Carbohidratos": 50.1,
+    "Proteinas": 11.7,
+    "Grasas": 29.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cognac",
+    "Calorias": 232,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Herzlamm",
+    "Calorias": 119,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rindfleisch Herz",
+    "Calorias": 108,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamm, Braten",
+    "Calorias": 265,
+    "Carbohidratos": 0,
+    "Proteinas": 23.83,
+    "Grasas": 18.07,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamm, Rippen",
+    "Calorias": 358,
+    "Carbohidratos": 0,
+    "Proteinas": 21.95,
+    "Grasas": 29.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamm, Lende",
+    "Calorias": 313,
+    "Carbohidratos": 0,
+    "Proteinas": 24.96,
+    "Grasas": 22.89,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lamm, Palette",
+    "Calorias": 274,
+    "Carbohidratos": 0,
+    "Proteinas": 22.32,
+    "Grasas": 19.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinefleischlederrinde",
+    "Calorias": 544,
+    "Carbohidratos": 0,
+    "Proteinas": 61.3,
+    "Grasas": 31.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corvina, gedämpft oder Schritt",
+    "Calorias": 131,
+    "Carbohidratos": 0,
+    "Proteinas": 22.36,
+    "Grasas": 3.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Corvina, gebacken oder geröstet, fett beim Kochen nicht hinzugefügt",
+    "Calorias": 131,
+    "Carbohidratos": 0.1,
+    "Proteinas": 22.4,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schokoladencreme mit Haselnüssen",
+    "Calorias": 549,
+    "Carbohidratos": 60.5,
+    "Proteinas": 6.2,
+    "Grasas": 33,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Milchcreme, Chantilly",
+    "Calorias": 331,
+    "Carbohidratos": 10,
+    "Proteinas": 2,
+    "Grasas": 31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Krepp, glatt",
+    "Calorias": 223,
+    "Carbohidratos": 21.72,
+    "Proteinas": 8.74,
+    "Grasas": 10.95,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Croissant, Schokolade",
+    "Calorias": 421,
+    "Carbohidratos": 49.4,
+    "Proteinas": 7.4,
+    "Grasas": 22.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Croissant, Käse",
+    "Calorias": 414,
+    "Carbohidratos": 47,
+    "Proteinas": 9.2,
+    "Grasas": 20.9,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Schinken Krokette",
+    "Calorias": 273,
+    "Carbohidratos": 2.58,
+    "Proteinas": 17.98,
+    "Grasas": 20.7,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Quark",
+    "Calorias": 94,
+    "Carbohidratos": 6.7,
+    "Proteinas": 4.8,
+    "Grasas": 5.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Suppenwürfel",
+    "Calorias": 154,
+    "Carbohidratos": 8,
+    "Proteinas": 23,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Daiquiri",
+    "Calorias": 119,
+    "Carbohidratos": 15.65,
+    "Proteinas": 0.09,
+    "Grasas": 0.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Daten",
+    "Calorias": 282,
+    "Carbohidratos": 75.3,
+    "Proteinas": 2.45,
+    "Grasas": 0.39,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Grüner Löwenzahn, roh",
+    "Calorias": 45,
+    "Carbohidratos": 9.2,
+    "Proteinas": 2.7,
+    "Grasas": 0.7,
+    "Fibra": 3.5
+  },
+  {
+    "Alimento": "Golden",
+    "Calorias": 140,
+    "Carbohidratos": 0,
+    "Proteinas": 20.82,
+    "Grasas": 6.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kaiser",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gegrillter Kaiser",
+    "Calorias": 177,
+    "Carbohidratos": 0.49,
+    "Proteinas": 23.8,
+    "Grasas": 8.23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gurken, gemischt",
+    "Calorias": 137,
+    "Carbohidratos": 36.94,
+    "Proteinas": 0.39,
+    "Grasas": 0.5,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Endibias",
+    "Calorias": 25,
+    "Carbohidratos": 3.6,
+    "Proteinas": 1.5,
+    "Grasas": 0.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "César -Hühnchen- oder Truthahnsalat, Tomate, Käse, ohne sich anzuziehen",
+    "Calorias": 65,
+    "Carbohidratos": 2.56,
+    "Proteinas": 9.55,
+    "Grasas": 1.88,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "César -Salat mit römischem Salat ohne Anziehen",
+    "Calorias": 71,
+    "Carbohidratos": 6,
+    "Proteinas": 4.77,
+    "Grasas": 3.41,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Eier Thunfisch -Salat",
+    "Calorias": 191,
+    "Carbohidratos": 2.63,
+    "Proteinas": 10.53,
+    "Grasas": 15.41,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Thunfisch mit Käsesalat",
+    "Calorias": 214,
+    "Carbohidratos": 2.8,
+    "Proteinas": 11.54,
+    "Grasas": 17.52,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Gekochtes Spargel",
+    "Calorias": 18,
+    "Carbohidratos": 1.91,
+    "Proteinas": 2.93,
+    "Grasas": 0.42,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Roher Spargel",
+    "Calorias": 20,
+    "Carbohidratos": 3.88,
+    "Proteinas": 2.2,
+    "Grasas": 0.12,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Spargel konserviert (Konserven)",
+    "Calorias": 24,
+    "Carbohidratos": 3.4,
+    "Proteinas": 1.9,
+    "Grasas": 0.3,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Gekochter Spinat",
+    "Calorias": 23,
+    "Carbohidratos": 3.39,
+    "Proteinas": 2.8,
+    "Grasas": 0.5,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Frischer Cremespinat",
+    "Calorias": 74,
+    "Carbohidratos": 5.96,
+    "Proteinas": 3.32,
+    "Grasas": 4.5,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Roher Spinat",
+    "Calorias": 23,
+    "Carbohidratos": 3.63,
+    "Proteinas": 2.86,
+    "Grasas": 0.39,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Raucher Stör",
+    "Calorias": 173,
+    "Carbohidratos": 0,
+    "Proteinas": 31.2,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpfter Stör",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 20.3,
+    "Grasas": 5.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hefeextrakt",
+    "Calorias": 185,
+    "Carbohidratos": 20.42,
+    "Proteinas": 23.88,
+    "Grasas": 0.9,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Phenasan kochen",
+    "Calorias": 238,
+    "Carbohidratos": 0,
+    "Proteinas": 32.26,
+    "Grasas": 12.05,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Faneca (weißer Fisch)",
+    "Calorias": 76,
+    "Carbohidratos": 1,
+    "Proteinas": 15.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gegrilltes Hühnchenfilet",
+    "Calorias": 145,
+    "Carbohidratos": 2.37,
+    "Proteinas": 22.24,
+    "Grasas": 5.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Empanat -Hühnchenfilet",
+    "Calorias": 240,
+    "Carbohidratos": 14.86,
+    "Proteinas": 14.62,
+    "Grasas": 13.58,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Schweinefleisch, Grill oder gebackenes Steak oder hacken",
+    "Calorias": 239,
+    "Carbohidratos": 0.06,
+    "Proteinas": 22.96,
+    "Grasas": 15.86,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Filet oder Schweinekotelett, gebraten, schlank und fett",
+    "Calorias": 271,
+    "Carbohidratos": 7.62,
+    "Proteinas": 19.87,
+    "Grasas": 17.53,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Schweizer Filet",
+    "Calorias": 131,
+    "Carbohidratos": 3.55,
+    "Proteinas": 10.82,
+    "Grasas": 8.05,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Vaca -Filet",
+    "Calorias": 197,
+    "Carbohidratos": 0,
+    "Proteinas": 19,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Eierflan",
+    "Calorias": 177,
+    "Carbohidratos": 29.04,
+    "Proteinas": 5.22,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohdiagramm",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.56,
+    "Grasas": 1.33,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fletan, geraucht",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 44.61,
+    "Grasas": 3.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Foie gras",
+    "Calorias": 444,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Himbeeren, gefroren, ohne Zucker",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Himbeeren, roh",
+    "Calorias": 52,
+    "Carbohidratos": 11.94,
+    "Proteinas": 1.2,
+    "Grasas": 0.65,
+    "Fibra": 6.5
+  },
+  {
+    "Alimento": "Frankfurter, Wiener oder Hot Dog",
+    "Calorias": 332,
+    "Carbohidratos": 3.13,
+    "Proteinas": 12.3,
+    "Grasas": 29.58,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gefrorene Erdbeeren ohne Zucker",
+    "Calorias": 35,
+    "Carbohidratos": 9.13,
+    "Proteinas": 0.43,
+    "Grasas": 0.11,
+    "Fibra": 2.1
+  },
+  {
+    "Alimento": "Rohe Erdbeeren",
+    "Calorias": 32,
+    "Carbohidratos": 7.68,
+    "Proteinas": 0.67,
+    "Grasas": 0.3,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Mugo Bean ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 104,
+    "Carbohidratos": 19.06,
+    "Proteinas": 6.98,
+    "Grasas": 0.38,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Gelbe Bohnen ohne Fett beim Kochen",
+    "Calorias": 143,
+    "Carbohidratos": 25.14,
+    "Proteinas": 9.11,
+    "Grasas": 1.07,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Weiße Bohnen ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 138,
+    "Carbohidratos": 24.95,
+    "Proteinas": 9.68,
+    "Grasas": 0.35,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Lima Bohnen ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 114,
+    "Carbohidratos": 20.77,
+    "Proteinas": 7.76,
+    "Grasas": 0.38,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Mexikanische Bohnen Pintos ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 142,
+    "Carbohidratos": 26.07,
+    "Proteinas": 8.96,
+    "Grasas": 0.65,
+    "Fibra": 8.9
+  },
+  {
+    "Alimento": "Schwarze Bohnen, braun oder Bucht, ohne beim Kochen Fett hinzuzufügen",
+    "Calorias": 131,
+    "Carbohidratos": 23.58,
+    "Proteinas": 8.81,
+    "Grasas": 0.54,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Rote Bohnen ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 126,
+    "Carbohidratos": 22.67,
+    "Proteinas": 8.62,
+    "Grasas": 0.5,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Rosa Bohnen ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 148,
+    "Carbohidratos": 27.75,
+    "Proteinas": 9.01,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Gekochte grüne Bohnen, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 68,
+    "Carbohidratos": 13.52,
+    "Proteinas": 4.09,
+    "Grasas": 0.39,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Kokoskekse",
+    "Calorias": 460,
+    "Carbohidratos": 61.22,
+    "Proteinas": 3.02,
+    "Grasas": 22.55,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Butterkeks",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Gingerbrew Cookie",
+    "Calorias": 416,
+    "Carbohidratos": 76.9,
+    "Proteinas": 5.6,
+    "Grasas": 9.8,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Keks, Mandel",
+    "Calorias": 514,
+    "Carbohidratos": 63.78,
+    "Proteinas": 5.37,
+    "Grasas": 26.22,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Keks, Haferflocken",
+    "Calorias": 450,
+    "Carbohidratos": 68.7,
+    "Proteinas": 6.2,
+    "Grasas": 18.1,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Keks, Pass",
+    "Calorias": 401,
+    "Carbohidratos": 68,
+    "Proteinas": 4.1,
+    "Grasas": 13.6,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Salada -Kekse",
+    "Calorias": 418,
+    "Carbohidratos": 74.05,
+    "Proteinas": 9.46,
+    "Grasas": 8.64,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Hahn",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 15.8,
+    "Grasas": 1.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ajillo -Garnelen",
+    "Calorias": 195,
+    "Carbohidratos": 1.77,
+    "Proteinas": 19.7,
+    "Grasas": 11.73,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Gekochte Garnelen",
+    "Calorias": 96,
+    "Carbohidratos": 0,
+    "Proteinas": 19.8,
+    "Grasas": 1.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gans, wild, Braten",
+    "Calorias": 304,
+    "Carbohidratos": 0,
+    "Proteinas": 25.06,
+    "Grasas": 21.83,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Fett -freie Kichererbsen beim Kochen hinzugefügt",
+    "Calorias": 163,
+    "Carbohidratos": 27.25,
+    "Proteinas": 8.81,
+    "Grasas": 2.57,
+    "Fibra": 7.6
+  },
+  {
+    "Alimento": "Gatorade",
+    "Calorias": 39,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gazpacho",
+    "Calorias": 37,
+    "Carbohidratos": 3.84,
+    "Proteinas": 0.86,
+    "Grasas": 2.35,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Weizenkeime",
+    "Calorias": 382,
+    "Carbohidratos": 49.6,
+    "Proteinas": 29.1,
+    "Grasas": 10.7,
+    "Fibra": 15.1
+  },
+  {
+    "Alimento": "Gin und Tonic",
+    "Calorias": 84,
+    "Carbohidratos": 6.57,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Genf",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gofio Millo",
+    "Calorias": 377,
+    "Carbohidratos": 83,
+    "Proteinas": 6,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gofio Weizen",
+    "Calorias": 371,
+    "Carbohidratos": 82,
+    "Proteinas": 11,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Granate",
+    "Calorias": 34,
+    "Carbohidratos": 7.5,
+    "Proteinas": 0.7,
+    "Grasas": 0.1,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Grelos",
+    "Calorias": 11,
+    "Carbohidratos": 0.1,
+    "Proteinas": 2.7,
+    "Grasas": 0,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Rohe Johannisbeere",
+    "Calorias": 56,
+    "Carbohidratos": 13.8,
+    "Proteinas": 1.4,
+    "Grasas": 0.2,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Erbsen in Dosen (Konserven)",
+    "Calorias": 67,
+    "Carbohidratos": 9.7,
+    "Proteinas": 5.6,
+    "Grasas": 0.5,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "Erbsen, gekocht, frisch, ohne Fett beim Kochen hinzugefügt",
+    "Calorias": 126,
+    "Carbohidratos": 18.8,
+    "Proteinas": 5.76,
+    "Grasas": 3.47,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Erbsen, frische Creme",
+    "Calorias": 111,
+    "Carbohidratos": 12.78,
+    "Proteinas": 4.69,
+    "Grasas": 4.78,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Guisantes, grün, roh",
+    "Calorias": 81,
+    "Carbohidratos": 14.45,
+    "Proteinas": 5.42,
+    "Grasas": 0.4,
+    "Fibra": 5.7
+  },
+  {
+    "Alimento": "Trockene Bohnen",
+    "Calorias": 343,
+    "Carbohidratos": 59,
+    "Proteinas": 23,
+    "Grasas": 1.5,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Hausgemachter Hamburger",
+    "Calorias": 220,
+    "Carbohidratos": 16.76,
+    "Proteinas": 13.8,
+    "Grasas": 10.5,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Käse Hamburger (Burger King Cheeseburger)",
+    "Calorias": 270,
+    "Carbohidratos": 25.46,
+    "Proteinas": 13.49,
+    "Grasas": 12.9,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Käse Burger (Burger King Whopper mit Käse)",
+    "Calorias": 268,
+    "Carbohidratos": 17.73,
+    "Proteinas": 13.69,
+    "Grasas": 15.8,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Käse Hamburger (Burger King Whopper Jr. mit Käse)",
+    "Calorias": 225,
+    "Carbohidratos": 18.11,
+    "Proteinas": 11.2,
+    "Grasas": 11.88,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Käse Hamburger (McDonald's Double Cheeseburger)",
+    "Calorias": 282,
+    "Carbohidratos": 17.97,
+    "Proteinas": 16.24,
+    "Grasas": 16.18,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Käse -Hamburger (McDonald's Viertel Pound mit Käse)",
+    "Calorias": 269,
+    "Carbohidratos": 19.72,
+    "Proteinas": 15.21,
+    "Grasas": 14.4,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Haferflocken",
+    "Calorias": 401,
+    "Carbohidratos": 73,
+    "Proteinas": 12,
+    "Grasas": 9,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Centeno Mehl",
+    "Calorias": 303,
+    "Carbohidratos": 68,
+    "Proteinas": 7,
+    "Grasas": 1,
+    "Fibra": 9
+  },
+  {
+    "Alimento": "Maismehl",
+    "Calorias": 422,
+    "Carbohidratos": 90,
+    "Proteinas": 8,
+    "Grasas": 4.5,
+    "Fibra": 8.5
+  },
+  {
+    "Alimento": "Soja Mehl",
+    "Calorias": 447,
+    "Carbohidratos": 24,
+    "Proteinas": 37,
+    "Grasas": 24,
+    "Fibra": 12
+  },
+  {
+    "Alimento": "Weizenmehl, integral",
+    "Calorias": 318,
+    "Carbohidratos": 66,
+    "Proteinas": 13,
+    "Grasas": 2,
+    "Fibra": 10
+  },
+  {
+    "Alimento": "Weizenmehl, gebacken",
+    "Calorias": 337,
+    "Carbohidratos": 75,
+    "Proteinas": 11,
+    "Grasas": 1,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Gefroren",
+    "Calorias": 209,
+    "Carbohidratos": 21,
+    "Proteinas": 4,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Obsteis",
+    "Calorias": 140,
+    "Carbohidratos": 29,
+    "Proteinas": 2,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinefleischleber",
+    "Calorias": 120,
+    "Carbohidratos": 1,
+    "Proteinas": 21.4,
+    "Grasas": 3.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hühnerleber",
+    "Calorias": 137,
+    "Carbohidratos": 1.2,
+    "Proteinas": 22.1,
+    "Grasas": 4.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kalbebühneleber",
+    "Calorias": 132,
+    "Carbohidratos": 1.6,
+    "Proteinas": 20.5,
+    "Grasas": 4.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Feigen",
+    "Calorias": 74,
+    "Carbohidratos": 19.18,
+    "Proteinas": 0.75,
+    "Grasas": 0.3,
+    "Fibra": 2.9
+  },
+  {
+    "Alimento": "Trockene Feigen",
+    "Calorias": 213,
+    "Carbohidratos": 53,
+    "Proteinas": 4,
+    "Grasas": 0,
+    "Fibra": 18
+  },
+  {
+    "Alimento": "Distelblätter, gekocht, ohne Fett zum Kochen hinzugefügt",
+    "Calorias": 23,
+    "Carbohidratos": 3.77,
+    "Proteinas": 1.89,
+    "Grasas": 0.6,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Arenque Roe",
+    "Calorias": 143,
+    "Carbohidratos": 1.5,
+    "Proteinas": 22.32,
+    "Grasas": 6.42,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Stör Roe",
+    "Calorias": 264,
+    "Carbohidratos": 4,
+    "Proteinas": 24.6,
+    "Grasas": 17.9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hartes Ei",
+    "Calorias": 145,
+    "Carbohidratos": 0.3,
+    "Proteinas": 12.5,
+    "Grasas": 10.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohes ganze Ei",
+    "Calorias": 143,
+    "Carbohidratos": 0.72,
+    "Proteinas": 12.56,
+    "Grasas": 9.51,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Falten Sie das ganze Ei mit Öl.",
+    "Calorias": 215,
+    "Carbohidratos": 0.76,
+    "Proteinas": 13.27,
+    "Grasas": 17.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ei, nur klar, roh",
+    "Calorias": 52,
+    "Carbohidratos": 0.73,
+    "Proteinas": 10.9,
+    "Grasas": 0.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ei, Solo Yem",
+    "Calorias": 322,
+    "Carbohidratos": 3.59,
+    "Proteinas": 15.86,
+    "Grasas": 26.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hummus",
+    "Calorias": 260,
+    "Carbohidratos": 19.86,
+    "Proteinas": 8.18,
+    "Grasas": 17.78,
+    "Fibra": 5.9
+  },
+  {
+    "Alimento": "Gekochte Schinken",
+    "Calorias": 114,
+    "Carbohidratos": 0.4,
+    "Proteinas": 21,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Truthahnschinken, Vorgänger oder Wurstwaren",
+    "Calorias": 124,
+    "Carbohidratos": 2.93,
+    "Proteinas": 19.6,
+    "Grasas": 3.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Serrano Schinken",
+    "Calorias": 241,
+    "Carbohidratos": 0,
+    "Proteinas": 31,
+    "Grasas": 13,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schinken, geräuchert oder geheilt, konserviert",
+    "Calorias": 132,
+    "Carbohidratos": 1,
+    "Proteinas": 17.46,
+    "Grasas": 6.17,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schinken, vorverkleidet oder Charakterter, kaltes Natrium, reduziertes Natrium",
+    "Calorias": 107,
+    "Carbohidratos": 0.7,
+    "Proteinas": 16.85,
+    "Grasas": 4.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Trockene weiße Bohnen / getrocknete weiße Bohnen",
+    "Calorias": 272,
+    "Carbohidratos": 41.6,
+    "Proteinas": 22.2,
+    "Grasas": 1.3,
+    "Fibra": 19.7
+  },
+  {
+    "Alimento": "Saft- / Clovery -Tuel",
+    "Calorias": 18,
+    "Carbohidratos": 4,
+    "Proteinas": 0.83,
+    "Grasas": 0.16,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Saft / Blaubeersaft, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 12.2,
+    "Proteinas": 0.39,
+    "Grasas": 0.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Saft / Pflaumensaft, 100%",
+    "Calorias": 71,
+    "Carbohidratos": 17.45,
+    "Proteinas": 0.61,
+    "Grasas": 0.03,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Saft / Kokosnusssaft",
+    "Calorias": 31,
+    "Carbohidratos": 2.92,
+    "Proteinas": 0.21,
+    "Grasas": 2.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Erdbeersaft / Saft, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Granada -Saft / Saft, 100%",
+    "Calorias": 54,
+    "Carbohidratos": 13.13,
+    "Proteinas": 0.15,
+    "Grasas": 0.29,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Saft / Limettensaft, 100%",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Saft / Zitronensaft, 100%",
+    "Calorias": 22,
+    "Carbohidratos": 6.9,
+    "Proteinas": 0.35,
+    "Grasas": 0.24,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Saft / Mandarinensaft, 100%",
+    "Calorias": 43,
+    "Carbohidratos": 10.1,
+    "Proteinas": 0.5,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Apfelsaft / Saft, 100%",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Maracuyá -Saft / Saft, 100%",
+    "Calorias": 51,
+    "Carbohidratos": 13.6,
+    "Proteinas": 0.39,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Saft / Mora -Saft, 100%",
+    "Calorias": 38,
+    "Carbohidratos": 7.8,
+    "Proteinas": 0.3,
+    "Grasas": 0.6,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Orangensaft / Saft, 100%",
+    "Calorias": 48,
+    "Carbohidratos": 11.45,
+    "Proteinas": 0.68,
+    "Grasas": 0.12,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Papaya -Saft / Saft, 100%",
+    "Calorias": 57,
+    "Carbohidratos": 14.51,
+    "Proteinas": 0.17,
+    "Grasas": 0.15,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Ananasaft / Saft, 100%",
+    "Calorias": 53,
+    "Carbohidratos": 12.87,
+    "Proteinas": 0.36,
+    "Grasas": 0.12,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Saft / Sandia -Saft, 100%",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Tomatensaft / Saft, 100%",
+    "Calorias": 17,
+    "Carbohidratos": 3.53,
+    "Proteinas": 0.85,
+    "Grasas": 0.29,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Saft / Traubensaft, 100%",
+    "Calorias": 60,
+    "Carbohidratos": 14.77,
+    "Proteinas": 0.37,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Saft / Karottensaft, 100%",
+    "Calorias": 40,
+    "Carbohidratos": 9.28,
+    "Proteinas": 0.95,
+    "Grasas": 0.15,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Makrele",
+    "Calorias": 112,
+    "Carbohidratos": 0.8,
+    "Proteinas": 15.4,
+    "Grasas": 5.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kefir",
+    "Calorias": 52,
+    "Carbohidratos": 7.34,
+    "Proteinas": 3.59,
+    "Grasas": 0.92,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ketchup",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Rohkiwi",
+    "Calorias": 61,
+    "Carbohidratos": 14.66,
+    "Proteinas": 1.14,
+    "Grasas": 0.52,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Hummer, gedämpft oder gekocht",
+    "Calorias": 91,
+    "Carbohidratos": 0,
+    "Proteinas": 18.3,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Garnele",
+    "Calorias": 93,
+    "Carbohidratos": 0,
+    "Proteinas": 20.1,
+    "Grasas": 1.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Niedriges Fett (1%) halbnackte Milch",
+    "Calorias": 42,
+    "Carbohidratos": 4.99,
+    "Proteinas": 3.37,
+    "Grasas": 0.97,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Niedriges Fett (2%) halbnackte Milch",
+    "Calorias": 50,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.3,
+    "Grasas": 1.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kondensierte, gesüßte Milch",
+    "Calorias": 321,
+    "Carbohidratos": 54.4,
+    "Proteinas": 7.91,
+    "Grasas": 8.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mandelmilch, gesüßt",
+    "Calorias": 38,
+    "Carbohidratos": 6.59,
+    "Proteinas": 0.42,
+    "Grasas": 1.04,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Mandelmilch ohne Zucker",
+    "Calorias": 15,
+    "Carbohidratos": 0.58,
+    "Proteinas": 0.59,
+    "Grasas": 1.1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Reismilch",
+    "Calorias": 47,
+    "Carbohidratos": 9.17,
+    "Proteinas": 0.28,
+    "Grasas": 0.97,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Ganze Ziegenmilch",
+    "Calorias": 69,
+    "Carbohidratos": 4.45,
+    "Proteinas": 3.56,
+    "Grasas": 4.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kokosmilch Kokosnussmilch",
+    "Calorias": 230,
+    "Carbohidratos": 5.54,
+    "Proteinas": 2.29,
+    "Grasas": 23.84,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Sojamilch",
+    "Calorias": 43,
+    "Carbohidratos": 4.92,
+    "Proteinas": 2.6,
+    "Grasas": 1.47,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Mager- / Magermilch",
+    "Calorias": 34,
+    "Carbohidratos": 4.96,
+    "Proteinas": 3.37,
+    "Grasas": 0.08,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vollmilch",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vollmilch mit Kalzium",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Vollmilch, Staub",
+    "Calorias": 500,
+    "Carbohidratos": 37,
+    "Proteinas": 25,
+    "Grasas": 26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ganze Verdampfmilch",
+    "Calorias": 134,
+    "Carbohidratos": 10.04,
+    "Proteinas": 6.81,
+    "Grasas": 7.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Verdampfte Milch, Fett (Skim / Skim)",
+    "Calorias": 78,
+    "Carbohidratos": 11.35,
+    "Proteinas": 7.55,
+    "Grasas": 0.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Letzte Milch, ganz",
+    "Calorias": 61,
+    "Carbohidratos": 4.8,
+    "Proteinas": 3.15,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roher Salat",
+    "Calorias": 14,
+    "Carbohidratos": 2.97,
+    "Proteinas": 0.9,
+    "Grasas": 0.14,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Roher römischer Salat",
+    "Calorias": 19,
+    "Carbohidratos": 3.78,
+    "Proteinas": 1.39,
+    "Grasas": 0.27,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Salat, Boston, roh",
+    "Calorias": 13,
+    "Carbohidratos": 2.23,
+    "Proteinas": 1.35,
+    "Grasas": 0.22,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Salat, Rucola, roh",
+    "Calorias": 25,
+    "Carbohidratos": 3.65,
+    "Proteinas": 2.58,
+    "Grasas": 0.66,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Gedämpft oder klettern",
+    "Calorias": 88,
+    "Carbohidratos": 0,
+    "Proteinas": 15.61,
+    "Grasas": 2.43,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Trockene Linsen",
+    "Calorias": 310,
+    "Carbohidratos": 48.7,
+    "Proteinas": 24.8,
+    "Grasas": 1.2,
+    "Fibra": 9.7
+  },
+  {
+    "Alimento": "Linsen, keine Fette beim Kochen hinzugefügt",
+    "Calorias": 115,
+    "Carbohidratos": 20.03,
+    "Proteinas": 8.98,
+    "Grasas": 0.38,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Hefe",
+    "Calorias": 325,
+    "Carbohidratos": 41.22,
+    "Proteinas": 40.44,
+    "Grasas": 7.61,
+    "Fibra": 26.9
+  },
+  {
+    "Alimento": "Bierhefe, trocken",
+    "Calorias": 219,
+    "Carbohidratos": 0,
+    "Proteinas": 48,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohes Lichi",
+    "Calorias": 66,
+    "Carbohidratos": 16.53,
+    "Proteinas": 0.83,
+    "Grasas": 0.44,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Roher Limette",
+    "Calorias": 30,
+    "Carbohidratos": 10.54,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Rohe Zitrone",
+    "Calorias": 29,
+    "Carbohidratos": 9.32,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Lombard (Col Lombarda)",
+    "Calorias": 27,
+    "Carbohidratos": 3.7,
+    "Proteinas": 1.1,
+    "Grasas": 0.3,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Embaradado Pig Lende",
+    "Calorias": 386,
+    "Carbohidratos": 0,
+    "Proteinas": 50,
+    "Grasas": 21,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpft oder klettern",
+    "Calorias": 122,
+    "Carbohidratos": 0,
+    "Proteinas": 23.18,
+    "Grasas": 2.52,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpfter Lucio",
+    "Calorias": 111,
+    "Carbohidratos": 0,
+    "Proteinas": 24.22,
+    "Grasas": 0.87,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Makkaroni",
+    "Calorias": 370,
+    "Carbohidratos": 79,
+    "Proteinas": 14,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Magdalena",
+    "Calorias": 397,
+    "Carbohidratos": 42,
+    "Proteinas": 6,
+    "Grasas": 23,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Ofenmais",
+    "Calorias": 214,
+    "Carbohidratos": 39.68,
+    "Proteinas": 3.5,
+    "Grasas": 4.31,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Roher Mais",
+    "Calorias": 86,
+    "Carbohidratos": 18.7,
+    "Proteinas": 3.27,
+    "Grasas": 1.35,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Süßer Mazorca -Mais",
+    "Calorias": 104,
+    "Carbohidratos": 19.5,
+    "Proteinas": 3.3,
+    "Grasas": 0.78,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Marshmallow",
+    "Calorias": 318,
+    "Carbohidratos": 81.3,
+    "Proteinas": 1.8,
+    "Grasas": 0.2,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Rohe Mandarine",
+    "Calorias": 53,
+    "Carbohidratos": 13.34,
+    "Proteinas": 0.81,
+    "Grasas": 0.31,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Rohe Mango",
+    "Calorias": 60,
+    "Carbohidratos": 14.98,
+    "Proteinas": 0.82,
+    "Grasas": 0.38,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Manhattan Cocktail",
+    "Calorias": 222,
+    "Carbohidratos": 1.82,
+    "Proteinas": 0.03,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schmalz",
+    "Calorias": 902,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 100,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Butter",
+    "Calorias": 717,
+    "Carbohidratos": 0.06,
+    "Proteinas": 0.85,
+    "Grasas": 81.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roher Apfel",
+    "Calorias": 52,
+    "Carbohidratos": 13.81,
+    "Proteinas": 0.26,
+    "Grasas": 0.17,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Apfel, trocken",
+    "Calorias": 243,
+    "Carbohidratos": 65.89,
+    "Proteinas": 0.93,
+    "Grasas": 0.32,
+    "Fibra": 8.7
+  },
+  {
+    "Alimento": "Margarine",
+    "Calorias": 533,
+    "Carbohidratos": 0.86,
+    "Proteinas": 0.17,
+    "Grasas": 59.81,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Martini",
+    "Calorias": 201,
+    "Carbohidratos": 0.15,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mayonnaise",
+    "Calorias": 680,
+    "Carbohidratos": 0.57,
+    "Proteinas": 0.96,
+    "Grasas": 74.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mayonnaise, fettarmes, mit Olivenöl.",
+    "Calorias": 361,
+    "Carbohidratos": 0,
+    "Proteinas": 0.37,
+    "Grasas": 40,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Marzipan",
+    "Calorias": 443,
+    "Carbohidratos": 49,
+    "Proteinas": 9,
+    "Grasas": 25,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Gedämpfte Muscheln oder klettert",
+    "Calorias": 171,
+    "Carbohidratos": 7.35,
+    "Proteinas": 23.7,
+    "Grasas": 4.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Muscheln",
+    "Calorias": 86,
+    "Carbohidratos": 3.69,
+    "Proteinas": 11.9,
+    "Grasas": 2.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roher Pfirsich",
+    "Calorias": 39,
+    "Carbohidratos": 9.54,
+    "Proteinas": 0.91,
+    "Grasas": 0.25,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Pfirsich im Sirup",
+    "Calorias": 84,
+    "Carbohidratos": 22,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Melone",
+    "Calorias": 34,
+    "Carbohidratos": 8.16,
+    "Proteinas": 0.84,
+    "Grasas": 0.19,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Quitte (süß von)",
+    "Calorias": 242,
+    "Carbohidratos": 62.8,
+    "Proteinas": 0.14,
+    "Grasas": 0.03,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Seehecht",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 15.9,
+    "Grasas": 2.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Jam, behalten",
+    "Calorias": 278,
+    "Carbohidratos": 68.86,
+    "Proteinas": 0.37,
+    "Grasas": 0.07,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Honig",
+    "Calorias": 304,
+    "Carbohidratos": 82.4,
+    "Proteinas": 0.3,
+    "Grasas": 0,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Miso",
+    "Calorias": 198,
+    "Carbohidratos": 25.37,
+    "Proteinas": 12.79,
+    "Grasas": 6.01,
+    "Fibra": 5.4
+  },
+  {
+    "Alimento": "Molleja, gekocht",
+    "Calorias": 154,
+    "Carbohidratos": 0,
+    "Proteinas": 30.4,
+    "Grasas": 2.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gefrorene Brombeeren",
+    "Calorias": 64,
+    "Carbohidratos": 15.67,
+    "Proteinas": 1.18,
+    "Grasas": 0.43,
+    "Fibra": 5
+  },
+  {
+    "Alimento": "Rohe Molas",
+    "Calorias": 43,
+    "Carbohidratos": 9.61,
+    "Proteinas": 1.39,
+    "Grasas": 0.49,
+    "Fibra": 5.3
+  },
+  {
+    "Alimento": "Schwarzer Pudding",
+    "Calorias": 379,
+    "Carbohidratos": 1.29,
+    "Proteinas": 14.6,
+    "Grasas": 34.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mortadella",
+    "Calorias": 311,
+    "Carbohidratos": 3.05,
+    "Proteinas": 16.37,
+    "Grasas": 25.39,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Senf",
+    "Calorias": 60,
+    "Carbohidratos": 5.83,
+    "Proteinas": 3.74,
+    "Grasas": 3.34,
+    "Fibra": 4
+  },
+  {
+    "Alimento": "Schokoladenmousse",
+    "Calorias": 209,
+    "Carbohidratos": 16.24,
+    "Proteinas": 4.31,
+    "Grasas": 14.97,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Schokoladenmuffin",
+    "Calorias": 390,
+    "Carbohidratos": 50.81,
+    "Proteinas": 6.39,
+    "Grasas": 18.2,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Hühnerschenkel, Braten mit Haut",
+    "Calorias": 206,
+    "Carbohidratos": 0.12,
+    "Proteinas": 25.65,
+    "Grasas": 11.46,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hühnerschenkel, Braten, hautlos",
+    "Calorias": 172,
+    "Carbohidratos": 0,
+    "Proteinas": 27.71,
+    "Grasas": 6.76,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roher Rüben",
+    "Calorias": 28,
+    "Carbohidratos": 6.43,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Nachos mit Käse",
+    "Calorias": 343,
+    "Carbohidratos": 34.91,
+    "Proteinas": 4.32,
+    "Grasas": 21.5,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Orange",
+    "Calorias": 47,
+    "Carbohidratos": 11.75,
+    "Proteinas": 0.94,
+    "Grasas": 0.12,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Nektarine",
+    "Calorias": 49.7,
+    "Carbohidratos": 10.2,
+    "Proteinas": 0.9,
+    "Grasas": 0.1,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Nüsse (Kastiler)",
+    "Calorias": 654,
+    "Carbohidratos": 13.71,
+    "Proteinas": 15.23,
+    "Grasas": 65.21,
+    "Fibra": 6.7
+  },
+  {
+    "Alimento": "Brasilien Nüsse",
+    "Calorias": 659,
+    "Carbohidratos": 11.74,
+    "Proteinas": 14.32,
+    "Grasas": 67.1,
+    "Fibra": 7.5
+  },
+  {
+    "Alimento": "Macadamia -Nüsse",
+    "Calorias": 716,
+    "Carbohidratos": 12.83,
+    "Proteinas": 7.79,
+    "Grasas": 76.08,
+    "Fibra": 8
+  },
+  {
+    "Alimento": "Pacana - Pekannuss -Walnüsse",
+    "Calorias": 691,
+    "Carbohidratos": 13.86,
+    "Proteinas": 9.17,
+    "Grasas": 71.97,
+    "Fibra": 9.6
+  },
+  {
+    "Alimento": "Hühnernuggets",
+    "Calorias": 307,
+    "Carbohidratos": 14.93,
+    "Proteinas": 15.92,
+    "Grasas": 20.36,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Gnocchi, Kartoffel",
+    "Calorias": 133,
+    "Carbohidratos": 17.06,
+    "Proteinas": 2.36,
+    "Grasas": 6.24,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Schweineohren, Schwanz, Kopf, Schnauze, verschiedene Teile, gekocht",
+    "Calorias": 236,
+    "Carbohidratos": 0,
+    "Proteinas": 26.14,
+    "Grasas": 13.77,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Austern",
+    "Calorias": 51,
+    "Carbohidratos": 2.72,
+    "Proteinas": 5.71,
+    "Grasas": 1.71,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Paella mit Meeresfrüchten",
+    "Calorias": 142,
+    "Carbohidratos": 16.43,
+    "Proteinas": 8.04,
+    "Grasas": 4.68,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Fleischpaella im Valencian -Stil",
+    "Calorias": 270,
+    "Carbohidratos": 16.74,
+    "Proteinas": 21.71,
+    "Grasas": 12.54,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "PALMITOS in Dosen (Konserven)",
+    "Calorias": 47,
+    "Carbohidratos": 8,
+    "Proteinas": 2.8,
+    "Grasas": 0.3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Taube",
+    "Calorias": 178,
+    "Carbohidratos": 0,
+    "Proteinas": 37,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Paloma, gebraten",
+    "Calorias": 223,
+    "Carbohidratos": 1.44,
+    "Proteinas": 23.06,
+    "Grasas": 13.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Palometa (Fisch)",
+    "Calorias": 125,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Popcorn",
+    "Calorias": 438,
+    "Carbohidratos": 74.18,
+    "Proteinas": 10.19,
+    "Grasas": 11.19,
+    "Fibra": 4.9
+  },
+  {
+    "Alimento": "Maispalomiten, Mikrowelle",
+    "Calorias": 538,
+    "Carbohidratos": 55.99,
+    "Proteinas": 8.69,
+    "Grasas": 31.07,
+    "Fibra": 10.1
+  },
+  {
+    "Alimento": "Palosanto",
+    "Calorias": 64,
+    "Carbohidratos": 15,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Weißbrot",
+    "Calorias": 266,
+    "Carbohidratos": 49.42,
+    "Proteinas": 8.85,
+    "Grasas": 3.33,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Weißbrot, geröstet",
+    "Calorias": 297,
+    "Carbohidratos": 65,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 3
+  },
+  {
+    "Alimento": "Centeno Brot, geröstet",
+    "Calorias": 285,
+    "Carbohidratos": 53.08,
+    "Proteinas": 9.34,
+    "Grasas": 3.63,
+    "Fibra": 6.4
+  },
+  {
+    "Alimento": "Walnussbrot",
+    "Calorias": 392,
+    "Carbohidratos": 49.72,
+    "Proteinas": 6.49,
+    "Grasas": 19.24,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Französisches Brot oder Wiener",
+    "Calorias": 272,
+    "Carbohidratos": 51.88,
+    "Proteinas": 10.75,
+    "Grasas": 2.42,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Französisches Brot oder Wien, Vollkorn",
+    "Calorias": 239,
+    "Carbohidratos": 49.1,
+    "Proteinas": 8.33,
+    "Grasas": 1.04,
+    "Fibra": 4.2
+  },
+  {
+    "Alimento": "Vollkornbrot",
+    "Calorias": 252,
+    "Carbohidratos": 42.71,
+    "Proteinas": 12.45,
+    "Grasas": 3.5,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Multigrano -Brot",
+    "Calorias": 265,
+    "Carbohidratos": 43.34,
+    "Proteinas": 13.36,
+    "Grasas": 4.23,
+    "Fibra": 7.4
+  },
+  {
+    "Alimento": "Pita Brot, geröstet",
+    "Calorias": 302,
+    "Carbohidratos": 61.21,
+    "Proteinas": 10,
+    "Grasas": 1.32,
+    "Fibra": 2.4
+  },
+  {
+    "Alimento": "Gluten ohne Brot",
+    "Calorias": 248,
+    "Carbohidratos": 45.78,
+    "Proteinas": 4.31,
+    "Grasas": 5.24,
+    "Fibra": 4.3
+  },
+  {
+    "Alimento": "Brot, Haferbran",
+    "Calorias": 299,
+    "Carbohidratos": 53.89,
+    "Proteinas": 9.33,
+    "Grasas": 4.89,
+    "Fibra": 4.4
+  },
+  {
+    "Alimento": "Rohes Papaya",
+    "Calorias": 43,
+    "Carbohidratos": 10.82,
+    "Proteinas": 0.47,
+    "Grasas": 0.26,
+    "Fibra": 1.7
+  },
+  {
+    "Alimento": "Rosinen",
+    "Calorias": 299,
+    "Carbohidratos": 79.18,
+    "Proteinas": 3.07,
+    "Grasas": 0.46,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Gekochte Paste",
+    "Calorias": 157,
+    "Carbohidratos": 30.68,
+    "Proteinas": 5.76,
+    "Grasas": 0.92,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Pasta mit Aromen",
+    "Calorias": 87,
+    "Carbohidratos": 14.44,
+    "Proteinas": 2.46,
+    "Grasas": 2.23,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Wasabi Paste",
+    "Calorias": 292,
+    "Carbohidratos": 46.13,
+    "Proteinas": 2.23,
+    "Grasas": 10.9,
+    "Fibra": 6.1
+  },
+  {
+    "Alimento": "Gluten -freie Paste",
+    "Calorias": 179,
+    "Carbohidratos": 38.05,
+    "Proteinas": 3.2,
+    "Grasas": 1,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Pastrami",
+    "Calorias": 147,
+    "Carbohidratos": 0.36,
+    "Proteinas": 21.8,
+    "Grasas": 5.82,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hühnerbeine",
+    "Calorias": 215,
+    "Carbohidratos": 0.2,
+    "Proteinas": 19.4,
+    "Grasas": 14.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Geröstete Kartoffel",
+    "Calorias": 206,
+    "Carbohidratos": 46.1,
+    "Proteinas": 4.3,
+    "Grasas": 0.1,
+    "Fibra": 7.9
+  },
+  {
+    "Alimento": "Gekochte Kartoffel",
+    "Calorias": 125,
+    "Carbohidratos": 20.45,
+    "Proteinas": 1.87,
+    "Grasas": 4.19,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Chips",
+    "Calorias": 529,
+    "Carbohidratos": 56.54,
+    "Proteinas": 2.92,
+    "Grasas": 32.19,
+    "Fibra": 8.8
+  },
+  {
+    "Alimento": "Gedünstete Kartoffeln",
+    "Calorias": 114,
+    "Carbohidratos": 19.91,
+    "Proteinas": 1.84,
+    "Grasas": 3.22,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Reine Kartoffeln",
+    "Calorias": 111,
+    "Carbohidratos": 17.69,
+    "Proteinas": 2.15,
+    "Grasas": 3.79,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Entenbraten",
+    "Calorias": 189,
+    "Carbohidratos": 0,
+    "Proteinas": 25,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Truthahn",
+    "Calorias": 107,
+    "Carbohidratos": 0,
+    "Proteinas": 21.9,
+    "Grasas": 2.2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pepinillos im Essig, süße Gewürz",
+    "Calorias": 130,
+    "Carbohidratos": 35.06,
+    "Proteinas": 0.37,
+    "Grasas": 0.47,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Rohe Gurke",
+    "Calorias": 12,
+    "Carbohidratos": 2.16,
+    "Proteinas": 0.59,
+    "Grasas": 0.16,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Rohe Birne",
+    "Calorias": 57,
+    "Carbohidratos": 15.23,
+    "Proteinas": 0.36,
+    "Grasas": 0.14,
+    "Fibra": 3.1
+  },
+  {
+    "Alimento": "Sea Perca, gebacken oder gegrillt, Fett in der Küche hinzugefügt",
+    "Calorias": 129,
+    "Carbohidratos": 0.1,
+    "Proteinas": 18.73,
+    "Grasas": 5.56,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ozean, gedämpft oder klettern",
+    "Calorias": 99,
+    "Carbohidratos": 0,
+    "Proteinas": 19.25,
+    "Grasas": 1.94,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ocean Barsch, roh",
+    "Calorias": 79,
+    "Carbohidratos": 0,
+    "Proteinas": 15.31,
+    "Grasas": 1.54,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wahrnehmung",
+    "Calorias": 59,
+    "Carbohidratos": 0,
+    "Proteinas": 13.6,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rebhuhn",
+    "Calorias": 106,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 1.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Petersilie",
+    "Calorias": 36,
+    "Carbohidratos": 6.33,
+    "Proteinas": 2.97,
+    "Grasas": 0.79,
+    "Fibra": 3.3
+  },
+  {
+    "Alimento": "Pugger-Heigung mit Senf",
+    "Calorias": 308,
+    "Carbohidratos": 33,
+    "Proteinas": 11,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Merlan",
+    "Calorias": 69,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 0.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Petit-Suisse Käse, Typ",
+    "Calorias": 173,
+    "Carbohidratos": 4,
+    "Proteinas": 8,
+    "Grasas": 14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schwertfisch, gebacken oder gegrillt, ohne Fett beim Kochen hinzuzufügen",
+    "Calorias": 182,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.76,
+    "Grasas": 8.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schwert, gedämpfte oder kletternde Fisch",
+    "Calorias": 181,
+    "Carbohidratos": 0,
+    "Proteinas": 24.72,
+    "Grasas": 8.36,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Taube",
+    "Calorias": 182,
+    "Carbohidratos": 0,
+    "Proteinas": 21,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pfeffer, roh",
+    "Calorias": 24,
+    "Carbohidratos": 5.13,
+    "Proteinas": 0.91,
+    "Grasas": 0.22,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Essig -Paprika",
+    "Calorias": 40,
+    "Carbohidratos": 9.04,
+    "Proteinas": 0.82,
+    "Grasas": 0.19,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Piña Colada",
+    "Calorias": 151,
+    "Carbohidratos": 19.5,
+    "Proteinas": 0.36,
+    "Grasas": 2.13,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Rohe Ananas",
+    "Calorias": 50,
+    "Carbohidratos": 13.12,
+    "Proteinas": 0.54,
+    "Grasas": 0.12,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Ananas im Sirup",
+    "Calorias": 81,
+    "Carbohidratos": 21,
+    "Proteinas": 0.3,
+    "Grasas": 0.1,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Trockene Ananas",
+    "Calorias": 269,
+    "Carbohidratos": 70.08,
+    "Proteinas": 1.51,
+    "Grasas": 0.34,
+    "Fibra": 3.9
+  },
+  {
+    "Alimento": "Piñones",
+    "Calorias": 673,
+    "Carbohidratos": 13.08,
+    "Proteinas": 13.69,
+    "Grasas": 68.37,
+    "Fibra": 3.7
+  },
+  {
+    "Alimento": "Sonnenblumenrohre",
+    "Calorias": 580,
+    "Carbohidratos": 20,
+    "Proteinas": 27,
+    "Grasas": 43,
+    "Fibra": 2.7
+  },
+  {
+    "Alimento": "Pistachos",
+    "Calorias": 572,
+    "Carbohidratos": 28.28,
+    "Proteinas": 21.05,
+    "Grasas": 45.82,
+    "Fibra": 10.3
+  },
+  {
+    "Alimento": "Rohbanane",
+    "Calorias": 89,
+    "Carbohidratos": 22.84,
+    "Proteinas": 1.09,
+    "Grasas": 0.33,
+    "Fibra": 2.6
+  },
+  {
+    "Alimento": "Huhn",
+    "Calorias": 167,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 9.7,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Huhn (mit Haut)",
+    "Calorias": 298,
+    "Carbohidratos": 0,
+    "Proteinas": 25.73,
+    "Grasas": 20.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Aarrulce Huhn oder Truthahn",
+    "Calorias": 250,
+    "Carbohidratos": 23.86,
+    "Proteinas": 10.1,
+    "Grasas": 12.65,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Hühnchen, Kentucky Fried",
+    "Calorias": 155,
+    "Carbohidratos": 5,
+    "Proteinas": 13,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hühnchen, Brust, Braten",
+    "Calorias": 175,
+    "Carbohidratos": 0.09,
+    "Proteinas": 26.37,
+    "Grasas": 7.67,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hühnchen, Kentucky Brüste",
+    "Calorias": 436,
+    "Carbohidratos": 34,
+    "Proteinas": 25,
+    "Grasas": 22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohe Grapefruit",
+    "Calorias": 32,
+    "Carbohidratos": 8.08,
+    "Proteinas": 0.63,
+    "Grasas": 0.1,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Eierstempel, regelmäßig",
+    "Calorias": 88,
+    "Carbohidratos": 8.05,
+    "Proteinas": 4.55,
+    "Grasas": 4.19,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gelatinedessert",
+    "Calorias": 62,
+    "Carbohidratos": 14.19,
+    "Proteinas": 1.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Brezel",
+    "Calorias": 384,
+    "Carbohidratos": 80.39,
+    "Proteinas": 10.04,
+    "Grasas": 2.93,
+    "Fibra": 3.4
+  },
+  {
+    "Alimento": "RAW Lauch",
+    "Calorias": 61,
+    "Carbohidratos": 14.15,
+    "Proteinas": 1.5,
+    "Grasas": 0.3,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Gekochtes Oktopus",
+    "Calorias": 69,
+    "Carbohidratos": 1.4,
+    "Proteinas": 13.4,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Amerikanischer Käse",
+    "Calorias": 307,
+    "Carbohidratos": 8.85,
+    "Proteinas": 16.09,
+    "Grasas": 23.06,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blauschimmelkäse",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Babibel Käse, Typ",
+    "Calorias": 314,
+    "Carbohidratos": 0,
+    "Proteinas": 23,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Navigierter weißer Käse",
+    "Calorias": 68,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Brie",
+    "Calorias": 334,
+    "Carbohidratos": 0.45,
+    "Proteinas": 20.75,
+    "Grasas": 27.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Burgoskäse",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ziegenkäse",
+    "Calorias": 250,
+    "Carbohidratos": 2,
+    "Proteinas": 17,
+    "Grasas": 18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Camembert",
+    "Calorias": 300,
+    "Carbohidratos": 0.46,
+    "Proteinas": 19.8,
+    "Grasas": 24.26,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Cheddar",
+    "Calorias": 404,
+    "Carbohidratos": 3.09,
+    "Proteinas": 22.87,
+    "Grasas": 33.31,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chihuahua -Käse",
+    "Calorias": 374,
+    "Carbohidratos": 5.56,
+    "Proteinas": 21.56,
+    "Grasas": 29.68,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Colby -Käse",
+    "Calorias": 394,
+    "Carbohidratos": 2.57,
+    "Proteinas": 23.76,
+    "Grasas": 32.11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Käse mit Nüssen",
+    "Calorias": 424,
+    "Carbohidratos": 5.89,
+    "Proteinas": 17.87,
+    "Grasas": 37.72,
+    "Fibra": 1.5
+  },
+  {
+    "Alimento": "Cotija -Käse",
+    "Calorias": 366,
+    "Carbohidratos": 3.97,
+    "Proteinas": 20,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frischkäse",
+    "Calorias": 350,
+    "Carbohidratos": 5.52,
+    "Proteinas": 6.15,
+    "Grasas": 34.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ziegenkäse",
+    "Calorias": 360,
+    "Carbohidratos": 0.76,
+    "Proteinas": 23.52,
+    "Grasas": 28.85,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Emmentaler Käse",
+    "Calorias": 367,
+    "Carbohidratos": 0,
+    "Proteinas": 27.3,
+    "Grasas": 28.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Feta -Käse",
+    "Calorias": 264,
+    "Carbohidratos": 4.09,
+    "Proteinas": 14.21,
+    "Grasas": 21.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schriftkäse",
+    "Calorias": 389,
+    "Carbohidratos": 1.55,
+    "Proteinas": 25.6,
+    "Grasas": 31.14,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frischer Käse (aus Burgos)",
+    "Calorias": 175,
+    "Carbohidratos": 4,
+    "Proteinas": 15,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gouda oder Edam Käse",
+    "Calorias": 357,
+    "Carbohidratos": 1.67,
+    "Proteinas": 24.98,
+    "Grasas": 27.69,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gruyere -Käse",
+    "Calorias": 413,
+    "Carbohidratos": 0.36,
+    "Proteinas": 29.81,
+    "Grasas": 32.34,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Limburger Käse",
+    "Calorias": 327,
+    "Carbohidratos": 0.49,
+    "Proteinas": 20.05,
+    "Grasas": 27.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ausgehärteter Käse aus Manchego",
+    "Calorias": 420,
+    "Carbohidratos": 1,
+    "Proteinas": 32,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frischer Manchego -Käse",
+    "Calorias": 333,
+    "Carbohidratos": 0,
+    "Proteinas": 26,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Semi -gerurerer Manchego -Käse",
+    "Calorias": 390,
+    "Carbohidratos": 0,
+    "Proteinas": 29,
+    "Grasas": 29,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Monterey Käse",
+    "Calorias": 373,
+    "Carbohidratos": 0.68,
+    "Proteinas": 24.48,
+    "Grasas": 30.28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mozzarella -Käse, Vollmilch",
+    "Calorias": 300,
+    "Carbohidratos": 2.19,
+    "Proteinas": 22.17,
+    "Grasas": 22.35,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Münster Käse",
+    "Calorias": 368,
+    "Carbohidratos": 1.12,
+    "Proteinas": 23.41,
+    "Grasas": 30.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Parmesankäse, trocken gerieben",
+    "Calorias": 420,
+    "Carbohidratos": 13.91,
+    "Proteinas": 28.42,
+    "Grasas": 27.84,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Pyrenäen Käse",
+    "Calorias": 355,
+    "Carbohidratos": 0,
+    "Proteinas": 22,
+    "Grasas": 30,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Portionen Käse",
+    "Calorias": 283,
+    "Carbohidratos": 1,
+    "Proteinas": 18,
+    "Grasas": 23,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Port du Salut -Käse",
+    "Calorias": 356,
+    "Carbohidratos": 2.22,
+    "Proteinas": 24.94,
+    "Grasas": 27.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Provolone",
+    "Calorias": 351,
+    "Carbohidratos": 2.14,
+    "Proteinas": 25.58,
+    "Grasas": 26.62,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quark Käse",
+    "Calorias": 167,
+    "Carbohidratos": 3,
+    "Proteinas": 11,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ricota -Käse",
+    "Calorias": 156,
+    "Carbohidratos": 4.09,
+    "Proteinas": 11.32,
+    "Grasas": 10.44,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roquefort Käse",
+    "Calorias": 353,
+    "Carbohidratos": 2.34,
+    "Proteinas": 21.4,
+    "Grasas": 28.74,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweizer Käse",
+    "Calorias": 393,
+    "Carbohidratos": 1.44,
+    "Proteinas": 26.96,
+    "Grasas": 30.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Speisequark Käse",
+    "Calorias": 101,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Quiche Lorraine Bacón-Qsoo",
+    "Calorias": 391,
+    "Carbohidratos": 21,
+    "Proteinas": 15,
+    "Grasas": 28,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohradieschen",
+    "Calorias": 16,
+    "Carbohidratos": 3.4,
+    "Proteinas": 0.68,
+    "Grasas": 0.1,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Vacune Tail",
+    "Calorias": 171,
+    "Carbohidratos": 0,
+    "Proteinas": 20,
+    "Grasas": 10,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schnupftabak",
+    "Calorias": 86,
+    "Carbohidratos": 0,
+    "Proteinas": 17,
+    "Grasas": 2,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Ratatouille",
+    "Calorias": 65,
+    "Carbohidratos": 6,
+    "Proteinas": 1,
+    "Grasas": 4.6,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Raviolis Tomate, Sauce",
+    "Calorias": 106,
+    "Carbohidratos": 13,
+    "Proteinas": 5,
+    "Grasas": 4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Co -Cool",
+    "Calorias": 42,
+    "Carbohidratos": 10.36,
+    "Proteinas": 0,
+    "Grasas": 0.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Licht- / Diät -Kühle Soda",
+    "Calorias": 2,
+    "Carbohidratos": 0.29,
+    "Proteinas": 0.11,
+    "Grasas": 0.03,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Lakritze",
+    "Calorias": 375,
+    "Carbohidratos": 93.55,
+    "Proteinas": 0,
+    "Grasas": 0.05,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Rohe Rüben",
+    "Calorias": 43,
+    "Carbohidratos": 9.56,
+    "Proteinas": 1.61,
+    "Grasas": 0.17,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Rüben, gekocht",
+    "Calorias": 44,
+    "Carbohidratos": 9.9,
+    "Proteinas": 1.67,
+    "Grasas": 0.18,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Kohl, Chinesisch, roh",
+    "Calorias": 13,
+    "Carbohidratos": 2.18,
+    "Proteinas": 1.5,
+    "Grasas": 0.2,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Kohl, lockig, gekocht, Fett beim Kochen nicht hinzugefügt",
+    "Calorias": 28,
+    "Carbohidratos": 6.32,
+    "Proteinas": 2.07,
+    "Grasas": 0.1,
+    "Fibra": 3.2
+  },
+  {
+    "Alimento": "Hüttenkäse",
+    "Calorias": 143,
+    "Carbohidratos": 3.18,
+    "Proteinas": 10.49,
+    "Grasas": 9.8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gekochte Niere",
+    "Calorias": 157,
+    "Carbohidratos": 0,
+    "Proteinas": 27.04,
+    "Grasas": 4.61,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Steinbutt",
+    "Calorias": 98,
+    "Carbohidratos": 0,
+    "Proteinas": 16.1,
+    "Grasas": 3.6,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rum",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Roher Ruibarbo",
+    "Calorias": 21,
+    "Carbohidratos": 4.54,
+    "Proteinas": 0.9,
+    "Grasas": 0.2,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Salz",
+    "Calorias": 0,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Salami",
+    "Calorias": 378,
+    "Carbohidratos": 0.72,
+    "Proteinas": 21.07,
+    "Grasas": 31.65,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweinewurst",
+    "Calorias": 367,
+    "Carbohidratos": 10,
+    "Proteinas": 11,
+    "Grasas": 32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Frankforts Würste",
+    "Calorias": 274,
+    "Carbohidratos": 3,
+    "Proteinas": 10,
+    "Grasas": 25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wurst",
+    "Calorias": 454,
+    "Carbohidratos": 2,
+    "Proteinas": 26,
+    "Grasas": 38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Geräucherter Lachs",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 18.28,
+    "Grasas": 4.32,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpfter Lachs",
+    "Calorias": 160,
+    "Carbohidratos": 0,
+    "Proteinas": 25.78,
+    "Grasas": 5.53,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohlachs",
+    "Calorias": 127,
+    "Carbohidratos": 0,
+    "Proteinas": 20.5,
+    "Grasas": 4.4,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rohes Salmontete",
+    "Calorias": 117,
+    "Carbohidratos": 0,
+    "Proteinas": 19.35,
+    "Grasas": 3.79,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boloñesa -Sauce",
+    "Calorias": 139,
+    "Carbohidratos": 2,
+    "Proteinas": 8,
+    "Grasas": 11,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "César -Sauce",
+    "Calorias": 542,
+    "Carbohidratos": 3.3,
+    "Proteinas": 2.17,
+    "Grasas": 57.85,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Knoblauchsauce",
+    "Calorias": 108,
+    "Carbohidratos": 7.32,
+    "Proteinas": 3.07,
+    "Grasas": 7.42,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Preiselbeer- und Himbeer -Sauce",
+    "Calorias": 162,
+    "Carbohidratos": 41.83,
+    "Proteinas": 0.78,
+    "Grasas": 0.22,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Grillsauce",
+    "Calorias": 172,
+    "Carbohidratos": 40.77,
+    "Proteinas": 0.82,
+    "Grasas": 0.63,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Zwiebelsauce",
+    "Calorias": 345,
+    "Carbohidratos": 3.23,
+    "Proteinas": 1.86,
+    "Grasas": 36.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Schokoladensauce",
+    "Calorias": 388,
+    "Carbohidratos": 65.39,
+    "Proteinas": 3.33,
+    "Grasas": 13.06,
+    "Fibra": 2
+  },
+  {
+    "Alimento": "Pflaumensauce",
+    "Calorias": 200,
+    "Carbohidratos": 50.67,
+    "Proteinas": 0.65,
+    "Grasas": 0.29,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Cocktailsauce",
+    "Calorias": 124,
+    "Carbohidratos": 28.22,
+    "Proteinas": 1.36,
+    "Grasas": 1.05,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Rote Enchilada -Sauce",
+    "Calorias": 30,
+    "Carbohidratos": 4.87,
+    "Proteinas": 0.62,
+    "Grasas": 0.91,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Enchilada -Sauce, grün",
+    "Calorias": 28,
+    "Carbohidratos": 5.5,
+    "Proteinas": 0.99,
+    "Grasas": 0.59,
+    "Fibra": 1.4
+  },
+  {
+    "Alimento": "Dillsauce",
+    "Calorias": 429,
+    "Carbohidratos": 3.08,
+    "Proteinas": 1.92,
+    "Grasas": 45.78,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Honig und Senfsauce",
+    "Calorias": 464,
+    "Carbohidratos": 23.33,
+    "Proteinas": 0.87,
+    "Grasas": 40.83,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Fischsauce",
+    "Calorias": 35,
+    "Carbohidratos": 3.64,
+    "Proteinas": 5.06,
+    "Grasas": 0.01,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Käsersauce",
+    "Calorias": 160,
+    "Carbohidratos": 7.66,
+    "Proteinas": 3.24,
+    "Grasas": 13.02,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Blauschimmelkäse- oder Roquefort -Sauce",
+    "Calorias": 484,
+    "Carbohidratos": 4.77,
+    "Proteinas": 1.37,
+    "Grasas": 51.1,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Sojasauce",
+    "Calorias": 53,
+    "Carbohidratos": 4.93,
+    "Proteinas": 8.14,
+    "Grasas": 0.57,
+    "Fibra": 0.8
+  },
+  {
+    "Alimento": "Ketchup",
+    "Calorias": 101,
+    "Carbohidratos": 27.4,
+    "Proteinas": 1.04,
+    "Grasas": 0.1,
+    "Fibra": 0.3
+  },
+  {
+    "Alimento": "Joghurtsauce",
+    "Calorias": 220,
+    "Carbohidratos": 11.75,
+    "Proteinas": 3.45,
+    "Grasas": 18.27,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Niederländische Sauce",
+    "Calorias": 504,
+    "Carbohidratos": 1.52,
+    "Proteinas": 4.68,
+    "Grasas": 54.22,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Kétchup -Sauce",
+    "Calorias": 131,
+    "Carbohidratos": 32,
+    "Proteinas": 0.4,
+    "Grasas": 0,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Pesto -Sauce",
+    "Calorias": 569,
+    "Carbohidratos": 6.16,
+    "Proteinas": 8.51,
+    "Grasas": 58.52,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Russische Sauce",
+    "Calorias": 355,
+    "Carbohidratos": 31.9,
+    "Proteinas": 0.69,
+    "Grasas": 26.18,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Tartara -Sauce",
+    "Calorias": 211,
+    "Carbohidratos": 13.3,
+    "Proteinas": 1,
+    "Grasas": 16.7,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Teriyaki -Sauce",
+    "Calorias": 89,
+    "Carbohidratos": 15.56,
+    "Proteinas": 5.93,
+    "Grasas": 0.02,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Tzatziki -Sauce",
+    "Calorias": 92,
+    "Carbohidratos": 3.95,
+    "Proteinas": 5.35,
+    "Grasas": 6.31,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Grüne Sauce oder grüne Sauce",
+    "Calorias": 38,
+    "Carbohidratos": 6.36,
+    "Proteinas": 1.13,
+    "Grasas": 0.89,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Haferbran",
+    "Calorias": 246,
+    "Carbohidratos": 66.22,
+    "Proteinas": 17.3,
+    "Grasas": 7.03,
+    "Fibra": 15.4
+  },
+  {
+    "Alimento": "Weizenkleie",
+    "Calorias": 216,
+    "Carbohidratos": 64.51,
+    "Proteinas": 15.55,
+    "Grasas": 4.25,
+    "Fibra": 42.8
+  },
+  {
+    "Alimento": "Rohwassermelone",
+    "Calorias": 30,
+    "Carbohidratos": 7.55,
+    "Proteinas": 0.61,
+    "Grasas": 0.15,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Rindfleischblut",
+    "Calorias": 81,
+    "Carbohidratos": 0,
+    "Proteinas": 18,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Blanca Sangria",
+    "Calorias": 94,
+    "Carbohidratos": 8.26,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Rote Sangria",
+    "Calorias": 96,
+    "Carbohidratos": 8.27,
+    "Proteinas": 0.04,
+    "Grasas": 0.04,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gekochte Sardinen",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sardinen mit Tomatensauce",
+    "Calorias": 185,
+    "Carbohidratos": 0.54,
+    "Proteinas": 20.86,
+    "Grasas": 10.45,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sardinen Dosen in Öl",
+    "Calorias": 208,
+    "Carbohidratos": 0,
+    "Proteinas": 24.62,
+    "Grasas": 11.45,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Trockene Sardinen",
+    "Calorias": 406,
+    "Carbohidratos": 0,
+    "Proteinas": 46.06,
+    "Grasas": 23.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Chia -Samen",
+    "Calorias": 534,
+    "Carbohidratos": 28.88,
+    "Proteinas": 18.29,
+    "Grasas": 42.16,
+    "Fibra": 27.3
+  },
+  {
+    "Alimento": "Sonnenblumenkerne",
+    "Calorias": 582,
+    "Carbohidratos": 24.07,
+    "Proteinas": 19.33,
+    "Grasas": 49.8,
+    "Fibra": 11.1
+  },
+  {
+    "Alimento": "Sesam Samen",
+    "Calorias": 567,
+    "Carbohidratos": 26.04,
+    "Proteinas": 16.96,
+    "Grasas": 48,
+    "Fibra": 16.9
+  },
+  {
+    "Alimento": "Grieß",
+    "Calorias": 90,
+    "Carbohidratos": 16.43,
+    "Proteinas": 2.34,
+    "Grasas": 1.55,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Sepia",
+    "Calorias": 92,
+    "Carbohidratos": 3.08,
+    "Proteinas": 15.58,
+    "Grasas": 1.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Schweineköpfe",
+    "Calorias": 132,
+    "Carbohidratos": 0,
+    "Proteinas": 11,
+    "Grasas": 9,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sesos Lamm",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Sesos Kalbs Kalb",
+    "Calorias": 110,
+    "Carbohidratos": 0,
+    "Proteinas": 10,
+    "Grasas": 8,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Boletus -Pilze",
+    "Calorias": 16,
+    "Carbohidratos": 0,
+    "Proteinas": 3,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Canthallus -Pilze",
+    "Calorias": 11,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Colmenilla -Pilze",
+    "Calorias": 9,
+    "Carbohidratos": 0,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Sieben-up, Refresco",
+    "Calorias": 144,
+    "Carbohidratos": 36,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Apfelwein",
+    "Calorias": 46,
+    "Carbohidratos": 11.3,
+    "Proteinas": 0.1,
+    "Grasas": 0.13,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Sojasprossen",
+    "Calorias": 30,
+    "Carbohidratos": 5.94,
+    "Proteinas": 3.04,
+    "Grasas": 0.18,
+    "Fibra": 1.8
+  },
+  {
+    "Alimento": "Keimte Soja",
+    "Calorias": 54.9,
+    "Carbohidratos": 4.68,
+    "Proteinas": 5.53,
+    "Grasas": 1.03,
+    "Fibra": 2.38
+  },
+  {
+    "Alimento": "Bittersüße Suppe",
+    "Calorias": 39,
+    "Carbohidratos": 4.35,
+    "Proteinas": 2.58,
+    "Grasas": 1.21,
+    "Fibra": 0.5
+  },
+  {
+    "Alimento": "Zwiebelsuppe",
+    "Calorias": 46,
+    "Carbohidratos": 6.7,
+    "Proteinas": 3.06,
+    "Grasas": 1.42,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Minestrone -Suppe",
+    "Calorias": 35,
+    "Carbohidratos": 5,
+    "Proteinas": 2,
+    "Grasas": 1,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Zitrus -Sorbet",
+    "Calorias": 95,
+    "Carbohidratos": 23.17,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Sorbet, Aromen",
+    "Calorias": 144,
+    "Carbohidratos": 30.4,
+    "Proteinas": 1.1,
+    "Grasas": 2,
+    "Fibra": 1.3
+  },
+  {
+    "Alimento": "Ham Stroganoff",
+    "Calorias": 130,
+    "Carbohidratos": 4.97,
+    "Proteinas": 7.52,
+    "Grasas": 9.04,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Apfelstrudel",
+    "Calorias": 274,
+    "Carbohidratos": 41.1,
+    "Proteinas": 3.3,
+    "Grasas": 11.2,
+    "Fibra": 2.2
+  },
+  {
+    "Alimento": "Sushi",
+    "Calorias": 93,
+    "Carbohidratos": 18.42,
+    "Proteinas": 2.92,
+    "Grasas": 0.67,
+    "Fibra": 1
+  },
+  {
+    "Alimento": "Sushi mit Thunfisch",
+    "Calorias": 100,
+    "Carbohidratos": 13.39,
+    "Proteinas": 9.66,
+    "Grasas": 0.28,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Sushi mit Lachs",
+    "Calorias": 107,
+    "Carbohidratos": 13.39,
+    "Proteinas": 8.92,
+    "Grasas": 1.74,
+    "Fibra": 0.6
+  },
+  {
+    "Alimento": "Tamarindo, roh",
+    "Calorias": 239,
+    "Carbohidratos": 62.5,
+    "Proteinas": 2.8,
+    "Grasas": 0.6,
+    "Fibra": 5.1
+  },
+  {
+    "Alimento": "Tapioka",
+    "Calorias": 359,
+    "Carbohidratos": 95,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Hausgemachter Apfelkuchen",
+    "Calorias": 282,
+    "Carbohidratos": 43,
+    "Proteinas": 2,
+    "Grasas": 12,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Heißer Tee basierend auf Kräuter",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Heißer Tee, Kamille",
+    "Calorias": 1,
+    "Carbohidratos": 0.2,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Heißer Tee, Blatt, grün",
+    "Calorias": 1,
+    "Carbohidratos": 0,
+    "Proteinas": 0.22,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Tequila",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Toblerone, Milchschokolade mit Honig und Mandel Nougat",
+    "Calorias": 525,
+    "Carbohidratos": 61.21,
+    "Proteinas": 5.71,
+    "Grasas": 28.57,
+    "Fibra": 2.5
+  },
+  {
+    "Alimento": "Speck",
+    "Calorias": 427,
+    "Carbohidratos": 0,
+    "Proteinas": 14,
+    "Grasas": 41,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gebratene Tomate",
+    "Calorias": 88,
+    "Carbohidratos": 5.2,
+    "Proteinas": 1.5,
+    "Grasas": 6.4,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Zerquetschte Tomate",
+    "Calorias": 39,
+    "Carbohidratos": 5.5,
+    "Proteinas": 2.3,
+    "Grasas": 0.5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gekochte Tomaten",
+    "Calorias": 18,
+    "Carbohidratos": 3.99,
+    "Proteinas": 0.95,
+    "Grasas": 0.11,
+    "Fibra": 0.7
+  },
+  {
+    "Alimento": "Rohe Tomaten",
+    "Calorias": 18,
+    "Carbohidratos": 3.89,
+    "Proteinas": 0.88,
+    "Grasas": 0.2,
+    "Fibra": 1.2
+  },
+  {
+    "Alimento": "Trockene rote Tomaten",
+    "Calorias": 258,
+    "Carbohidratos": 55.76,
+    "Proteinas": 14.11,
+    "Grasas": 2.97,
+    "Fibra": 12.3
+  },
+  {
+    "Alimento": "Rohe grüne Tomaten",
+    "Calorias": 23,
+    "Carbohidratos": 5.1,
+    "Proteinas": 1.2,
+    "Grasas": 0.2,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Wassertonikum",
+    "Calorias": 42,
+    "Carbohidratos": 10,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Eiweiß -Tortilla, Revolte oder gebraten, mit Öl hergestellt",
+    "Calorias": 119,
+    "Carbohidratos": 0.77,
+    "Proteinas": 11.52,
+    "Grasas": 7.38,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Drehbares Ei oder Eierortilla, hergestellt mit Öl",
+    "Calorias": 180,
+    "Carbohidratos": 1.81,
+    "Proteinas": 11.16,
+    "Grasas": 13.95,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Mais -Tortilla",
+    "Calorias": 218,
+    "Carbohidratos": 44.64,
+    "Proteinas": 5.7,
+    "Grasas": 2.85,
+    "Fibra": 6.3
+  },
+  {
+    "Alimento": "Forelle",
+    "Calorias": 89,
+    "Carbohidratos": 0,
+    "Proteinas": 16,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Geräucherte Forelle",
+    "Calorias": 251,
+    "Carbohidratos": 0,
+    "Proteinas": 35.47,
+    "Grasas": 10.99,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gebackene oder geröstete Forelle, aus Öl hergestellt",
+    "Calorias": 205,
+    "Carbohidratos": 0.1,
+    "Proteinas": 24.4,
+    "Grasas": 11.24,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Trüffe",
+    "Calorias": 511,
+    "Carbohidratos": 49.61,
+    "Proteinas": 6.77,
+    "Grasas": 31.93,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Mittel Nougat",
+    "Calorias": 470,
+    "Carbohidratos": 57,
+    "Proteinas": 10,
+    "Grasas": 24,
+    "Fibra": 7
+  },
+  {
+    "Alimento": "Twix Karamell -Keksstangen",
+    "Calorias": 502,
+    "Carbohidratos": 64.8,
+    "Proteinas": 4.91,
+    "Grasas": 24.85,
+    "Fibra": 1.1
+  },
+  {
+    "Alimento": "Trauben",
+    "Calorias": 69,
+    "Carbohidratos": 18.1,
+    "Proteinas": 0.72,
+    "Grasas": 0.16,
+    "Fibra": 0.9
+  },
+  {
+    "Alimento": "Rosinentrauben",
+    "Calorias": 243,
+    "Carbohidratos": 63,
+    "Proteinas": 2,
+    "Grasas": 0,
+    "Fibra": 6
+  },
+  {
+    "Alimento": "Trockener Wermut",
+    "Calorias": 118,
+    "Carbohidratos": 6,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Gedämpft oder gekocht",
+    "Calorias": 137,
+    "Carbohidratos": 6.33,
+    "Proteinas": 24.01,
+    "Grasas": 0.98,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Essig",
+    "Calorias": 21,
+    "Carbohidratos": 0.93,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Reiswein",
+    "Calorias": 134,
+    "Carbohidratos": 5,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Porto kam",
+    "Calorias": 157,
+    "Carbohidratos": 12,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Nicht -Alkohol kam",
+    "Calorias": 6,
+    "Carbohidratos": 1.1,
+    "Proteinas": 0.5,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wein, Tisch, weiß",
+    "Calorias": 82,
+    "Carbohidratos": 2.6,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wein, Tisch, rosa",
+    "Calorias": 83,
+    "Carbohidratos": 3.8,
+    "Proteinas": 0.36,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wein, Tisch, rot",
+    "Calorias": 85,
+    "Carbohidratos": 2.61,
+    "Proteinas": 0.07,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Wodka",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Whiskey",
+    "Calorias": 231,
+    "Carbohidratos": 0,
+    "Proteinas": 0,
+    "Grasas": 0,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Joghurt, Griechisch mit Früchten",
+    "Calorias": 106,
+    "Carbohidratos": 12.29,
+    "Proteinas": 7.33,
+    "Grasas": 3,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Joghurt, natürlicher Griechisch",
+    "Calorias": 97,
+    "Carbohidratos": 3.98,
+    "Proteinas": 9,
+    "Grasas": 5,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Joghurt, Eis, Kegel, Aromen, die keine Schokolade sind",
+    "Calorias": 189,
+    "Carbohidratos": 31.5,
+    "Proteinas": 4.48,
+    "Grasas": 5.38,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Flüssiger Joghurt",
+    "Calorias": 72,
+    "Carbohidratos": 11.81,
+    "Proteinas": 3.71,
+    "Grasas": 1.09,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Joghurt, Mager-/Magermilch, Obst",
+    "Calorias": 83,
+    "Carbohidratos": 15.02,
+    "Proteinas": 5.09,
+    "Grasas": 0.17,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Joghurt, Mager/Magermilch, natürlich",
+    "Calorias": 56,
+    "Carbohidratos": 7.68,
+    "Proteinas": 5.73,
+    "Grasas": 0.18,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Joghurt, Vollmilch, Obst",
+    "Calorias": 87,
+    "Carbohidratos": 12.36,
+    "Proteinas": 3.1,
+    "Grasas": 2.87,
+    "Fibra": 0.1
+  },
+  {
+    "Alimento": "Joghurt, Vollmilch, natürlich",
+    "Calorias": 61,
+    "Carbohidratos": 4.66,
+    "Proteinas": 3.47,
+    "Grasas": 3.25,
+    "Fibra": 0
+  },
+  {
+    "Alimento": "Joghurt, Soja",
+    "Calorias": 94,
+    "Carbohidratos": 15.96,
+    "Proteinas": 3.5,
+    "Grasas": 1.8,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Französisch Yucca",
+    "Calorias": 267,
+    "Carbohidratos": 34.72,
+    "Proteinas": 1.24,
+    "Grasas": 13.94,
+    "Fibra": 1.6
+  },
+  {
+    "Alimento": "Rohe Karotten",
+    "Calorias": 41,
+    "Carbohidratos": 9.58,
+    "Proteinas": 0.93,
+    "Grasas": 0.24,
+    "Fibra": 2.8
+  },
+  {
+    "Alimento": "Karotten, gekocht, Creme",
+    "Calorias": 88,
+    "Carbohidratos": 8.38,
+    "Proteinas": 2.08,
+    "Grasas": 5.26,
+    "Fibra": 1.9
+  },
+  {
+    "Alimento": "Karotten, roh, Salat",
+    "Calorias": 208,
+    "Carbohidratos": 17.17,
+    "Proteinas": 1.22,
+    "Grasas": 15.7,
+    "Fibra": 2.3
+  },
+  {
+    "Alimento": "Lima -Saft, 100% frisch gepresst",
+    "Calorias": 25,
+    "Carbohidratos": 8.42,
+    "Proteinas": 0.42,
+    "Grasas": 0.07,
+    "Fibra": 0.4
+  },
+  {
+    "Alimento": "Orangensaft, 100%, frisch gepresst",
+    "Calorias": 45,
+    "Carbohidratos": 10.4,
+    "Proteinas": 0.7,
+    "Grasas": 0.2,
+    "Fibra": 0.2
+  },
+  {
+    "Alimento": "Grapefruitsaft, 100%, frisch gepresst",
+    "Calorias": 39,
+    "Carbohidratos": 9.2,
+    "Proteinas": 0.5,
+    "Grasas": 0.1,
+    "Fibra": 0.1
+  }
+]
