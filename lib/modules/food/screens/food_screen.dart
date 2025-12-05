@@ -61,22 +61,178 @@ class _FoodScreenState extends State<FoodScreen> {
   }
 
   Future<void> _loadAlimentos() async {
-    List<Alimento> alimentos =
-        await _foodController.getAlimentos(context.locale.languageCode);
-
-    final resultMenu =
-        await _menuPlatoController.getAllMenu(context.locale.languageCode);
-    menus = [...resultMenu];
-
-    final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
-    menuPlato = [...resultMenuPlato];
-
     setState(() {
+      isLoading = true;
+    });
+
+    try {
+      List<Alimento> alimentos =
+      await _foodController.getAlimentos(context.locale.languageCode);
+
+      final resultMenu =
+      await _menuPlatoController.getAllMenu(context.locale.languageCode);
+      menus = [...resultMenu];
+
+      final resultMenuPlato = await _menuPlatoController.getAllMenuPlato();
+      menuPlato = [...resultMenuPlato];
+
       _alimentos = alimentos;
       _filteredAlimentos = [..._alimentos];
-      setData();
-    });
+    } finally {
+      setState(() {
+        isLoading = false;
+        _items = _filteredAlimentos
+            .map((alimento) => _buildSlidable(alimento))
+            .toList();
+      });
+    }
   }
+
+  Slidable _buildSlidable(Alimento alimento) {
+    return Slidable(
+      key: Key(alimento.id.toString()),
+      startActionPane: ActionPane(
+        extentRatio: 0.4,
+        motion: const ScrollMotion(),
+        children: [
+          SlidableAction(
+            spacing: 2,
+            backgroundColor: Colors.transparent,
+            padding: const EdgeInsets.all(8.0),
+            label: "Edit",
+            foregroundColor: Colors.blue,
+            icon: Icons.edit,
+            onPressed: (context) async {
+              setState(() {
+                alimentoToUpdate = alimento;
+              });
+              await _formAlimento('update');
+            },
+          ),
+          SlidableAction(
+            spacing: 2,
+            padding: const EdgeInsets.all(8.0),
+            backgroundColor: Colors.transparent,
+            label: "Add Menú",
+            foregroundColor: Colors.green,
+            icon: Icons.add_box,
+            onPressed: (context) {
+              setState(() {
+                alimentoToAdd = alimento;
+              });
+              _showAlimentoDialog('add', null, null, alimento.id.toString());
+            },
+          )
+        ],
+      ),
+      endActionPane: ActionPane(
+        extentRatio: 0.2,
+        motion: const ScrollMotion(),
+        children: [
+          SlidableAction(
+            spacing: 2,
+            padding: const EdgeInsets.all(8.0),
+            label: "foodScreen.delete".tr(),
+            backgroundColor: Colors.transparent,
+            foregroundColor: Colors.red,
+            icon: Icons.delete,
+            onPressed: (context) async {
+              final shouldDelete = await showDialog<bool>(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: Text("foodScreen.deleteConfirm".tr()),
+                  content: Text('foodScreen.deleteConfirm'
+                      .tr(namedArgs: {'alimento': alimento.nombre})),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.pop(context, false),
+                      child: Text("foodScreen.btnCancel".tr()),
+                    ),
+                    TextButton(
+                      onPressed: () => Navigator.pop(context, true),
+                      child: Text("foodScreen.btnOk".tr()),
+                    ),
+                  ],
+                ),
+              );
+
+              if (shouldDelete == true) {
+                await _foodController.eliminarAlimento(alimento.id!);
+                setState(() {
+                  _alimentos.removeWhere((e) => e.id == alimento.id);
+                  _filteredAlimentos.removeWhere((e) => e.id == alimento.id);
+                  _items = _filteredAlimentos.map(_buildSlidable).toList();
+                });
+              }
+            },
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          ListTile(
+            title: Text(
+              alimento.nombre,
+              style: const TextStyle(
+                color: Colors.black,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            subtitle: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  children: [
+                    Text('general.macro.calory'.tr(),
+                        style: const TextStyle(color: Colors.grey)),
+                    Text('${alimento.calorias} Kcal',
+                        style: const TextStyle(color: Colors.black87)),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text('general.macro.proteins'.tr(),
+                        style: const TextStyle(color: Colors.grey)),
+                    Text('${alimento.proteinas}g',
+                        style: const TextStyle(color: Colors.black87)),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text('general.macro.carbo'.tr(),
+                        style: const TextStyle(color: Colors.grey)),
+                    Text('${alimento.carbohidratos}g',
+                        style: const TextStyle(color: Colors.black87)),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text('general.macro.fats'.tr(),
+                        style: const TextStyle(color: Colors.grey)),
+                    Text('${alimento.grasas}g',
+                        style: const TextStyle(color: Colors.black87)),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text('general.macro.fiber'.tr(),
+                        style: const TextStyle(color: Colors.grey)),
+                    Text('${alimento.fibra}g',
+                        style: const TextStyle(color: Colors.black87)),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          if (alimento.nombre !=
+              _filteredAlimentos[_filteredAlimentos.length - 1].nombre)
+            const Divider(color: Colors.blueGrey),
+        ],
+      ),
+    );
+  }
+
+
 
   Future<void> insertMenuPlato(
       int idMenu, int idAlimento, double cantidad) async {
@@ -117,218 +273,61 @@ class _FoodScreenState extends State<FoodScreen> {
 
   void setData() {
     setState(() {
-      _items = [
-        ..._filteredAlimentos.asMap().entries.map((entry) {
-          Alimento alimento = entry.value;
-          return Slidable(
-            key: Key(alimento.id.toString()),
-            startActionPane: ActionPane(
-              extentRatio: 0.4,
-              motion: const ScrollMotion(),
-              children: [
-                SlidableAction(
-                  spacing: 2,
-                  backgroundColor: Colors.transparent,
-                  padding: const EdgeInsets.all(8.0),
-                  label: "Edit",
-                  foregroundColor: Colors.blue,
-                  icon: Icons.edit,
-                  onPressed: (context) async {
-                    setState(() {
-                      alimentoToUpdate = alimento;
-                    });
-                    await _formAlimento('update');
-                  },
-                ),
-                SlidableAction(
-                  spacing: 2,
-                  padding: const EdgeInsets.all(8.0),
-                  backgroundColor: Colors.transparent,
-                  label: "Add Menú",
-                  foregroundColor: Colors.green,
-                  icon: Icons.add_box,
-                  onPressed: (context) {
-                    setState(() {
-                      alimentoToAdd = alimento;
-                    });
-                    _showAlimentoDialog(
-                        'add', null, null, alimento.id.toString());
-                  },
-                )
-              ],
-            ),
-            endActionPane: ActionPane(
-              extentRatio: 0.2,
-              motion: const ScrollMotion(),
-              children: [
-                SlidableAction(
-                  spacing: 2,
-                  padding: const EdgeInsets.all(8.0),
-                  label: "foodScreen.delete".tr(),
-                  backgroundColor: Colors.transparent,
-                  foregroundColor: Colors.red,
-                  icon: Icons.delete,
-                  onPressed: (context) async {
-                    final shouldDelete = await showDialog<bool>(
-                      context: context,
-                      builder: (context) {
-                        return AlertDialog(
-                          title: Text("foodScreen.deleteConfirm".tr()),
-                          content: Text('foodScreen.deleteConfirm'
-                              .tr(namedArgs: {'alimento': alimento.nombre})),
-                          actions: [
-                            TextButton(
-                              onPressed: () {
-                                Navigator.of(context)
-                                    .pop(false); // Cerrar y devolver false
-                              },
-                              child: Text("foodScreen.btnCancel".tr()),
-                            ),
-                            TextButton(
-                              onPressed: () {
-                                Navigator.of(context)
-                                    .pop(true); // Cerrar y devolver verdadero
-                              },
-                              child: Text("foodScreen.btnOk".tr()),
-                            ),
-                          ],
-                        );
-                      },
-                    );
-
-                    if (shouldDelete == true) {
-                      _foodController.eliminarAlimento(alimento.id!);
-                      setState(() {
-                        _filteredAlimentos.removeWhere(
-                            (element) => element.id == alimento.id);
-                      });
-                      setData();
-                    }
-                  },
-                ),
-              ],
-            ),
-            child: Column(
-              children: [
-                ListTile(
-                  title: Text(
-                    alimento.nombre,
-                    style: const TextStyle(
-                      color: Colors.black,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
-                  subtitle: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        children: [
-                          Text(
-                            'general.macro.calory'.tr(),
-                            style: TextStyle(color: Colors.grey),
-                          ),
-                          Text('${alimento.calorias} Kcal',
-                              style: const TextStyle(color: Colors.black87)),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Text('general.macro.proteins'.tr(),
-                              style: TextStyle(color: Colors.grey)),
-                          Text('${alimento.proteinas}g',
-                              style: const TextStyle(color: Colors.black87)),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Text('general.macro.carbo'.tr(),
-                              style: TextStyle(color: Colors.grey)),
-                          Text('${alimento.carbohidratos}g',
-                              style: const TextStyle(color: Colors.black87)),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Text('general.macro.fats'.tr(),
-                              style: TextStyle(color: Colors.grey)),
-                          Text('${alimento.grasas}g',
-                              style: const TextStyle(color: Colors.black87)),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Text('general.macro.fiber'.tr(),
-                              style: TextStyle(color: Colors.grey)),
-                          Text('${alimento.fibra}g',
-                              style: const TextStyle(color: Colors.black87)),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-                if (alimento.nombre !=
-                    _filteredAlimentos[_filteredAlimentos.length - 1].nombre)
-                  const Divider(
-                    color: Colors.blueGrey,
-                  ),
-              ],
-            ),
-          );
-        })
-      ];
+      _items = _filteredAlimentos.map(_buildSlidable).toList();
     });
   }
+
 
   Future<void> _restartAlimentos() async {
-    if (await _foodController.any()) {
-      await showDialog<bool>(
-        // ignore: use_build_context_synchronously
+    if (isLoading) return; // ❌ bloquea si ya se está cargando
+
+    // Verifica si hay alimentos en la base de datos
+    bool hasAlimentos = await _foodController.any();
+
+    if (hasAlimentos) {
+      final confirm = await showDialog<bool>(
         context: context,
-        builder: (BuildContext context) {
-          return AlertDialog(
-            title: Text('foodScreen.updateConfirm'.tr()),
-            content: Text('foodScreen.updateQuestion'.tr()),
-            actions: [
-              TextButton(
-                onPressed: () {
-                  Navigator.of(context)
-                      .pop(false); // Cerrar el diálogo y devolver falso
-                },
-                child: Text('foodScreen.btnCancel'.tr()),
-              ),
-              TextButton(
-                onPressed: () {
-                  _reiniciarAlimentos();
-                  Navigator.of(context)
-                      .pop(true); // Cerrar el diálogo y devolver verdadero
-                },
-                child: Text('foodScreen.btnOk'.tr()),
-              ),
-            ],
-          );
-        },
+        builder: (context) => AlertDialog(
+          title: Text('foodScreen.updateConfirm'.tr()),
+          content: Text('foodScreen.updateQuestion'.tr()),
+          actions: [
+            TextButton(
+                onPressed: () => Navigator.pop(context, false),
+                child: Text('foodScreen.btnCancel'.tr())),
+            TextButton(
+                onPressed: () => Navigator.pop(context, true),
+                child: Text('foodScreen.btnOk'.tr())),
+          ],
+        ),
       );
-    } else {
-      _reiniciarAlimentos();
+
+      if (confirm != true) return; // ❌ el usuario canceló
     }
+
+    // Si no hay alimentos o el usuario confirmó, reinicia
+    await _reiniciarAlimentos();
   }
 
-  void _reiniciarAlimentos() async {
-    setState(() {
-      isLoading = true;
-    });
-    if (await _foodController.reiniciarAlimentos()) {
-      await _loadAlimentos();
-      setData();
-    } else {
+
+  Future<void> _reiniciarAlimentos() async {
+    if (isLoading) return; // doble chequeo de seguridad
+    setState(() => isLoading = true); // muestra indicador de carga
+
+    try {
+      bool success = await _foodController.reiniciarAlimentos();
+      if (success) {
+        await _loadAlimentos(); // recarga los alimentos
+        setData(); // actualiza los Slidables
+      } else if (mounted) {
+        showSnackBar(context, 'foodScreen.errorRestart'.tr());
+      }
+    } catch (e) {
       if (mounted) {
         showSnackBar(context, 'foodScreen.errorRestart'.tr());
       }
+    } finally {
+      if (mounted) setState(() => isLoading = false); // oculta indicador
     }
-
-    setState(() {
-      isLoading = false;
-    });
   }
 
   void _filterAlimentos(String query) {

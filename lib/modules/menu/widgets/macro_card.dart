@@ -31,7 +31,7 @@ class MacroCard extends StatelessWidget {
               child: GestureDetector(
                 onTap: () => onValueChanged(),
                 child: CircularProgressIndicator(
-                  value: maxValue >= value ? double.parse((value / maxValue).toStringAsFixed(1)): value,
+                  value: maxValue >= value && maxValue > 0 ? double.parse((value / maxValue).toStringAsFixed(1)): value,
                   backgroundColor: Colors.black12,
                   valueColor: AlwaysStoppedAnimation(color),
                   strokeWidth: 6,
