@@ -215,7 +215,7 @@
       "btnAdd":"Agregar",
       "btnUpdate":"Actualizar",
       "errorSelectFood":"Por favor, seleccione un alimento",
-      "btnCancel":"Agregar"
+      "btnCancel":"Cancelar"
     },
     "nutritionScreen":{
       "title":"Recomendado / Planificado"

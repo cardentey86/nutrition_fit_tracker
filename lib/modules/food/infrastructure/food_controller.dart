@@ -127,6 +127,13 @@ class FoodController {
     }
 
     final db = await _dbHelper.database;
+
+    final existAlimento = await any();
+
+    if (!existAlimento) {
+      return true;
+    }
+
     return await db.delete('Alimento') > 0;
   }
 
