@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class MacroCard extends StatelessWidget {
@@ -29,7 +31,7 @@ class MacroCard extends StatelessWidget {
               child: GestureDetector(
                 onTap: () => onValueChanged(),
                 child: CircularProgressIndicator(
-                  value: double.parse((value / maxValue).toStringAsFixed(1)),
+                  value: value-maxValue > 0 ? double.parse((value / maxValue).toStringAsFixed(1)): 0,
                   backgroundColor: Colors.black12,
                   valueColor: AlwaysStoppedAnimation(color),
                   strokeWidth: 6,
